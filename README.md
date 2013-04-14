@@ -1,1 +1,1 @@
-nqst.github.com
+here will be my new blog
