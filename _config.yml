@@ -1,0 +1,5 @@
+auto: true
+markdown: kramdown
+permalink: /:year/:month/:day/:title
+rdiscount extensions: [smart]
+paginate: 10

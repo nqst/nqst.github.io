@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section role="main" class="container">
+	<article>
+
+		<header>
+			<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d" | remove_first:"0" }} {{ page.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September ","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time></p>
+			<h1>{{ page.title }}</h1>
+		</header>
+
+		<section class="content">
+			{{ content }}
+		</section>
+
+		<footer class="post-footer">
+			<div class="actions">
+				<a href="/" class="back">« Все заметки</a>
+
+				<div class="share">
+					<a href="https://twitter.com/share?{{ page.url }}&via=nqst" class="tweet" target="_blank">Твитнуть</a>
+				</div>
+			</div>
+
+			<!-- <p class="anything-to-add">Есть что добавить? Напишите мне <a href="http://twitter.com/nqst">твит</a> или <a href="mailto:mailbox@nqst.net">письмо</a>.</p> -->
+		</footer>
+	</article>
+</section>
