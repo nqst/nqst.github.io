@@ -3,7 +3,7 @@ body {
 	color: #333;
 	font-size: 16px;
 	line-height: 1.5625;
-	font-family: 'PT Serif', Georgia, serif;
+	font-family: Georgia, serif;
 	/*font-family: 'Helvetica Neue', Arial, sans-serif;*/
 }
 
@@ -52,7 +52,7 @@ blockquote {
 	margin-left: 20px;
 	padding-left: 15px;
 	border-left: 3px solid #eee;
-	font-family: 'PT Sans';
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #444;
 }
 
@@ -101,7 +101,7 @@ article header p {
 article header time {
 	color: #96887d;
 	font-size: 14px;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 article h1 {
@@ -125,6 +125,7 @@ article img {
 article .content figure {
 	margin: 1em 0 2em;
 	text-align: center;
+	max-width: 100%;
 }
 
 article .content figure.wide {
@@ -148,7 +149,7 @@ article .content figure figcaption {
 .post-footer {
 	margin-top: 30px;
 	/*font-size: 0.875em;*/
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .post-footer .anything-to-add {
@@ -274,7 +275,7 @@ footer[role="footer"] a.rss-subscriber {
 }
 
 .read-more {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 
