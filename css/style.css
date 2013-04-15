@@ -125,10 +125,13 @@ article img {
 article .content figure {
 	margin: 1em 0 2em;
 	text-align: center;
-	max-width: 100%;
 }
 
 article .content figure.wide {
+	width: 100%;
+}
+
+article .content figure img {
 	width: 100%;
 }
 
