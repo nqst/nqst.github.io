@@ -3,7 +3,7 @@ body {
 	color: #333;
 	font-size: 16px;
 	line-height: 1.5625;
-	font-family: Georgia, serif;
+	font-family: 'PT Serif', Georgia, serif;
 	/*font-family: 'Helvetica Neue', Arial, sans-serif;*/
 }
 
@@ -52,7 +52,7 @@ blockquote {
 	margin-left: 20px;
 	padding-left: 15px;
 	border-left: 3px solid #eee;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'PT Sans';
 	color: #444;
 }
 
@@ -101,7 +101,7 @@ article header p {
 article header time {
 	color: #96887d;
 	font-size: 14px;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 article h1 {
@@ -132,7 +132,7 @@ article .content figure.wide {
 }
 
 article .content figure img {
-	width: 100%;
+	max-width: 100%;
 }
 
 article .content figure.wide img {
@@ -152,7 +152,7 @@ article .content figure figcaption {
 .post-footer {
 	margin-top: 30px;
 	/*font-size: 0.875em;*/
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .post-footer .anything-to-add {
@@ -179,28 +179,14 @@ article .content figure figcaption {
 }
 
 .share .tweet {
-	background: url(/i/tweet.png) no-repeat left;
+	background: url(/i/tweet.png) no-repeat left center;
 	padding-left: 22px;
 	color: #00acee;
 	display: inline-block;
-	/*padding: 3px 10px;*/
-	/*background-color: #eee;*/
 }
 
-/*.share .tweet:before {
-	content: "";
-	background: url(/i/tweet.png) no-repeat left;
-	width: 16px;
-	height: 16px;
-	position: absolute;
-	margin-left: -20px;
-}*/
-
-
 footer[role="footer"] {
-	/*background-color: #fdfcfa;*/
 	margin-top: 30px;
-	/*background-color: #fafaf7;*/
 }
 
 footer[role="footer"] .container {
@@ -278,11 +264,11 @@ footer[role="footer"] a.rss-subscriber {
 }
 
 .read-more {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1000px){
 	body {
 		font-size: 18px;
 	}
