@@ -68,7 +68,7 @@ blockquote {
 header[role="banner"] {
 	margin: 20px 0 40px;
 	padding-bottom: 6px;
-	border-bottom: 2px solid #eceae5; 
+	border-bottom: 1px solid #eceae5; 
 }
 
 header[role="banner"] .logo {
@@ -180,18 +180,19 @@ article .content figure figcaption {
 }
 
 .share .tweet {
-	background: url(../i/tweet.png) no-repeat left center;
+	background: url(../i/twitter.png) no-repeat left center;
 	padding-left: 22px;
 	color: #00acee;
 	display: inline-block;
 }
 
 footer[role="footer"] {
+	border-top: 1px solid #eceae5;
+	background-color: #fcfbf5;
 	margin-top: 30px;
 }
 
 footer[role="footer"] .container {
-	border-top: 3px solid #eceae5;
 	position: relative;
 }
 
@@ -217,11 +218,13 @@ footer[role="footer"] a.rss-subscriber {
 	overflow: hidden;
 }
 
-.my-twitter {
+.you-should-follow-me-on-twitter-here {
 	color: #00acee;
+	padding-left: 20px;
+	background: url(../i/twitter.png) no-repeat left center;
 }
 
-.bio .my-twitter {
+.bio .you-should-follow-me-on-twitter-here {
 	font-weight: bold;
 }
 
@@ -282,6 +285,10 @@ footer[role="footer"] a.rss-subscriber {
 		font-size: 22px;
 	}
 
+	article header time {
+		font-size: 15px;
+	}
+
 	p.headline {
 		font-size: 25px;
 	}
@@ -327,6 +334,7 @@ footer[role="footer"] a.rss-subscriber {
 	}
 
 	.post-footer {
+		margin-top: 30px;
 		font-size: 1em;
 	}
 
@@ -391,7 +399,7 @@ footer[role="footer"] a.rss-subscriber {
 	}
 
 	.share .tweet {
-		background-image: url(../i/tweet@2x.png);
+		background-image: url(../i/twitter@2x.png);
 		background-size: 16px 16px;
 	}
 
