@@ -388,7 +388,7 @@ footer[role="footer"] a.rss-subscriber {
 (min-resolution: 144dpi) { 
 	header[role="banner"] .logo {
 		background-image: url(../i/logo@2x.png);
-		background-size: 140px 37px;	
+		background-size: 77px 37px;	
 	}
 
 	.share .tweet {
