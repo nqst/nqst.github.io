@@ -54,7 +54,6 @@ blockquote {
 	padding-left: 1em;
 	border-left: 3px solid #eee;
 	font-family: 'PT Sans';
-	color: #444;
 }
 
 
@@ -124,7 +123,7 @@ article img {
 
 
 article .content figure {
-	margin: 1em 0 2em;
+	margin: 1em 0 1.25em;
 	text-align: center;
 }
 
@@ -151,7 +150,7 @@ article .content figure figcaption {
 
 
 .post-footer {
-	margin-top: 30px;
+	margin-top: 50px;
 	/*font-size: 0.875em;*/
 	font-family: 'PT Sans', sans-serif;
 	font-size: 0.85em;
