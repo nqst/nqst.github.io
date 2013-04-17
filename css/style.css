@@ -172,6 +172,7 @@ article .content figure figcaption {
 
 .post-footer .actions .back {
 	float: left;
+	margin-top: 3px;
 }
 
 
@@ -188,7 +189,7 @@ article .content figure figcaption {
 
 footer[role="footer"] {
 	border-top: 1px solid #eceae5;
-	background-color: #fcfbf5;
+	background-color: #fcfbf7;
 	margin-top: 30px;
 }
 
@@ -270,6 +271,18 @@ footer[role="footer"] a.rss-subscriber {
 .read-more {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 0.85em;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
 }
 
 @media screen and (min-width: 1000px){
