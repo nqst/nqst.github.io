@@ -3,12 +3,13 @@ body {
 	color: #333;
 	font-size: 16px;
 	line-height: 1.5625;
-	font-family: 'PT Serif', Georgia, serif;
+	font-family: 'PT Sans', 'Helvetica Neue', Arial, sans-serif;
 	/*font-family: 'Helvetica Neue', Arial, sans-serif;*/
 }
 
 h1, h2, h3 {
 	line-height: 1.2;
+	font-family: 'PT Serif', Georgia, serif;
 }
 
 h1 {
@@ -68,7 +69,7 @@ blockquote {
 header[role="banner"] {
 	margin: 20px 0 40px;
 	padding-bottom: 6px;
-	border-bottom: 1px solid #eceae5; 
+	border-bottom: 2px solid #eceae5; 
 }
 
 header[role="banner"] .logo {
@@ -153,6 +154,7 @@ article .content figure figcaption {
 	margin-top: 30px;
 	/*font-size: 0.875em;*/
 	font-family: 'PT Sans', sans-serif;
+	font-size: 0.85em;
 }
 
 .post-footer .anything-to-add {
@@ -265,6 +267,7 @@ footer[role="footer"] a.rss-subscriber {
 
 .read-more {
 	font-family: 'PT Sans', sans-serif;
+	font-size: 0.85em;
 }
 
 @media screen and (min-width: 1000px){
@@ -322,6 +325,10 @@ footer[role="footer"] a.rss-subscriber {
 
 	article .content figure.wide img {
 		border-radius: 3px;
+	}
+
+	.post-footer {
+		font-size: 1em;
 	}
 
 	.bio {
