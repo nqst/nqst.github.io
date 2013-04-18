@@ -1,38 +1,3 @@
-@-webkit-keyframes fadein {
-	from {
-		-webkit-transform: translateX(-20px);
-		opacity: 0;
-	}
-	to {
-		-webkit-transform: translateY(0);
-		opacity: 1;
-	}
-}
-
-@-moz-keyframes fadein {
-	from {
-		-webkit-transform: translateX(-20px);
-		opacity: 0;
-	}
-	to {
-		-webkit-transform: translateY(0);
-		opacity: 1;
-	}
-}
-
-@keyframes {
-	from {
-		-webkit-transform: translateX(-20px);
-		opacity: 0;
-	}
-	to {
-		-webkit-transform: translateY(0);
-		opacity: 1;
-	}
-}
-
-
-
 body {
 	background-color: #fff;
 	color: #333;
@@ -107,7 +72,11 @@ header[role="banner"] {
 	border-bottom: 1px solid #eceae5; 
 }
 
-header[role="banner"] .logo {
+a.logo {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
 	display: inline-block;
 	width: 77px;
 	height: 37px;
@@ -126,7 +95,7 @@ header[role="banner"] .logo {
 	transition: all 0.2s;
 }
 
-header[role="banner"] .logo:hover {
+a.logo:hover {
 	-webkit-transform: translateY(-2px);
 	-moz-transform: translateY(-2px);
 	-ms-transform: translateY(-2px);
@@ -136,7 +105,7 @@ header[role="banner"] .logo:hover {
 
 header .intro {
 	position: relative;
-	display: inline-block;
+	text-align: center;
 	font-size: 0.9em;
 	margin-top: 0.25em;
 	vertical-align: top;
@@ -144,6 +113,11 @@ header .intro {
 	-webkit-animation: fadein .7s forwards ease-in-out;
 	-o-animation: fadein .7s forwards ease-in-out;
 	animation: fadein .7s forwards ease-in-out;
+}
+
+
+section[role="main"] {
+	margin-top: 80px;
 }
 
 
@@ -371,6 +345,14 @@ a.tw {
     clear: both;
 }
 
+@media screen and (min-width: 1200px){
+	a.post-logo {
+		position: fixed;
+		left: 20px;
+		top: 20px;
+	}
+}
+
 @media screen and (min-width: 1000px){
 	body {
 		font-size: 19px;
@@ -402,7 +384,7 @@ a.tw {
 	}
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 720px){
 	body {
 		font-size: 15px;
 	}
@@ -411,8 +393,23 @@ a.tw {
 		margin: 15px 0 30px;
 	}
 
-	header[role="banner"] .logo {
+	header .intro {
+		text-align: left;
+	}
+	
+	a.logo {
+		display: block;
 		margin-bottom: 5px;
+		margin-left: 15px;
+		position: static;
+	}
+
+	a.logo.post-logo {
+		margin-top: 15px;
+	}
+
+	section[role="main"] {
+		margin-top: 30px;
 	}
 
 	.container {
@@ -496,7 +493,7 @@ a.tw {
 @media 
 (-webkit-min-device-pixel-ratio: 1.5), 
 (min-resolution: 144dpi) { 
-	header[role="banner"] .logo {
+	a.logo {
 		background-image: url(../i/logo@2x.png);
 		background-size: 77px 37px;	
 	}
