@@ -26,11 +26,11 @@ h2 {
 a {
 	color: #c33134;
 	text-decoration: none;
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	-ms-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	-ms-transition: color 0.2s ease-out;
+	-o-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
 }
 
 a:hover {
@@ -121,6 +121,17 @@ header .intro {
 }
 
 @-moz-keyframes fadein {
+	from {
+		-webkit-transform: translateX(-20px);
+		opacity: 0;
+	}
+	to {
+		-webkit-transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes {
 	from {
 		-webkit-transform: translateX(-20px);
 		opacity: 0;
