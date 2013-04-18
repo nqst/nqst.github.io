@@ -186,7 +186,7 @@ article img {
 
 article .content figure {
 	margin: 1em 0 1.25em;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 article .content figure.wide {

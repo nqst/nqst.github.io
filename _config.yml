@@ -1,4 +1,4 @@
 auto: true
 markdown: kramdown
-permalink: /:title
+permalink: /blog/:title
 paginate: 10
