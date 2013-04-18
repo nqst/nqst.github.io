@@ -342,6 +342,14 @@ footer[role="footer"] a.rss-subscriber {
 	h2 {
 		font-size: 18px;
 	}
+	
+	.posts-list article {
+		padding-top: 40px;
+	}
+
+	article {
+		margin-bottom: 25px;
+	}
 
 	article header time {
 		font-size: 11px;
