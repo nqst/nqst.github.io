@@ -67,16 +67,17 @@ blockquote {
 
 
 header[role="banner"] {
-	margin: 25px 0 60px;
+	margin: 25px 0 80px;
 	padding-bottom: 6px;
 	border-bottom: 1px solid #eceae5; 
 }
 
 header[role="banner"] .logo {
-	display: block;
+	display: inline-block;
 	width: 77px;
 	height: 37px;
 	background: url(../i/logo.png) no-repeat 0 0;
+	margin-right: 20px;
 	margin-bottom: 15px;
 	
 	text-indent: 100%;
@@ -90,6 +91,14 @@ header[role="banner"] .logo:hover {
 	-ms-transform: translateY(-2px);
 	-o-transform: translateY(-2px);
 	transform: translateY(-2px);
+}
+
+header.index-header .intro {
+	position: relative;
+	display: inline-block;
+	font-size: 0.9em;
+	margin-top: 0.25em;
+	vertical-align: top;
 }
 
 
@@ -114,7 +123,6 @@ article header time {
 }
 
 article h1 {
-	/*margin: 1em 0 0;*/
 	margin: 0;
 }
 
@@ -284,6 +292,30 @@ footer[role="footer"] a.rss-subscriber {
 
 
 
+ul.social-networks {
+	margin: 0;
+	padding: 0;
+}
+
+ul.social-networks li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+a.vk {
+	color: #2b587a;
+}
+
+a.fb {
+	color: #3b5998;
+}
+
+a.tw {
+	color: #00acee;
+}
+
+
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -328,6 +360,14 @@ footer[role="footer"] a.rss-subscriber {
 @media screen and (max-width: 680px){
 	body {
 		font-size: 15px;
+	}
+
+	header[role="banner"] {
+		margin: 15px 0 30px;
+	}
+
+	header[role="banner"] .logo {
+		margin-bottom: 5px;
 	}
 
 	.container {
@@ -375,17 +415,9 @@ footer[role="footer"] a.rss-subscriber {
 
 @media screen and (max-width: 480px){
 
-	body {
+	/*body {
 		font-size: 14px;
-	}
-
-	header[role="banner"] {
-		margin: 15px 0;
-	}
-
-	header[role="banner"] .logo {
-		margin-bottom: 5px;
-	}
+	}*/
 
 	h1 {
 		font-size: 26px;
