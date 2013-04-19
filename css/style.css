@@ -223,13 +223,13 @@ article .content figure figcaption {
 	display: inline-block;
 }
 
-footer[role="footer"] {
+footer[role="contentinfo"] {
 	border-top: 1px solid #eceae5;
 	background-color: #fcfbf7;
 	margin-top: 30px;
 }
 
-footer[role="footer"] .container {
+footer[role="contentinfo"] .container {
 	position: relative;
 }
 
@@ -242,7 +242,7 @@ a.rss-subscriber {
 	font-size: 14px;
 }
 
-footer[role="footer"] a.rss-subscriber {
+footer[role="contentinfo"] a.rss-subscriber {
 	position: absolute;
 	top: 25px;
 	right: 20px;
