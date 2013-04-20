@@ -15,13 +15,21 @@ title: Александр Зайцев · Блог
 		<article>
 			<header>
 				<p>
-					<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d" | remove_first:"0" }} {{ post.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September ","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time>
+					{% capture the_day %}{{ post.date | date: "%d" }}{% endcapture %}
+					{% capture the_day_truncated %}{{ the_day | truncate:1,'' }}{% endcapture %}
+					{% capture the_day %}{% if the_day_truncated == "0" %}{{ the_day | remove:'0' }}{% else %}{{ the_day }}{% endif %}{% endcapture %}
+
+					<time datetime="{{ post.date | date_to_xmlschema }}">{{ the_day }} {{ post.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September ","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time>
 				</p>
 				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 			</header>
 
 			<section class="content">
-				
+				{% if post.wideimg %}
+				  <figure class="wide intro">
+				  	<img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}">
+				  </figure>
+				{% endif %}
 				
 				{% if post.content contains '<!-- more -->' %}
 					{{ post.content | split:'<!-- more -->' | first }}
