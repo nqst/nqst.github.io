@@ -1,1 +1,1 @@
-here will be my new blog
+Это мой блог. Его с любовью генерирует Jekyll.
