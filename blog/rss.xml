@@ -19,10 +19,13 @@ layout: nil
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <guid>http://nqst.net/blog{{ post.id }}</guid>
       <description>
-        {% if post.wideimg %}
-          <![CDATA[
+        {% capture imgtag %}
+          <figure class="wide intro">
             <img src="http://nqst.net/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}">
-          ]]>
+          </figure>
+        {% endcapture %}
+        {% if post.wideimg %}
+          {{ imgtag | xml_escape }}
         {% endif %}
         {{ post.content | xml_escape }}
       </description>
