@@ -18,7 +18,14 @@ layout: nil
       <link>http://nqst.net/blog{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <guid>http://nqst.net/blog{{ post.id }}</guid>
-      <description>{{ post.content | xml_escape }}</description>
+      <description>
+        {% if post.wideimg %}
+          <![CDATA[<figure class="wide intro">
+            <img src="http://nqst.net/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}">
+          </figure>]]>
+        {% endif %}
+        {{ post.content | xml_escape }}
+      </description>
     </item>
     {% endfor %}
 
