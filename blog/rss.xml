@@ -20,9 +20,9 @@ layout: nil
       <guid>http://nqst.net/blog{{ post.id }}</guid>
       <description>
         {% if post.wideimg %}
-          <![CDATA[<figure class="wide intro">
+          <![CDATA[
             <img src="http://nqst.net/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}">
-          </figure>]]>
+          ]]>
         {% endif %}
         {{ post.content | xml_escape }}
       </description>
