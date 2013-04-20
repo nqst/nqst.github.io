@@ -21,7 +21,7 @@ layout: nil
       <description>
         {% capture imgtag %}
           <figure class="wide intro">
-            <img src="http://nqst.net/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}">
+            <img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}">
           </figure>
         {% endcapture %}
         {% if post.wideimg %}
