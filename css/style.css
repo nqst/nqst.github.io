@@ -46,15 +46,16 @@ p {
 	margin: 0 0 1em;
 }
 
-p.headline {
-	font-size: 21px;
-}
-
 blockquote {
 	margin: 1em 0 1em 5px;
 	padding-left: 1em;
 	border-left: 5px solid #eceae5;
 	font-family: 'PT Sans';
+}
+
+ul li,
+ol li {
+	margin-bottom: 0.5em;
 }
 
 
@@ -147,6 +148,10 @@ article h1 {
 
 article h2 {
 	margin-top: 1.5em;
+}
+
+p.headline {
+	font-size: 21px;
 }
 
 article div.embed {
