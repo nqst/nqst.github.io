@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Бледно-голубая точка"
+wideimg: pale-blue-dot-wide.jpg
 ---
-
-<figure class="wide intro">
-	<img src="/i/pale-blue-dot/pale-blue-dot-wide.jpg" alt="Бледно-голубая точка">
-</figure>
 
 <p class="headline">Трек «Suspended in a Sunbeam» <a href="http://bennjordan.com">Бенна Джордана</a>, в котором чей-то обработанный голос рассказывает что-то загадочное, познакомил меня с интересной историей.</p>
 

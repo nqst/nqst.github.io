@@ -21,7 +21,7 @@ layout: nil
       <description>
         {% capture imgtag %}
           <figure>
-            <img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" width="700" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
+            <img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" width="650" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
           </figure>
         {% endcapture %}
         {% if post.wideimg %}
