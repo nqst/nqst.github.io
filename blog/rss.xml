@@ -20,8 +20,8 @@ layout: nil
       <guid>http://nqst.net{{ post.id }}</guid>
       <description>
         {% capture imgtag %}
-          <figure class="wide intro">
-            <img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
+          <figure>
+            <img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" width="700" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
           </figure>
         {% endcapture %}
         {% if post.wideimg %}
