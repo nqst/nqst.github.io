@@ -31,7 +31,7 @@ wideimg: helloworld.jpg
 RSS
 ---
 
-Вот новая ссылка для подписки для тех, кто читает меня через RSS: [nqst.net/blog/rss.xml](http://nqst.net/blog/rss.xml)
+Новая ссылка для подписки тем, кто читает меня через RSS: [nqst.net/blog/rss.xml](http://nqst.net/blog/rss.xml)
 
 
 Stay tuned!
