@@ -23,6 +23,10 @@ layout: default
 			  </figure>
 			{% endif %}
 			{{ content }}
+			{% if page.credits %}
+				<p class="credits">Фото: {{ page.credits }}</p>
+			{% endif %}
+
 		</section>
 
 		<footer class="post-footer clearfix">

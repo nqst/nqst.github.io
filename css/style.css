@@ -201,6 +201,20 @@ article hr {
 	margin: 2em auto;
 }
 
+article p.credits {
+	font-size: 0.85em;
+	color: #96887d;
+}
+
+article p.credits a {
+	color: #96887d;
+	text-decoration: underline;
+}
+
+article p.credits a:hover {
+	color: #444;
+}
+
 
 .post-footer {
 	margin-top: 50px;
