@@ -83,6 +83,11 @@
         $this.wrap('<div class="fluid-width-video-wrapper"></div>').parent('.fluid-width-video-wrapper').css('padding-top', (aspectRatio * 100)+"%");
         $this.removeAttr('height').removeAttr('width');
       });
+
+      $(window).on('orientationchange', function() {
+        $allVideos.css('width','0%');
+        setTimeout(function() { $allVideos.css('width', '100%'); }, 130);
+      });
     });
   };
 })( jQuery );
