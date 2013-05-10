@@ -1,3 +1,13 @@
+/*
+
+ _ __   __ _ ___| |_ 
+| '_ \ / _` / __| __|
+| | | | (_| \__ \ |_ 
+|_| |_|\__, |___/\__|
+          |_|        
+
+*/
+
 body {
 	background-color: #fff;
 	color: #333;
@@ -10,6 +20,7 @@ body {
 h1, h2, h3 {
 	line-height: 1.2;
 	font-family: 'PT Serif', Georgia, serif;
+	text-rendering: optimizeLegibility;
 }
 
 h1 {
@@ -162,12 +173,14 @@ article div.embed {
 	margin: 1em 0 2em;
 }
 
-article img {
+article img,
+article .content iframe {
 	border-radius: 5px;
 }
 
 
-article .content figure {
+article .content figure,
+article .content .iframe-wrapper {
 	margin: 1em 0 1.25em;
 	/*text-align: center;*/
 }
