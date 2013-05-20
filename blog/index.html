@@ -43,13 +43,13 @@ title: Александр Зайцев · Блог
 
 	<div class="paginator">
 		{% if paginator.page < paginator.total_pages %}
-		<a href="/page{{ paginator.next_page }}">Ранее</a>
+		<a href="/blog/page{{ paginator.next_page }}">Ранее</a>
 		{% endif %}
 		&nbsp;  &nbsp;
 		{% if paginator.page == 2 %}
 		<a href="/">Позднее</a>
 		{% elsif paginator.page > 2 %}
-		<a href="/page{{ paginator.previous_page }}">Позднее</a>
+		<a href="/blog/page{{ paginator.previous_page }}">Позднее</a>
 		{% endif %}
 	</div>
 	

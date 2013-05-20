@@ -1,5 +1,5 @@
-auto: true
 markdown: kramdown
 permalink: /blog/:title
 paginate: 10
-host: nqst.net
+paginate_path: /blog/page:num
+pygments: true
