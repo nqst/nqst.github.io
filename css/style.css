@@ -118,6 +118,10 @@ a.logo {
 	white-space: nowrap;
 	overflow: hidden;
 
+	-webkit-animation: fadein .6s forwards ease-in-out;
+	-o-animation: fadein .6s forwards ease-in-out;
+	animation: fadein .6s forwards ease-in-out;
+
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
@@ -139,10 +143,10 @@ header .intro {
 	font-size: 0.9em;
 	margin-top: 0.25em;
 	vertical-align: top;
-	color: #646464;
-	-webkit-animation: fadein .7s forwards ease-in-out;
+	color: #777471;
+	/*-webkit-animation: fadein .7s forwards ease-in-out;
 	-o-animation: fadein .7s forwards ease-in-out;
-	animation: fadein .7s forwards ease-in-out;
+	animation: fadein .7s forwards ease-in-out;*/
 }
 
 
