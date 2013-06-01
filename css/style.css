@@ -223,6 +223,11 @@ article .content figure figcaption {
 	font-style: italic; 
 }
 
+article figure.center {
+	text-align: center;
+}
+
+
 article hr {
 	border: 2px solid #eceae5;
 	width: 30%;
@@ -286,7 +291,8 @@ article p.credits a:hover {
 
 footer[role="contentinfo"] {
 	/*border-top: 1px solid #eceae5;*/
-	background-color: #fcfbf7;
+	/*background-color: #fcfbf7;*/
+	background-color: #faf9f5;
 	margin-top: 30px;
 }
 
@@ -593,6 +599,11 @@ a.tw {
 
 	.bio {
 		padding: 30px 0;
+	}
+
+	.highlight {
+		margin-left: -15px;
+		margin-right: -15px;
 	}
 }
 
