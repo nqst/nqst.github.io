@@ -118,10 +118,6 @@ a.logo {
 	white-space: nowrap;
 	overflow: hidden;
 
-	-webkit-animation: fadein .6s forwards ease-in-out;
-	-o-animation: fadein .6s forwards ease-in-out;
-	animation: fadein .6s forwards ease-in-out;
-
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
