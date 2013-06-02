@@ -338,6 +338,11 @@ footer[role="contentinfo"] a.rss-subscriber {
 	font-weight: bold;
 }
 
+.instagram:hover {
+	color: #1b364d;
+}
+
+
 .bio h3 {
 	margin-top: 0;
 }
