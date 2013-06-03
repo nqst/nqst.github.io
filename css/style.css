@@ -332,19 +332,21 @@ footer[role="contentinfo"] a.rss-subscriber {
 	line-height: 1.8;
 }
 
-.you-should-follow-me-on-twitter-here {
-	color: #00acee;
+.social-networks a {
+	display: inline-block;
 	padding-left: 20px;
-	background: url(../i/twitter.png) no-repeat left center;
 	font-weight: bold;
 }
 
+.you-should-follow-me-on-twitter-here {
+	background: url(../i/twitter.png) no-repeat left center;
+	color: #00acee;
+}
+
 .instagram {
-	color: #30618a;
-	padding-left: 20px;
-	background: url(../i/instagram.png) no-repeat left center;
 	margin-left: 20px;
-	font-weight: bold;
+	background: url(../i/instagram.png) no-repeat left center;
+	color: #30618a;
 }
 
 .instagram:hover {
@@ -370,7 +372,7 @@ footer[role="contentinfo"] a.rss-subscriber {
 
 
 .posts-list article {
-	border-top: 1px solid #eee;
+	border-top: 1px dotted #ede7e1;
 	padding-top: 55px;
 	padding-bottom: 5px;
 }

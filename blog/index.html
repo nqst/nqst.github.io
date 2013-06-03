@@ -26,9 +26,9 @@ title: Александр Зайцев · Блог
 
 			<section class="content">
 				{% if post.wideimg %}
-				  <figure class="wide intro">
-				  	<img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}">
-				  </figure>
+					<figure class="wide intro">
+						<a href="{{ post.url }}"><img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
+					</figure>
 				{% endif %}
 				
 				{% if post.content contains '<!-- more -->' %}
