@@ -1,0 +1,16 @@
+h1 {
+	color: #d10000;
+}
+
+h1:before {
+	content: "";
+	background: url(../i/help-oleg/cross.png);
+	width: 73px;
+	height: 73px;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+time {
+	display: none;
+}
