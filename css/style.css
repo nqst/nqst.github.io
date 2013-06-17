@@ -1,3 +1,6 @@
+@import url('additional.css');
+
+
 /*
 
  _ __   __ _ ___| |_ 
@@ -514,6 +517,18 @@ a.tw {
 .highlight .lineno { color: #ccc; }
 
 
+
+.additional-block {
+	background-color: #fbfbfb;
+	margin: 2em -20px;
+	padding: 10px 20px;
+	font-size: 0.8em;
+	border-radius: 3px;
+}
+
+.additional-block h2 {
+	margin-top: 0.5em;
+}
 
 
 

@@ -12,7 +12,11 @@ title: Александр Зайцев · Блог
 
 <section role="main" class="container posts-list">
 	{% for post in paginator.posts %}
-		<article>
+		{% if post.main-class %}
+			<article class="{{ post.main-class }}">
+		{% else %}
+			<article>
+		{% endif %}
 			<header>
 				<p>
 					{% capture the_day %}{{ post.date | date: "%d" }}{% endcapture %}
