@@ -26,7 +26,7 @@ wideimg: intro.jpg
 Всё подключается довольно легко. Для установки системы понадобится отформатировать SD-карту и скопировать на нее установщик — на официальном сайте есть понятное [руководство для быстрого старта](http://www.raspberrypi.org/quick-start-guide). Затем, благодаря [статье с зарубежного Лайфхакера](http://lifehacker.com/5978594/turn-a-raspberry-pi-into-an-airplay-receiver-for-streaming-music-in-your-living-room), я скачал и установил Shairport, заставляющий работать AirPlay, и настроил звуковую карту. Делать всё в терминале с клавиатурой на коленях мне понравилось.
 
 <figure>
-    <img src="/i/raspberry/installing.jpg" width="100%" alt="">
+    <img src="../../i/raspberry/installing.jpg" width="100%" alt="">
     <figcaption>Установка ОС Raspbian и рабочий беспорядок</figcaption>
 </figure>
 
