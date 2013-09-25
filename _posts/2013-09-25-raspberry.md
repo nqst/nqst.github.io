@@ -43,7 +43,7 @@ wideimg: intro.jpg
 
 <figure>
     <img src="/i/raspberry/setup.jpg" width="100%" alt="">
-    <figcaption>Звуковая карта и Raspberry Pi</figcaption>
+    <figcaption>Lexicon Lambda и Raspberry Pi</figcaption>
 </figure>
 
 Идеи на будущее: смотреть кино, узнавать уровень угарного и углекислого газа в квартире, транслировать куда-нибудь твиты. Что можно еще веселого придумать?
