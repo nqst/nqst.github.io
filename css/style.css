@@ -72,6 +72,28 @@ ol li {
 	margin-bottom: 0.5em;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	padding-left: 1.5em;
+}
+
+ul li:before {
+	content:'\2022';
+	display: block;
+	position: relative;
+	max-width: 0px;
+	max-height: 0px;
+	left: -0.8em;
+	top: 0;
+	color: #b9b5ac;
+}
+
+
 span.nowrap {
 	white-space: nowrap;
 }
@@ -222,9 +244,10 @@ article .content figure.wide img {
 
 article .content figure figcaption {
 	display: block;
-	margin-top: 0.5em;
+	margin-top: 0.25em;
 	margin-bottom: 1em;
-	font-style: italic; 
+	font-style: italic;
+	font-size: 0.9em;
 }
 
 article figure.center {

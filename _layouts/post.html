@@ -12,7 +12,7 @@ layout: default
 			{% capture the_day %}{{ page.date | date: "%d" }}{% endcapture %}
 			{% capture the_day_truncated %}{{ the_day | truncate:1,'' }}{% endcapture %}
 			{% capture the_day %}{% if the_day_truncated == "0" %}{{ the_day | remove:'0' }}{% else %}{{ the_day }}{% endif %}{% endcapture %}
-			<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ the_day }} {{ page.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September ","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time></p>
+			<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ the_day }} {{ page.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time></p>
 			<h1>{{ page.title }}</h1>
 		</header>
 
