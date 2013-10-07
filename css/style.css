@@ -694,8 +694,8 @@ span.hint {
 		font-size: 26px;
 	}
 
-	ul {
-		margin-left: 0;
+	ul li {
+		padding-left: 0.25em;
 	}
 
 	.bio {
