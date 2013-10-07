@@ -224,7 +224,8 @@ article .content iframe {
 
 article .content figure,
 article .content .iframe-wrapper {
-	margin: 1em 0 1.25em;
+	margin-top: 1em;
+	margin-bottom: 1.25em;
 	/*text-align: center;*/
 }
 
@@ -465,6 +466,24 @@ a.tw {
 
 
 
+.additional-block {
+	background-color: #fbfbfb;
+	margin: 2em -20px;
+	padding: 10px 20px;
+	font-size: 0.8em;
+	border-radius: 3px;
+}
+
+.additional-block h2 {
+	margin-top: 0.5em;
+}
+
+span.hint {
+	font-size: 0.7em;
+	color: #b9b5ac;
+}
+
+
 
 
 /* Code styling and highlighting */
@@ -540,21 +559,6 @@ a.tw {
 .highlight .lineno { color: #ccc; }
 
 
-
-.additional-block {
-	background-color: #fbfbfb;
-	margin: 2em -20px;
-	padding: 10px 20px;
-	font-size: 0.8em;
-	border-radius: 3px;
-}
-
-.additional-block h2 {
-	margin-top: 0.5em;
-}
-
-
-
 @media screen and (min-width: 1200px){
 	a.post-logo {
 		position: fixed;
@@ -591,6 +595,11 @@ a.tw {
 	.bio {
 		font-size: 16px;
 		width: 640px;
+	}
+
+	figure.out-of-width-960 {
+		margin-left: -110px;
+		width: 960px;
 	}
 }
 
