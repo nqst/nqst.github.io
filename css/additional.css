@@ -32,3 +32,24 @@ article.oleg h1 a:hover:before {
 article.oleg time {
 	display: none;
 }
+
+
+
+.trams-figure {
+	background: url(/i/trams/trams-960__new.jpg) no-repeat;
+}
+
+@media screen and (max-width: 980px) {
+	.trams-figure {
+		background-size: 100% !important;
+	}
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi) {
+	.trams-figure {
+		background: url(/i/trams/trams-960__new@2x.jpg);
+		background-size: 960px 682px;
+	}
+}
