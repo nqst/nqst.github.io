@@ -13,6 +13,12 @@
 	cursor: move;
 }
 
+@media screen and (max-width: 980px) {
+	.trams-figure {
+		width: auto !important;
+	}
+}
+
 @media screen and (max-width: 550px) {
 	.trams-preview {
 		height: 300px;
