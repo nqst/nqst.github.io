@@ -3,6 +3,6 @@
 	padding: 10px;
 	height: 500px;
 	border: 2px solid #ccc;
-	background: url(/i/trams/trams-hi-res.png);
+	background: url(/i/trams/trams-hi-res.png) no-repeat;
 	cursor: move;
 }
