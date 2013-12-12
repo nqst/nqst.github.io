@@ -229,6 +229,10 @@ article .content .iframe-wrapper {
 	/*text-align: center;*/
 }
 
+article .content figure + p.headline {
+	margin-top: -0.5em;
+}
+
 article .content figure.wide {
 	width: 100%;
 }

@@ -38,6 +38,9 @@ title: Александр Зайцев · Блог
 				{% if post.content contains '<!-- more -->' %}
 					{{ post.content | split:'<!-- more -->' | first }}
 					<p><a class="read-more" href="{{ post.url }}">Читать дальше »</a></p>
+				{% elsif post.content contains '<!-- more-enlarge -->' %}
+					{{ post.content | split:'<!-- more-enlarge -->' | first }}
+					<p><a class="read-more" href="{{ post.url }}">Посмотреть поближе »</a></p>
 				{% else %}
 					{{ post.content }}
 				{% endif %}

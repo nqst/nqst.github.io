@@ -1,0 +1,8 @@
+.trams-preview {
+	margin-bottom: 1em;
+	padding: 10px;
+	height: 500px;
+	border: 2px solid #ccc;
+	background: url(/i/trams/trams-hi-res.png);
+	cursor: move;
+}
