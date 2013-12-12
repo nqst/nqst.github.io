@@ -49,7 +49,7 @@ article.oleg time {
 (-webkit-min-device-pixel-ratio: 1.5), 
 (min-resolution: 144dpi) {
 	.trams-figure {
-		background: url(/i/trams/trams-960__new@2x.jpg);
+		background: url(/i/trams/trams-960__new@2x.jpg) no-repeat;
 		background-size: 960px 682px;
 	}
 }
