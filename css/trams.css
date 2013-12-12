@@ -1,5 +1,5 @@
 .trams-figure {
-	background: url(/i/trams/trams-960__new.jpg);
+	background: url(/i/trams/trams-960__new.jpg) no-repeat;
 	background-size: cover;
 	height: 682px;
 }
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 980px) {
 	.trams-figure {
-		width: auto !important;
+		background-size: 100% !important;
 	}
 }
 
