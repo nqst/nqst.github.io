@@ -1,42 +1,6 @@
-article.oleg h1 a {
-	color: #d10000;
-	display: inline-block;
-}
-
-article.oleg h1 a:hover {
-	color: #910000;
-}
-
-article.oleg h1 a:before {
-	content: "";
-	background: url(../i/help-oleg/cross.png);
-	width: 73px;
-	height: 73px;
-	display: block;
-	margin: 0 auto 20px;
-	-webkit-transition: all 0.1s ease-in;
-	-moz-transition: all 0.1s ease-in;
-	-ms-transition: all 0.1s ease-in;
-	-o-transition: all 0.1s ease-in;
-	transition: all 0.1s ease-in;
-}
-
-article.oleg h1 a:hover:before {
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-article.oleg time {
-	display: none;
-}
-
-
-
-.trams-figure {
+article .content .trams-figure {
 	background: url(/i/trams/trams-960__new.png) no-repeat;
+	margin-bottom: 1.25em;
 }
 
 @media screen and (max-width: 980px) {
