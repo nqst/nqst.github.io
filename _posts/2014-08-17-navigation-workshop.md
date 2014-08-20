@@ -67,3 +67,5 @@ wideimg: arrow.jpg
 <figure>
   <img src="/i/navigation-workshop/metrograd.jpg" alt="">
 </figure>
+
+<span class="hint">Это первая часть серии заметок о дизайн-практикуме. Продолжение: [дни 2 и 3](/blog/navigation-workshop-2/).</span>
