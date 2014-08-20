@@ -97,3 +97,7 @@ wideimg: pantone.jpg
 * * * 
 
 Про наши подходы к улучшению «Метрограда» расскажу чуть позже, устал жутко :-)
+
+<figure>
+    <img src="/i/navigation-workshop-2/metrograd.jpg" alt="">
+  </figure>
