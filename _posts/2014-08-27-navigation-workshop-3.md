@@ -139,12 +139,12 @@ wideimg: ludwig-bw.jpg
 
 * Противовандальным может быть и сам материал: легко очищаемый, текстурированный или перфорированный.
 
-* Паттерны на сиденьях в общественном транспорте нужны не для красоты, а для того, чтобы были не так заметны грязь и пятна:
+*   Паттерны на сиденьях в общественном транспорте нужны не для красоты, а для того, чтобы были не так заметны грязь и пятна:
 
-  <figure>
-    <img src="/i/navigation-workshop-3/seats-pattern.jpg" alt="">
-    <figcaption>Источник: <a href="https://www.flickr.com/photos/fredcamino/2277067159/in/pool-transportpatterns/">Flickr</a></figcaption>
-  </figure>
+    <figure>
+      <img src="/i/navigation-workshop-3/seats-pattern.jpg" alt="">
+      <figcaption>Источник: <a href="https://www.flickr.com/photos/fredcamino/2277067159/in/pool-transportpatterns/">Flickr</a></figcaption>
+    </figure>
 
 
 Подробнее о защите от вандализма можно почитать [у Эркена в блоге](http://kagarov.livejournal.com/146266.html).
