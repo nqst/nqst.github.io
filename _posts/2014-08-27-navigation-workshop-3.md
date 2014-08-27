@@ -44,7 +44,7 @@ wideimg: ludwig-bw.jpg
   <figcaption>Источник: <a href="http://grosslarnakh.livejournal.com/39194.html">ЖЖ Людвига Быстроновского</a></figcaption>
 </figure>
 
-В построении схем помогают вспомогательные слои:
+В построении схем помогают дополнительные слои:
 
 <figure>
   <img src="/i/navigation-workshop-3/layers.jpg" alt="">
