@@ -2,9 +2,8 @@
 layout: post
 title: "Практикум по навигации. Дни 4–8"
 wideimg: ludwig-bw.jpg
+beforeinfo: 'Это продолжение серии заметок о дизайн-практикуме Студии Лебедева. См. также <a href="/blog/navigation-workshop/">день 1</a>, <a href="/blog/navigation-workshop-2/">дни 2 и 3</a>.'
 ---
-
-<span class="hint">Это продолжение серии заметок о дизайн-практикуме Студии Лебедева. См. также [день 1](/blog/navigation-workshop/), [дни 2 и 3](/blog/navigation-workshop-2/).</span>
 
 О транспортных схемах
 ---
