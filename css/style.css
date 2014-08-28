@@ -233,7 +233,7 @@ article .content iframe {
 article .content figure,
 article .content .iframe-wrapper {
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom: 1.25em;
 }
 
 article .content figure + figure {
