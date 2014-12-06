@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<a href="/" class="logo post-logo">nqst</a>
+
+
+<section role="main" class="container">
+  <article class="post">
+
+    <section class="content post-quote-wrapper">
+      <blockquote class="post-quote">{{ page.content }}</blockquote>
+
+      {% if page.author and page.author-link == null %}
+        <div class="post-quote-author">— {{ page.author }}</div>
+      {% elsif page.author and page.author-link %}
+        <div class="post-quote-author">— <a href="{{ page.author-link }}">{{ page.author }}</a></div>
+      {% endif %}
+    </section>
+
+    <footer class="post-footer clearfix">
+      <div class="actions">
+        <a href="../" class="back">« Все заметки</a>
+
+        <div class="share">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="nqst" data-lang="ru" data-size="large" data-related="nqst" data-count="none">Твитнуть</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+      </div>
+      
+    </footer>
+  </article>
+</section>

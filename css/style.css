@@ -78,6 +78,10 @@ blockquote {
   line-height: 1.3;
 }
 
+.post-quote-wrapper {
+  padding: 2em 0 3em;
+}
+
 .post-quote p {
   margin-bottom: 0.5em;
 }
