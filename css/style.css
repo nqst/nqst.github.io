@@ -753,6 +753,10 @@ span.hint {
     padding-left: 1em;
   }
 
+  .post-quote {
+    font-size: 24px;
+  }
+
   .bio {
     width: auto;
     font-size: 14px;
