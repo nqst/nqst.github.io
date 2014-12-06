@@ -6,44 +6,44 @@ layout: default
 
 
 <section role="main" class="container">
-	<article class="post">
+  <article class="post">
 
-		<header>
-			{% capture the_day %}{{ page.date | date: "%d" }}{% endcapture %}
-			{% capture the_day_truncated %}{{ the_day | truncate:1,'' }}{% endcapture %}
-			{% capture the_day %}{% if the_day_truncated == "0" %}{{ the_day | remove:'0' }}{% else %}{{ the_day }}{% endif %}{% endcapture %}
-			<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ the_day }} {{ page.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time></p>
-			<h1>{{ page.title }}</h1>
-		</header>
+    <header>
+      {% capture the_day %}{{ page.date | date: "%d" }}{% endcapture %}
+      {% capture the_day_truncated %}{{ the_day | truncate:1,'' }}{% endcapture %}
+      {% capture the_day %}{% if the_day_truncated == "0" %}{{ the_day | remove:'0' }}{% else %}{{ the_day }}{% endif %}{% endcapture %}
+      <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ the_day }} {{ page.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time></p>
+      <h1>{{ page.title }}</h1>
+    </header>
 
-		<section class="content">
-			{% if page.wideimg %}
-			  <figure class="wide intro">
-			  	<img src="/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg }}" alt="{% if page.alt %}{{ page.alt }}{% else %}{{ page.title }}{% endif %}">
-			  </figure>
-			{% endif %}
+    <section class="content">
+      {% if page.wideimg %}
+        <figure class="wide intro">
+          <img src="/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg }}" alt="{% if page.alt %}{{ page.alt }}{% else %}{{ page.title }}{% endif %}">
+        </figure>
+      {% endif %}
 
-			{% if page.beforeinfo %}
-				<p><span class="hint">{{ page.beforeinfo }}</span></p>
-			{% endif %}
+      {% if page.beforeinfo %}
+        <p><span class="hint">{{ page.beforeinfo }}</span></p>
+      {% endif %}
 
-			{{ content }}
-			{% if page.credits %}
-				<p class="credits">{{ page.credits }}</p>
-			{% endif %}
+      {{ content }}
+      {% if page.credits %}
+        <p class="credits">{{ page.credits }}</p>
+      {% endif %}
 
-		</section>
+    </section>
 
-		<footer class="post-footer clearfix">
-			<div class="actions">
-				<a href="../" class="back">« Все заметки</a>
+    <footer class="post-footer clearfix">
+      <div class="actions">
+        <a href="../" class="back">« Все заметки</a>
 
-				<div class="share">
-					<a href="https://twitter.com/share" class="twitter-share-button" data-via="nqst" data-lang="ru" data-size="large" data-related="nqst" data-count="none">Твитнуть</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-				</div>
-			</div>
-			
-		</footer>
-	</article>
+        <div class="share">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="nqst" data-lang="ru" data-size="large" data-related="nqst" data-count="none">Твитнуть</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+      </div>
+      
+    </footer>
+  </article>
 </section>

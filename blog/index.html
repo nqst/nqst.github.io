@@ -4,59 +4,59 @@ title: Александр Зайцев · Блог
 ---
 
 <header role="banner">
-	<a href="/" class="logo">nqst</a>
-	<section class="container">
-		<p class="intro"><b>Александр Зайцев.</b> Дизайн, здоровый перфекционизм, путешествия, HTML и CSS.</p>
-	</section>
+  <a href="/" class="logo">nqst</a>
+  <section class="container">
+    <p class="intro"><b>Александр Зайцев.</b> Дизайн, здоровый перфекционизм, путешествия, HTML и CSS.</p>
+  </section>
 </header>
 
 <section role="main" class="container posts-list">
-	{% for post in paginator.posts %}
-		{% if post.main-class %}
-			<article class="{{ post.main-class }}">
-		{% else %}
-			<article>
-		{% endif %}
-			<header>
-				<p>
-					{% capture the_day %}{{ post.date | date: "%d" }}{% endcapture %}
-					{% capture the_day_truncated %}{{ the_day | truncate:1,'' }}{% endcapture %}
-					{% capture the_day %}{% if the_day_truncated == "0" %}{{ the_day | remove:'0' }}{% else %}{{ the_day }}{% endif %}{% endcapture %}
+  {% for post in paginator.posts %}
+    {% if post.main-class %}
+      <article class="{{ post.main-class }}">
+    {% else %}
+      <article>
+    {% endif %}
+      <header>
+        <p>
+          {% capture the_day %}{{ post.date | date: "%d" }}{% endcapture %}
+          {% capture the_day_truncated %}{{ the_day | truncate:1,'' }}{% endcapture %}
+          {% capture the_day %}{% if the_day_truncated == "0" %}{{ the_day | remove:'0' }}{% else %}{{ the_day }}{% endif %}{% endcapture %}
 
-					<time datetime="{{ post.date | date_to_xmlschema }}">{{ the_day }} {{ post.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time>
-				</p>
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			</header>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ the_day }} {{ post.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time>
+        </p>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      </header>
 
-			<section class="content">
-				{% if post.wideimg %}
-					<figure class="wide intro">
-						<a href="{{ post.url }}"><img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
-					</figure>
-				{% endif %}
-				
-				{% if post.content contains '<!-- more -->' %}
-					{{ post.content | split:'<!-- more -->' | first }}
-					<p><a class="read-more" href="{{ post.url }}">Читать дальше »</a></p>
-				{% elsif post.content contains '<!-- more-enlarge -->' %}
-					{{ post.content | split:'<!-- more-enlarge -->' | first }}
-					<p><a class="read-more" href="{{ post.url }}">Посмотреть поближе »</a></p>
-				{% else %}
-					{{ post.content }}
-				{% endif %}
-			</section>
-		</article>
-	{% endfor %}
+      <section class="content">
+        {% if post.wideimg %}
+          <figure class="wide intro">
+            <a href="{{ post.url }}"><img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
+          </figure>
+        {% endif %}
+        
+        {% if post.content contains '<!-- more -->' %}
+          {{ post.content | split:'<!-- more -->' | first }}
+          <p><a class="read-more" href="{{ post.url }}">Читать дальше »</a></p>
+        {% elsif post.content contains '<!-- more-enlarge -->' %}
+          {{ post.content | split:'<!-- more-enlarge -->' | first }}
+          <p><a class="read-more" href="{{ post.url }}">Посмотреть поближе »</a></p>
+        {% else %}
+          {{ post.content }}
+        {% endif %}
+      </section>
+    </article>
+  {% endfor %}
 
-	<div class="paginator clearfix">
-		{% if paginator.page < paginator.total_pages %}
-		<a href="/blog/page{{ paginator.next_page }}" class="next-page">Назад</a>
-		{% endif %}
-		{% if paginator.page == 2 %}
-		<a href="/" class="prev-page">Вперёд</a>
-		{% elsif paginator.page > 2 %}
-		<a href="/blog/page{{ paginator.previous_page }}" class="prev-page">Вперёд</a>
-		{% endif %}
-	</div>
-	
+  <div class="paginator clearfix">
+    {% if paginator.page < paginator.total_pages %}
+    <a href="/blog/page{{ paginator.next_page }}" class="next-page">Назад</a>
+    {% endif %}
+    {% if paginator.page == 2 %}
+    <a href="/" class="prev-page">Вперёд</a>
+    {% elsif paginator.page > 2 %}
+    <a href="/blog/page{{ paginator.previous_page }}" class="prev-page">Вперёд</a>
+    {% endif %}
+  </div>
+  
 </section>
