@@ -50,7 +50,7 @@ title: Александр Зайцев · Блог
           {% endif %}
 
         {% elsif post.layout == 'quote' %}
-          <blockquote class="post-quote">{{ post.content }}</blockquote>
+          <blockquote class="post-quote"><a href="{{ post.url }}">{{ post.content }}</a></blockquote>
 
           {% if post.author and post.author-link == null %}
             <div class="post-quote-author">— {{ post.author }}</div>

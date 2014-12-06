@@ -28,6 +28,11 @@ layout: nil
           {{ imgtag | xml_escape }}
         {% endif %}
         {{ post.content | xml_escape }}
+        {% if post.layout == 'quote' %}
+          {% if post.author %}
+            — {{ post.author }}
+          {% endif %}
+        {% endif %}
       </description>
     </item>
     {% endfor %}
