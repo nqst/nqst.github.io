@@ -12,39 +12,56 @@ title: Александр Зайцев · Блог
 
 <section role="main" class="container posts-list">
   {% for post in paginator.posts %}
+    
     {% if post.main-class %}
-      <article class="{{ post.main-class }}">
-    {% else %}
-      <article>
+    <article class="{{ post.main-class }}">{% else %}<article>
     {% endif %}
-      <header>
-        <p>
-          {% capture the_day %}{{ post.date | date: "%d" }}{% endcapture %}
-          {% capture the_day_truncated %}{{ the_day | truncate:1,'' }}{% endcapture %}
-          {% capture the_day %}{% if the_day_truncated == "0" %}{{ the_day | remove:'0' }}{% else %}{{ the_day }}{% endif %}{% endcapture %}
+    
+      {% if post.layout != 'quote' %}
+        <header>
+          <p>
+            {% capture the_day %}{{ post.date | date: "%d" }}{% endcapture %}
+            {% capture the_day_truncated %}{{ the_day | truncate:1,'' }}{% endcapture %}
+            {% capture the_day %}{% if the_day_truncated == "0" %}{{ the_day | remove:'0' }}{% else %}{{ the_day }}{% endif %}{% endcapture %}
 
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ the_day }} {{ post.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time>
-        </p>
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      </header>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ the_day }} {{ post.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time>
+          </p>
+          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        </header>
+      {% endif %}
 
       <section class="content">
-        {% if post.wideimg %}
-          <figure class="wide intro">
-            <a href="{{ post.url }}"><img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
-          </figure>
-        {% endif %}
+      {% if post.layout == 'post' %}
         
-        {% if post.content contains '<!-- more -->' %}
-          {{ post.content | split:'<!-- more -->' | first }}
-          <p><a class="read-more" href="{{ post.url }}">Читать дальше »</a></p>
-        {% elsif post.content contains '<!-- more-enlarge -->' %}
-          {{ post.content | split:'<!-- more-enlarge -->' | first }}
-          <p><a class="read-more" href="{{ post.url }}">Посмотреть поближе »</a></p>
-        {% else %}
-          {{ post.content }}
+          {% if post.wideimg %}
+            <figure class="wide intro">
+              <a href="{{ post.url }}"><img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
+            </figure>
+          {% endif %}
+          
+          {% if post.content contains '<!-- more -->' %}
+            {{ post.content | split:'<!-- more -->' | first }}
+            <p><a class="read-more" href="{{ post.url }}">Читать дальше »</a></p>
+          {% elsif post.content contains '<!-- more-enlarge -->' %}
+            {{ post.content | split:'<!-- more-enlarge -->' | first }}
+            <p><a class="read-more" href="{{ post.url }}">Посмотреть поближе »</a></p>
+          {% else %}
+            {{ post.content }}
+          {% endif %}
+
+        {% elsif post.layout == 'quote' %}
+          <blockquote class="post-quote">{{ post.content }}</blockquote>
+
+          {% if post.author and post.author-link == null %}
+            <div class="post-quote-author">— {{ post.author }}</div>
+          {% elsif post.author and post.author-link %}
+            <div class="post-quote-author">— <a href="{{ post.author-link }}">{{ post.author }}</a></div>
+          {% endif %}
+
         {% endif %}
+          
       </section>
+
     </article>
   {% endfor %}
 
