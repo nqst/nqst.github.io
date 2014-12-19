@@ -652,6 +652,9 @@ span.hint {
   .post-quote {
     margin-left: -110px;
     width: 960px;
+  }
+
+  .post-quote {
     font-size: 42px;
   }
 }

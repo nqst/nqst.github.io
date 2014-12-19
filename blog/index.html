@@ -38,6 +38,12 @@ title: Александр Зайцев · Блог
               <a href="{{ post.url }}"><img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
             </figure>
           {% endif %}
+
+          {% if post.wideimg960 %}
+            <figure class="out-of-width-960">
+              <a href="{{ post.url }}"><img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg960 }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
+            </figure>
+          {% endif %}
           
           {% if post.content contains '<!-- more -->' %}
             {{ post.content | split:'<!-- more -->' | first }}

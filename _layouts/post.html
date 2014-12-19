@@ -23,6 +23,12 @@ layout: default
         </figure>
       {% endif %}
 
+      {% if page.wideimg960 %}
+        <figure class="out-of-width-960">
+          <img src="/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg960 }}" alt="{% if page.alt %}{{ page.alt }}{% else %}{{ page.title }}{% endif %}">
+        </figure>
+      {% endif %}
+
       {% if page.beforeinfo %}
         <p><span class="hint">{{ page.beforeinfo }}</span></p>
       {% endif %}
