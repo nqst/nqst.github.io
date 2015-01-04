@@ -47,10 +47,10 @@ title: Александр Зайцев · Блог
           
           {% if post.content contains '<!-- more -->' %}
             {{ post.content | split:'<!-- more -->' | first }}
-            <p><a class="read-more" href="{{ post.url }}">Читать дальше »</a></p>
+            <p><a class="read-more" href="{{ post.url }}">Читать дальше ›</a></p>
           {% elsif post.content contains '<!-- more-enlarge -->' %}
             {{ post.content | split:'<!-- more-enlarge -->' | first }}
-            <p><a class="read-more" href="{{ post.url }}">Посмотреть поближе »</a></p>
+            <p><a class="read-more" href="{{ post.url }}">Посмотреть поближе ›</a></p>
           {% else %}
             {{ post.content }}
           {% endif %}
@@ -73,12 +73,12 @@ title: Александр Зайцев · Блог
 
   <div class="paginator clearfix">
     {% if paginator.page < paginator.total_pages %}
-    <a href="/blog/page{{ paginator.next_page }}" class="next-page">Назад</a>
+    <a href="/blog/page{{ paginator.next_page }}" class="next-page">‹ Ранее</a>
     {% endif %}
     {% if paginator.page == 2 %}
-    <a href="/" class="prev-page">Вперёд</a>
+    <a href="/" class="prev-page">Позднее »</a>
     {% elsif paginator.page > 2 %}
-    <a href="/blog/page{{ paginator.previous_page }}" class="prev-page">Вперёд</a>
+    <a href="/blog/page{{ paginator.previous_page }}" class="prev-page">Позднее ›</a>
     {% endif %}
   </div>
   

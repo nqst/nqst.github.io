@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: /blog/:title
-paginate: 7
+paginate: 9
 paginate_path: /blog/page:num
-pygments: true
+highlighter: pygments
 relative_permalinks: true

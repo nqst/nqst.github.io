@@ -461,7 +461,7 @@ footer[role="contentinfo"] a.rss-subscriber {
 
 .read-more {
   font-family: 'PT Sans', sans-serif;
-  font-size: 0.85em;
+  /*font-size: 0.85em;*/
   font-weight: bold;
 }
 
