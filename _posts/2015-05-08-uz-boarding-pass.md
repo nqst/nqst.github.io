@@ -3,6 +3,7 @@ layout: post
 title: "Редизайн посадочного талона на поезд"
 wideimg: intro.jpg
 css: misc/post-uz-boarding-pass
+ogimage: uz-boarding-pass/intro.jpg
 ---
 
 На некоторые поезда в Украине можно распечатать посадочный талон у себя на принтере и идти с ним в поезд. Талон выглядит так:
