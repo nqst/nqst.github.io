@@ -52,7 +52,7 @@ css: misc/post-uz-boarding-pass
 Эволюция нового дизайна:
 
 <figure class="js-slide-wrapper out-of-width-960">
-  <img class="js-slide" src="/i/uz-boarding-pass/evolution/1.png" style="display: block; border-radius: 0; box-shadow: 0 1px 2px #bbb;">
+  <img class="js-slide js-slide-initial" src="/i/uz-boarding-pass/evolution/1.png" style="display: block; border-radius: 0; box-shadow: 0 1px 2px #bbb;">
 </figure>
 
 <p>
@@ -88,7 +88,19 @@ css: misc/post-uz-boarding-pass
     ];
 
     $('.js-range-comment').text(comments[0]);
-    var height = $('.js-slide-wrapper').height();
+    
+
+    $('.js-slide').load(function(){
+
+      if ($(this).hasClass('js-slide-initial') ) {
+        var height = $('.js-slide-initial').height();
+        $('.js-slide-wrapper').css('height', height);
+      }
+
+      $('.js-slide-initial').removeClass('js-slide-initial');
+    });
+
+    //console.log(height);
 
     $('.js-range').on('input', function(){
       var val = $(this).val();
@@ -96,7 +108,6 @@ css: misc/post-uz-boarding-pass
 
       $('.js-slide').attr('src', '/i/uz-boarding-pass/evolution/' + val + '.png');
       $('.js-range-comment').text(comments[commentIndex]);
-      $('.js-slide-wrapper').height(height);
     });
 
 
