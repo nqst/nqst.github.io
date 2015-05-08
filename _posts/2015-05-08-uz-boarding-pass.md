@@ -51,7 +51,7 @@ css: misc/post-uz-boarding-pass
 
 Эволюция нового дизайна:
 
-<figure class="js-slide-wrapper out-of-width-960">
+<figure class="js-slide-wrapper">
   <img class="js-slide js-slide-initial" src="/i/uz-boarding-pass/evolution/1.png" style="display: block; border-radius: 0; box-shadow: 0 1px 2px #bbb;">
 </figure>
 
