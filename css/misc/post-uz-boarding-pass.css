@@ -1,0 +1,38 @@
+body {
+  overflow-x: hidden;
+}
+
+.new-pass-wrapper {
+  text-align: center;
+}
+
+.new-pass {
+  display: block;
+  border-radius: 0;
+  box-shadow: 0 1px 1px #c0c0c0;
+  opacity: 0;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .new-pass-wrapper {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    margin: 30px -2000px;
+    padding: 40px 0;
+  }
+
+  .new-pass-wrapper figure.out-of-width-960 {
+     width: 1020px;
+     margin: 0 auto;
+  }
+}
+
+.new-pass-animate {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
