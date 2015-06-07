@@ -38,8 +38,14 @@
   padding: 3px 8px 3px 24px;
 }
 
-.social-likes__button_single {
+.social-likes__widget_single {
   color: #3771fd;
+}
+
+.social-likes__widget_single:hover,
+.social-likes__widget_single:hover .social-likes__counter,
+.social-likes__widget_active .social-likes__counter {
+  color: #fff !important;
 }
 
 .social-likes_single .social-likes__widget:hover,
@@ -56,8 +62,5 @@
 .social-likes__counter {
   font-size: 14px;
   color: #444;
-}
-
-.social-likes__widget_active  .social-likes__counter {
-  color: #fff;
+  margin-top: 2px;
 }
