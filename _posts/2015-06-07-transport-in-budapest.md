@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Транспорт в Будапеште"
+title: "Транспорт в Будапеште"
 wideimg: DSC02115.jpg
 ---
 
