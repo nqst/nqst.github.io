@@ -30,8 +30,9 @@
 }
 
 .social-likes_single .social-likes__button {
-  padding: 4px 6px 4px 30px;
+  padding: 4px 15px 4px 30px;
   color: #333;
+  font-size: 14px;
 }
 
 .social-likes__button_single {
