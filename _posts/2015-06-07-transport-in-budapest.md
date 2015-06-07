@@ -54,7 +54,7 @@ wideimg: DSC02115.jpg
   <img src="/i/transport-in-budapest/DSC02880.jpg">
 </figure>
 
-На третьей ветке, синей, пока еще ездят небезызвестные поезда Мытыщинского завода:
+На третьей ветке, синей, пока еще ездят небезызвестные поезда Мытищинского завода:
 
 <figure>
   <img src="/i/transport-in-budapest/DSC03526.jpg">
