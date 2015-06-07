@@ -21,7 +21,7 @@
 }
 
 .social-likes__widget_active .social-likes__button_single {
-  color: #fff;
+  color: #fff !important;
 }
 
 .social-likes__icon_single {
@@ -51,4 +51,13 @@
 .social-likes_single .social-likes__icon {
   margin-top: 4px;
   margin-left: 6px;
+}
+
+.social-likes__counter {
+  font-size: 14px;
+  color: #444;
+}
+
+.social-likes__widget_active  .social-likes__counter {
+  color: #fff;
 }
