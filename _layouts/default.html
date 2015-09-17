@@ -8,31 +8,24 @@
 
   <meta property="og:url" content="http://nqst.net{{ page.url }}">
   <meta property="og:title" content="{{ page.title }}">
+  {% if page.layout == "post" %}<meta property="og:type" content="article">{% endif %}
   <meta property="og:description" content="Блог Александра Зайцева">
   {% if page.wideimg %}
     {% unless page.ogimage %}
   <meta property="og:image" content="http://nqst.net/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg }}">
     {% endunless %}
   {% endif %}
-  {% if page.wideimg960 %}
-  <meta property="og:image" content="http://nqst.net/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg960 }}">
-  {% endif %}
-  {% if page.ogimage %}
-  <meta property="og:image" content="http://nqst.net/i/{{ page.ogimage }}">
-  {% endif %}
+  {% if page.wideimg960 %}<meta property="og:image" content="http://nqst.net/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg960 }}">{% endif %}
+  {% if page.ogimage %}<meta property="og:image" content="http://nqst.net/i/{{ page.ogimage }}">{% endif %}
   
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Serif:700&subset=latin,cyrillic">
 
   <link rel="stylesheet" href="/css/style.css?v1">
   <link rel="stylesheet" href="/css/social-likes.css">
 
-  {% if page.css %}
-  <link rel="stylesheet" href="/css/{{ page.css }}.css">
-  {% endif %}
+  {% if page.css %}<link rel="stylesheet" href="/css/{{ page.css }}.css">{% endif %}
 
-  {% if page.ogimage %}
-  <link rel="image_src" href="http://nqst.net/i/{{ page.ogimage }}">
-  {% endif %}
+  {% if page.ogimage %}<link rel="image_src" href="http://nqst.net/i/{{ page.ogimage }}">{% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="Блог Александра Зайцева" href="/blog/rss/">
 
