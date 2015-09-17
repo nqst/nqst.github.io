@@ -8,8 +8,8 @@
 
   <meta property="og:url" content="http://nqst.net{{ page.url }}">
   <meta property="og:title" content="{{ page.title }}">
-  {% if page.layout == "post" %}<meta property="og:type" content="article">{% endif %}
   <meta property="og:description" content="Блог Александра Зайцева">
+  {% if page.ogtype %}<meta property="og:type" content="{{ page.ogtype }}">{% endif %}
   {% if page.wideimg %}
     {% unless page.ogimage %}
   <meta property="og:image" content="http://nqst.net/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg }}">
