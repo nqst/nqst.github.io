@@ -2,7 +2,7 @@
 layout: post
 title: С Днем рождения, Эдмунд Шклярский!
 wideimg: shklyarsky.jpg
-credits: Фото с инстаграма <a href="https://instagram.com/piknik.info">@piknik.info</a>
+credits: <br>Источник фотографии — <a href="https://instagram.com/piknik.info">официальный инстаграм группы «Пикник»</a>
 ---
 
 <p class="headline">Сегодня исполняется 60 лет Эдмунду Шклярскому — лидеру группы «Пикник», где он пишет музыку и песни, играет на гитаре и поет.</p>
