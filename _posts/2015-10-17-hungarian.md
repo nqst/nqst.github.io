@@ -2,6 +2,7 @@
 layout: post
 title: "Венгерский язык"
 wideimg: kiraly.jpg
+ogimage: hungarian/ogimage.jpg
 ---
 
 <p class="headline">Когда я <a href="/blog/budapest/">ездил в этом году в Будапешт</a>, мне настолько понравился венгерский язык, что я начал его учить.</p>
