@@ -1,0 +1,97 @@
+body {
+  background-color: #f7f6f8;
+}
+
+article .content figure.wide {
+  display: none;
+}
+
+article a {
+  color: #0c78ca;
+}
+
+article a:hover {
+  color: #c33134;
+}
+
+blockquote {
+  font-family: 'OldStandardRegular', 'Georgia', serif;
+  font-size: 21px;
+  line-height: 1.4;
+  -webkit-font-smoothing: subpixel-antialiased;
+  background-color: #fff;
+  border: none;
+  color: #222;
+  border-radius: 4px;
+  padding: 25px 70px 30px 50px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  margin: 30px 0;
+  word-spacing: 0.14em;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+blockquote em {
+  font-family: 'OldStandardItalic', 'Georgia', serif;;
+}
+
+blockquote p + p {
+  text-indent: 1.5em;
+}
+
+blockquote figcaption {
+  font-family: 'PT Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 13px !important;
+  word-spacing: normal;
+}
+
+.quote-gap {
+  margin: 0.67em 0;
+  color: #bbb;
+}
+
+footer[role="contentinfo"] {
+  background-color: #fff;
+}
+
+article {
+  margin-top: 550px;
+}
+
+.cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 450px;
+  background: #333 url('/i/good-manners/cover@2x.jpg') no-repeat 0 10%;
+  background-size: cover;
+  z-index: -1;
+  box-shadow: inset 0 -5px 40px rgba(0,0,0,0.25);
+}
+
+
+@media screen and (max-width: 720px) {
+
+  article {
+    margin-top: 300px;
+  }
+
+  blockquote {
+    font-size: 18px;
+    padding: 14px 40px 16px 25px;
+    margin: 20px 0;
+  }
+
+  .cover {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  blockquote {
+    padding: 14px 16px 16px;
+  }
+}

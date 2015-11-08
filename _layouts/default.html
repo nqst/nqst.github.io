@@ -17,6 +17,8 @@
   {% endif %}
   {% if page.wideimg960 %}<meta property="og:image" content="http://nqst.net/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg960 }}">{% endif %}
   {% if page.ogimage %}<meta property="og:image" content="http://nqst.net/i/{{ page.ogimage }}">{% endif %}
+
+  {% if page.extrahead %}{{ page.extrahead }}{% endif %}
   
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Serif:700&subset=latin,cyrillic">
 
