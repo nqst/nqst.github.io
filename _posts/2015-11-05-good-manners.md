@@ -4,7 +4,7 @@ title: "Хорошій тонъ"
 css: misc/post-good-manners
 extrahead: "<link rel='stylesheet' media='screen' href='https://fontlibrary.org/face/old-standard' type='text/css'/>"
 wideimg: cover.jpg
-ogimage: good-manners/ogimage.jpg?v1
+ogimage: good-manners/ogimage.jpg
 ---
 
 Один мой добрейший друг дал почитать репринт книги <strong>«Хорошій тонъ»</strong>, изданной изначально в 1889 году в России. И содержимое книги, и слог того времени оказались очень хороши — книга читается с восхищением.
