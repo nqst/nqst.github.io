@@ -3,58 +3,52 @@ layout: default
 ogtype: article
 ---
 
-<a href="/" class="logo post-logo">nqst</a>
+<main class="main main--inner">
 
+  <div class="container">
+    <article class="post">
 
-<section role="main" class="container">
-  <article class="post">
+      <header class="post__header">
+        {% include date.html post-date=page.date %}
+        <h2 class="post__title">{{ page.title }}</h2>
+      </header>
 
-    <header>
-      {% capture the_day %}{{ page.date | date: "%d" }}{% endcapture %}
-      {% capture the_day_truncated %}{{ the_day | truncate:1,'' }}{% endcapture %}
-      {% capture the_day %}{% if the_day_truncated == "0" %}{{ the_day | remove:'0' }}{% else %}{{ the_day }}{% endif %}{% endcapture %}
-      <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ the_day }} {{ page.date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}</time></p>
-      <h1>{{ page.title }}</h1>
-    </header>
+      <section class="post__content">
 
-    <section class="content">
-      {% if page.wideimg %}
-        <figure class="wide intro">
-          <img src="/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg }}" alt="{% if page.alt %}{{ page.alt }}{% else %}{{ page.title }}{% endif %}">
-        </figure>
-      {% endif %}
+        {% if page.cover %}
+          <!-- <img class="post__cover" src="/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}"> -->
+          <div class="post__cover" style="background-image: url(/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }})"></div>
+        {% endif %}
 
-      {% if page.wideimg960 %}
-        <figure class="out-of-width-960">
-          <img src="/i{{ page.url | remove_first:'/blog' }}/{{ page.wideimg960 }}" alt="{% if page.alt %}{{ page.alt }}{% else %}{{ page.title }}{% endif %}">
-        </figure>
-      {% endif %}
+        {% if page.introimg and page.cover != true %}
+          <figure class="figure--intro">
+            <img src="/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}">
+          </figure>
+        {% endif %}
 
-      {% if page.beforeinfo %}
-        <p><span class="hint">{{ page.beforeinfo }}</span></p>
-      {% endif %}
+        {% if page.beforeinfo %}
+          <p><span class="hint">{{ page.beforeinfo }}</span></p>
+        {% endif %}
 
-      {{ content }}
-      {% if page.credits %}
-        <p class="credits">{{ page.credits }}</p>
-      {% endif %}
-
-    </section>
-
-    <footer class="post-footer clearfix">
-      <div class="actions clearfix">
-        <a href="../" class="back">« Все заметки</a>
-
-        <div class="share">
-          <div class="social-likes social-likes_single" data-single-title="Поделиться">
-            <div class="facebook">Facebook</div>
-            <div class="twitter" data-via="nqst">Twitter</div>
-            <div class="vkontakte">ВКонтакте</div>
-          </div>
-        </div>
+        {{ content }}
         
-      </div>
-      
-    </footer>
-  </article>
-</section>
+        {% if page.credits %}
+          <p class="post__credits">{{ page.credits }}</p>
+        {% endif %}
+      </section>
+
+    </article>
+
+    <!-- <div class="post__share">
+      {% include share.html %}
+    </div> -->
+
+    <hr>
+
+    {% include telegram.html %}
+
+  </div>
+
+  {% include paginator-inner.html %}
+
+</main>

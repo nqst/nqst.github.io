@@ -1,33 +1,26 @@
 ---
 layout: default
+ogtype: article
 ---
 
-<a href="/" class="logo post-logo">nqst</a>
+<main class="main main--inner">
 
+  <div class="container">
+    <article class="post">
 
-<section role="main" class="container">
-  <article class="post">
+      <section class="post__content">
+        <blockquote class="post-quote">{{ page.content }}</blockquote>
 
-    <section class="content post-quote-wrapper">
-      <blockquote class="post-quote">{{ page.content }}</blockquote>
+        {% if page.author and page.author-link == null %}
+          <p class="post-quote__author"><cite>— {{ page.author }}</cite></p>
+        {% elsif page.author and page.author-link %}
+          <p class="post-quote__author"><cite>— <a href="{{ page.author-link }}">{{ page.author }}</a></cite></p>
+        {% endif %}
+      </section>
 
-      {% if page.author and page.author-link == null %}
-        <div class="post-quote-author">— {{ page.author }}</div>
-      {% elsif page.author and page.author-link %}
-        <div class="post-quote-author">— <a href="{{ page.author-link }}">{{ page.author }}</a></div>
-      {% endif %}
-    </section>
+    </article>
+  </div>
 
-    <footer class="post-footer clearfix">
-      <div class="actions">
-        <a href="../" class="back">« Все заметки</a>
-
-        <div class="share">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-via="nqst" data-lang="ru" data-size="large" data-related="nqst" data-count="none" data-text="{{ page.content }}">Твитнуть</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </div>
-      </div>
-      
-    </footer>
-  </article>
-</section>
+  {% include paginator-inner.html %}
+  
+</main>

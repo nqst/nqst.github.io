@@ -1,0 +1,15 @@
+{% capture post_date_xml %}
+  {{ include.post-date | date_to_xmlschema }}
+{% endcapture %}
+
+{% capture post_day %}
+  {{ include.post-date | date: "%-d" }}
+{% endcapture %}
+
+{% capture month_and_year %}
+  {{ include.post-date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}
+{% endcapture %}
+
+<p class="post__date">
+  <time datetime="{{ post_date_xml }}">{{ post_day }} {{ month_and_year }}</time>
+</p>

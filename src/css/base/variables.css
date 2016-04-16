@@ -1,0 +1,26 @@
+/*
+ * Variables
+ * =========
+ *
+ */
+
+@custom-media --x-large-screen (width >= 1200px);
+@custom-media --large-screen   (width >= 1000px);
+@custom-media --medium-screen  (width >=  600px);
+
+:root {
+  --baseline:                   1.647rem;
+  --baseline-half:              calc(var(--baseline) / 2);
+
+  --font-primary:               "Open Sans", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  --font-monospace:             "Menlo", "Monaco", "Courier New", monospace;
+
+  --text-color:                 #272e34;
+  --text-darker:                color(var(--text-color) l(-5%));
+  --link-color:                 #077bd1;
+  --link-hover-color:           #c33134;
+     
+  --facebook-color:             #3b5998;
+  --twitter-color:              #00acee;
+  --instagram-color:            #30618a;
+}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Спасибо, Psyho"
-wideimg: psyho.jpg
+introimg: psyho.jpg
 ---
 
 На этой неделе я заканчиваю свою работу в [Psyho](http://psyho.ua/).

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* Base/root styles */
+@import "base/variables.css";
+@import "base/reset.css";
+@import "base/layout.css";
+@import "base/typography.css";
+@import "base/code.css";
+
+
+/* Vendors (third-party stuff) */
+@import "vendors/rangeslider.css";
+
+
+/* Partials */
+@import "partials/header.css";
+@import "partials/content.css";
+@import "partials/footer.css";
+
+@import "partials/quote.css";
+@import "partials/paginator.css";
+@import "partials/telegram.css";
+/* @import "partials/sharing.css"; */
+
+
+/* Miscellaneous things */
+@import "misc/helpers.css";
+@import "misc/animations.css";
+@import "misc/widepost.css";

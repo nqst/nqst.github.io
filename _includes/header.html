@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru" class="{% if page.cover %}has-cover{% endif %}{% if page.cover and page.widepost %}{{ ' ' }}{% endif %}{% if page.widepost %}widepost{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Блог Александра Зайцева">
+
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="Блог Александра Зайцева">
+  {% if page.ogtype %}<meta property="og:type" content="{{ page.ogtype }}">{% endif %}
+  
+  {% if page.introimg %}
+    {% unless page.ogimage %}
+  <meta property="og:image" content="http://nqst.github.io/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}">
+  <link rel="image_src" href="http://nqst.net/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}">
+    {% endunless %}
+  {% endif %}
+  
+  {% if page.ogimage %}<meta property="og:image" content="http://nqst.net/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">
+  <link rel="image_src" href="http://nqst.net/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">{% endif %}
+
+  {% if page.extrahead %}{{ page.extrahead }}{% endif %}
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic&subset=latin,cyrillic">
+  
+  <link rel="stylesheet" href="/css/main.css">
+  {% if page.custom-css %}<link rel="stylesheet" href="/css/posts{{ page.id | remove_first:'/blog' }}.css">{% endif %}
+
+  <link rel="alternate" type="application/rss+xml" title="Блог Александра Зайцева" href="/blog/rss/">
+
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery-2.2.3.min.js"><\/script>')</script>
+</head>
+
+<body>
+
+<header class="header" role="banner">
+  <div class="header__menu">
+    <h1 class="header__name">Александр Зайцев</h1>
+    <span class="header__separator">/</span>
+
+    <span class="header__page header__page--active">
+      {% if page.url == '/blog/' %}
+        Блог
+      {% else %}
+        <a href="/blog/">Блог</a>
+      {% endif %}
+    </span>
+
+  </div>
+</header>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Шашки на детской площадке"
-ogimage: playground-checkers/DSC02730.jpg
+ogimage: DSC02730.jpg
 ---
 
 <figure>

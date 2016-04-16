@@ -1,0 +1,77 @@
+/*
+ * Rangeslider.js custom styles
+ * ============================
+ *
+ */
+
+.rangeslider,
+.rangeslider__fill {
+  background: #f2f2f2;
+  display: inline-block;
+  height: 16px;
+  width: 100%;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1);
+
+  border-radius: 8px;
+}
+
+.rangeslider {
+  position: relative;
+}
+
+.rangeslider--disabled {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+}
+
+.rangeslider__fill {
+  position: absolute;
+  top: 0;
+}
+
+.rangeslider__handle {
+  background: #d1565a;
+  /* border: 1px solid #fff; */
+  cursor: pointer;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -4px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+}
+.rangeslider__handle:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.handle-neutral { background-color: #ccc; }
+.handle-too-light { background-color: #b3bbb9; }
+.handle-awesome { background-color: #81b87e; }
+.handle-acceptable { background-color: #9fb87e; }
+.handle-so-so { background-color: #aeb87e; }
+.handle-bad { background-color: #b88c7e; }
+.handle-poor { background-color: #b87e7e; }
+
+input[type="range"]:focus + .rangeslider .rangeslider__handle {
+  box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+}
+
+.range-comment {
+  font-size: 0.7778em;
+  color: #777;
+  display: inline-block;
+  line-height: 1.5;
+  margin-top: 0.25em;
+}

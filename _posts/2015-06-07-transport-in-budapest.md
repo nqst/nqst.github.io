@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Транспорт в Будапеште"
-wideimg: DSC02115.jpg
-ogimage: transport-in-budapest/DSC02345.jpg
+introimg: DSC02115.jpg
+ogimage: DSC02345.jpg
 ---
 
-<p class="headline">Вернулся из поездки в Будапешт вдохновленный общественным транспортом — мне всё так понравилось, что вместо рассказа об этом прекрасном городе сначала публикую большую заметку про транспорт.</p>
+<p class="lead">Вернулся из поездки в Будапешт вдохновленный общественным транспортом — мне всё так понравилось, что вместо рассказа об этом прекрасном городе сначала публикую большую заметку про транспорт.</p>
 
 <!-- more -->
 
@@ -138,7 +138,7 @@ ogimage: transport-in-budapest/DSC02345.jpg
 
 Фотографировал расписание, а когда перебирал фотки, заметил мелочь: некоторые минуты подчеркнуты. Оказалось, это время прибытия низкопольных автобусов!
 
-<figure class="out-of-width-960">
+<figure class="figure--wide">
   <img src="/i/transport-in-budapest/DSC03488.jpg">
   <figcaption>Расписание, конечно же, соблюдается — автобус приедет в нужное время.</figcaption>
 </figure>
@@ -224,7 +224,7 @@ ogimage: transport-in-budapest/DSC02345.jpg
 
 Кораблики везут пассажиров по быстрому Дунаю, ловко переправляясь с одного берега на другой:
 
-<figure class="out-of-width-960">
+<figure class="figure--wide">
   <img src="/i/transport-in-budapest/boat.png">
   <!-- <figcaption>Схема полностью — <a href="http://www.bkk.hu/apps/docs/terkep/hajojaratok.pdf">bkk.hu/apps/docs/terkep/hajojaratok.pdf</a></figcaption> -->
 </figure>
@@ -249,7 +249,7 @@ ogimage: transport-in-budapest/DSC02345.jpg
 
 Осенью 2013 года в Будапеште свершилось величайшее торжество здравого смысла — полностью изменилась система такси.
 
-<figure class="out-of-width-960">
+<figure class="figure--wide">
   <img src="/i/transport-in-budapest/DSC02161.jpg">
   <figcaption>Женщина в красном, к слову, — водитель такси.</figcaption>
 </figure>
@@ -265,7 +265,7 @@ ogimage: transport-in-budapest/DSC02345.jpg
 
 Такси мы так и не воспользовались, хотя много ездили по городу и дважды — в аэропорт. В Киеве, когда мы едем куда-то с ребенком, я вызываю такси в 8 случаях из 10 — и постоянно уточняю у водителя, есть ли в машине ремни безопасности сзади (они есть далеко не всегда).
 
-<!-- <figure class="out-of-width-960">
+<!-- <figure class="figure--wide">
   <img src="/i/transport-in-budapest/DSC02204.jpg">
 </figure> -->
 
@@ -277,6 +277,6 @@ ogimage: transport-in-budapest/DSC02345.jpg
 
 Если интересуетесь или занимаетесь транспортом — приезжайте за вдохновением в Будапешт. Уверен, что вам понравится.
 
-<figure class="out-of-width-960">
+<figure class="figure--wide">
   <img src="/i/transport-in-budapest/DSC02345.jpg">
 </figure>

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Raspberry Pi"
-wideimg: intro.jpg
+introimg: intro.jpg
 ---
 
-<p class="headline">У нас с <a href="http://marin-k-a.com">Мариной</a> сбылась небольшая мечта — мы настроили свой домашний <a href="http://ru.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a>. Благодаря нему мы слушаем музыку из колонок без лишней суеты с проводами.</p>
+<p class="lead">У нас с <a href="http://marin-k-a.com">Мариной</a> сбылась небольшая мечта — мы настроили свой домашний <a href="http://ru.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a>. Благодаря нему мы слушаем музыку из колонок без лишней суеты с проводами.</p>
 
 Этот компьютер появился у нас полгода назад, но мы не позаботились о том, чтобы купить необходимые кабели и переходники. Я узнал, что на Raspberry Pi может работать [AirPlay](http://www.apple.com/airplay/) (протокол для беспроводной передачи потоковых данных), загорелся этой идеей и за день мы обзавелись всем, чего нам не доставало.
 
