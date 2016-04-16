@@ -37,6 +37,7 @@
 }
 
 .bio__title {
+  font-size: 1em;
   color: color(var(--text-color) l(+5%));
   font-weight: 600;
 }

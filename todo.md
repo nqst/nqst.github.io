@@ -1,9 +1,7 @@
 # To Do
-=====
+=======
 
-#ideas
-
-## important things:
+## important things
 - relocate to zaytsev.io
 - paginator when post title is long (flexbox?)
 
@@ -11,11 +9,11 @@
 - add some sharing?
 - add twitter cards (?)
 
-## content:
+## content
 - new photo
 - new favicon
 
-## nice thingies (can be done later):
+## nice thingies (can be done later)
 - flexbox footer
 - more "markdowny" posts? (better figures and intros, firstly)
 - strict font sizes (rem)
