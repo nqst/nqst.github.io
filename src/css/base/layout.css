@@ -1,0 +1,27 @@
+/*
+ * Layout
+ * ======
+ *
+ * Global things
+ *
+ */
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+
+  width: auto;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+  @media (--medium-screen) {
+    max-width: 660px;
+  }
+
+  @media (--large-screen) {
+    max-width: 730px;
+  }
+}

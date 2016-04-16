@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Редизайн посадочного талона на поезд"
-wideimg: intro.jpg
-css: misc/post-uz-boarding-pass
-ogimage: uz-boarding-pass/intro.jpg
+introimg: intro.jpg
+cover: true
+custom-css: true
 ---
 
 На некоторые поезда в Украине можно распечатать посадочный талон у себя на принтере и идти с ним в поезд. Талон выглядит так:
 
-<figure class="out-of-width-960">
+<figure class="figure--wide">
   <img src="/i/uz-boarding-pass/pass-current.png">
 </figure>
 
@@ -39,7 +39,7 @@ ogimage: uz-boarding-pass/intro.jpg
 Попробуем исправить эти проблемы и сверстать талон хорошо:
 
 <div class="new-pass-wrapper">
-  <figure class="out-of-width-960">
+  <figure class="figure--wide">
     <img class="js-new-pass new-pass" data-vp-add-class="new-pass-animate" src="/i/uz-boarding-pass/pass-redesign.png">
   </figure>
 </div>

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Бледно-голубая точка"
-wideimg: pale-blue-dot-wide.jpg
+introimg: pale-blue-dot-wide.jpg
 ---
 
-<p class="headline">Трек «Suspended in a Sunbeam» <a href="http://bennjordan.com">Бенна Джордана</a>, в котором чей-то обработанный голос рассказывает что-то загадочное, познакомил меня с интересной историей.</p>
+<p class="lead">Трек «Suspended in a Sunbeam» <a href="http://bennjordan.com">Бенна Джордана</a>, в котором чей-то обработанный голос рассказывает что-то загадочное, познакомил меня с интересной историей.</p>
 
 <div class="embed">
-	<iframe width="300" height="100" style="position: relative; display: block; width: 300px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track=1073483357/size=grande/bgcol=FFFFFF/linkcol=4285BC/transparent=true/" allowtransparency="true" frameborder="0"><a href="http://theflashbulb.bandcamp.com/track/suspended-in-a-sunbeam">Suspended In A Sunbeam by The Flashbulb</a></iframe>
+  <iframe width="300" height="100" style="position: relative; display: block; width: 300px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track=1073483357/size=grande/bgcol=FFFFFF/linkcol=4285BC/transparent=true/" allowtransparency="true" frameborder="0"><a href="http://theflashbulb.bandcamp.com/track/suspended-in-a-sunbeam">Suspended In A Sunbeam by The Flashbulb</a></iframe>
 </div>
 
 В 1990 году по инициативе американского астронома Карла Сагана автоматический зонд «Вояджер-1», который с 1977 года находится в космосе, отправился на поиски нужного ракурса и сделал снимок планеты Земля с расстояния около 6 000 000 000 км. Фотография была успешно сделана и отправлена на Землю. Карл назвал её *Pale Blue Dot* — «бледно-голубая точка».

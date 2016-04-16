@@ -1,0 +1,80 @@
+/*
+ * Paginator
+ * ========
+ *
+ * Prev/next links
+ *
+ */
+
+.paginator {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  overflow: hidden;
+  background-color: #fff;
+  
+  @media (--medium-screen) {
+    margin-top: 90px;
+    font-size: 0.875em;
+  }
+}
+
+.paginator__link {
+  padding: 20px 30px;
+  transition: background-color 0.3s ease-in-out;
+  display: block;
+  text-align: center;
+  
+  @media (--large-screen) {
+    min-width: 50%;
+  }
+  
+  &:hover {
+    background-color: rgba(var(--link-color), 0.03));
+    color: var(--link-color);
+  }
+}
+
+.paginator__prev {
+  
+  @media (--large-screen) {
+    float: left;
+    text-align: left;
+  }
+  
+  &:before {
+    content: "‹";
+    padding-right: 5px;
+    
+    @media (--large-screen) {
+      padding-right: 12px;
+    }
+  }
+}
+
+.paginator__next {
+  border-top: 1px solid #eee;
+  
+  @media (--large-screen) {
+    float: right;
+    text-align: right;
+    border-top: none;
+    border-left: 1px solid #eee;
+  }
+  
+  &:after {
+    content: "›";
+    padding-left: 5px;
+    
+    @media (--large-screen) {
+      padding-left: 12px;
+    }
+  }
+}
+
+.paginator__link--wide {
+  border: none;
+  
+  @media (--large-screen) {
+    min-width: 100%;
+  }
+}

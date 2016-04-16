@@ -21,10 +21,10 @@ layout: null
       <description>
         {% capture imgtag %}
           <figure>
-            <img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.wideimg }}" width="650" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
+            <img src="/i{{ post.url | remove_first:'/blog' }}/{{ post.introimg }}" width="650" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
           </figure>
         {% endcapture %}
-        {% if post.wideimg %}
+        {% if post.introimg %}
           {{ imgtag | xml_escape }}
         {% endif %}
         {{ post.content | xml_escape }}

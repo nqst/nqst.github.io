@@ -1,0 +1,45 @@
+/*
+ * Site header
+ * ===========
+ *
+ */
+
+.header {
+  position: relative;
+  z-index: 5;
+  margin: 0;
+  padding: 15px 15px;
+  border-bottom: 1px solid rgba(#000, 0.1);
+  background-color: rgba(#fff, 0.87);
+  backdrop-filter: blur(20px);
+  
+  @media (--medium-screen) {
+    padding: 15px 30px;
+  }
+}
+
+.has-cover .header {
+  @media (--medium-screen) {
+    border-bottom: none;
+  }
+}
+
+
+.header__menu {
+  font-family: var(--font-primary);
+  letter-spacing: 0.02em;
+}
+
+.header__name {
+  /* font-weight: bold; */
+}
+
+.header__separator {
+  color: #ccc;
+}
+
+.header__page {
+  &--active {
+    font-weight: 600;
+  }
+}

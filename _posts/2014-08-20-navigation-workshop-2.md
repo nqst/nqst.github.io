@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Практикум по навигации. Дни 2 и 3"
-wideimg: pantone.jpg
+introimg: pantone.jpg
 beforeinfo: 'Это продолжение серии заметок о дизайн-практикуме Студии Лебедева. См. также <a href="/blog/navigation-workshop/">день 1</a>.'
 ---
 
-<p class="headline">
+<p class="lead">
 К лекциям Людвига и Сергея присоединилась обаятельная Наташа Москалева. Наташа рассказала о том, чем занимаются менеджеры в студии, ребята провели несколько лекций о дизайне, а мы пару часов попрактиковались.
 </p>
 
@@ -33,7 +33,7 @@ beforeinfo: 'Это продолжение серии заметок о диза
 
 * Незаменимая при рисовании транспортных схем штука **Global Swatches.** В один миг меняет любой цвет сразу везде.
 
-<figure class="out-of-width-960">
+<figure class="figure--wide">
   <img src="/i/navigation-workshop-2/mappingtwincities.jpg" alt="">
   <figcaption>Использование вышеперечисленных фишек при рисовании транспортной схемы. Источник: <a href="http://mappingtwincities.tumblr.com/post/55906624881/tip-map-design-with-adobe-illustrator-designing">mappingtwincities.tumblr.com</a></figcaption>
 </figure>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Практикум по навигации. Дни 4–8"
-wideimg: ludwig-bw.jpg
+introimg: ludwig-bw.jpg
 beforeinfo: 'Это продолжение серии заметок о дизайн-практикуме Студии Лебедева. См. также <a href="/blog/navigation-workshop/">день 1</a>, <a href="/blog/navigation-workshop-2/">дни 2 и 3</a>.'
 ---
 
@@ -21,7 +21,7 @@ beforeinfo: 'Это продолжение серии заметок о диза
 
 Понять важность этих проблем можно, взглянув на одну из схем киевского метро:
 
-<figure class="out-of-width-960">
+<figure class="figure--wide">
   <img src="/i/navigation-workshop-3/kiev-metro.png" alt="">
 </figure>
 
@@ -113,7 +113,7 @@ beforeinfo: 'Это продолжение серии заметок о диза
 
 *   В Америке любят всё покрупнее. Есть интересная история про белорусского производителя оптических прицелов, который добился больших продаж только благодаря уменьшению логотипа — прибор стал казаться визуально больше. Правда это или нет — не знаю, но эффект работает. Сравните две картинки:
 
-<figure class="out-of-width-960">
+<figure class="figure--wide">
   <img src="/i/navigation-workshop-3/nvrs.jpg" alt="">
 </figure>
 

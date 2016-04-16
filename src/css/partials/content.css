@@ -1,0 +1,171 @@
+/*
+ * Content
+ * =======
+ *
+ * Styles of the main content
+ *
+ */
+
+
+.main {
+  padding-top: 60px;
+  background-color: #fff;
+}
+
+.post__header {
+  max-width: 620px;
+}
+
+.post__date {
+  margin: 0;
+  color: #96887d;
+  font-size: 0.788rem;
+  font-family: var(--font-primary);
+}
+
+
+.post__content img,
+.post__content iframe {
+  border-radius: 4px;
+}
+
+.post__content figure,
+.embed {
+  margin: var(--baseline) 0;
+}
+
+.figure--intro {
+  width: 100%;
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.post__content figure.center {
+  text-align: center;
+}
+
+.post__content img {
+  max-width: 100%;
+}
+
+.post__content figcaption {
+  display: block;
+  margin-top: 0.25em;
+  margin-bottom: var(--baseline);
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  font-size: 0.7778rem;
+  color: #5c5c5c;
+}
+
+figure.figure--wide {
+  @media (--large-screen) {
+    margin-left: -140px;
+    width: 980px;
+  }
+
+  .posts-list & {
+    margin-left: 0;
+    width: auto;
+  }
+}
+
+.post__credits {
+  font-size: 0.888rem;
+  color: #96887d;
+  
+  a {
+    color: #96887d;
+    text-decoration: underline;
+    
+    &:hover {
+      color: var(--text-color);
+    }
+  }
+}
+
+/* .post__footer {
+  margin-top: calc(var(--baseline) * 2);
+  font-family: var(--font-primary);
+  font-size: 0.888rem;
+} */
+
+
+.post__cover {
+  height: 200px;
+  background-color: #333;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 2%;
+  border-radius: 4px;
+  margin-bottom: var(--baseline);
+  
+  @media (--medium-screen) {
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+    margin-bottom: 0;
+    border-radius: 0;
+    
+    box-shadow: inset 0 -5px 40px -3px rgba(0,0,0,0.15);
+    z-index: 2;
+  }
+
+  @media (--large-screen) {
+    height: 470px;
+  }
+}
+
+.has-cover .post {
+
+  margin-top: 0;
+  
+  @media (--medium-screen) {
+    margin-top: 340px;
+  }
+
+  @media (--large-screen) {
+    margin-top: 420px;
+  }
+}
+
+
+.post__share {
+  margin: 30px 0;
+  /* text-align: center; */
+}
+
+
+.posts-list .post {
+  border-top: 1px solid #ede7e1;
+  padding: calc(var(--baseline) * 2) 0;
+  margin-top: 0;
+}
+
+.posts-list .post:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.read-more {
+  font-family: var(--font-primary);
+  font-size: 0.9em;
+  display: inline-block;
+  border: 1px solid color(var(--link-color) l(+30%) s(-30%));
+  border-radius: 5px;
+  padding: 3px 12px;
+  transition: all 0.2s ease-in-out;
+  
+  &:hover {
+    color: var(--link-color);
+    background-color: rgba(var(--link-color), 0.03);
+    /* border-color: color(var(--link-color) l(+2%) s(-30%)); */
+  }
+}
