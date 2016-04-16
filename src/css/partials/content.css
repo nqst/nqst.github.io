@@ -64,7 +64,7 @@
 
 figure.figure--wide {
   @media (--large-screen) {
-    margin-left: -140px;
+    margin-left: -130px;
     width: 980px;
   }
 

@@ -11,10 +11,6 @@
 - add some sharing?
 - add twitter cards (?)
 
-## output
-- js concat
-- minify all js
-
 ## content:
 - new photo
 - new favicon

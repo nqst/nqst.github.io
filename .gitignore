@@ -1,6 +1,8 @@
 _site/
 .DS_Store
 
+todo.md
+
 *.sublime-project
 *.sublime-workspace
 
