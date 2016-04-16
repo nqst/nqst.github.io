@@ -26,12 +26,11 @@ h1, h2, h3 {
   margin-top: var(--baseline);
   margin-bottom: var(--baseline-half);
   line-height: 1.4;
-  font-family: var(--font-primary);
   font-weight: 700;
   color: var(--text-darker);
 }
 
-h1 {
+.post__title {
   margin-top: 0;
   margin-bottom: var(--baseline);
   
@@ -51,15 +50,19 @@ h1 {
   }
 }
 
-h2 {
-  font-size: 1.167rem;
-  margin-top: calc(var(--baseline) * 1.333);
-}
 
 h3 {
+  font-size: 1.167rem;
+  margin-top: calc(var(--baseline) * 1.333);
+  max-width: 32rem;
+}
+
+h4 {
   font-size: 1rem;
   margin-top: calc(var(--baseline) * 1.333);
+  max-width: 28rem;
 }
+
 
 a {
   color: var(--link-color);
@@ -85,7 +88,6 @@ blockquote {
   margin-left: 5px;
   border-left: 5px solid #eceae5;
   padding-left: 1em;
-  font-family: var(--font-primary);
 }
 
 
@@ -94,7 +96,6 @@ figure.highlight {
   background: #faf9f5;
   margin: var(--baseline) -15px;
   padding: 15px 30px 15px 18px;
-  font-family: var(--font-primary);
   font-size: 1em;
   
   @media (--medium-screen) {

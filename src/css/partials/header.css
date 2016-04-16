@@ -9,9 +9,10 @@
   z-index: 5;
   margin: 0;
   padding: 15px 15px;
-  border-bottom: 1px solid rgba(#000, 0.1);
+  border-bottom: 1px solid rgba(#000, 0.07);
   background-color: rgba(#fff, 0.87);
   backdrop-filter: blur(20px);
+  color: color(var(--text-color) l(+10%));
   
   @media (--medium-screen) {
     padding: 15px 30px;
@@ -24,22 +25,21 @@
   }
 }
 
-
-.header__menu {
-  font-family: var(--font-primary);
-  letter-spacing: 0.02em;
-}
-
 .header__name {
-  /* font-weight: bold; */
+  display: inline;
+  margin-bottom: 0;
+  font-size: inherit;
+  font-weight: 600;
+  line-height: inherit;
 }
 
 .header__separator {
-  color: #ccc;
+  color: #ddd;
+  padding: 0 0.2em;
 }
 
 .header__page {
   &--active {
-    font-weight: 600;
+    /* font-weight: 600; */
   }
 }

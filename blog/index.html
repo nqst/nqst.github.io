@@ -13,7 +13,7 @@ ogtype: website
         {% if post.layout != 'quote' %}
           <header class="post__header">
             {% include date.html post-date=post.date %}
-            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            <h2 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
           </header>
         {% endif %}
 
