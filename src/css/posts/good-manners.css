@@ -7,6 +7,10 @@ figure.wide {
   display: none;
 }
 
+hr {
+  border-color: #e4e4e4;
+}
+
 blockquote {
   font-family: 'OldStandardRegular', 'Georgia', serif;
   font-size: 21px;
