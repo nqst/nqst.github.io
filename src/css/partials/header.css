@@ -25,6 +25,12 @@
   }
 }
 
+.header__menu {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+}
+
 .header__name {
   display: inline;
   margin-bottom: 0;
