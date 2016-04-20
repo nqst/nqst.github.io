@@ -23,7 +23,7 @@
 
   {% if page.extrahead %}{{ page.extrahead }}{% endif %}
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic&subset=latin,cyrillic">
+  {% comment %}<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic&subset=latin,cyrillic">{% endcomment %}
   
   <link rel="stylesheet" href="/css/main.css">
   {% if page.custom-css %}<link rel="stylesheet" href="/css/posts{{ page.id | remove_first:'/blog' }}.css">{% endif %}

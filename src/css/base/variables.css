@@ -12,11 +12,11 @@
   --baseline:                   1.647rem;
   --baseline-half:              calc(var(--baseline) / 2);
 
-  --font-primary:               "Open Sans", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  --font-primary:               "Helvetica Neue", "Arial", sans-serif;
   --font-monospace:             "Menlo", "Monaco", "Courier New", monospace;
 
-  --text-color:                 #272e34;
-  --text-darker:                color(var(--text-color) l(-5%));
+  --text-color:                 #14293B;
+  --text-darker:                color(var(--text-color) l(-3%));
   --link-color:                 #077bd1;
   --link-hover-color:           #c33134;
      

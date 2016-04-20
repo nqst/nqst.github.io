@@ -9,26 +9,29 @@
   z-index: 5;
   margin: 0;
   padding: 15px 15px;
-  border-bottom: 1px solid rgba(#000, 0.07);
-  background-color: rgba(#fff, 0.87);
-  backdrop-filter: blur(20px);
-  color: color(var(--text-color) l(+10%));
   
   @media (--medium-screen) {
-    padding: 15px 30px;
+    padding: 20px 30px;
   }
 }
 
 .has-cover .header {
   @media (--medium-screen) {
     border-bottom: none;
+    background-color: rgba(#fff, 0.87);
+    color: color(var(--text-color) l(+10%));
+    backdrop-filter: blur(20px);
+    
+    padding: 15px 30px;
   }
 }
 
 .header__menu {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  
+  @media (--medium-screen) {
+    font-size: 0.9rem;
+  }
 }
 
 .header__name {
