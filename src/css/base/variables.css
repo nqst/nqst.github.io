@@ -9,7 +9,8 @@
 @custom-media --medium-screen  (width >=  600px);
 
 :root {
-  --baseline:                   1.647rem;
+  --baseline:                   1.613rem;
+
   --baseline-half:              calc(var(--baseline) / 2);
 
   --font-primary:               "Helvetica Neue", "Arial", sans-serif;

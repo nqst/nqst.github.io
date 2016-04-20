@@ -9,6 +9,7 @@
   z-index: 5;
   margin: 0;
   padding: 15px 15px;
+  border-bottom: 1px solid #eee;
   
   @media (--medium-screen) {
     padding: 20px 30px;
