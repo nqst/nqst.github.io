@@ -5,7 +5,7 @@
  */
 
 html {
-  font-size: 14px;
+  font-size: 15px;
 
   @media (--medium-screen) {
     font-size: 18px;
@@ -15,7 +15,7 @@ html {
 body {
   line-height: var(--baseline);
   font-family: var(--font-primary);
-  font-weight: 400;
+  /* font-weight: 400; */
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
