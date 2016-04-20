@@ -13,12 +13,12 @@
   
   @media (--medium-screen) {
     padding: 20px 30px;
+    border-bottom: none;
   }
 }
 
 .has-cover .header {
   @media (--medium-screen) {
-    border-bottom: none;
     background-color: rgba(#fff, 0.87);
     color: color(var(--text-color) l(+10%));
     backdrop-filter: blur(20px);
