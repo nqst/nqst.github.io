@@ -6,6 +6,7 @@
 @import "base/layout.css";
 @import "base/typography.css";
 @import "base/code.css";
+@import "base/tables.css";
 
 
 /* Vendors (third-party stuff) */
@@ -25,5 +26,5 @@
 
 /* Miscellaneous things */
 @import "misc/helpers.css";
+@import "misc/pages-lists.css";
 @import "misc/animations.css";
-@import "misc/widepost.css";

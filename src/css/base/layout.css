@@ -18,10 +18,23 @@
   margin: 0 auto;
   
   @media (--medium-screen) {
-    max-width: 660px;
+    max-width: 690px;
+    padding: 0 30px;
   }
 
   @media (--large-screen) {
-    max-width: 750px;
+    max-width: 790px;
+    padding: 0 30px;
   }
+
+  &--wide {
+    @media (--medium-screen) {
+      max-width: 100%;
+    }
+
+    @media (--large-screen) {
+      max-width: 1020px;
+    }
+  }
+
 }

@@ -7,22 +7,24 @@
  */
 
 .paginator {
-  margin-top: 20px;
   border-top: 1px solid #eee;
   overflow: hidden;
   background-color: #fff;
   
   @media (--medium-screen) {
-    margin-top: 90px;
     font-size: 0.875em;
   }
 }
 
 .paginator__link {
-  padding: 20px 30px;
+  padding: 20px 15px;
   transition: background-color 0.3s ease-in-out;
   display: block;
   text-align: center;
+  
+  @media (--medium-screen) {
+    padding: 20px 30px;
+  }
   
   @media (--large-screen) {
     min-width: 50%;

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru" class="{% if page.cover %}has-cover{% endif %}{% if page.cover and page.widepost %}{{ ' ' }}{% endif %}{% if page.widepost %}widepost{% endif %}">
+<html lang="ru" class="{% if page.cover %}has-cover{% endif %}{% if page.class and page.cover %}{{ ' ' }}{% endif %}{% if page.class %}{{ page.class }}{% endif %}">
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
@@ -23,7 +23,7 @@
 
   {% if page.extrahead %}{{ page.extrahead }}{% endif %}
   
-  {% comment %}<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic&subset=latin,cyrillic">{% endcomment %}
+  {% comment %}<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700,700italic&subset=latin,cyrillic">{% endcomment %}
   
   <link rel="stylesheet" href="/css/main.css">
   {% if page.custom-css %}<link rel="stylesheet" href="/css/posts{{ page.id | remove_first:'/blog' }}.css">{% endif %}
@@ -37,17 +37,28 @@
 <body>
 
 <header class="header" role="banner">
-  <div class="header__menu">
-    <h1 class="header__name">Александр Зайцев</h1>
-    <span class="header__separator">/</span>
+  <div class="header__container">
+    <h1 class="header__name"><a href="/">Александр Зайцев</a></h1>
+    <!-- <div class="header__menu">
+      <span class="header__separator">/</span>
 
-    <span class="header__page header__page--active">
-      {% if page.url == '/blog/' %}
-        Блог
-      {% else %}
-        <a href="/blog/">Блог</a>
-      {% endif %}
-    </span>
+      <span class="header__page header__page--active">
+        {% if page.url == '/blog/' %}
+          Блог
+        {% else %}
+          <a href="/blog/">Блог</a>
+        {% endif %}
+      </span>
 
+    </div> -->
+
+    <nav class="header__nav">
+      <ul class="header__menu">
+        <li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/projects/' %} header__menu-link--active{% endif %}" href="/projects/">Проекты</a></li>
+        <!-- <li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/about/' %} header__menu-link--active{% endif %}" href="/about/">О себе</a></li> -->
+        <li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/lists/' %} header__menu-link--active{% endif %}" href="/lists/">Списки</a></li>
+        <li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/blog/' %} header__menu-link--active{% endif %}" href="/blog/">Блог</a></li>
+      </ul>
+    </nav>
   </div>
 </header>

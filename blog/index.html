@@ -54,20 +54,20 @@ ogtype: website
   
   </div>
 
-
-  {% comment %}
-    It might be confusing, but "paginator.next_page" corresponds to ".paginator__prev",
-  {% endcomment %}
-  
-  <div class="paginator clearfix">
-    {% if paginator.next_page %}
-      <a class="paginator__link paginator__prev{% if paginator.page == 1 %} paginator__link--wide{% endif %}" href="/blog/page{{ paginator.next_page }}">Ранее</a>
-    {% endif %}
-    
-    {% if paginator.page == 2 %}
-      <a class="paginator__link paginator__next" href="/">Позднее</a>
-    {% elsif paginator.page > 2 %}
-      <a class="paginator__link paginator__next{% unless paginator.next_page %} paginator__link--wide{% endunless %}" href="/blog/page{{ paginator.previous_page }}">Позднее</a>
-    {% endif %}
-  </div>
 </main>
+
+{% comment %}
+  It might be confusing, but "paginator.next_page" corresponds to ".paginator__prev",
+{% endcomment %}
+
+<div class="paginator clearfix">
+  {% if paginator.next_page %}
+    <a class="paginator__link paginator__prev{% if paginator.page == 1 %} paginator__link--wide{% endif %}" href="/blog/page{{ paginator.next_page }}">Ранее</a>
+  {% endif %}
+  
+  {% if paginator.page == 2 %}
+    <a class="paginator__link paginator__next" href="/">Позднее</a>
+  {% elsif paginator.page > 2 %}
+    <a class="paginator__link paginator__next{% unless paginator.next_page %} paginator__link--wide{% endunless %}" href="/blog/page{{ paginator.previous_page }}">Позднее</a>
+  {% endif %}
+</div>

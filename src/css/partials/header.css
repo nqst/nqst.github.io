@@ -8,48 +8,99 @@
   position: relative;
   z-index: 5;
   margin: 0;
-  padding: 15px 15px;
   border-bottom: 1px solid #eee;
   
   @media (--medium-screen) {
-    padding: 20px 30px;
     border-bottom: none;
+  } 
+}
+
+.header__container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 15px 15px;
+
+  @media (--medium-screen) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 30px;
   }
 }
 
-.has-cover .header {
-  @media (--medium-screen) {
-    background-color: rgba(#fff, 0.87);
-    color: color(var(--text-color) l(+10%));
-    backdrop-filter: blur(20px);
-    
-    padding: 15px 30px;
+.has-cover {
+  .header {
+    @media (--medium-screen) {
+      /* background-color: rgba(#fff, 0.87); */
+      background-color: #fff;
+      /* color: color(var(--text-color) l(+10%)); */
+      /* backdrop-filter: blur(20px); */
+    }
   }
-}
 
-.header__menu {
-  letter-spacing: 0.02em;
-  
-  @media (--medium-screen) {
-    font-size: 0.9rem;
+  .header__container {
+    padding: 18px 30px;
   }
 }
 
 .header__name {
-  display: inline;
-  margin-bottom: 0;
+  margin: 0;
   font-size: inherit;
-  font-weight: 600;
+  font-weight: 500;
   line-height: inherit;
+  letter-spacing: 0.02em;
+  
+  a {
+    display: block;
+    margin: -0.2em;
+    padding: 0.2em;
+    color: inherit;
+  }
+}
+
+.header__menu {
+  margin: 0.25rem 0 0;
+  padding: 0;
+  /* flex: 1; */
+  
+  @media (--medium-screen) {
+    margin-top: 0;
+    text-align: right;
+  }
+}
+
+.header__menu-item {
+  display: inline-block;
+  margin: 0 0 0 1em;
+  padding: 0;
+  
+  @media (--medium-screen) {
+    margin-left: 1.4em;
+  }
+  
+  &:first-child {
+    margin-left: 0;
+  }
+  
+  &:before {
+    display: none;
+  }
+}
+
+.header__menu-link {
+  color: color(var(--link-color) s(-70%) a(67%));
+  font-size: 0.94rem;
+
+  &:hover {
+    color: var(--text-color);
+  }
+
+  &--active {
+    color: var(--text-color);
+  }
 }
 
 .header__separator {
   color: #ddd;
   padding: 0 0.2em;
-}
-
-.header__page {
-  &--active {
-    /* font-weight: 600; */
-  }
 }

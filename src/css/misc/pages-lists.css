@@ -1,0 +1,158 @@
+/*
+ * Pages-lists
+ * ===========
+ *
+ * Pages with lists: favorite books, movies etc.
+ *
+ */
+
+
+.list-of-lists__item {
+  position: relative;
+  padding: 0;
+  
+  &:before {
+    display: none;
+  }
+}
+
+.list-of-lists__item--locked {
+  color: rgba(var(--text-color), 0.4);
+  
+  &:after {
+    display: inline-block;
+    content: '';
+    margin-left: 0.4em;
+    background: url('../i/lock.svg') no-repeat 0 0;
+    width: 12px;
+    height: 14px;
+    position: relative;
+    top: 1px;
+    opacity: 0.55;
+  }
+}
+
+ .books__item,
+ .movies__item {
+   list-style-type: none;
+   margin: 1.3em 0;
+   padding: 0;
+   /* border-bottom: 1px solid #eee; */
+   /* margin: 0; */
+   
+   &:before {
+     display: none;
+   }
+   
+   &:last-child {
+     border-bottom: none;
+   }
+ }
+
+
+ .books__mark {
+   text-align: center;
+ }
+
+ .books__date {
+   color: var(--text-muted);
+ }
+
+ .books__name,
+ .movies__name {
+   display: block;
+   position: relative;
+   margin-bottom: 0.2em;
+   line-height: 1.4;
+   font-weight: normal;
+ }
+
+ .books__item--favorite .books__name:after,
+ .movies__item--favorite .movies__name:after {
+   display: inline-block;
+   content: '★';
+   margin-left: 0.3em;
+   color: #f90;
+   
+   @media (--large-screen) {
+     position: absolute;
+     left: -1.3em;
+     margin-left: 0;
+   }
+ }
+
+ .books__author,
+ .movies__details {
+   display: block;
+   line-height: 1.4;
+   color: var(--text-muted);
+   font-size: 0.8em;
+ }
+
+ .movies__details > a {
+   color: var(--text-muted);
+   border-bottom: 1px solid color(var(--text-muted) a(20%));
+   
+   &:hover {
+     color: var(--link-hover-color);
+     border-bottom-color: color(var(--link-hover-color) a(20%));
+   }
+ }
+
+ .movies__rating {
+   font-size: 0.9em;
+   padding-left: 0.2em;
+ }
+
+
+.page-movies {
+  body {
+    background: #002338 url('../i/movies-gradient.png') repeat-x;
+    color: #fff;
+  }
+
+  .header {
+    border-bottom: none;
+    background-color: rgba(#000, 0.1);
+    box-shadow: 0 1px 3px rgba(#000, 0.4);
+    
+    &__separator {
+      color: rgba(#fff, 0.25);
+    }
+    
+    @media (--medium-screen) {
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+
+  .header__menu-link {
+    color: rgba(#fff, 0.5);
+    
+    &:hover {
+      color: #fff;
+    }
+
+    &--active {
+      color: #fff;
+    }
+  }
+
+  .main h2,
+  .main h3 {
+    color: #fff;
+  }
+
+  .page-header {
+    border-color: rgba(#fff, 0.1);
+    
+    &__description {
+      color: rgba(#fff, 0.7);
+    }
+  }
+
+
+  .movies__details {
+    color: color(#fff a(50%));
+  }
+}
