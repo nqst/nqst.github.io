@@ -15,8 +15,8 @@
   th,
   td {
     vertical-align: top;
-    line-height: var(--baseline);
-    padding: 10px;
+    line-height: 1.5;
+    padding: 12px 15px;
     border-top: 1px solid #eee;
   }
 
@@ -28,7 +28,15 @@
   thead th {
     border-top: none;
     vertical-align: bottom;
-    font-size: 0.7778rem;
-    color: color(var(--text-color) w(+30%))
+    color: color(var(--text-color) w(+30%));
+    font-size: 0.6667rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+  }
+
+  &--compact {
+    @media (--medium-screen) {
+      font-size: 0.7778rem;
+    }
   }
 }

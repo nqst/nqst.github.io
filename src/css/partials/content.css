@@ -8,8 +8,8 @@
 
 
 .main {
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin-top: 70px;
+  margin-bottom: 80px;
   
   @media (--medium-screen) {
     margin-top: 80px;
@@ -32,6 +32,13 @@
 .post__content img,
 .post__content iframe {
   border-radius: 4px;
+}
+
+.post__content p,
+.post__content li {
+  @media (--large-screen) {
+    padding-right: 1.5em;
+  }
 }
 
 .post__content figure,
@@ -183,7 +190,7 @@ figure.figure--wide {
 
 .page-header {
   margin-bottom: calc(var(--baseline));
-  padding-bottom: calc(var(--baseline-half));
+  /* padding-bottom: calc(var(--baseline-half)); */
   /* border-bottom: 1px solid #eee; */
   
   &__title,
@@ -196,7 +203,7 @@ figure.figure--wide {
   }
   
   &__description {
-    margin: 0.5em 0;
+    margin: 0.5em 0 calc(var(--baseline) * 2);
     color: var(--text-muted);
   }
 }

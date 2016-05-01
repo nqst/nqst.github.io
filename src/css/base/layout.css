@@ -12,19 +12,19 @@
 }
 
 .container {
-
   width: auto;
   padding: 0 15px;
   margin: 0 auto;
+  max-width: 800px;
   
   @media (--medium-screen) {
-    max-width: 690px;
     padding: 0 30px;
+    /* max-width: 690px; */
   }
 
   @media (--large-screen) {
-    max-width: 790px;
-    padding: 0 30px;
+    /* max-width: 800px; */
+    padding: 0 40px;
   }
 
   &--wide {
@@ -33,7 +33,13 @@
     }
 
     @media (--large-screen) {
-      max-width: 1020px;
+      max-width: 1160px;
+    }
+  }
+
+  &--full {
+    @media (--large-screen) {
+      max-width: 1600px;
     }
   }
 

@@ -25,6 +25,7 @@
 
 
 /* Miscellaneous things */
+@import "misc/dark-background.css";
 @import "misc/helpers.css";
-@import "misc/pages-lists.css";
 @import "misc/animations.css";
+@import "misc/pages-lists.css";

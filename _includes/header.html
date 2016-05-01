@@ -20,12 +20,11 @@
   
   {% if page.ogimage %}<meta property="og:image" content="http://nqst.net/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">
   <link rel="image_src" href="http://nqst.net/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">{% endif %}
-
-  {% if page.extrahead %}{{ page.extrahead }}{% endif %}
   
-  {% comment %}<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700,700italic&subset=latin,cyrillic">{% endcomment %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700,700italic&subset=latin,cyrillic">
   
   <link rel="stylesheet" href="/css/main.css">
+  {% if page.extrahead %}{{ page.extrahead }}{% endif %}
   {% if page.custom-css %}<link rel="stylesheet" href="/css/posts{{ page.id | remove_first:'/blog' }}.css">{% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="Блог Александра Зайцева" href="/blog/rss/">
@@ -37,7 +36,7 @@
 <body>
 
 <header class="header" role="banner">
-  <div class="header__container">
+  <div class="header__container container container--full">
     <h1 class="header__name"><a href="/">Александр Зайцев</a></h1>
     <!-- <div class="header__menu">
       <span class="header__separator">/</span>
