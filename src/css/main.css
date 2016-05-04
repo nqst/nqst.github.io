@@ -19,6 +19,8 @@
 @import "partials/footer.css";
 
 @import "partials/quote.css";
+@import "partials/projects.css";
+
 @import "partials/paginator.css";
 @import "partials/telegram.css";
 /* @import "partials/sharing.css"; */
@@ -26,6 +28,6 @@
 
 /* Miscellaneous things */
 @import "misc/dark-background.css";
+@import "misc/pages-lists.css";
 @import "misc/helpers.css";
 @import "misc/animations.css";
-@import "misc/pages-lists.css";

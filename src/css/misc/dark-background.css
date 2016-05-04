@@ -27,6 +27,11 @@
     }
   }
 
+  .header__title a,
+  .header__title a:hover {
+    color: #fff;
+  }
+
   .header__menu-link {
     color: rgba(#fff, 0.5);
     

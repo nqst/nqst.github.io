@@ -11,7 +11,7 @@ hr {
   border-color: #e4e4e4;
 }
 
-blockquote {
+article blockquote {
   font-family: 'OldStandardRegular', 'Georgia', serif;
   font-size: 21px;
   line-height: 1.4;
@@ -27,19 +27,19 @@ blockquote {
   word-spacing: 0.14em;
 }
 
-blockquote p {
+article blockquote p {
   margin: 0;
 }
 
-blockquote em {
+article blockquote em {
   font-family: 'OldStandardItalic', 'Georgia', serif;;
 }
 
-blockquote p + p {
+article blockquote p + p {
   text-indent: 1.5em;
 }
 
-blockquote figcaption {
+article blockquote figcaption {
   font-family: 'PT Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 13px !important;
   word-spacing: normal;
@@ -55,7 +55,7 @@ blockquote figcaption {
     margin-top: 300px;
   }
 
-  blockquote {
+  article blockquote {
     font-size: 17px;
     line-height: 1.3;
     padding: 14px 40px 16px 25px;
@@ -64,7 +64,7 @@ blockquote figcaption {
 }
 
 @media screen and (max-width: 480px) {
-  blockquote {
+  article blockquote {
     padding: 14px 16px 16px;
   }
 }

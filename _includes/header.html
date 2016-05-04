@@ -37,7 +37,9 @@
 
 <header class="header" role="banner">
   <div class="header__container container container--full">
-    <h1 class="header__name"><a href="/">Александр Зайцев</a></h1>
+    <h1 class="header__title">
+      <a class="header__title-link{% if page.url == '/' %} header__title-link--inactive{% endif %}" href="/">Александр Зайцев</a>
+    </h1>
     <!-- <div class="header__menu">
       <span class="header__separator">/</span>
 
