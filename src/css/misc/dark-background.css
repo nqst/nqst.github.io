@@ -12,38 +12,6 @@
     color: #fff;
   }
 
-  .header {
-    border-bottom: none;
-    background-color: rgba(#000, 0.1);
-    box-shadow: 0 1px 3px rgba(#000, 0.4);
-    
-    &__separator {
-      color: rgba(#fff, 0.25);
-    }
-    
-    @media (--medium-screen) {
-      background-color: transparent;
-      box-shadow: none;
-    }
-  }
-
-  .header__title a,
-  .header__title a:hover {
-    color: #fff;
-  }
-
-  .header__menu-link {
-    color: rgba(#fff, 0.5);
-    
-    &:hover {
-      color: #fff;
-    }
-
-    &--active {
-      color: #fff;
-    }
-  }
-
   .main h2,
   .main h3 {
     color: #fff;
@@ -69,7 +37,7 @@
 
   .table th,
   .table td {
-    border-top-color: rgba(#fff, 0.07);
+    border-top-color: rgba(#fff, 0.04);
   }
 
   .table thead th {

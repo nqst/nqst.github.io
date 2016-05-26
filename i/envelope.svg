@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="13px" viewBox="0 0 17 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#8AA1B4">
+            <path d="M16.829,1.829 L16.171,1.171 L9.939,7.4035 C9.1455,8.197 7.8545,8.197 7.061,7.4035 L0.829,1.171 L0.171,1.829 L4.8245,6.482 L0.171,11.1355 L0.829,11.793 L5.482,7.14 L6.4035,8.061 C6.9635,8.621 7.708,8.9295 8.5,8.9295 C9.292,8.9295 10.0365,8.621 10.5965,8.061 L11.518,7.14 L16.171,11.793 L16.829,11.1355 L12.1755,6.482 L16.829,1.829" id="Fill-3"></path>
+            <path d="M15.5,13 L1.5,13 C0.673,13 0,12.327 0,11.5 L0,1.5 C0,0.673 0.673,0 1.5,0 L15.5,0 C16.327,0 17,0.673 17,1.5 L17,11.5 C17,12.327 16.327,13 15.5,13 L15.5,13 Z M1.5,1 C1.2245,1 1,1.2245 1,1.5 L1,11.5 C1,11.7755 1.2245,12 1.5,12 L15.5,12 C15.7755,12 16,11.7755 16,11.5 L16,1.5 C16,1.2245 15.7755,1 15.5,1 L1.5,1 L1.5,1 Z" id="Fill-4"></path>
+        </g>
+    </g>
+</svg>

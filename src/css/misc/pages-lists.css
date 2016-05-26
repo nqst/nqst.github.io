@@ -32,81 +32,84 @@
   }
 }
 
- .books__item,
- .movies__item,
- .countries__item {
-   list-style-type: none;
-   margin: 1.3em 0;
-   padding: 0;
-   /* border-bottom: 1px solid #eee; */
-   /* margin: 0; */
-   
-   &:before {
-     display: none;
-   }
-   
-   &:last-child {
-     border-bottom: none;
-   }
- }
 
 
- .books__mark {
-   text-align: center;
- }
+.books__item,
+.movies__item,
+.countries__item {
+  list-style-type: none;
+  margin: 1.3em 0;
+  padding: 0;
+  /* border-bottom: 1px solid #eee; */
+  /* margin: 0; */
+  
+  &:before {
+    display: none;
+  }
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
 
- .books__date {
-   color: var(--text-muted);
- }
 
- .books__name,
- .movies__name,
- .countries__name {
-   display: block;
-   position: relative;
-   margin-bottom: 0.2em;
-   line-height: 1.4;
-   font-weight: normal;
- }
+.books__mark {
+  text-align: center;
+}
 
- .books__item--favorite .books__name:after,
- .movies__item--favorite .movies__name:after {
-   display: inline-block;
-   content: '★';
-   margin-left: 0.3em;
-   color: #f90;
-   
-   @media (--large-screen) {
-     position: absolute;
-     left: -1.3em;
-     margin-left: 0;
-   }
- }
+.books__date {
+  color: var(--text-muted);
+}
 
- .books__author,
- .movies__details,
- .countries__details {
-   display: block;
-   line-height: 1.5;
-   color: var(--text-muted);
-   font-size: 0.8em;
-   max-width: 39em;
- }
+.books__name,
+.movies__name,
+.countries__name {
+  display: block;
+  position: relative;
+  margin-bottom: 0.2em;
+  line-height: 1.4;
+  font-weight: normal;
+}
 
- .movies__details > a {
-   color: var(--text-muted);
-   border-bottom: 1px solid color(var(--text-muted) a(20%));
-   
-   &:hover {
-     color: var(--link-hover-color);
-     border-bottom-color: color(var(--link-hover-color) a(20%));
-   }
- }
+.books__item--favorite .books__name:after,
+.movies__item--favorite .movies__name:after {
+  display: inline-block;
+  content: '★';
+  margin-left: 0.3em;
+  color: #f90;
+  
+  @media (--large-screen) {
+    position: absolute;
+    left: -1.25em;
+    margin-left: 0;
+  }
+}
 
- .movies__rating {
-   font-size: 0.9em;
-   padding-left: 0.2em;
- }
+.books__author,
+.movies__details,
+.countries__details {
+  display: block;
+  line-height: 1.5;
+  color: var(--text-muted);
+  font-size: 0.8em;
+  max-width: 39em;
+}
+
+.movies__details > a {
+  color: var(--text-muted);
+  border-bottom: 1px solid color(var(--text-muted) a(20%));
+  
+  &:hover {
+    color: var(--link-hover-color);
+    border-bottom-color: color(var(--link-hover-color) a(20%));
+  }
+}
+
+.movies__rating {
+  font-size: 0.9em;
+  padding-left: 0.2em;
+}
+
 
 .page-movies {
   body {
@@ -118,6 +121,30 @@
   }
 }
 
+.countries__item {
+  @media (--large-screen) {
+    margin-left: 1.6em;
+  }
+}
+
+.countries__flag {
+  display: inline-block;
+  position: relative;
+  top: 0.1em;
+  margin-right: 0.3em;
+  
+  @media (--medium-screen) {
+    top: 0.08em;
+  }
+  
+  @media (--large-screen) {
+    position: absolute;
+    left: -1.55em;
+    margin-right: 0;
+  }
+}
+
+
 .table--flights {
   th,
   td {
@@ -127,6 +154,14 @@
 
 .page-flights {
   body {
-    background-color: #1b67b2;
+    /* background-color: #1b67b2; */
+    background-color: #004992;
   }
+}
+
+.page-flights__flag {
+  position: relative;
+  top: 0.08em;
+  display: inline-block;
+  margin-right: 0.4em;
 }

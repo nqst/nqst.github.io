@@ -1,6 +1,18 @@
-<footer class="footer footer-reveal" role="contentinfo">
-  <div class="container">
-    <div class="bio">
+<footer class="footer{% if page.class contains 'page-dark' or page.class contains 'has-dark-footer' %} footer--dark{% endif %}" role="contentinfo">
+  <div class="footer__container container container--full">
+
+    <div class="footer__email">
+      <!-- Эл. почта: -->
+      <a class="footer__email-link" href="mailto:mailbox@zaytsev.io">mailbox@zaytsev.io</a>
+    </div>
+
+    <div class="footer__social">
+      <a class="footer__social-link footer__social-link--twitter" href="https://twitter.com/nqst">Читайте меня в Твиттере</a>
+      <a class="footer__social-link footer__social-link--facebook" href="https://facebook.com/a.zaytsev">Фейсбук</a>
+      <!-- <a href="https://instagram.com/nqst" class="footer__social-link footer__social-link--instagram">Instagram</a> -->
+    </div>
+
+    <!-- <div class="bio">
       <div class="bio__userpic">
         <img src="/i/photo.jpg" width="112" height="112" alt="Александр Зайцев">
       </div>
@@ -15,7 +27,7 @@
           <a href="https://twitter.com/nqst" class="bio__social-link bio__social-link--twitter">Twitter</a>
         </p>
       </div>
-    </div>
+    </div> -->
   </div>
 </footer>
 

@@ -8,11 +8,12 @@
 
 
 .main {
-  margin-top: 70px;
+  /* margin-top: 70px; */
+  margin-top: 120px;
   margin-bottom: 80px;
   
   @media (--medium-screen) {
-    margin-top: 80px;
+    margin-top: 160px;
     margin-bottom: 120px;
   }
 }
@@ -29,19 +30,19 @@
 }
 
 
-.post__content img,
-.post__content iframe {
+article img,
+article iframe {
   border-radius: 4px;
 }
 
-.post__content p,
-.post__content li {
+article p,
+article li {
   @media (--large-screen) {
     padding-right: 1.5em;
   }
 }
 
-.post__content figure,
+article figure,
 .embed {
   margin: var(--baseline) 0;
 }
@@ -56,15 +57,15 @@
   }
 }
 
-.post__content figure.center {
+.figure--center {
   text-align: center;
 }
 
-.post__content img {
+article img {
   max-width: 100%;
 }
 
-.post__content figcaption {
+article figcaption {
   display: block;
   margin-top: 0.25em;
   margin-bottom: var(--baseline);
@@ -78,6 +79,7 @@ figure.figure--wide {
   @media (--large-screen) {
     margin-left: -130px;
     width: 980px;
+    text-align: center;
   }
 
   .posts-list & {
@@ -117,7 +119,7 @@ figure.figure--wide {
   margin-bottom: var(--baseline);
   
   @media (--medium-screen) {
-    height: 400px;
+    height: 440px;
     position: absolute;
     left: 0;
     top: 0;
@@ -131,12 +133,11 @@ figure.figure--wide {
   }
 
   @media (--large-screen) {
-    height: 470px;
+    height: 500px;
   }
 }
 
 .has-cover .post {
-
   margin-top: 0;
   
   @media (--medium-screen) {
@@ -144,14 +145,12 @@ figure.figure--wide {
   }
 
   @media (--large-screen) {
-    margin-top: 490px;
+    margin-top: 420px;
   }
 }
 
-
 .post__share {
   margin: 30px 0;
-  /* text-align: center; */
 }
 
 
@@ -171,11 +170,11 @@ figure.figure--wide {
 }
 
 .read-more {
-  font-family: var(--font-primary);
   font-size: 0.9em;
   display: inline-block;
   border: 1px solid color(var(--link-color) l(+30%) s(-30%));
   border-radius: 5px;
+  margin-top: 1em;
   padding: 3px 12px;
   transition: all 0.2s ease-in-out;
   
@@ -189,7 +188,7 @@ figure.figure--wide {
 
 
 .page-header {
-  margin-bottom: calc(var(--baseline));
+  margin-bottom: var(--baseline);
   /* padding-bottom: calc(var(--baseline-half)); */
   /* border-bottom: 1px solid #eee; */
   
@@ -203,7 +202,7 @@ figure.figure--wide {
   }
   
   &__description {
-    margin: 0.5em 0 calc(var(--baseline) * 2);
+    margin: 0.5em 0 2em;
     color: var(--text-muted);
   }
 }

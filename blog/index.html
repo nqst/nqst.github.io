@@ -28,10 +28,10 @@ ogtype: website
             
             {% if post.content contains '<!-- more -->' %}
               {{ post.content | split:'<!-- more -->' | first }}
-              <div><a class="read-more" href="{{ post.url }}">Читать дальше ›</a></div>
+              <a class="read-more" href="{{ post.url }}">Читать дальше ›</a>
             {% elsif post.content contains '<!-- more-enlarge -->' %}
               {{ post.content | split:'<!-- more-enlarge -->' | first }}
-              <div><a class="read-more" href="{{ post.url }}">Посмотреть поближе ›</a></div>
+              <a class="read-more" href="{{ post.url }}">Посмотреть поближе ›</a>
             {% else %}
               {{ post.content }}
             {% endif %}

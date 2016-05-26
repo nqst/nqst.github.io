@@ -21,11 +21,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3 {
+  color: var(--text-darker);
+}
+
 h2, h3 {
   margin-top: var(--baseline);
   margin-bottom: var(--baseline-half);
   line-height: 1.25;
-  color: var(--text-darker);
 }
 
 h2 {
@@ -86,7 +89,7 @@ a {
 }
 
 p {
-  margin: 0 0 var(--baseline);
+  margin: 0 0 1em;
 }
 
 .lead {
@@ -111,10 +114,10 @@ figure.highlight {
   line-height: 1.7;
   
   @media (--medium-screen) {
-    margin-right: -25px;
-    margin-left: -25px;
+    margin-right: -30px;
+    margin-left: -30px;
     padding-right: 65px;
-    padding-left: 25px;
+    padding-left: 30px;
     border-radius: 5px;
   }
 }

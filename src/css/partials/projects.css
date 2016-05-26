@@ -1,10 +1,75 @@
 /*
- * Projects page
- * =============
+ * Projects
+ * ========
  *
  */
 
-.page-projects .main {
+
+
+.hero {
+  background-size: cover;
+  padding: 130px 0 60px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.hero__title {
+  margin-bottom: 40px;
+}
+
+.hero__figure {
+  text-align: center;
+  
+  img {
+    max-width: 100%;
+  }
+}
+
+.hero--dark {
+  color: #fff;
+  
+  .hero__title {
+    color: #fff;
+  }
+}
+
+/* .project-article {
+  p,
+  li,
+  figure,
+  img {
+    max-width: 40rem;
+  }
+
+  .figure--wide {
+    @media (--large-screen) {
+      margin-left: 0;
+      width: auto;
+      text-align: left;
+      max-width: none;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+} */
+
+
+
+.page-boarding-pass body {
+  /* background-color: #f8f8f8; */
+}
+
+.page-boarding-pass__main-picture {
+  /* animation-name: fadeInUp;
+  animation-duration: 1.5s;
+  animation-fill-mode: both; */
+}
+
+
+.page-projects .main,
+.page-project .main {
   margin-top: 0;
 }
 
@@ -85,12 +150,12 @@
 
 .featured-project {
   text-align: center;
-  padding: 40px 0 30px;
+  padding: 130px 0 30px;
   font-size: 1.4em;
   margin-bottom: 0;
   
   @media (--large-screen) {
-    padding: 90px 0 55px;
+    padding: 140px 0 55px;
     font-size: 1.6667em;
   }
 
@@ -191,10 +256,6 @@
   &__details {
     margin-top: 1rem;
     font-size: 0.8889rem;
-  }
-
-  &__author {
-
   }
 
   &__userpic {
