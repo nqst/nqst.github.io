@@ -8,7 +8,7 @@ html {
   font-size: 15px;
 
   @media (--medium-screen) {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
@@ -76,7 +76,7 @@ a {
 }
 
 p {
-  margin: 0 0 var(--baseline);
+  margin: 0 0 1em;
 }
 
 .lead {
