@@ -85,10 +85,19 @@ p {
 }
 
 blockquote {
-  margin: calc(var(--baseline) * 1.5) 0;
+  margin: var(--baseline) 0 calc(var(--baseline) * 1.5);
   margin-left: 5px;
   border-left: 5px solid #eceae5;
   padding-left: 1em;
+  font-size: 1.3125em;
+  line-height: 1.5;
+}
+
+.cite-wrapper {
+  margin-top: 0;
+  margin-bottom: var(--baseline);
+  color: #5c5c5c;
+  font-size: 1rem;
 }
 
 

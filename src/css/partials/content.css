@@ -58,11 +58,12 @@
   margin-bottom: var(--baseline);
   font-family: var(--font-primary);
   line-height: 1.6;
-  font-size: 0.7778rem;
+  font-size: 0.825rem;
   color: #5c5c5c;
 }
 
-figure.figure--wide {
+figure.figure--wide,
+.before-after--wide {
   @media (--large-screen) {
     margin-left: -130px;
     width: 980px;
@@ -73,6 +74,29 @@ figure.figure--wide {
     width: auto;
   }
 }
+
+.two-columns,
+.three-columns {
+  @media (--medium-screen) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.two-columns__item {
+  @media (--medium-screen) {
+    width: 48%;
+  }
+}
+
+.three-columns__item {
+  margin-top: 0.5em !important;
+  @media (--medium-screen) {
+    width: 31%;
+  }
+}
+
+
 
 .post__credits {
   font-size: 0.888rem;
