@@ -13,8 +13,8 @@
   padding: 50px 0;
   color: color(var(--text-color) a(75%));
   
-  /* box-shadow: inset 0 0  0    1px rgba(#24190e, 0.08),
-              inset 0 0 30px -14px rgba(#24190e, 0.5); */
+  box-shadow: inset 0 0  0    1px rgba(#000, 0.06),
+              inset 0 0 30px -14px rgba(#24190e, 0.33);
               
   @media (--medium-screen) {
     font-size: 0.875rem;
@@ -31,6 +31,7 @@
 
 .footer--dark {
   background-color: rgba(#000, 0.5);
+  box-shadow: none;
   
   a {
     color: #8aa1b4;

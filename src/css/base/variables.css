@@ -13,12 +13,13 @@
 
   --baseline-half:              calc(var(--baseline) / 2);
 
-  --font-primary:               "Roboto", "Helvetica Neue", "Arial", sans-serif;
-  --font-monospace:             "Menlo", "Monaco", "Courier New", monospace;
+  --font-primary:               -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  --font-monospace:             "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
 
 /*--text-color:                 #14293b;*/
 /*--text-color:                 #33393e;*/
-  --text-color:                 #3f484f;
+/*--text-color:                 #3f484f;*/
+  --text-color:                 #3e464b;
   --text-darker:                color(var(--text-color) l(-8%));
   --text-muted:                 color(var(--text-color) a(60%));
   --link-color:                 #077bd1;

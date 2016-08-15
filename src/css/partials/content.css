@@ -61,6 +61,10 @@ article figure,
   text-align: center;
 }
 
+.figure--not-that-wide {
+  max-width: 800px;
+}
+
 article img {
   max-width: 100%;
 }
@@ -88,12 +92,35 @@ figure.figure--wide {
   }
 }
 
+.two-columns,
+.three-columns {
+  @media (--medium-screen) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.two-columns__item {
+  @media (--medium-screen) {
+    width: 48%;
+  }
+}
+
+.three-columns__item {
+  margin-top: 0.5em !important;
+  @media (--medium-screen) {
+    width: 31%;
+  }
+}
+
+
+
 .post__credits {
   font-size: 0.888rem;
-  color: #96887d;
+  color: var(--text-muted);
   
   a {
-    color: #96887d;
+    color: var(--text-muted);
     text-decoration: underline;
     
     &:hover {

@@ -46,7 +46,8 @@ body {
     padding: 0 40px;
   }
 
-  &--wide {
+  &--wide,
+  &--quote {
     @media (--medium-screen) {
       max-width: 100%;
     }
@@ -62,4 +63,13 @@ body {
     }
   }
 
+}
+
+.container--wide .post {
+  li,
+  p,
+  blockquote,
+  hr {
+    max-width: 800px;
+  }
 }

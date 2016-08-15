@@ -33,19 +33,21 @@ h2, h3 {
 
 h2 {
   margin-top: 0;
-  font-size: 2.1429rem;
-  letter-spacing: 0.015em;
-  font-weight: 300;
+  font-size: 2rem;
+  /* letter-spacing: 0.015em; */
+  /* font-weight: 300; */
+  font-weight: bold;
   
   @media (--medium-screen) {
-    font-size: 2.25rem;
+    /* font-size: 2.25rem; */
   }
 }
 
 .post__title {
   margin-top: 0;
   margin-bottom: calc(var(--baseline) * 1.25);
-  font-size: 2.625rem;
+  font-size: 2.5rem;
+  /* font-size: 2rem; */
 
   a {
     color: var(--text-darker);
@@ -61,7 +63,7 @@ h2 {
   /* letter-spacing: 0.01em; */
   /* font-weight: 500; */
   margin-bottom: var(--baseline);
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
 h3, h4 {
@@ -70,7 +72,7 @@ h3, h4 {
 }
 
 h3 {
-  font-size: 1.125rem;
+  font-size: 1.167rem;
 }
 
 h4 {
@@ -98,7 +100,7 @@ p {
 }
 
 article blockquote {
-  margin: calc(var(--baseline) * 1.5) 0;
+  margin: var(--baseline) 0;
   margin-left: 5px;
   border-left: 5px solid #eceae5;
   padding-left: 1em;
@@ -111,7 +113,7 @@ figure.highlight {
   margin: var(--baseline) -15px;
   padding: 18px 30px 18px 18px;
   font-size: 1.125em;
-  line-height: 1.7;
+  line-height: 1.6;
   
   @media (--medium-screen) {
     margin-right: -30px;
