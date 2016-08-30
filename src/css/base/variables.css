@@ -19,7 +19,8 @@
 /*--text-color:                 #14293b;*/
 /*--text-color:                 #33393e;*/
 /*--text-color:                 #3f484f;*/
-  --text-color:                 #3e464b;
+/* --text-color:                #3e464b; */
+  --text-color:                 #282A2B;
   --text-darker:                color(var(--text-color) l(-8%));
   --text-muted:                 color(var(--text-color) a(60%));
   --link-color:                 #077bd1;

@@ -65,7 +65,8 @@ body {
 
 }
 
-.container--wide .post {
+.container--wide .post,
+.container--wide .project-story {
   li,
   p,
   blockquote,

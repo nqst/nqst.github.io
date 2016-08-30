@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<main class="main">
+  <div class="hero{% if page.hero.zero-bottom %} hero--zero-bottom{% endif %}"{% if page.hero.style %} style="{{ page.hero.style }}"{% endif %}>
+
+    <div class="container container--wide">
+
+      <div class="hero__title-wrapper">
+        <h2 class="hero__title">{{ page.title }}</h2>
+        
+        {% if page.description %}
+          <div class="hero__description">
+            {% if page.description.year %}
+              {{ page.description.year }}
+            {% endif %}
+
+            {% if page.description.year and page.description.text %}
+              •
+            {% endif %}
+            
+            {% if page.description.text %}
+              {{ page.description.text }}
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if page.ext-link %}
+          <div class="hero__link-wrapper">
+            <a class="hero__link" href="{{ page.ext-link }}">{{ page.ext-link | remove: 'http://' | remove: 'https://' }}</a>
+          </div>
+        {% endif %}
+      </div>
+
+      <figure class="hero__figure{% if page.hero.figure.shadow %} hero__figure--with-shadow{% endif %}{% if page.hero.figure.rounded-corners %} hero__figure--with-rounded-corners{% endif %}">
+
+        {% if page.hero.video %}
+          {{ page.hero.video }}
+        {% else %}
+          {% if page.ext-link %}<a href="{{ page.ext-link }}">{% endif %}
+          <img src="/i{{ page.permalink }}{{ page.hero.image }}"{% if page.hero.image2x %} srcset="/i{{ page.permalink }}{{ page.hero.image2x }} 2x"{% endif %} alt="{{ page.title }}">
+          {% if page.ext-link %}</a>{% endif %}
+        {% endif %}
+      </figure>
+    </div>
+
+  </div>
+
+  <div class="container{% if page.widecontent %} container--wide{% endif %}">
+    <article class="project-story">  
+      {{ content }}
+    </article>
+  </div>
+  
+</main>

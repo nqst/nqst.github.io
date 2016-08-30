@@ -8,29 +8,73 @@
 
 .hero {
   background-size: cover;
-  padding: 130px 0 60px;
+  padding: 130px 0 75px;
   margin-bottom: 70px;
   text-align: center;
 }
 
-.hero__title {
+.hero__title-wrapper {
   margin-bottom: 40px;
+}
+
+.hero__title {
+  margin-bottom: 0;
+}
+
+.hero__description {
+  margin-top: 0.5em;
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.hero__link-wrapper {
+  margin-top: 0.5em;
+}
+
+.hero__link {
+  font-size: 0.9em;
+  font-weight: 500;
 }
 
 .hero__figure {
   text-align: center;
+  margin-bottom: 0;
   
   img {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &--with-shadow img {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  &--with-rounded-corners img {
+    border-radius: 4px;
   }
 }
 
-.hero--dark {
+
+.has-dark-header .hero {
   color: #fff;
   
   .hero__title {
     color: #fff;
   }
+
+  a {
+    color: #fff;
+    border-bottom: 1px solid rgba(#fff, 0.25);
+  }
+
+  .hero__description {
+    color: rgba(#fff, 0.7);
+  }
+}
+
+.hero--zero-bottom {
+  padding-bottom: 0;
 }
 
 /* .project-article {
@@ -54,18 +98,6 @@
     }
   }
 } */
-
-
-
-.page-boarding-pass body {
-  /* background-color: #f8f8f8; */
-}
-
-.page-boarding-pass__main-picture {
-  /* animation-name: fadeInUp;
-  animation-duration: 1.5s;
-  animation-fill-mode: both; */
-}
 
 
 .page-projects .main,
@@ -140,13 +172,13 @@
 .project__link {
   display: inline-block;
   width: 100%;
-  
-  &:hover .project__image-wrapper {
-    opacity: 0.87;
-  }
 }
 
-.project__image-wrapper {
+a.project__link:hover .project__image {
+  opacity: 0.87;
+}
+
+.project__image {
   width: 100%;
   height: auto;
   min-height: 180px;
@@ -183,13 +215,13 @@
     font-size: 1.6rem;
   }
   
-  .project__image-wrapper {
+  .project__image {
     margin-bottom: 0;
     border-radius: 0;
     opacity: 1 !important;
   }
 
-  .project__image {
+  .project__image-img {
     max-width: 100%;
     height: auto;
     display: inline-block;
@@ -208,7 +240,7 @@
       color: rgba(#fff, 0.9);
     }
 
-    &:hover .project__image {
+    &:hover .project__image-img {
       transform: translateY(-5px);
     }
   }
@@ -218,7 +250,7 @@
   background-color: #0fa7d8;
   color: #fff;
   
-  .project__image {
+  .project__image-img {
     box-shadow: 0 2px 5px rgba(#000, 0.2);
     border-radius: 2px;
     
@@ -249,7 +281,7 @@
   }
 }
 
-.project--important .project__image-wrapper {
+.project--important .project__image {
   min-height: 260px;
 
   @media (--large-screen) {
@@ -295,3 +327,36 @@
   }
 }
 
+
+
+.project__image--bkk-timetable {
+  background-color: #500b43;
+  background-image: url('/i/projects/bkk-timetable/thumb.png');
+  background-position: 50% 10px;
+}
+
+
+
+
+
+/* Plyr (Custom video plugin) additional styles  */
+
+.plyr {
+  border-radius: 3px;
+}
+
+@media (width >= 500px) {
+  .plyr {
+    border-radius: 6px;
+  }
+
+  .plyr--youtube .plyr__play-large {
+    padding: 20px;
+    border-width: 5px;
+    
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}

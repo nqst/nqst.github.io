@@ -16,24 +16,6 @@
   }
 }
 
-.list-of-lists__item--locked {
-  color: rgba(var(--text-color), 0.4);
-  
-  &:after {
-    display: inline-block;
-    content: '';
-    margin-left: 0.4em;
-    background: url('../i/lock.svg') no-repeat 0 0;
-    width: 12px;
-    height: 14px;
-    position: relative;
-    top: 1px;
-    opacity: 0.55;
-  }
-}
-
-
-
 .books__item,
 .movies__item,
 .countries__item {
@@ -66,7 +48,7 @@
 .countries__name {
   display: block;
   position: relative;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.15em;
   line-height: 1.4;
   font-weight: normal;
 }

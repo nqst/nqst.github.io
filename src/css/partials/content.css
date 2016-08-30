@@ -100,6 +100,14 @@ figure.figure--wide {
   }
 }
 
+.two-columns--wide,
+.three-columns--wide {
+  @media (--large-screen) {
+    margin-left: -130px;
+    width: 980px;
+  }
+}
+
 .two-columns__item {
   @media (--medium-screen) {
     width: 48%;
@@ -234,3 +242,18 @@ figure.figure--wide {
   }
 }
 
+.item-locked {
+  color: rgba(var(--text-color), 0.4);
+  
+  &:after {
+    display: inline-block;
+    content: '';
+    margin-left: 0.4em;
+    background: url('../i/lock.svg') no-repeat 0 0;
+    width: 12px;
+    height: 14px;
+    position: relative;
+    top: 1px;
+    opacity: 0.55;
+  }
+}
