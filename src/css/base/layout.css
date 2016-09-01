@@ -70,7 +70,8 @@ body {
   li,
   p,
   blockquote,
-  hr {
+  hr,
+  .not-that-wide {
     max-width: 800px;
   }
 }

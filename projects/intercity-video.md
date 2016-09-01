@@ -4,7 +4,7 @@ permalink: /projects/intercity-video/
 title: Видеоролик для скоростных поездов Интерсити+
 description:
   year: 2015
-  text: 'Соавторство дизайна, немножко арт-дирекшна (в составе команды <a href="https://facebook.com/agentyzmin">«Агенти Змін»</a>)'
+  text: 'Соавторство дизайна, немного арт-дирекшна (в составе команды <a href="https://facebook.com/agentyzmin">«Агенти Змін»</a>)'
 
 hero:
   style: 'background: #f4f4f4;'

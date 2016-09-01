@@ -262,7 +262,6 @@ a.project__link:hover .project__image {
 
 .project--important {
   font-size: 1.1667em;
-  margin-bottom: calc(var(--baseline) * 2);
   width: 100%;
   font-size: 1.167rem;
   
@@ -272,12 +271,6 @@ a.project__link:hover .project__image {
     /* display: inline-block; */
     /* flex: 1 0 auto; */
     width: 50%;
-    margin-bottom: var(--baseline);
-  }
-
-  @media (--large-screen) {
-    /* max-width: 50%; */
-    margin-bottom: var(--baseline);
   }
 }
 
