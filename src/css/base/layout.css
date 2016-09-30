@@ -43,7 +43,7 @@ body {
 
   @media (--large-screen) {
     /* max-width: 800px; */
-    padding: 0 40px;
+    padding: 0 55px;
   }
 
   &--wide,

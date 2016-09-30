@@ -69,13 +69,13 @@
     align-items: baseline;
     max-width: 1600px !important;
     
-    padding-top: 24px; /* new */
-    padding-bottom: 24px; /* new */
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   @media (--large-screen) {
-    padding-top: 27px; /* new */
-    padding-bottom: 27px; /* new */
+    padding-top: 32px;
+    padding-bottom: 40px;
   }
 }
 
@@ -103,7 +103,6 @@
   margin: -0.2em -0.6em;
   padding: 0.2em 0.6em;
   color: inherit;
-  border-radius: 5px;
   
   &--inactive {
     pointer-events: none;

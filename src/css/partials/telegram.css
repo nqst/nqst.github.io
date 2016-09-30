@@ -10,7 +10,7 @@
   margin: 50px 0;
   padding: 0 20px;
   border-radius: 4px;
-  color: #475466;
+  color: #43464a;
   
   line-height: 1.5;
   text-align: center;
@@ -47,7 +47,7 @@
   
   &__title {
     font-weight: 600;
-    margin: 0 0 5px;
+    margin: 0 0 3px;
     
     @media (--large-screen) {
       font-size: 0.875rem;
@@ -61,6 +61,8 @@
   &__btn-wrapper {
     @media (--large-screen) {
       flex: 1 0 auto;
+      text-align: right;
+      /* align-self: flex-end; */
     }
   }
 

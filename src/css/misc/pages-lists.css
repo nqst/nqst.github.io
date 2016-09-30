@@ -77,7 +77,7 @@
   max-width: 39em;
 }
 
-.movies__details > a {
+/* .movies__details > a {
   color: var(--text-muted);
   border-bottom: 1px solid color(var(--text-muted) a(20%));
   
@@ -85,7 +85,7 @@
     color: var(--link-hover-color);
     border-bottom-color: color(var(--link-hover-color) a(20%));
   }
-}
+} */
 
 .movies__rating {
   font-size: 0.9em;
@@ -93,7 +93,7 @@
 }
 
 
-.page-movies {
+/* .page-movies {
   body {
     background: #002338 url('../i/movies-gradient.png') repeat-x;
   }
@@ -101,7 +101,7 @@
   .movies__details {
     color: color(#fff a(50%));
   }
-}
+} */
 
 .countries__item {
   @media (--large-screen) {
@@ -137,7 +137,7 @@
 .page-flights {
   body {
     /* background-color: #1b67b2; */
-    background-color: #004992;
+    /* background-color: #004992; */
   }
 }
 

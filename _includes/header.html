@@ -5,10 +5,10 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description" content="Блог Александра Зайцева">
+  <meta name="description" content="Сайт Александра Зайцева">
 
   <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="Блог Александра Зайцева">
+  <meta property="og:description" content="Сайт Александра Зайцева">
   {% if page.ogtype %}<meta property="og:type" content="{{ page.ogtype }}">{% endif %}
   
   {% if page.introimg %}
@@ -38,10 +38,14 @@
 <body>
 
 <header class="header{% if page.class contains 'page-dark' or page.class contains 'has-dark-header' %} header--dark{% endif %}" role="banner">
-  <div class="header__container container container--full">
-    <h1 class="header__title">
-      <a class="header__title-link{% if page.url == '/' %} header__title-link--inactive{% endif %}" href="/">Александр Зайцев</a>
-    </h1>
+  <div class="header__container container container--wide">
+    {% if page.url == '/' %}
+    <h1 class="header__title">Александр Зайцев</h1>
+    {% else %}
+    <div class="header__title">
+      <a class="header__title-link" href="/">Александр Зайцев</a>
+    </div>
+    {% endif %}
     <!-- <div class="header__menu">
       <span class="header__separator">/</span>
 
