@@ -12,7 +12,7 @@ p code, li code {
   display: inline-block;
   padding: 0 4px;
   background-color: #faf9f5;
-  color: #373e51;
+  color: #3e414a;
   border: 1px solid color(#faf9f5 l(-7%));
   border-radius: 3px;
   white-space: nowrap;
@@ -20,8 +20,13 @@ p code, li code {
   margin-bottom: -1px;
   margin-right: 0.1em;
   margin-left: 0.1em;
-  font-size: 0.9em;
+  font-size: 0.875em;
   line-height: 1.6;
+}
+
+
+.highlight pre {
+  font-size: 0.875em;
 }
 
 .highlight .c { color: #999988; font-style: italic } /* Comment */

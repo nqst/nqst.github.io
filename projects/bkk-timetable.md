@@ -8,8 +8,8 @@ description:
 
 hero:
   style: 'background: #4c0e5e;'
-  image: 107.png
-  image2x: 107@2x.png
+  image: 107_v2.51.png
+  image2x: 107_v2.51@2x.png
   figure:
     shadow: true
     rounded-corners: true
@@ -20,7 +20,7 @@ widecontent: true
 
 <p class="lead">В Будапеште <a href="/blog/transport-in-budapest/">потрясающий общественный транспорт</a>, один из лучших в Европе. Транспорт ездит по расписанию, но дизайн шаблона расписания явно можно сделать лучше. Я сделал свою версию этого шаблона.</p>
 
-Было — стало:
+Сравнение текущего дизайна с моим концептом:
 
 <!-- <figure>
   <img src="/i/projects/bkk-timetable/before.png" style="box-shadow: 0 1px 3px #ccc;" alt="Текущее расписание">
@@ -106,9 +106,9 @@ widecontent: true
 
 **Мелкие детали.** Приплюснутая справочная информация переверстана, ненужные элементы в легенде убраны, важные мелочи приведены в порядок.
 
-<figure>
+<!-- <figure>
   <img src="/i/projects/bkk-timetable/poor-footer.png">
-</figure>
+</figure> -->
 
 <!-- Бонус-трек: **Логотип.** Исправлены некрасивые скругления логотипа, изменен шрифт.
 
@@ -128,6 +128,6 @@ widecontent: true
   </figure>
 </div> -->
 
-* * *
+<!-- * * * -->
 
 Чтобы посмотреть новый шаблон расписания поближе, <a href="/i/projects/bkk-timetable/107.pdf">загрузите PDF</a>.

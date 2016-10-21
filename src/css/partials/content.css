@@ -75,7 +75,7 @@ article figcaption {
   margin-bottom: var(--baseline);
   font-family: var(--font-primary);
   line-height: 1.6;
-  font-size: 0.7778rem;
+  font-size: 0.825rem;
   color: #5c5c5c;
 }
 
@@ -110,7 +110,7 @@ figure.figure--wide {
 
 .two-columns__item {
   @media (--medium-screen) {
-    width: 48%;
+    width: 48.5%;
   }
 }
 
