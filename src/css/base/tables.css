@@ -17,7 +17,7 @@
     vertical-align: top;
     line-height: 1.5;
     padding: 12px 15px;
-    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
   }
 
   th:first-child,
@@ -26,17 +26,37 @@
   }
 
   thead th {
-    border-top: none;
     vertical-align: bottom;
-    color: color(var(--text-color) w(+30%));
+    color: var(--text-muted);
     font-size: 0.6667rem;
     text-transform: uppercase;
     letter-spacing: 0.07em;
   }
 
+  tr:last-child td {
+    border-bottom: none;
+  }
+
   &--compact {
     @media (--medium-screen) {
-      font-size: 0.7778rem;
+      font-size: 0.8125rem;
     }
   }
+}
+
+.table__title-row td {
+  border-bottom: none;
+  padding-top: 18px;
+  padding-bottom: 4px;
+  
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+.table__row--noborder td {
+  border-bottom: none;
 }

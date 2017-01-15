@@ -4,7 +4,7 @@ permalink: /projects/nic-newyear/
 title: Новогодняя акция для NIC.UA
 description:
   year: 2015
-  text: 'Соавторство идеи, арт-дирекшн, верстка, копирайтинг'
+  text: 'Соавторство идеи, арт-дирекшн, верстка, текст'
 ext-link: http://club.nic.ua/2016
 
 hero:
