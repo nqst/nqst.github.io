@@ -7,7 +7,6 @@ var mqpacker       = require('css-mqpacker');
 var nested         = require('postcss-nested');
 var colorAlpha     = require('postcss-color-alpha');
 var typograf       = require('gulp-typograf');
-var cache          = require('gulp-cached');
 var browserSync    = require('browser-sync').create();
 var child          = require('child_process');
 var gutil          = require('gulp-util');
@@ -32,7 +31,6 @@ var processors = [
 
 gulp.task('typograf', function() {
   gulp.src(typografFiles, { base: './' })
-    .pipe(cache('pages')) // 'pages' is just a name
     .pipe(typograf({
       locale: ['ru'],
       disableRule: [
@@ -69,7 +67,7 @@ gulp.task('css', function() {
 
 gulp.task('additional-css', function() {
   return gulp.src(additionalCssFiles)
-    .pipe(cache('posts-css'))
+    .pipe(changed('css/posts'))
     .pipe(gulp.dest('css/posts'));
 });
 
