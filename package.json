@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/nqst/nqst.github.io#readme",
   "devDependencies": {
-    "browser-sync": "^2.11.1",
+    "browser-sync": "^2.18.7",
     "css-mqpacker": "^5.0.1",
     "gulp": "^3.9.1",
     "gulp-cached": "^1.1.1",
