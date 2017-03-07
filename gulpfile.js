@@ -6,6 +6,7 @@ var nano           = require('gulp-cssnano');
 var mqpacker       = require('css-mqpacker');
 var nested         = require('postcss-nested');
 var colorAlpha     = require('postcss-color-alpha');
+var typograf       = require('gulp-typograf');
 var browserSync    = require('browser-sync').create();
 var child          = require('child_process');
 var gutil          = require('gulp-util');
