@@ -7,6 +7,7 @@ var mqpacker       = require('css-mqpacker');
 var nested         = require('postcss-nested');
 var colorAlpha     = require('postcss-color-alpha');
 var typograf       = require('gulp-typograf');
+var changed        = require('gulp-changed');
 var browserSync    = require('browser-sync').create();
 var child          = require('child_process');
 var gutil          = require('gulp-util');
@@ -28,8 +29,9 @@ var processors = [
 ];
 
 gulp.task('typograf', function() {
-  gulp.src('*.md', { base: './' })
-   .pipe(typograf({
+  gulp.src('./**/*.md', { base: './' })
+    .pipe(changed('.'))
+    .pipe(typograf({
       locale: ['ru', 'en-US'],
       disableRule: [
         'common/number/mathSigns',
@@ -47,7 +49,7 @@ gulp.task('typograf', function() {
         ],
       // enableRule: ['ru/money/ruble'],
     }))
-   .pipe(gulp.dest('.'));
+    .pipe(gulp.dest('.'));
 });
 
 gulp.task('css', function() {
@@ -86,7 +88,7 @@ gulp.task('jekyll', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('*.md', ['typograf']);
+  gulp.watch('./**/*.md', ['typograf']);
 });
 
 gulp.task('serve', function() {
