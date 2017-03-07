@@ -27,6 +27,29 @@ var processors = [
   mqpacker
 ];
 
+gulp.task('typograf', function() {
+  gulp.src('*.md', { base: './' })
+   .pipe(typograf({
+      locale: ['ru', 'en-US'],
+      disableRule: [
+        'common/number/mathSigns',
+        'common/number/times',
+        'common/punctuation/*',
+        'common/space/*',
+        'common/symbols/*',
+        'common/dash/*',
+        'ru/money/*',
+        'ru/nbsp/ps',
+        'ru/number/comma',
+        'ru/other/phone-number',
+        'ru/punctuation/hellip',
+        'ru/typo/switchingKeyboardLayout'
+        ],
+      // enableRule: ['ru/money/ruble'],
+    }))
+   .pipe(gulp.dest('.'));
+});
+
 gulp.task('css', function() {
   return gulp.src('src/css/main.css')
     .pipe(postcss(processors))
@@ -63,7 +86,7 @@ gulp.task('jekyll', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(cssFiles, ['css', 'additional-css']);
+  gulp.watch('*.md', ['typograf']);
 });
 
 gulp.task('serve', function() {
