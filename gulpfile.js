@@ -14,6 +14,7 @@ var gutil          = require('gulp-util');
 
 var siteRoot = '_site';
 var cssFiles = 'src/css/**/*.css';
+var additionalCssFiles = 'src/css/posts/**/*.css';
 var typografFiles = ['./**/*.md', '!_site/**/*.*'];
 
 var processors = [
@@ -31,7 +32,7 @@ var processors = [
 
 gulp.task('typograf', function() {
   gulp.src(typografFiles, { base: './' })
-    //.pipe(cache('pages')) // 'pages' is just a name
+    .pipe(cache('pages')) // 'pages' is just a name
     .pipe(typograf({
       locale: ['ru'],
       disableRule: [
@@ -67,7 +68,8 @@ gulp.task('css', function() {
 });
 
 gulp.task('additional-css', function() {
-  return gulp.src(['src/css/posts/**/*'])
+  return gulp.src(additionalCssFiles)
+    .pipe(cache('posts-css'))
     .pipe(gulp.dest('css/posts'));
 });
 
@@ -99,7 +101,8 @@ gulp.task('serve', function() {
     notify: false
   });
 
-  gulp.watch(cssFiles, ['css', 'additional-css']);
+  gulp.watch(cssFiles, ['css']);
+  gulp.watch(additionalCssFiles, ['additional-css']);
 });
 
 gulp.task('default', ['css', 'additional-css', 'jekyll', 'serve']);
