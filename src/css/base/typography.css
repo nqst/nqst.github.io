@@ -10,6 +10,10 @@ html {
   @media (--medium-screen) {
     font-size: 16px;
   }
+
+  @media (--large-screen) {
+    font-size: 18px;
+  }
 }
 
 body {
@@ -87,6 +91,10 @@ h4 {
   font-size: 2.25rem;
 }
 
+.posts-list .lead {
+  margin-bottom: 1rem;
+}
+
 
 a {
   color: var(--link-color);
@@ -105,7 +113,7 @@ p {
 .lead {
   /* font-size: 1.3125rem; */
   font-size: 1.35rem;
-  line-height: 1.5;
+  line-height: 1.53;
   margin-bottom: 1.5em;
 }
 
@@ -126,7 +134,7 @@ article blockquote {
 figure.highlight {
   background: #faf9f5;
   margin: var(--baseline) -15px;
-  padding: 16px 30px 16px 18px;
+  padding: 16px 30px 18px 18px;
   font-size: 1.25em;
   line-height: 1.6;
   
@@ -136,6 +144,12 @@ figure.highlight {
     padding-right: 65px;
     padding-left: 30px;
     border-radius: 5px;
+  }
+
+  @media (--large-screen) {
+    padding-top: 20px;
+    padding-bottom: 22px;
+    border-radius: 7px;
   }
 }
 

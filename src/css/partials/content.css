@@ -44,7 +44,7 @@ article li {
 
 article figure,
 .embed {
-  margin: var(--baseline) 0;
+  margin: 1em 0 var(--baseline);
 }
 
 .figure--intro {
@@ -71,17 +71,17 @@ article img {
 
 article figcaption {
   display: block;
-  margin-top: 0.25em;
+  margin-top: 0.2em;
   margin-bottom: var(--baseline);
   font-family: var(--font-primary);
-  line-height: 1.6;
-  font-size: 0.825rem;
+  line-height: 1.5;
+  font-size: 0.8rem;
   color: #5c5c5c;
 }
 
 figure.figure--wide {
   @media (--large-screen) {
-    margin-left: -130px;
+    margin-left: -95px;
     width: 980px;
     text-align: center;
   }

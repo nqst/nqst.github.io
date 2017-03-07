@@ -75,7 +75,7 @@
 
   @media (--large-screen) {
     padding-top: 32px;
-    padding-bottom: 40px;
+    padding-bottom: 34px;
   }
 }
 
@@ -84,8 +84,14 @@
     /* padding: 18px 0; */
 
     @media (--medium-screen) {
-      background-color: #fff;
+      /* background-color: rgba(#fff,0.25); */
     }
+  }
+}
+
+.has-cover.has-dark-header {
+  .header {
+    text-shadow: 0 1px 3px rgba(#000,0.5);
   }
 }
 

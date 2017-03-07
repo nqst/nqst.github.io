@@ -20,10 +20,11 @@
 .movies__item,
 .countries__item {
   list-style-type: none;
-  margin: 1.3em 0;
+  margin: 1.5em 0;
   padding: 0;
   /* border-bottom: 1px solid #eee; */
   /* margin: 0; */
+  max-width: 39em;
   
   &:before {
     display: none;
@@ -49,6 +50,7 @@
   display: block;
   position: relative;
   margin-bottom: 0.15em;
+  font-size: 1.15rem;
   line-height: 1.4;
   font-weight: normal;
 }
@@ -75,6 +77,16 @@
   color: var(--text-muted);
   font-size: 0.8em;
   max-width: 39em;
+}
+
+.books__comment,
+.movies__comment {
+  padding: 10px 18px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  line-height: 1.5625;
 }
 
 /* .movies__details > a {

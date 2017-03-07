@@ -3,6 +3,11 @@ body,
   background-color: #f7f6f8;
 }
 
+body .telegram-channel {
+  background-color: #fff;
+  border: 1px solid #d1dade;
+}
+
 figure.wide {
   display: none;
 }

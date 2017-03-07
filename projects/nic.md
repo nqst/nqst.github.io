@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /projects/nic/
-title: Сайт NIC.UA
+title: Новый сайт NIC.UA
 description:
   year: 2016
 
