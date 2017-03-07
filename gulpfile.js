@@ -14,6 +14,7 @@ var gutil          = require('gulp-util');
 
 var siteRoot = '_site';
 var cssFiles = 'src/css/**/*.css';
+var typografFiles = ['./**/*.md', '!_site/**/*.*'];
 
 var processors = [
   atImport,
@@ -29,8 +30,8 @@ var processors = [
 ];
 
 gulp.task('typograf', function() {
-  gulp.src('./**/*.md', { base: './' })
-    .pipe(cache('pages')) // 'pages' is just a name
+  gulp.src(typografFiles, { base: './' })
+    //.pipe(cache('pages')) // 'pages' is just a name
     .pipe(typograf({
       locale: ['ru'],
       disableRule: [
@@ -86,10 +87,6 @@ gulp.task('jekyll', function() {
   jekyll.stderr.on('data', jekyllLogger);
 });
 
-gulp.task('watch', function() {
-  gulp.watch('./**/*.md', ['typograf']);
-});
-
 gulp.task('serve', function() {
 
   browserSync.init({
@@ -105,4 +102,4 @@ gulp.task('serve', function() {
   gulp.watch(cssFiles, ['css', 'additional-css']);
 });
 
-gulp.task('default', ['typograf', 'css', 'additional-css', 'jekyll', 'watch', 'serve']);
+gulp.task('default', ['css', 'additional-css', 'jekyll', 'serve']);
