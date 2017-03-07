@@ -67,7 +67,6 @@ gulp.task('css', function() {
 
 gulp.task('additional-css', function() {
   return gulp.src(additionalCssFiles)
-    .pipe(changed('css/posts'))
     .pipe(gulp.dest('css/posts'));
 });
 
