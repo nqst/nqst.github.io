@@ -44,7 +44,7 @@ gulp.task('typograf', function() {
         'ru/nbsp/ps',
         'ru/number/comma',
         'ru/other/phone-number',
-        'ru/punctuation/hellip',
+        'ru/punctuation/*',
         'ru/typo/switchingKeyboardLayout'
       ]
     }))
