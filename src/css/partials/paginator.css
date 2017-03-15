@@ -23,7 +23,7 @@
   text-align: center;
   
   @media (--medium-screen) {
-    padding: 20px 36px;
+    padding: 20px 50px;
   }
   
   @media (--large-screen) {
