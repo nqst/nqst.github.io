@@ -187,7 +187,7 @@ a.project__link:hover .project__image {
 .project__image {
   width: 100%;
   height: auto;
-  min-height: 180px;
+  min-height: 190px;
   border-radius: 4px;
   margin-bottom: 1em;
   opacity: 1;

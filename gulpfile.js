@@ -39,7 +39,7 @@ gulp.task('typograf', function() {
         'common/punctuation/*',
         'common/space/*',
         'common/symbols/*',
-        'common/dash/*',
+        'ru/dash/*',
         'ru/money/*',
         'ru/nbsp/ps',
         'ru/number/comma',

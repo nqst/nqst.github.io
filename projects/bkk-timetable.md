@@ -3,13 +3,13 @@ layout: project
 permalink: /projects/bkk-timetable/
 title: Новое расписание движения транспорта в Будапеште
 description:
-  year: 2015
+  year: 2015–2017
   text: 'Концепт'
 
 hero:
   style: 'background: #4c0e5e;'
-  image: 107_v2.51.png
-  image2x: 107_v2.51@2x.png
+  image: 107.png
+  image2x: 107@2x.png
   figure:
     shadow: true
     rounded-corners: true

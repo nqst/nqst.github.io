@@ -44,10 +44,12 @@
   }
 }
 
-.table__title-row td {
-  border-bottom: none;
-  padding-top: 18px;
-  padding-bottom: 4px;
+.table__title-row {
+  td {
+    border-bottom: none;
+    padding-top: 24px;
+    padding-bottom: 4px;
+  }
   
   h2 {
     margin: 0;

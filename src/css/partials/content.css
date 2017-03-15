@@ -81,6 +81,7 @@ article figcaption {
 
 figure.figure--wide {
   @media (--large-screen) {
+    margin-top: var(--baseline);
     margin-left: -95px;
     width: 980px;
     text-align: center;
