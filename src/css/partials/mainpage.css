@@ -22,10 +22,10 @@
   }
   
   &__description {
-    font-size: 1.75rem;
-    line-height: 1.44;
-    /* font-weight: 300; */
-    max-width: 640px;
+    font-size: 2rem;
+    line-height: 1.45;
+    font-weight: 400;
+    max-width: 800px;
     
     strong {
       font-weight: 600;

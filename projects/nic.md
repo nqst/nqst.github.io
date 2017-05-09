@@ -6,7 +6,7 @@ description:
   year: 2016
 
 hero:
-  style: 'background-color: #67b23d;'
+  style: 'background-color: #78bd17;'
   #image: hero.png
   figure:
     shadow: true
