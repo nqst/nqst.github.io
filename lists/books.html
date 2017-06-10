@@ -8,154 +8,25 @@ permalink: /lists/books/
   <div class="container container--full">
     <header class="page-header">
       <h1 class="page-header__title">Прочитанные книги</h1>
-      <p class="page-header__description">Самые полезные книги отмечены звездами. Список неполный</p>
+      <p class="page-header__description">Самые полезные книги отмечены звездами</p>
     </header>
 
-    <h2>2017</h2>
-    <ul class="books">
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Общаться с ребенком. Как?</strong>
-        <span class="books__author">Юлия Гиппенрейтер</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Семь навыков высокоэффективных людей</strong>
-        <span class="books__author">Стивен Кови</span>
-        <!-- <div class="books__comment">
-          Крутая книга.
-        </div> -->
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Remote. Офис не обязателен</strong>
-        <span class="books__author">Джейсон Фрайд, Дэвид Хайнемайер Хенссон</span>
-        <!-- <div class="books__comment">
-          Небольшая книга об удаленной работе. Почти не дала новых знаний, но утвердила в том, что я более-менее правильно справляюсь с работой вне офиса. Книга напомнила, что стоит получше обустроить рабочее место, больше двигаться и заниматься спортом.
-        </div> -->
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Пиши, сокращай</strong>
-        <span class="books__author">Максим Ильяхов, Людмила Сарычева</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Дао Винни-Пуха</strong>
-        <span class="books__author">Бенджамен Хофф</span>
-      </li>
-    </ul>
-    
-    <h2>2016</h2>
+    {% for data in site.data.books %}
+      {% assign year = data[0] %}
+      {% assign books = data[1] %}
 
-    <ul class="books">
-      <li class="books__item">
-        <strong class="books__name">Дизайн — это работа</strong>
-        <span class="books__author">Майк Монтейро</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Типографика и верстка</strong>
-        <span class="books__author">Артем Горбунов</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Лингво. Языковой пейзаж Европы</strong>
-        <span class="books__author">Гастон Доррен</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Твои возможности, человек</strong>
-        <span class="books__author">Виктор Пекелис</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Бенджамин Франклин. Биография</strong>
-        <span class="books__author">Уолтер Айзексон</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Канон</strong>
-        <span class="books__author">Массимо Виньелли</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Воспоминания о Сократе</strong>
-        <span class="books__author">Ксенофонт</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Автобиография</strong>
-        <span class="books__author">Бенджамин Франклин</span>
-      </li>
-    </ul>
+      <h2>{{ year }}</h2>
+      <ul class="books">
+        {% for book in books %}
+          <li class="books__item{% if book.favorite %} books__item--favorite{% endif %}">
+            <strong class="books__name">{{ book.name }}</strong>
+            <span class="books__author">
+              {{ book.author }}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
 
-
-    <h2>2015</h2>
-
-    <ul class="books">
-      <li class="books__item">
-        <strong class="books__name">Не отвлекайте меня!</strong>
-        <span class="books__author">Эдвард М. Хэлловэлл</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name"><a href="/blog/good-manners/">Хорошій тонъ</a></strong>
-        <span class="books__author">Юрьев, Владимирский</span>
-      </li>
-      <li class="books__item books__item">
-        <strong class="books__name">После трех уже поздно</strong>
-        <span class="books__author">Масару Ибука</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Маленький принц</strong>
-        <span class="books__author">Антуан де Сент-Экзюпери</span>
-      </li>
-    </ul>
-
-    <h2>2014 и ранее</h2>
-
-    <ul class="books">
-
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">В поисках потока. Психология включенности в повседневность</strong>
-        <span class="books__author">Михай Чиксентмихайи</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name"><a href="/blog/tao-te-ching/">Дао дэ цзин</a></strong>
-        <span class="books__author">Лао-цзы</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Сначала скажите «нет»</strong>
-        <span class="books__author">Джим Кэмп</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Как завоевывать друзей и оказывать влияние на людей</strong>
-        <span class="books__author">Дейл Карнеги</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Как найти себя</strong>
-        <span class="books__author">Виктор Пекелис</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Основы стиля в типографике</strong>
-        <span class="books__author">Роберт Брингхерст</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Законы простоты</strong>
-        <span class="books__author">Джон Маэда</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name small-caps">REWORK</strong>
-        <span class="books__author">Jason Fried, David Heinemeier Hansson</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Getting Real</strong>
-        <span class="books__author">Jason Fried, David Heinemeier Hansson, Matthew Linderman</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Клиенты на всю жизнь</strong>
-        <span class="books__author">Карл Сьюэлл, Пол Браун</span>
-      </li>
-      <li class="books__item">
-        <strong class="books__name">Приключения майона Звягина</strong>
-        <span class="books__author">Михаил Веллер</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Чума</strong>
-        <span class="books__author">Альбер Камю</span>
-      </li>
-      <li class="books__item books__item--favorite">
-        <strong class="books__name">Ководство</strong>
-        <span class="books__author">Артемий Лебедев</span>
-      </li>
-    </ul>
   </div>
 </main>

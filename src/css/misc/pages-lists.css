@@ -59,12 +59,13 @@
 .movies__item--favorite .movies__name:after {
   display: inline-block;
   content: '★';
-  margin-left: 0.3em;
+  margin-left: 0.5em;
   color: #f90;
+  font-size: 0.9em;
   
-  @media (--large-screen) {
+  @media (--x-large-screen) {
     position: absolute;
-    left: -1.25em;
+    left: -1.5em;
     margin-left: 0;
   }
 }

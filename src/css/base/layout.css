@@ -44,8 +44,8 @@ body {
 
   @media (--large-screen) {
     max-width: 900px;
-    padding-right: 55px;
-    padding-left: 55px;
+    padding-right: 75px;
+    padding-left: 75px;
   }
 
   @media (--x-large-screen) {

@@ -23,11 +23,20 @@
   text-align: center;
   
   @media (--medium-screen) {
-    padding: 20px 50px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
   
   @media (--large-screen) {
     min-width: 50%;
+    padding-right: 75px;
+    padding-left: 75px;
+  }
+
+  @media (--x-large-screen) {
+    min-width: 50%;
+    padding-right: 100px;
+    padding-left: 100px;
   }
   
   &:hover {

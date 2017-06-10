@@ -1,0 +1,140 @@
+2017:
+- name: "Ла-ла Ленд"
+  original_name: "La La Land"
+  released: 2016
+
+- name: "2 + 1"
+  original_name: "Demain tout commence"
+  released: 2016
+
+- name: "Мечты Дзиро о суши"
+  original_name: "Jiro Dreams of Sushi"
+  released: 2011
+  favorite: true
+
+2016:
+- name: "Прибытие"
+  original_name: "Arrival"
+  released: 2016
+  favorite: true
+
+- name: "Чудо на Гудзоне"
+  original_name: "Sully"
+  released: 2016
+  favorite: true
+
+- name: "Бобро поржаловать"
+  original_name: "Bienvenue chez les Ch’tis"
+  released: 2008
+
+- name: "Королевство полной луны"
+  original_name: "Moonrise Kingdom"
+  released: 2012
+
+- name: "Зверополис"
+  original_name: "Zootopia"
+  released: 2016
+
+- name: "Игра в имитацию"
+  original_name: "The Imitation Game"
+  released: 2014
+  favorite: true
+
+- name: "Головоломка"
+  original_name: "Inside Out"
+  released: 2015
+  favorite: true
+
+- name: "И грянул шторм"
+  original_name: "The Finest Hours"
+  released: 2015
+
+- name: "Звездные войны: Пробуждение силы"
+  original_name: "Star Wars: The Force Awakens"
+  released: 2015
+
+"2015 и ранее":
+- name: "Цвет нации"
+  released: 2013
+  favorite: true
+
+- name: "Интерстеллар"
+  original_name: "Interstellar"
+  released: 2014
+  favorite: true
+
+- name: "Отель «Гранд Будапешт»"
+  original_name: "The Grand Budapest Hotel"
+  released: 2014
+  favorite: true
+
+- name: "Лего. Фильм"
+  original_name: "The Lego Movie"
+  released: 2014
+
+- name: "Невероятная жизнь Уолтера Митти"
+  original_name: "The Secret Life of Walter Mitty"
+  released: 2013
+
+- name: "Жизнь Пи"
+  original_name: "Life of Pi"
+  released: 2012
+
+- name: Эта замечательная жизнь
+  original_name: "It’s a Wonderful Life"
+  released: 1946
+  favorite: true
+
+- name: "1 + 1"
+  original_name: "Intouchables"
+  released: 2011
+
+- name: "Король говорит!"
+  original_name: "The King’s Speech"
+  released: 2010
+
+- name: "Курьер"
+  released: 1986
+
+- name: "В диких условиях"
+  original_name: "Into the Wild"
+  released: 2007
+
+- name: "Социальная сеть"
+  original_name: "The Social Network"
+  released: 2010
+
+- name: "Аватар"
+  original_name: "Avatar"
+  released: 2009
+
+- name: "ВАЛЛ·И"
+  original_name: "WALL·E"
+  released: 2008
+
+- name: "Трасса 60"
+  original_name: "Interstate 60"
+  released: 2001
+
+- name: "Назад в будущее 3"
+  original_name: "Back to the Future 3"
+  released: 1990
+
+- name: "Назад в будущее 2"
+  original_name: "Back to the Future 2"
+  released: 1989
+
+- name: "Назад в будущее"
+  original_name: "Back to the Future"
+  released: 1985
+  favorite: true
+
+- name: "Антенна"
+  original_name: "La Antena"
+  released: 2007
+
+- name: "Амели"
+  original_name: "Le Fabuleux Destin d’Amélie Poulain"
+  released: 2001
+  favorite: true
+

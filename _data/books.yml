@@ -1,0 +1,106 @@
+2017:
+- name: "Общаться с ребенком. Как?"
+  author: "Юлия Гиппенрейтер"
+  favorite: true
+
+- name: "Семь навыков высокоэффективных людей"
+  author: "Стивен Кови"
+  favorite: true
+
+- name: "Remote. Офис не обязателен"
+  author: "Джейсон Фрайд, Дэвид Хайнемайер Хенссон"
+
+- name: "Пиши, сокращай"
+  author: "Максим Ильяхов, Людмила Сарычева"
+  favorite: true
+
+- name: "Дао Винни-Пуха"
+  author: "Бенджамен Хофф"
+
+2016:
+- name: "Дизайн — это работа"
+  author: "Майк Монтейро"
+
+- name: "Типографика и верстка"
+  author: "Артем Горбунов"
+  favorite: true
+
+- name: "Лингво. Языковой пейзаж Европы"
+  author: Гастон Доррен
+
+- name: "Твои возможности, человек"
+  author: Виктор Пекелис
+
+- name: "Бенджамин Франклин. Биография"
+  author: Уолтер Айзексон
+
+- name: "Канон"
+  author: Массимо Виньелли
+
+- name: "Воспоминания о Сократе"
+  author: Ксенофонт
+  favorite: true
+
+- name: "Автобиография"
+  author: Бенджамин Франклин
+  favorite: true
+
+2015:
+- name: "Не отвлекайте меня!"
+  author: Эдвард М. Хэлловэлл
+
+- name: "<a href='/blog/good-manners/''>Хорошій тонъ</a>"
+  author: Юрьев, Владимирский
+  favorite: true
+
+- name: "После трех уже поздно"
+  author: Масару Ибука
+
+- name: "Маленький принц"
+  author: Антуан де Сент-Экзюпери
+  favorite: true
+
+"2014 и ранее":
+- name: "В поисках потока. Психология включенности в повседневность"
+  author: "Михай Чиксентмихайи"
+  favorite: true
+
+- name: "<a href='/blog/tao-te-ching/'>Дао дэ цзин</a>"
+  author: "Лао-цзы"
+  favorite: true
+
+- name: "Сначала скажите «нет»"
+  author: "Джим Кэмп"
+
+- name: "Как завоевывать друзей и оказывать влияние на людей"
+  author: "Дейл Карнеги"
+  favorite: true
+
+- name: "Как найти себя"
+  author: "Виктор Пекелис"
+
+- name: "Основы стиля в типографике"
+  author: "Роберт Брингхерст"
+
+- name: "Законы простоты"
+  author: "Джон Маэда"
+
+- name: "REWORK"
+  author: "Jason Fried, David Heinemeier Hansson"
+
+- name: "Getting Real"
+  author: "Jason Fried, David Heinemeier Hansson, Matthew Linderman"
+
+- name: "Клиенты на всю жизнь"
+  author: "Карл Сьюэлл, Пол Браун"
+
+- name: "Приключения майона Звягина"
+  author: "Михаил Веллер"
+
+- name: "Чума"
+  author: "Альбер Камю"
+  favorite: true
+
+- name: "Ководство"
+  author: "Артемий Лебедев"
+  favorite: true
