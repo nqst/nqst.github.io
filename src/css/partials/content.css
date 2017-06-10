@@ -13,7 +13,7 @@
   margin-bottom: 80px;
   
   @media (--medium-screen) {
-    margin-top: 160px;
+    margin-top: 140px;
     margin-bottom: 120px;
   }
 }

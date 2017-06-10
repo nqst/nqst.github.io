@@ -17,7 +17,7 @@
     vertical-align: top;
     line-height: 1.5;
     padding: 12px 15px;
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
   }
 
   th:first-child,
@@ -31,10 +31,12 @@
     font-size: 0.6667rem;
     text-transform: uppercase;
     letter-spacing: 0.07em;
+    border-top: none;
+    border-bottom: 1px solid #eee;
   }
 
-  tr:last-child td {
-    border-bottom: none;
+  tr:first-child td {
+    border-top: none;
   }
 
   &--compact {
@@ -46,7 +48,7 @@
 
 .table__title-row {
   td {
-    border-bottom: none;
+    border: none;
     padding-top: 24px;
     padding-bottom: 4px;
   }
@@ -57,8 +59,8 @@
     font-size: 1rem;
     font-weight: bold;
   }
-}
 
-.table__row--noborder td {
-  border-bottom: none;
+  & + tr td {
+    border-top: none;
+  }
 }

@@ -7,13 +7,56 @@ class: 'page-flights'
 ---
 
 <main class="main">
-  <div class="container container--wide">
+  <div class="container container--full">
     <header class="page-header">
       <h1 class="page-header__title">Авиаперелеты</h1>
       <!-- <p class="page-header__description">25 полетов. Обновлено в июне 2017 г.</p> -->
+      <!-- <p>{{ site.data.flights | size }}</p> -->
     </header>
-    
+
     <table class="table table--compact table--flights">
+      <thead>
+        <tr>
+          <th>Дата</th>
+          <th>Откуда</th>
+          <th>Куда</th>
+          <th>Авиакомпания</th>
+          <th>Самолет</th>
+          <th>Заметки</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for data in site.data.flights %}
+          {% assign year = data[0] %}
+          {% assign flights = data[1] %}
+          <tr class="table__title-row">
+            <td colspan="6">
+              <h2>{{ year }}</h2>
+            </td>
+          </tr>
+          {% for flight in flights %}
+            <tr>
+              <td>{{ flight.date | replace: ".", " " | replace: "01", "января" | replace: "02", "февраля" | replace: "03", "марта" | replace: "04", "апреля" | replace: "05", "мая" | replace: "06", "июня" | replace: "07", "июля" | replace: "08", "августа" | replace: "09", "сентября" | replace: "10", "октября" | replace: "11", "ноября" | replace: "12", "декабря" }}</td>
+              <td>
+                <span class="page-flights__flag">{{ flight.from.country }}</span>&nbsp;{{ flight.from.city }}
+              </td>
+              <td>
+                <span class="page-flights__flag">{{ flight.to.country }}</span>&nbsp;{{ flight.to.city }}
+              </td>
+              <td>{{ flight.company }}</td>
+              <td>{{ flight.aircraft }}</td>
+              <td>
+                {% if flight.comment %}
+                  {{ flight.comment }}
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        {% endfor %}
+      </tbody>
+    </table>
+    
+    <table class="table table--compact table--flights" style="display: none;">
       <thead>
         <tr>
           <th>Дата</th>
