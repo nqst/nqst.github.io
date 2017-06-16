@@ -10,12 +10,31 @@ permalink: /lists/books/
       <h1 class="page-header__title">Прочитанные книги</h1>
       <p class="page-header__description">Самые полезные книги отмечены звездами</p>
     </header>
+    
+    {% comment %}
+    <h2>Just favs</h2>
+    <ul class="books">
+      {% for data in site.data.books %}
+        {% assign books = data[1] | where: "favorite", "true" %}
+        {% for book in books %}
+          <li class="books__item{% if book.favorite %} books__item--favorite{% endif %}">
+            <strong class="books__name">{{ book.name }}</strong>
+            <span class="books__author">
+              {{ book.author }}
+            </span>
+          </li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+    {% endcomment %}
 
     {% for data in site.data.books %}
       {% assign year = data[0] %}
       {% assign books = data[1] %}
+      {% assign favoriteBooks = data[1] | where: "favorite", "true" %}
 
       <h2>{{ year }}</h2>
+
       <ul class="books">
         {% for book in books %}
           <li class="books__item{% if book.favorite %} books__item--favorite{% endif %}">

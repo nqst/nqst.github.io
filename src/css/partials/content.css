@@ -82,9 +82,14 @@ article figcaption {
 figure.figure--wide {
   @media (--large-screen) {
     margin-top: var(--baseline);
-    margin-left: -95px;
+    margin-left: -65px;
     width: 980px;
     text-align: center;
+  }
+
+  @media (--x-large-screen) {
+    margin-left: -125px;
+    width: 1100px;
   }
 
   .posts-list & {
