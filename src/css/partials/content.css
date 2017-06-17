@@ -211,18 +211,20 @@ figure.figure--wide {
 }
 
 .read-more {
-  font-size: 0.9em;
-  display: inline-block;
-  border: 1px solid color(var(--link-color) l(+30%) s(-30%));
-  border-radius: 5px;
   margin-top: 1em;
-  padding: 3px 12px;
-  transition: all 0.2s ease-in-out;
-  
-  &:hover {
+
+  &__link {
+    font-size: 0.9em;
+    display: inline-block;
+    border: 1px solid color(var(--link-color) l(+30%) s(-30%));
+    border-radius: 5px;
+    padding: 3px 12px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  &__link:hover {
     color: var(--link-color);
     background-color: rgba(var(--link-color), 0.03);
-    /* border-color: color(var(--link-color) l(+2%) s(-30%)); */
   }
 }
 

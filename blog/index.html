@@ -27,13 +27,17 @@ ogtype: website
             {% endif %}
             
             {% if post.content contains '<!-- more -->' %}
-              {{ post.content | split:'<!-- more -->' | first }}
-              <a class="read-more" href="{{ post.url }}">Читать дальше ›</a>
+              {{ post.content | split:'<!-- more -->' | first | markdownify }}
+              <div class="read-more">
+                <a class="read-more__link" href="{{ post.url }}">Читать дальше ›</a>
+              </div>
             {% elsif post.content contains '<!-- more-enlarge -->' %}
-              {{ post.content | split:'<!-- more-enlarge -->' | first }}
-              <a class="read-more" href="{{ post.url }}">Посмотреть поближе ›</a>
+              {{ post.content | split:'<!-- more-enlarge -->' | first | markdownify }}
+              <div class="read-more">
+                <a class="read-more__link" href="{{ post.url }}">Посмотреть поближе ›</a>
+              </div>
             {% else %}
-              {{ post.content }}
+              {{ post.content | markdownify }}
             {% endif %}
 
           {% elsif post.layout == 'quote' %}
