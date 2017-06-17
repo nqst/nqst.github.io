@@ -74,7 +74,7 @@ gulp.task('additional-css', function() {
 gulp.task('jekyll', function() {
   var jekyll = child.spawn('jekyll', ['build',
     '--watch',
-    '--incremental'
+    // '--incremental'
   ]);
 
   var jekyllLogger = function(buffer) {
