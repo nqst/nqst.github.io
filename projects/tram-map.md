@@ -8,6 +8,7 @@ description:
 hero:
   style: 'background-color: #f4f4f4;'
   image: hero.png
+  full_width: true
   figure:
     shadow: true
     rounded-corners: true

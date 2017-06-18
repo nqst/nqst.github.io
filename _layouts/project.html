@@ -6,7 +6,6 @@ layout: default
   <div class="hero{% if page.hero.zero-bottom %} hero--zero-bottom{% endif %}"{% if page.hero.style %} style="{{ page.hero.style }}"{% endif %}>
 
     <div class="container container--wide">
-
       <div class="hero__title-wrapper">
         <h1 class="hero__title">{{ page.title }}</h1>
         
@@ -32,7 +31,9 @@ layout: default
           </div>
         {% endif %}
       </div>
+    </div>
 
+    <div class="container {% if page.hero.full_width %}container--full{% else %}container--wide{% endif %}">
       <figure class="hero__figure{% if page.hero.figure.shadow %} hero__figure--with-shadow{% endif %}{% if page.hero.figure.rounded-corners %} hero__figure--with-rounded-corners{% endif %}">
 
         {% if page.hero.video %}
@@ -48,7 +49,7 @@ layout: default
   </div>
 
   <div class="container{% if page.widecontent %} container--wide{% endif %}">
-    <article class="project-story">  
+    <article class="project-story">
       {{ content }}
     </article>
   </div>

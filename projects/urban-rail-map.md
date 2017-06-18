@@ -9,6 +9,7 @@ description:
 hero:
   style: 'background: #46528a;'
   image: urban-rail-map.png
+  full_width: true
   figure:
     shadow: true
     rounded-corners: true

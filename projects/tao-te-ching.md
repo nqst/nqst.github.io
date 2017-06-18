@@ -11,6 +11,7 @@ hero:
   zero-bottom: true
   style: 'background: #2c2c2c;'
   image: screenshot.png
+  full_width: true
 
 class: 'page-project has-dark-header'
 ---

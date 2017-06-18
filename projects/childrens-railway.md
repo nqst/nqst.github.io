@@ -9,6 +9,7 @@ description:
 hero:
   style: 'background: #f5f5f5;'
   image: childrens-railway.png
+  full_width: true
 
 class: 'page-project'
 ---

@@ -10,6 +10,7 @@ hero:
   style: 'background: #4c0e5e;'
   image: 107.png
   image2x: 107@2x.png
+  full_width: true
   figure:
     shadow: true
     rounded-corners: true
