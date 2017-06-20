@@ -201,9 +201,15 @@ a.project__link:hover .project__image {
   
   position: absolute;
   z-index: 1;
-  top: 30px;
-  left: 40px;
+  top: 25px;
+  left: 0;
+  padding: 0 30px;
   color: #fff;
+  
+  @media (--large-screen) {
+    top: 30px;
+    padding: 0 40px;
+  }
 }
 
 .featured-project {
@@ -213,7 +219,7 @@ a.project__link:hover .project__image {
   margin-bottom: 0;
   
   @media (--large-screen) {
-    padding: 120px 0;
+    padding: 150px 0;
   }
 
   .project {
@@ -237,7 +243,7 @@ a.project__link:hover .project__image {
     transition: all 0.3s ease-in-out;
     
     @media (--large-screen) {
-      margin-bottom: 45px;
+      margin-bottom: 35px;
     }
   }
   
@@ -248,13 +254,14 @@ a.project__link:hover .project__image {
   .project__title {
     font-size: 2em;
     position: static;
+    padding: 0;
   }
 
   .project__description {
     margin-top: 0.2em;
     color: rgba(#fff, 0.7);
     /* font-size: 0.9em; */
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
   }
 }
 
@@ -274,7 +281,8 @@ a.project__link:hover .project__image {
 
 .featured-project--nic {
   background-color: #78bd17;
-  background-image: linear-gradient(0deg, #A8DD1E 0%, #619D0C 100%);
+  /* background-image: linear-gradient(0deg, #A8DD1E 0%, #619D0C 100%); */
+  background-image: linear-gradient(45deg, #A8DD1E 0%, #619D0C 100%);
   color: #fff;
   
   .project__image-img {
@@ -302,6 +310,12 @@ a.project__link:hover .project__image {
 
   @media (--x-large-screen) {
     min-height: 440px;
+  }
+}
+
+.project--childrens-railway {
+  .project__title {
+    color: #465c61;
   }
 }
 

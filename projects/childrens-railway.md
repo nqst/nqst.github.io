@@ -7,7 +7,7 @@ description:
   text: 'Идея, менеджмент, дизайн'
 
 hero:
-  style: 'background: #f5f5f5;'
+  style: 'background: #f0f4f4;'
   image: childrens-railway.png
   full_width: true
 
