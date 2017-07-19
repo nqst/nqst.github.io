@@ -1,4 +1,29 @@
 2017:
+- date: "17.07"
+  from: 
+    country: 🇱🇹
+    city: Каунас
+    airport: KUN
+  to:
+    country: 🇩🇪
+    city: Берлин
+    airport: TXL
+  company: AirBaltic
+  aircraft: Boeing 737
+  comment: Один из самых красивых перелетов
+
+- date: "11.07"
+  from: 
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  to:
+    country: 🇧🇾
+    city: Минск
+    airport: MSQ
+  company: Белавиа
+  aircraft: Boeing 737
+
 - date: "3.06"
   from: 
     country: 🇵🇱
