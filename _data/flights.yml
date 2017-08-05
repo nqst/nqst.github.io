@@ -1,4 +1,29 @@
 2017:
+- date: "2.08"
+  from: 
+    country: 🇱🇹
+    city: Каунас
+    airport: KUN
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: KBP
+  company: МАУ
+  aircraft: Boeing 737
+  comment: Первый перелет с МАУ.
+
+- date: "31.07"
+  from: 
+    country: 🇩🇪
+    city: Мюнхен
+    airport: MUC
+  to:
+    country: 🇱🇹
+    city: Каунас
+    airport: KUN
+  company: AirBaltic
+  aircraft: Boeing 737
+
 - date: "25.07"
   from: 
     country: 🇩🇪

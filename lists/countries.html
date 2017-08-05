@@ -9,97 +9,19 @@ extrahead: '<script src="//twemoji.maxcdn.com/2/twemoji.min.js"></script>'
   <div class="container container--full">
     <header class="page-header">
       <h1 class="page-header__title">Посещенные страны</h1>
-      <p class="page-header__description">11 стран. Указаны годы первого въезда в страну. Города перечислены по порядку посещения.</p>
+      <p class="page-header__description">{{ site.data.countries | size }} стран. Указаны годы первого въезда в страну.</p>
     </header>
 
     <ul class="countries">
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇱🇹</span>
-          Литва
-        </strong>
-        <span class="countries__details">2017 • Вильнюс</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇵🇱</span>
-          Польша
-        </strong>
-        <span class="countries__details">2015 • Краков, Вроцлав</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇫🇷</span>
-          Франция
-        </strong>
-        <span class="countries__details">2012 • Страсбург, Париж</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇲🇩</span>
-          Молдавия
-        </strong>
-        <span class="countries__details">2012 • Кишинев</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇧🇾</span>
-          Беларусь
-        </strong>
-        <span class="countries__details">2011 • Минск, Гомель, Гродно, Брест</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇩🇪</span>
-          Германия
-        </strong>
-        <span class="countries__details">2010 • Дрезден, Ригельсберг, Саарбрюккен, Кельн, Берлин, Мюнхен</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇨🇿</span>
-          Чехия
-        </strong>
-        <span class="countries__details">2010 • Прага, Брно</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇦🇹</span>
-          Австрия
-        </strong>
-        <span class="countries__details">2010 • Вена</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇭🇺</span>
-          Венгрия
-        </strong>
-        <span class="countries__details">2010 • Будапешт, Сентендре</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇷🇺</span>
-          Россия
-        </strong>
-        <span class="countries__details">ок. 1994 • Ростов-на-Дону, Таганрог, Москва, Екатеринбург, Самара</span>
-      </li>
-
-      <li class="countries__item">
-        <strong class="countries__name">
-          <span class="countries__flag">🇺🇦</span>
-          Украина
-        </strong>
-        <span class="countries__details">1991 • Днепропетровск, Луганск, Киев, Крым (Симферополь, Судак, Феодосия, Коктебель, Ялта, Евпатория, Алушта, Симеиз, Севастополь, Балаклава), Полтава, Харьков, Запорожье, Львов, Моршин, Мукачево, Одесса, Каменец-Подольский, Черновцы,  Донецк, Винница, Чернигов, Житомир, Тернополь, Умань, Ужгород, Хмельницкий, Берегово</span>
-      </li>
+      {% for country in site.data.countries %}
+        <li class="countries__item">
+          <strong class="countries__name">
+            <span class="countries__flag">{{ country.flag }}</span>
+            {{ country.country }}
+          </strong>
+          <span class="countries__details">{{ country.year }} • {{ country.cities }}</span>
+        </li>
+      {% endfor %}
     </ul>
 
   </div>
