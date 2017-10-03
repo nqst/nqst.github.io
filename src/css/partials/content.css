@@ -37,6 +37,9 @@ article iframe {
 
 article p,
 article li {
+
+  max-width: 840px;
+  
   @media (--large-screen) {
     padding-right: 1.5em;
   }
