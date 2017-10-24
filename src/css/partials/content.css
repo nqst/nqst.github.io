@@ -68,6 +68,12 @@ article figure,
   max-width: 800px;
 }
 
+.figure--screenshot img {
+  box-shadow: 0 23px 38px rgba(0, 0, 0, 0.43),
+              0 25px 65px rgba(0, 0, 0, 0.10);
+  display: block;
+}
+
 article img {
   max-width: 100%;
 }
