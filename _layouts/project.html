@@ -3,7 +3,7 @@ layout: default
 ---
 
 <main class="main">
-  <div class="hero{% if page.hero.zero-bottom %} hero--zero-bottom{% endif %}"{% if page.hero.style %} style="{{ page.hero.style }}"{% endif %}>
+  <section class="hero{% if page.hero.zero_bottom %} hero--zero-bottom{% endif %}"{% if page.hero.style %} style="{{ page.hero.style }}"{% endif %}>
 
     <div class="container container--wide">
       <div class="hero__title-wrapper">
@@ -33,25 +33,26 @@ layout: default
       </div>
     </div>
 
-    <div class="container {% if page.hero.full_width %}container--full{% else %}container--wide{% endif %}">
-      <figure class="hero__figure{% if page.hero.figure.shadow %} hero__figure--with-shadow{% endif %}{% if page.hero.figure.rounded-corners %} hero__figure--with-rounded-corners{% endif %}">
+    <div class="container {% if page.hero.full_width or page.hero.screenshot %}container--full{% else %}container--wide{% endif %}">
+      <figure class="hero__figure{% if page.hero.figure.shadow %} hero__figure--with-shadow{% endif %}{% if page.hero.screenshot %} hero__figure--screenshot{% endif %}{% if page.hero.figure.rounded-corners %} hero__figure--with-rounded-corners{% endif %}">
 
         {% if page.hero.video %}
           {{ page.hero.video }}
         {% else %}
           {% if page.ext-link %}<a href="{{ page.ext-link }}">{% endif %}
-          <img src="/i{{ page.permalink }}{{ page.hero.image }}"{% if page.hero.image2x %} srcset="/i{{ page.permalink }}{{ page.hero.image2x }} 2x"{% endif %} alt="{{ page.title }}">
+          <img class="hero__image" src="/i{{ page.permalink }}{{ page.hero.image }}"{% if page.hero.image2x %} srcset="/i{{ page.permalink }}{{ page.hero.image2x }} 2x"{% endif %} alt="{{ page.title }}">
           {% if page.ext-link %}</a>{% endif %}
         {% endif %}
       </figure>
     </div>
+  </section>
 
-  </div>
-
-  <div class="container{% if page.widecontent %} container--wide{% endif %}">
-    <article class="project-story">
-      {{ content }}
-    </article>
-  </div>
+  <section class="project-story">
+    <div class="container{% if page.widecontent %} container--wide{% endif %}">
+      <article>
+        {{ content }}
+      </article>
+    </div>
+  </section>
   
 </main>

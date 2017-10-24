@@ -36,12 +36,12 @@ class: 'page-flights'
           </tr>
           {% for flight in flights %}
             <tr>
-              <td>{{ flight.date | replace: ".01", " января" | replace: ".02", " февраля" | replace: ".03", " марта" | replace: ".04", " апреля" | replace: ".05", " мая" | replace: ".06", " июня" | replace: ".07", " июля" | replace: ".08", " августа" | replace: ".09", " сентября" | replace: ".10", " октября" | replace: ".11", " ноября" | replace: ".12", " декабря" }}</td>
-              <td>
-                <span class="page-flights__flag">{{ flight.from.country }}</span>&nbsp;{{ flight.from.city }}
+              <td class="nowrap">{{ flight.date | replace: ".01", " января" | replace: ".02", " февраля" | replace: ".03", " марта" | replace: ".04", " апреля" | replace: ".05", " мая" | replace: ".06", " июня" | replace: ".07", " июля" | replace: ".08", " августа" | replace: ".09", " сентября" | replace: ".10", " октября" | replace: ".11", " ноября" | replace: ".12", " декабря" }}</td>
+              <td class="nowrap">
+                <span class="page-flights__flag">{{ flight.from.country }}</span> {{ flight.from.city }}
               </td>
-              <td>
-                <span class="page-flights__flag">{{ flight.to.country }}</span>&nbsp;{{ flight.to.city }}
+              <td class="nowrap">
+                <span class="page-flights__flag">{{ flight.to.country }}</span> {{ flight.to.city }}
               </td>
               <td>{{ flight.company }}</td>
               <td>{{ flight.aircraft }}</td>

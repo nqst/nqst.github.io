@@ -10,7 +10,7 @@
   max-width: 100%;
   margin-bottom: var(--baseline);
   
-  font-size: 0.8889rem;
+  font-size: 0.8rem;
   
   th,
   td {
@@ -28,9 +28,9 @@
   thead th {
     vertical-align: bottom;
     color: var(--text-muted);
-    font-size: 0.6667rem;
+    font-size: 0.6rem;
     text-transform: uppercase;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.005em;
     border-top: none;
     border-bottom: 1px solid #eee;
   }
@@ -41,7 +41,7 @@
 
   &--compact {
     @media (--medium-screen) {
-      font-size: 0.8125rem;
+      font-size: 0.65rem;
     }
   }
 }

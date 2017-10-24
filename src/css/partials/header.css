@@ -12,6 +12,7 @@
   z-index: 5;
   margin: 0;
   border-bottom: 1px solid #eee;
+  font-size: 0.8rem;
   /* padding: 18px 0; */
   
   @media (--medium-screen) {
@@ -100,7 +101,7 @@
   font-size: inherit;
   font-weight: bold;
   line-height: inherit;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.004em;
   white-space: nowrap;
 }
 
@@ -150,7 +151,7 @@
 
 .header__menu-link {
   color: color(var(--link-color) s(-70%) a(67%));
-  font-size: 0.94rem;
+  /* font-size: 0.94rem; */
 
   &:hover {
     color: var(--text-color);

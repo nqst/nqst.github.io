@@ -8,10 +8,11 @@ description:
 ext-link: http://tao-te-ching.ru
 
 hero:
-  zero-bottom: true
+  image: tao.png
+  image2x: tao@2x.png
+  screenshot: true
+  zero_bottom: true
   style: 'background: #2c2c2c;'
-  image: screenshot.png
-  full_width: true
 
 class: 'page-project has-dark-header'
 ---

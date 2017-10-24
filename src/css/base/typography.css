@@ -5,14 +5,14 @@
  */
 
 html {
-  font-size: 15px;
+  font-size: 16px;
 
   @media (--medium-screen) {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   @media (--large-screen) {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -213,7 +213,7 @@ ul > li {
   }
 }
 
-span.nowrap {
+.nowrap {
   white-space: nowrap;
 }
 

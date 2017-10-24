@@ -22,7 +22,7 @@
   }
   
   &__description {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.45;
     font-weight: 400;
     max-width: 820px;
@@ -30,5 +30,9 @@
     strong {
       font-weight: 600;
     }
+  }
+
+  &__interests {
+    
   }
 }

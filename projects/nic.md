@@ -7,11 +7,11 @@ description:
   text: 'Арт-дирекшн, дизайн и верстка'
 
 hero:
-  style: 'background-color: #78bd17;'
-  #image: hero.png
-  figure:
-    shadow: true
-    rounded-corners: true
+  image: nic.png
+  image2x: nic@2x.png
+  screenshot: true
+  zero_bottom: true
+  style: 'background-color: #828490;'
 
 class: 'page-project has-dark-header'
 ---
