@@ -69,9 +69,16 @@ article figure,
 }
 
 .figure--screenshot img {
-  box-shadow: 0 23px 38px rgba(0, 0, 0, 0.43),
-              0 25px 65px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15),
+              0 15px 35px rgba(0, 0, 0, 0.05);
   display: block;
+  margin-bottom: 50px;
+  
+  @media (--medium-screen) {
+    margin-bottom: 80px;
+    box-shadow: 0 23px 38px rgba(0, 0, 0, 0.2),
+                0 25px 65px rgba(0, 0, 0, 0.05);
+  }
 }
 
 article img {
