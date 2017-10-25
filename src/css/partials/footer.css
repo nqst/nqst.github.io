@@ -17,7 +17,7 @@
               inset 0 0 30px -14px rgba(#24190e, 0.33);
               
   @media (--medium-screen) {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
   }
 
   a {

@@ -34,7 +34,7 @@ layout: default
     </div>
 
     <div class="container {% if page.hero.full_width or page.hero.screenshot %}container--full{% else %}container--wide{% endif %}">
-      <figure class="hero__figure{% if page.hero.figure.shadow %} hero__figure--with-shadow{% endif %}{% if page.hero.screenshot %} hero__figure--screenshot{% endif %}{% if page.hero.figure.rounded-corners %} hero__figure--with-rounded-corners{% endif %}">
+      <figure class="hero__figure{% if page.hero.figure.shadow %} hero__figure--with-subtle-shadow{% endif %}{% if page.hero.screenshot %} hero__figure--screenshot{% endif %}{% if page.hero.figure.rounded-corners %} hero__figure--with-rounded-corners{% endif %}">
 
         {% if page.hero.video %}
           {{ page.hero.video }}

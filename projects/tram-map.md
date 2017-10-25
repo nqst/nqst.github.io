@@ -7,7 +7,8 @@ description:
 
 hero:
   style: 'background-color: #f4f4f4;'
-  image: hero.png
+  image: trammap.png
+  image2x: trammap@2x.png
   full_width: true
   figure:
     shadow: true
