@@ -1,5 +1,5 @@
 {
-  "name": "nqst.net",
+  "name": "zaytsev.io",
   "version": "1.0.0",
   "description": "Personal website and blog.",
   "main": "gulpfile.js",
@@ -18,17 +18,17 @@
   "homepage": "https://github.com/nqst/nqst.github.io#readme",
   "devDependencies": {
     "browser-sync": "^2.18.7",
-    "css-mqpacker": "^5.0.1",
+    "css-mqpacker": "^6.0.1",
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.1",
-    "gulp-postcss": "^6.1.0",
+    "gulp-postcss": "^7.0.0",
     "gulp-shell": "^0.6.2",
     "gulp-typograf": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "postcss-color-alpha": "^1.0.3",
-    "postcss-cssnext": "^2.4.0",
-    "postcss-import": "^9.1.0",
-    "postcss-nested": "^1.0.0",
-    "postcss-simple-vars": "^3.0.0"
+    "postcss-color-alpha": "^2.0.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-simple-vars": "^4.1.0"
   }
 }
