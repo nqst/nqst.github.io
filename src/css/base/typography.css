@@ -122,6 +122,10 @@ p {
   margin-bottom: 1.5em;
 }
 
+article {
+  letter-spacing: 0.004em; /* SF font tuning */
+}
+
 article blockquote {
   margin: var(--baseline) 0;
   margin-left: 4px;
