@@ -89,10 +89,10 @@ h4 {
 
 .posts-list .post__title {
   margin-bottom: var(--baseline);
-  font-size: 2rem;
+  font-size: 1.8rem;
   
   @media (--medium-screen) {
-    font-size: 2.25em;
+    font-size: 2rem;
   }
 }
 
