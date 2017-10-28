@@ -10,7 +10,6 @@ hero:
   style: 'background: #f4f4f4;'
   video: '<div data-type="youtube" data-video-id="9gmiL-Nnj7g"></div>'
 
-class: 'page-project'
 plyr: true
 ---
 

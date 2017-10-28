@@ -14,7 +14,6 @@ hero:
     shadow: true
     rounded-corners: true
 
-class: 'page-project'
 extrahead: '<link rel="stylesheet" href="/css/posts/trams.css">'
 ---
 

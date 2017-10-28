@@ -3,7 +3,7 @@ layout: project
 permalink: /projects/nic/
 title: Новый сайт NIC.UA
 description:
-  year: 2014—2017
+  year: 2014–2017
   text: 'Арт-дирекшн, дизайн и верстка'
 
 hero:
@@ -11,9 +11,9 @@ hero:
   image2x: nic@2x.png
   screenshot: true
   zero_bottom: true
-  style: 'background-color: #f2f3f4;'
+  style: 'background-color: #2a2b2c;'
 
-class: 'page-project'
+class: 'has-dark-header'
 ---
 
 NIC

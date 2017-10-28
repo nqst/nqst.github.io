@@ -15,7 +15,7 @@ hero:
     shadow: true
     rounded-corners: true
 
-class: 'page-project has-dark-header'
+class: 'has-dark-header'
 widecontent: true
 ---
 

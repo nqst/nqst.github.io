@@ -14,7 +14,7 @@ hero:
   zero_bottom: true
   style: 'background: #0e1b52 url(/i/projects/nic-newyear/hero-bg2.jpg) repeat-x 50% 0; background-size: cover;'
 
-class: 'page-project has-dark-header'
+class: 'has-dark-header'
 ---
 
 Компания <a href="https://nic.ua/">NIC.UA</a> каждый год делает новогодние акции. В честь наступления 2016 года была придумана и сделана акция про новогодние списки.

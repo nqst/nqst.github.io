@@ -14,7 +14,7 @@ hero:
     shadow: true
     rounded-corners: true
 
-class: 'page-project page-boarding-pass has-dark-header'
+class: 'page-boarding-pass has-dark-header'
 ---
 
 Обновленный дизайн посадочного талона наглядно показывает пассажиру самую нужную информацию, аккуратно выглядит и требует меньше чернил для печати.
