@@ -56,11 +56,10 @@ custom-css: true
   <img class="js-slide js-slide-initial" src="/i/uz-boarding-pass/evolution/1.png" style="display: block; border-radius: 0; box-shadow: 0 1px 2px #bbb;">
 </figure>
 
-<p>
+<div>
   <input class="js-range" type="range" min="1" max="8" value="1" step="1">
-  <br>
-  <span class="range-comment js-range-comment"></span>
-</p>
+  <div class="range-comment js-range-comment"></div>
+</div>
 
 <script src="/js/jquery.viewportchecker.min.js"></script>
 <script src="/js/misc/rangeslider.js"></script>
