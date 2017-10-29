@@ -128,9 +128,9 @@ article {
 
 article blockquote {
   margin: var(--baseline) 0;
-  margin-left: 4px;
-  border-left: 4px solid #eceae5;
-  padding-left: 1.5em;
+  margin-left: 3px;
+  border-left: 3px solid #c5c7c9;
+  padding-left: 1em;
 }
 
 cite {

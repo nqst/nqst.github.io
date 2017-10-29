@@ -167,13 +167,26 @@
 .project__link {
   display: block;
   position: relative;
+  overflow: hidden;
+  /* transition: opacity 0.2s ease-out; */
 }
 
-a.project__link:hover .project__image {
-  opacity: 0.87;
+a.project__link:hover {
+  /* opacity: 0.92; */
+}
+
+.project__img {
+  position: absolute;
+  max-width: 100%;
+  left: 30px;
+  
+  @media (--large-screen) {
+    left: 40px;
+  }
 }
 
 .project__image {
+  position: relative;
   width: 100%;
   height: auto;
   min-height: 300px;
@@ -193,15 +206,17 @@ a.project__link:hover .project__image {
   display: inline-block;
   line-height: 1.4;
   
-  position: absolute;
-  z-index: 1;
-  top: 25px;
-  left: 0;
+  position: relative;
+  z-index: 10;
+  margin-top: 25px;
+  /* left: 0; */
   padding: 0 30px;
   color: #fff;
   
+  max-width: 400px;
+  
   @media (--large-screen) {
-    top: 30px;
+    margin-top: 30px;
     padding: 0 40px;
   }
 }
@@ -350,6 +365,49 @@ a.project__link:hover .project__image {
   }
 }
 
+
+
+/* .project--childrens-railway .project__link {
+  background: #d5ebee url('/i/projects/childrens-railway/teaser.png') no-repeat left 50% bottom -20px;
+  
+  @media 
+  (-webkit-min-device-pixel-ratio: 1.5), 
+  (min-resolution: 144dpi) {
+    background-image: url('/i/projects/childrens-railway/teaser@2x.png');
+    background-size: 562px 348px;
+  }
+} */
+
+.project--childrens-railway {
+  background-color: #d5ebee;
+  
+  .project__img {
+    bottom: -25px;
+  }
+}
+
+.project--nic-newyear {
+  background-color: #0c1a7f;
+  /* background-size: 800px 440px; */
+  
+  .project__img {
+    left: 50%;
+    margin-left: -225px;
+    bottom: 25px;
+  }
+}
+
+.project--uz-boarding-pass {
+  background-color: #333b49;
+  
+  .project__img {
+    top: 90px;
+  }
+}
+
+.project--tram-map {
+  background-color: #ffd03b;
+}
 
 
 .project__image--bkk-timetable {
