@@ -18,6 +18,12 @@ var cssFiles = 'src/css/**/*.css';
 var additionalCssFiles = 'src/css/posts/**/*.css';
 var typografFiles = ['./**/*.md', '!_site/**/*.*'];
 
+function handleError(err) {
+  console.log(err.toString());
+  gutil.beep();
+  this.emit('end');
+}
+
 var processors = [
   atImport,
   cssnext({
@@ -59,6 +65,7 @@ gulp.task('typograf', function() {
 gulp.task('css', function() {
   return gulp.src('src/css/main.css')
     .pipe(postcss(processors))
+    .on('error', handleError)
     .pipe(nano({
       safe: true,
       autoprefixer: false,
