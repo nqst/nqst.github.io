@@ -304,20 +304,16 @@ a.project__link:hover {
   width: 100%;
   font-size: 1.167rem;
   
-  @media (--medium-screen) {
+  @media (--large-screen) {
     width: 50%;
   }
 }
 
 .project--important .project__link,
 .project--important .project__image {
-  min-height: 350px;
+  min-height: 320px;
 
-  @media (--large-screen) {
-    min-height: 400px;
-  }
-
-  @media (--x-large-screen) {
+  @media (--medium-screen) {
     min-height: 440px;
   }
 }
