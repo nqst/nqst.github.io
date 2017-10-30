@@ -1,15 +1,17 @@
-var gulp           = require('gulp');
-var postcss        = require('gulp-postcss');
-var atImport       = require('postcss-import');
-var cssnext        = require('postcss-cssnext');
-var nano           = require('gulp-cssnano');
-var mqpacker       = require('css-mqpacker');
-var nested         = require('postcss-nested');
-var colorAlpha     = require('postcss-color-alpha');
-var typograf       = require('gulp-typograf');
-var browserSync    = require('browser-sync').create();
-var child          = require('child_process');
-var gutil          = require('gulp-util');
+var gulp            = require('gulp');
+var postcss         = require('gulp-postcss');
+var atImport        = require('postcss-import');
+var cssnext         = require('postcss-cssnext');
+var nano            = require('gulp-cssnano');
+var mqpacker        = require('css-mqpacker');
+var nested          = require('postcss-nested');
+var colorAlpha      = require('postcss-color-alpha');
+var reporter        = require('postcss-reporter');
+var stylelint       = require('stylelint');
+var typograf        = require('gulp-typograf');
+var browserSync     = require('browser-sync').create();
+var child           = require('child_process');
+var gutil           = require('gulp-util');
 
 var siteRoot = '_site';
 var cssFiles = 'src/css/**/*.css';
@@ -26,7 +28,9 @@ var processors = [
   }),
   nested,
   colorAlpha,
-  mqpacker
+  mqpacker,
+  stylelint,
+  reporter({ clearReportedMessages: true })
 ];
 
 gulp.task('typograf', function() {
@@ -96,7 +100,8 @@ gulp.task('serve', function() {
       baseDir: siteRoot
     },
     open: false,
-    notify: false
+    notify: false,
+    logLevel: 'silent'
   });
 
   gulp.watch(cssFiles, ['css']);

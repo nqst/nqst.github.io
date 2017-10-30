@@ -16,10 +16,7 @@ p code, li code {
   border: 1px solid color(#faf9f5 l(-7%));
   border-radius: 3px;
   white-space: nowrap;
-  margin-top: -1px;
-  margin-bottom: -1px;
-  margin-right: 0.1em;
-  margin-left: 0.1em;
+  margin: -1px 0.1em;
   font-size: 0.875em;
   line-height: 1.6;
 }
