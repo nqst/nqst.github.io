@@ -4,8 +4,6 @@
  *
  */
 
-
-
 .hero {
   background-size: cover;
   padding: 130px 0 75px;
@@ -94,7 +92,10 @@
 }
 
 
-.page-projects .main,
+.page-projects .main {
+  margin: 0;
+}
+
 .page-project .main {
   margin-top: 0;
 }
@@ -144,6 +145,9 @@
   display: inline-block;
   vertical-align: top;
   font-size: 1rem;
+  background-color: #999;
+
+  min-height: 300px;
   
   /* margin-bottom: calc(var(--baseline) * 2); */
   
@@ -236,6 +240,8 @@ a.project__link:hover {
     padding: 0;
     margin: 0;
     max-width: none;
+    min-height: 0;
+    background-color: transparent;
   }
   
   .project__image {
@@ -411,9 +417,6 @@ a.project__link:hover {
   background-image: url('/i/projects/bkk-timetable/thumb.png');
   background-position: 50% 10px;
 }
-
-
-
 
 
 /* Plyr (Custom video plugin) additional styles  */
