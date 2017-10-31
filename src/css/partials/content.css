@@ -232,14 +232,14 @@ figure.figure--wide {
 }
 
 .read-more {
-  margin-top: 1em;
+  margin-top: 1.5em;
 
   &__link {
     font-size: 0.9em;
     display: inline-block;
     border: 1px solid color(var(--link-color) l(+30%) s(-30%));
     border-radius: 5px;
-    padding: 3px 16px;
+    padding: 3px 15px;
     transition: all 0.2s ease-in-out;
   }
 
