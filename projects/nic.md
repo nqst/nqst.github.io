@@ -5,6 +5,7 @@ title: Новый сайт NIC.UA
 description:
   year: 2014–2017
   text: 'Арт-дирекшн, дизайн и верстка'
+ext-link: https://nic.ua
 
 hero:
   image: nic.png
