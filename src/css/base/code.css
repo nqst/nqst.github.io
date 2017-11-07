@@ -11,9 +11,9 @@ pre, code {
 p code, li code {
   display: inline-block;
   padding: 0 4px;
-  background-color: #faf9f5;
+  background-color: var(--highlight-color);
   color: #3e414a;
-  border: 1px solid color(#faf9f5 l(-7%));
+  /* border: 1px solid color(#faf9f5 l(-7%)); */
   border-radius: 3px;
   white-space: nowrap;
   margin: -1px 0.1em;
