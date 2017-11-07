@@ -7,7 +7,7 @@ description:
   text: 'Концепт'
 
 hero:
-  style: 'background: #4c0e5e;'
+  style: 'background: #500b43;'
   image: 107.png
   image2x: 107@2x.png
   full_width: true

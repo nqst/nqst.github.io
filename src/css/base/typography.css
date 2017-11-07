@@ -88,12 +88,17 @@ h4 {
 }
 
 .posts-list .post__title {
-  margin-bottom: var(--baseline);
+  margin-bottom: 1rem;
   font-size: 1.8rem;
+  font-weight: 700;
   
   @media (--medium-screen) {
     font-size: 2rem;
   }
+}
+
+.posts-list .figure--intro {
+  margin-top: 1.5rem;
 }
 
 .posts-list .lead {

@@ -61,6 +61,9 @@
   max-width: 100%;
   display: block;
   margin: 0 auto;
+  /* animation-name: fadeInUpHeroImage;
+  animation-duration: 1.5s;
+  animation-fill-mode: both; */
 }
 
 .has-dark-header .hero {
@@ -400,11 +403,19 @@ a.project__link:hover {
 }
 
 .project--uz-boarding-pass {
-  background-color: #333b49;
+  background-color: #3a405a;
   
   .project__img {
-    top: 90px;
+    top: 120px;
   }
+}
+
+.project--bkk-timetable {
+  background-color: #3f093b;
+  
+  /* .project__img {
+    top: 90px;
+  } */
 }
 
 .project--tram-map {
