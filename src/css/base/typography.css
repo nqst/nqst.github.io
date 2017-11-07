@@ -70,7 +70,7 @@ h4 {
 
 .post__title {
   margin-top: 0;
-  margin-bottom: calc(var(--baseline) * 1.25);
+  margin-bottom: 1rem;
   font-size: 2.25rem;
   
 
@@ -170,7 +170,7 @@ figure.highlight {
   padding: 10px 18px;
   overflow: auto;
   line-height: 1.5;
-  font-size: 1em;
+  font-size: 0.8em;
   
   @media (--medium-screen) {
     padding-right: 25px;

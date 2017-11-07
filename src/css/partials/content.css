@@ -47,11 +47,12 @@ article li {
 
 article figure,
 .embed {
-  margin: 1em 0 var(--baseline);
+  margin: var(--baseline) 0;
 }
 
 .figure--intro {
   width: 100%;
+  margin-top: 2rem;
   
   img {
     display: block;
