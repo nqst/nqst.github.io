@@ -174,6 +174,7 @@
 
 .project__link {
   display: block;
+  min-height: 300px;
   position: relative;
   overflow: hidden;
   /* transition: opacity 0.2s ease-out; */
@@ -221,7 +222,7 @@ a.project__link:hover {
   padding: 0 30px;
   color: #fff;
   
-  max-width: 400px;
+  max-width: 460px;
   
   @media (--large-screen) {
     margin-top: 30px;
@@ -231,11 +232,11 @@ a.project__link:hover {
 
 .featured-project {
   text-align: center;
-  padding: 140px 0 100px;
+  padding: 180px 0 100px;
   /* font-size: 1.4em; */
   margin-bottom: 0;
   
-  @media (--large-screen) {
+  @media (--medium-screen) {
     padding: 150px 0;
   }
 
@@ -268,6 +269,7 @@ a.project__link:hover {
   
   .project__link {
     color: inherit;
+    min-height: 0;
   }
 
   .project__title {
@@ -336,7 +338,7 @@ a.project__link:hover {
 
 
 .what-clients-say {
-  padding: 100px 0;
+  padding: 120px 0;
   /* border-top: 1px solid #eee;
   border-bottom: 1px solid #eee; */
   
@@ -414,9 +416,9 @@ a.project__link:hover {
 .project--bkk-timetable {
   background-color: #3f093b;
   
-  /* .project__img {
-    top: 90px;
-  } */
+  .project__img {
+    top: 120px;
+  }
 }
 
 .project--tram-map {
