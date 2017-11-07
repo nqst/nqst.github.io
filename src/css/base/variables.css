@@ -13,7 +13,7 @@
 
   --baseline-half:              calc(var(--baseline) / 2);
 
-  --post-text-container-width:  800px;
+  --post-text-container-width:  700px;
 
   /* --font-primary:               "Graphik LCG", "Roboto", "Helvetica Neue", "Arial", sans-serif; */
   --font-primary:               -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Arial", sans-serif;

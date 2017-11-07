@@ -37,11 +37,14 @@ article iframe {
 
 article p,
 article li {
-
   max-width: var(--post-text-container-width);
   
   @media (--large-screen) {
     /* padding-right: 1.5em; */
+  }
+
+  .container--full & {
+    max-width: calc(var(--post-text-container-width) * 1.2);
   }
 }
 
@@ -92,7 +95,7 @@ article figcaption {
   margin-bottom: calc(var(--baseline) * 2);
   font-family: var(--font-primary);
   line-height: 1.5;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #606264;
 }
 
