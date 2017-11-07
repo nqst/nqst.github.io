@@ -240,7 +240,8 @@ figure.figure--wide {
     font-size: 0.8rem;
     font-weight: 500;
     display: inline-block;
-    border: 1px solid color(var(--link-color) l(+30%) s(-30%));
+    /* border: 1px solid color(var(--link-color) l(+30%) s(-30%)); */
+    border: 1px solid #e3e5e7;
     border-radius: 5px;
     padding: 4px 15px 5px;
     transition: all 0.2s ease-in-out;
