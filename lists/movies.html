@@ -22,7 +22,7 @@ class: 'page-movies'
           <li class="movies__item{% if movie.favorite %} movies__item--favorite{% endif %}">
             <strong class="movies__name">{{ movie.name }}</strong>
             <span class="movies__details">
-              {% if movie.original_name %}{{ movie.original_name }} • {% endif %}
+              {% if movie.original_name %}{{ movie.original_name }} · {% endif %}
               {{ movie.released }}
             </span>
           </li>
