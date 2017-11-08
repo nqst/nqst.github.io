@@ -9,8 +9,8 @@
     city: Киев
     airport: KBP
   company: МАУ
-  aircraft: Boeing 737
-  comment: Первый перелет с МАУ.
+  aircraft: Boeing 737
+  comment: Первый перелет с МАУ.
 
 - date: "31.07"
   from: 
@@ -22,7 +22,7 @@
     city: Каунас
     airport: KUN
   company: AirBaltic
-  aircraft: Boeing 737
+  aircraft: Boeing 737
 
 - date: "25.07"
   from: 
@@ -34,7 +34,7 @@
     city: Мюнхен
     airport: MUC
   company: Air Berlin
-  aircraft: Airbus A320
+  aircraft: Airbus A320
   comment: Самая сильная турбулентность за весь мой опыт, но от «Эйр Берлина» самые приятные впечатления.
 
 - date: "17.07"
@@ -47,7 +47,7 @@
     city: Берлин
     airport: TXL
   company: AirBaltic
-  aircraft: Boeing 737
+  aircraft: Boeing 737
   comment: Один из самых красивых перелетов.
 
 - date: "11.07"
@@ -60,7 +60,7 @@
     city: Минск
     airport: MSQ
   company: Белавиа
-  aircraft: Boeing 737
+  aircraft: Boeing 737
 
 - date: "3.06"
   from: 
@@ -72,7 +72,7 @@
     city: Киев
     airport: IEV
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 - date: "30.05"
   from: 
@@ -84,7 +84,7 @@
     city: Вроцлав
     airport: WRO
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 2016:
 - date: "28.12"
@@ -97,7 +97,7 @@
     city: Киев
     airport: IEV
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 - date: "21.12"
   from: 
@@ -109,7 +109,7 @@
     city: Будапешт
     airport: BUD
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
   comment: У Авроры впервые было отдельное место в самолете.
 
 - date: "8.12"
@@ -122,7 +122,7 @@
     city: Киев
     airport: KBP
   company: Белавиа
-  aircraft: Boeing 737
+  aircraft: Boeing 737
 
 - date: "6.12"
   from: 
@@ -134,7 +134,7 @@
     city: Минск
     airport: MSQ
   company: Белавиа
-  aircraft: Boeing 737
+  aircraft: Boeing 737
   comment: Первый полет из Борисполя. Летели на самолете с ливреей «World of Tanks».
 
 - date: "15.02"
@@ -147,7 +147,7 @@
     city: Киев
     airport: IEV
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 - date: "8.02"
   from: 
@@ -159,7 +159,7 @@
     city: Будапешт
     airport: BUD
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 2015:
 - date: "22.08"
@@ -172,7 +172,7 @@
     city: Киев
     airport: IEV
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 - date: "15.07"
   from: 
@@ -184,7 +184,7 @@
     city: Киев
     airport: IEV
   company: YanAir
-  aircraft: SAAB 340
+  aircraft: SAAB 340
   comment: Повторный рейс спустя несколько часов после возвращения в Одессу.
 
 - date: "15.07"
@@ -197,7 +197,7 @@
     city: Киев
     airport: IEV
   company: YanAir
-  aircraft: SAAB 340
+  aircraft: SAAB 340
   comment: Первый полет на самолете с <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B1%D0%BE%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C">турбовинтовым двигателем</a>. Во время полета один двигатель отказал. Экипаж принял решение вернуться в Одессу. Было страшновато.
 
 - date: "27.05"
@@ -210,7 +210,7 @@
     city: Киев
     airport: IEV
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 - date: "24.05"
   from: 
@@ -222,7 +222,7 @@
     city: Будапешт
     airport: BUD
   company: Air France
-  aircraft: Airbus A319
+  aircraft: Airbus A319
 
 - date: "20.05"
   from: 
@@ -234,7 +234,7 @@
     city: Париж
     airport: CDG
   company: Air France
-  aircraft: Airbus A319
+  aircraft: Airbus A319
 
 - date: "13.05"
   from: 
@@ -246,7 +246,7 @@
     city: Будапешт
     airport: BUD
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
   comment: Первый полет с дочкой (в ее 6 месяцев).
 
 2013:
@@ -260,7 +260,7 @@
     city: Минск
     airport: MSQ
   company: Белавиа
-  aircraft: Boeing 737
+  aircraft: Boeing 737
   comment: Первый Боинг.
 
 - date: "15.10"
@@ -273,7 +273,7 @@
     city: Москва
     airport: DME
   company: S7
-  aircraft: Airbus A319
+  aircraft: Airbus A319
   comment: Транзит в Минск.
 
 - date: "18.05"
@@ -311,7 +311,7 @@
     city: Киев
     airport: IEV
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 - date: "8.02"
   from: 
@@ -323,7 +323,7 @@
     city: Будапешт
     airport: BUD
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
   comment: Полет в день свадьбы. Марина летела в свадебном платье!
 
 2012:
@@ -337,7 +337,7 @@
     city: Киев
     airport: IEV
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 - date: "21.07"
   from: 
@@ -349,7 +349,7 @@
     city: Франкфурт-Хан
     airport: HHN
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
 
 - date: "21.07"
   from: 
@@ -361,7 +361,7 @@
     city: Катовице
     airport: KTW
   company: Wizz Air
-  aircraft: Airbus A320
+  aircraft: Airbus A320
   comment: Первый полет в светлое время суток. За окном — красота!
 
 2010:
@@ -375,5 +375,5 @@
     city: Москва
     airport: DME
   company: Уральские авиалинии
-  aircraft: Airbus A320
+  aircraft: Airbus A320
   comment: Самый первый полет. Ночевал в аэропорту. Зарегистрировался первым и ухватил себе место в первом ряду у окна.

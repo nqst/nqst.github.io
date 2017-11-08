@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /projects/tao-te-ching/
-title: Сайт-книга «Дао дэ цзин»
+title: Сайт-книга «Дао дэ цзин»
 description:
   year: 2011
   text: 'Дизайн, верстка, программирование'

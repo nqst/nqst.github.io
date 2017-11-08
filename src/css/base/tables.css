@@ -9,15 +9,25 @@
   width: 100%;
   max-width: 100%;
   margin-bottom: var(--baseline);
-  
   font-size: 0.8rem;
+  
+  @media screen and (max-width: 768px) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
   
   th,
   td {
     vertical-align: top;
     line-height: 1.5;
-    padding: 12px 15px;
+    padding: 8px;
     border-top: 1px solid #eee;
+    
+    @media (--medium-screen) {
+      padding: 12px 15px;
+    }
   }
 
   th:first-child,

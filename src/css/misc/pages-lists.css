@@ -141,6 +141,7 @@
 
 
 .table--flights {
+
   th,
   td {
     max-width: 300px;
@@ -157,5 +158,5 @@
 .page-flights__flag {
   position: relative;
   top: 0.08em;
-  margin-right: 0.4em;
+  margin-right: 0.1em;
 }
