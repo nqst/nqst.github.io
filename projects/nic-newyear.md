@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /projects/nic-newyear/
-title: Новогодняя акция для NIC.UA
+title: Новогодняя акция для NIC.UA
 description:
   year: 2015
   text: 'Соавторство идеи, арт-дирекшн, верстка, текст'

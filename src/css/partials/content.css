@@ -92,7 +92,7 @@ article img {
 article figcaption {
   display: block;
   margin-top: 0.2em;
-  margin-bottom: calc(var(--baseline) * 2);
+  margin-bottom: var(--baseline);
   font-family: var(--font-primary);
   line-height: 1.5;
   font-size: 0.7rem;
@@ -101,8 +101,8 @@ article figcaption {
 
 figure.figure--wide {
   @media (--large-screen) {
-    margin-top: var(--baseline);
     width: 980px;
+    margin-bottom: calc(var(--baseline) * 1.5);
     margin-left: calc((980 - var(--post-text-container-width)) / -2);
     text-align: center;
   }

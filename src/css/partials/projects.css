@@ -20,9 +20,16 @@
 }
 
 .hero__description {
-  margin-top: 0.5em;
+  margin-top: 1em;
   color: var(--text-muted);
-  font-size: 0.9em;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding-right: 25px; /* nicer paddings on mobile */
+  padding-left: 25px;
+  
+  @media (--medium-screen) {
+    font-size: 0.9rem;
+  }
 }
 
 .hero__link-wrapper {
@@ -30,8 +37,12 @@
 }
 
 .hero__link {
-  font-size: 0.9em;
+  font-size: 0.8rem;
   font-weight: 500;
+  
+  @media (--medium-screen) {
+    font-size: 0.9rem;
+  }
 }
 
 .hero__figure {
@@ -89,10 +100,18 @@
 }
 
 .project-story {
-  padding-top: 70px;
+  padding-top: 25px;
   background-color: #fff;
   position: relative;
   z-index: 5;
+  
+  @media (--medium-screen) {
+    padding-top: 50px;
+  }
+
+  @media (--large-screen) {
+    padding-top: 70px;
+  }
 }
 
 
