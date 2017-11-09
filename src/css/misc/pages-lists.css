@@ -118,7 +118,7 @@
 
 .countries__item {
   @media (--large-screen) {
-    margin-left: 1.6em;
+    margin-left: 1.7em;
   }
 }
 
@@ -134,7 +134,7 @@
   
   @media (--large-screen) {
     position: absolute;
-    left: -1.55em;
+    left: -1.35em;
     margin-right: 0;
   }
 }
