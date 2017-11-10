@@ -9,7 +9,7 @@ extrahead: '<script src="//twemoji.maxcdn.com/2/twemoji.min.js"></script>'
   <div class="container container--full">
     <header class="page-header">
       <h1 class="page-header__title">Посещенные страны</h1>
-      <p class="page-header__description">{{ site.data.countries | size }} стран. Указаны годы первого въезда в страну.</p>
+      <p class="page-header__description">{{ site.data.countries | size }} стран</p>
     </header>
 
     <ul class="countries">
@@ -19,7 +19,7 @@ extrahead: '<script src="//twemoji.maxcdn.com/2/twemoji.min.js"></script>'
             <span class="countries__flag">{{ country.flag }}</span>
             {{ country.country }}
           </strong>
-          <span class="countries__details">{{ country.year }} · {{ country.cities }}</span>
+          <span class="countries__details">{{ country.cities }}</span>
         </li>
       {% endfor %}
     </ul>
