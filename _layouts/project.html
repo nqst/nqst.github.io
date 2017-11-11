@@ -2,8 +2,10 @@
 layout: default
 ---
 
+{% assign page_slug = page.url | remove: 'projects' | remove: '/' %}
+
 <main class="main">
-  <section class="hero{% if page.hero.zero_bottom %} hero--zero-bottom{% endif %}"{% if page.hero.style %} style="{{ page.hero.style }}"{% endif %}>
+  <section class="hero hero--{{ page_slug }}{% if page.hero.cover %} hero--has-cover{% endif %}{% if page.hero.zero_bottom %} hero--zero-bottom{% endif %}"{% if page.hero.style %} style="{{ page.hero.style }}"{% endif %}>
 
     <div class="container container--wide">
       <div class="hero__title-wrapper">

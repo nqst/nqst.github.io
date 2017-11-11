@@ -12,7 +12,7 @@ hero:
   image2x: clubnic@2x.png
   screenshot: true
   zero_bottom: true
-  style: 'background: #0e1b52 url(/i/projects/nic-newyear/hero-bg2.jpg) repeat-x 50% 0; background-size: cover;'
+  cover: true
 
 class: 'has-dark-header'
 ---

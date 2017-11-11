@@ -191,7 +191,13 @@ hr {
   text-align: center;
   display: block;
   margin: calc(var(--baseline) * 2) auto;
+    
+  .container--full & {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
+
 
 ul {
   list-style: none;

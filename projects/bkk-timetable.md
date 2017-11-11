@@ -7,8 +7,7 @@ description:
   text: 'Концепт'
 
 hero:
-  #style: 'background: #500b43;'
-  style: 'background: #150312 url(/i/projects/bkk-timetable/cover.jpg) no-repeat 50% 0; background-size: cover;'
+  cover: true
   image: 107.png
   image2x: 107@2x.png
   full_width: true

@@ -12,7 +12,7 @@ hero:
   image2x: tao@2x.png
   screenshot: true
   zero_bottom: true
-  style: 'background: #071127 url(/i/projects/tao-te-ching/cover.jpg) no-repeat 50% 0; background-size: cover;'
+  cover: true
 
 class: 'has-dark-header'
 ---

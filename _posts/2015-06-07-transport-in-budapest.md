@@ -3,6 +3,7 @@ layout: post
 title: "Транспорт в Будапеште"
 introimg: DSC02115.jpg
 ogimage: DSC02345.jpg
+widepost: true
 ---
 
 <p class="lead">Вернулся из поездки в Будапешт вдохновленный общественным транспортом — мне всё так понравилось, что вместо рассказа об этом прекрасном городе сначала публикую большую заметку про транспорт.</p>
@@ -138,7 +139,7 @@ ogimage: DSC02345.jpg
 
 Фотографировал расписание, а когда перебирал фотки, заметил мелочь: некоторые минуты подчеркнуты. Оказалось, это время прибытия низкопольных автобусов!
 
-<figure class="figure--wide">
+<figure>
   <img src="/i/transport-in-budapest/DSC03488.jpg">
   <figcaption>Расписание, конечно же, соблюдается — автобус приедет в нужное время.</figcaption>
 </figure>
@@ -224,7 +225,7 @@ ogimage: DSC02345.jpg
 
 Кораблики везут пассажиров по быстрому Дунаю, ловко переправляясь с одного берега на другой:
 
-<figure class="figure--wide">
+<figure>
   <img src="/i/transport-in-budapest/boat.png">
   <!-- <figcaption>Схема полностью — <a href="http://www.bkk.hu/apps/docs/terkep/hajojaratok.pdf">bkk.hu/apps/docs/terkep/hajojaratok.pdf</a></figcaption> -->
 </figure>
@@ -249,7 +250,7 @@ ogimage: DSC02345.jpg
 
 Осенью 2013 года в Будапеште свершилось величайшее торжество здравого смысла — полностью изменилась система такси.
 
-<figure class="figure--wide">
+<figure>
   <img src="/i/transport-in-budapest/DSC02161.jpg">
   <figcaption>Женщина в красном, к слову, — водитель такси.</figcaption>
 </figure>
@@ -277,6 +278,6 @@ ogimage: DSC02345.jpg
 
 Если интересуетесь или занимаетесь транспортом — приезжайте за вдохновением в Будапешт. Уверен, что вам понравится.
 
-<figure class="figure--wide">
+<figure>
   <img src="/i/transport-in-budapest/DSC02345.jpg">
 </figure>

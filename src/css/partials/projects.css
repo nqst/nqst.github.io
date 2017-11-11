@@ -458,7 +458,7 @@
 }
 
 .project--bkk-timetable {
-  background-color: #580c5a;
+  background-color: #220731;
   
   .project__img {
     top: 120px;
@@ -504,6 +504,33 @@
   .project__title {
     color: var(--text-color);
   }
+}
+
+/* Project heros */
+.hero--has-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+.hero--nic-newyear {
+  background-color: #0e1b52;
+  background-image: url(/i/projects/nic-newyear/hero-bg2.jpg);
+}
+
+.hero--bkk-timetable {
+  background-color: #150312;
+  background-image: url(/i/projects/bkk-timetable/cover.jpg);
+}
+
+.hero--uz-boarding-pass {
+  background-color: #242d3a;
+  background-image: url(/i/projects/uz-boarding-pass/ttt.jpg);
+}
+
+.hero--tao-te-ching {
+  background-color: #071127;
+  background-image: url(/i/projects/tao-te-ching/cover.jpg);
 }
 
 /* Plyr (Custom video plugin) additional styles  */

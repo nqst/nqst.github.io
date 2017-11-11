@@ -7,7 +7,7 @@ description:
   text: Концепт
 
 hero:
-  style: 'background-color: #242d3a; background-image: url(/i/projects/uz-boarding-pass/ttt.jpg);'
+  cover: true
   image: ticket.png
   image2x: ticket@2x.png
   figure:
