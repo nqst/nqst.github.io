@@ -21,6 +21,12 @@
 
 .hero__title {
   margin-bottom: 0;
+  
+  @media (--large-screen) {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .hero__description {
