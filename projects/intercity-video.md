@@ -7,7 +7,6 @@ description:
   text: 'Соавторство дизайна, немного арт-дирекшна (в составе команды <a href="https://facebook.com/agentyzmin">«Агенти Змін»</a>)'
 
 hero:
-  style: 'background: #f4f4f4;'
   video: '<div data-type="youtube" data-video-id="9gmiL-Nnj7g"></div>'
 
 plyr: true

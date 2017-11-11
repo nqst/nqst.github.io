@@ -173,6 +173,9 @@
   vertical-align: top;
   font-size: 1rem;
   background-color: #999;
+  /* border: 1px solid #fff; */
+  /* border-radius: 10px; */
+  /* margin: 10px; */
 
   min-height: 300px;
   
@@ -197,7 +200,7 @@
 
 .project__link {
   display: block;
-  min-height: 300px;
+  height: 300px;
   position: relative;
   overflow: hidden;
   /* transition: opacity 0.2s ease-out; */
@@ -213,6 +216,7 @@
 }
 
 .project__img {
+  display: block;
   position: absolute;
   max-width: 100%;
   left: 30px;
@@ -247,7 +251,7 @@
   
   position: relative;
   z-index: 10;
-  margin-top: 25px;
+  margin-top: 15px;
   /* left: 0; */
   padding: 0 30px;
   color: #fff;
@@ -255,7 +259,7 @@
   max-width: 460px;
   
   @media (--large-screen) {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0 40px;
   }
 }
@@ -351,12 +355,20 @@
   }
 }
 
+.project--important .project__title {
+  margin-top: 25px;
+  
+  @media (--large-screen) {
+    margin-top: 30px;
+  }
+}
+
 .project--important .project__link,
 .project--important .project__image {
-  min-height: 320px;
+  height: 320px;
 
   @media (--medium-screen) {
-    min-height: 440px;
+    height: 440px;
   }
 }
 
@@ -418,6 +430,7 @@
 
 .project--childrens-railway {
   background-color: #d5ebee;
+  /* background-color: #DFF3E4; */
   
   .project__img {
     bottom: -25px;
@@ -425,8 +438,7 @@
 }
 
 .project--nic-newyear {
-  background-color: #0c1a7f;
-  /* background-size: 800px 440px; */
+  background-color: #1e0f99;
   
   .project__img {
     left: 50%;
@@ -437,6 +449,8 @@
 
 .project--uz-boarding-pass {
   background-color: #3a405a;
+  background-color: #009FB7;
+  background-color: #4F5D75;
   
   .project__img {
     top: 120px;
@@ -444,24 +458,53 @@
 }
 
 .project--bkk-timetable {
-  background-color: #3f093b;
+  background-color: #580c5a;
   
   .project__img {
     top: 120px;
   }
 }
 
-.project--tram-map {
-  background-color: #ffd03b;
-}
-
-
 .project__image--bkk-timetable {
-  background-color: #500b43;
+  background-color: #4a034c;
   background-image: url('/i/projects/bkk-timetable/thumb.png');
   background-position: 50% 10px;
 }
 
+.project--tram-map {
+  background-color: rgb(255, 187, 0);
+  
+  .project__img {
+    position: static;
+    /* top: 120px; */
+    max-width: 70%;
+    margin: 20px auto;
+  }
+}
+
+.project--urban-rail-map {
+  background-color: #f5f7f9;
+  
+  .project__title {
+    color: var(--text-color);
+  }
+}
+
+.project--intercity-video {
+  background-color: rgb(5, 109, 164);
+}
+
+.project--tao-te-ching {
+  background-color: #12222f;
+}
+
+.project--the-cutlets {
+  background-color: #eaedf0;
+  
+  .project__title {
+    color: var(--text-color);
+  }
+}
 
 /* Plyr (Custom video plugin) additional styles  */
 
