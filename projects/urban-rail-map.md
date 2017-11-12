@@ -32,6 +32,12 @@ class: 'has-dark-header'
 
 <p>Процесс создания схемы:</p>
 
-<figure>
+<figure class="figure--wide">
   <img src="/i/projects/urban-rail-map/linear-evolution.gif" style="box-shadow: 0 1px 3px #ddd;" alt="Процесс создания схемы">
+</figure>
+
+Наша команда с готовой схемой:
+
+<figure>
+  <img src="/i/projects/urban-rail-map/team.jpg">
 </figure>

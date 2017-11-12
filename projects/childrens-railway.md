@@ -100,7 +100,7 @@ hero:
 
 **Билеты**. Вместо обычных чеков были напечатаны настоящие картонные билеты, созданные с оглядкой на классические [билеты Эдмондсона](https://en.wikipedia.org/wiki/Edmondson_railway_ticket), которые раньше использовались на железных дорогах.
 
-<div class="three-columns three-columns--wide">
+<div class="three-columns">
   <figure class="three-columns__item">
     <img src="/i/childrens-railway/ticket-1.jpg" alt="">
   </figure>
