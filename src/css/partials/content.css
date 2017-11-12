@@ -48,7 +48,7 @@ article figcaption {
   }
 }
 
-article figure,
+figure,
 .embed {
   margin: var(--baseline) 0;
 }
@@ -141,6 +141,8 @@ figure.figure--wide {
 }
 
 .two-columns__item {
+  margin: 0;
+  
   @media (--medium-screen) {
     width: 48.5%;
   }

@@ -539,8 +539,12 @@
   background-image: url(/i/projects/tao-te-ching/cover.jpg);
 }
 
-/* Plyr (Custom video plugin) additional styles  */
+.hero--urban-rail-map {
+  background-color: #46528a;
+}
 
+
+/* Plyr (Custom video plugin) additional styles  */
 .plyr {
   border-radius: 3px;
 }
