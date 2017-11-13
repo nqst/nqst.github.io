@@ -213,7 +213,8 @@
 }
 
 .project__link:hover .project__img {
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
+  transform: translateY(-7px);
 }
 
 .project__link:active .project__img {
@@ -456,7 +457,7 @@
 .project--uz-boarding-pass {
   background-color: #3a405a;
   background-color: #009FB7;
-  background-color: #4F5D75;
+  background-color: #182738;
   
   .project__img {
     top: 120px;
