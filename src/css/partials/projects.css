@@ -512,6 +512,14 @@
   }
 }
 
+.project--stadium {
+  background-color: #fff;
+  
+  .project__title {
+    color: var(--text-color);
+  }
+}
+
 /* Project heros */
 .hero--has-cover {
   background-size: cover;
@@ -540,7 +548,7 @@
 }
 
 .hero--urban-rail-map {
-  background-color: #46528a;
+  background-color: #433c66;
 }
 
 
