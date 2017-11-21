@@ -7,7 +7,6 @@ extrahead: "<link rel='stylesheet' media='screen' href='https://fontlibrary.org/
 introimg: cover@2x.jpg
 ogimage: ogimage.jpg
 cover: true
-class: has-dark-header
 ---
 
 Один мой добрейший друг дал почитать репринт книги <strong>«Хорошій тонъ»</strong>, изданной изначально в 1889 году в России. И содержимое книги, и слог того времени оказались очень хороши — книга читается с восхищением.

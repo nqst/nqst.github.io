@@ -49,10 +49,7 @@
   .header__menu-link {
     color: rgba(#fff, 0.5);
     
-    &:hover {
-      color: #fff;
-    }
-
+    &:hover,
     &--active {
       color: #fff;
     }
@@ -80,19 +77,24 @@
   }
 }
 
-.has-cover {
-  .header {
-    /* padding: 18px 0; */
-
-    @media (--medium-screen) {
-      /* background-color: rgba(#fff,0.25); */
-    }
-  }
-}
-
-.has-cover.has-dark-header {
-  .header {
+.has-cover .header {
+  @media (--medium-screen) {
     text-shadow: 0 1px 3px rgba(#000,0.5);
+    
+    /* Code below is just a copy of .header--dark. One day I should find a more elegant way without repeating myself */
+    .header__title a,
+    .header__title a:hover {
+      color: #fff;
+    }
+
+    .header__menu-link {
+      color: rgba(#fff, 0.5);
+      
+      &:hover,
+      &--active {
+        color: #fff;
+      }
+    }
   }
 }
 
