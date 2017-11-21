@@ -34,7 +34,7 @@ extrahead: '<link rel="stylesheet" href="/css/posts/trams.css">'
   });
 </script>
 
-<div class="trams-preview"></div>
+<figure class="trams-preview figure--wide"></figure>
 
 * * *
 

@@ -10,7 +10,7 @@
     airport: KBP
   company: МАУ
   aircraft: Boeing 737
-  comment: Первый перелет с МАУ.
+  comment: Первый перелет с МАУ
 
 - date: "31.07"
   from: 
@@ -35,7 +35,7 @@
     airport: MUC
   company: Air Berlin
   aircraft: Airbus A320
-  comment: Самая сильная турбулентность за весь мой опыт, но от «Эйр Берлина» самые приятные впечатления.
+  comment: Самая сильная турбулентность за весь мой опыт, но от «Эйр Берлина» самые приятные впечатления
 
 - date: "17.07"
   from: 
@@ -48,7 +48,7 @@
     airport: TXL
   company: AirBaltic
   aircraft: Boeing 737
-  comment: Один из самых красивых перелетов.
+  comment: Один из самых красивых перелетов
 
 - date: "11.07"
   from: 
@@ -110,7 +110,7 @@
     airport: BUD
   company: Wizz Air
   aircraft: Airbus A320
-  comment: У Авроры впервые было отдельное место в самолете.
+  comment: У Авроры впервые было отдельное место в самолете
 
 - date: "8.12"
   from: 
@@ -135,7 +135,7 @@
     airport: MSQ
   company: Белавиа
   aircraft: Boeing 737
-  comment: Первый полет из Борисполя. Летели на самолете с ливреей «World of Tanks».
+  comment: Первый полет из Борисполя. Летели на самолете с ливреей «World of Tanks»
 
 - date: "15.02"
   from: 
@@ -185,7 +185,7 @@
     airport: IEV
   company: YanAir
   aircraft: SAAB 340
-  comment: Повторный рейс спустя несколько часов после возвращения в Одессу.
+  comment: Повторный рейс спустя несколько часов после возвращения в Одессу
 
 - date: "15.07"
   from: 
@@ -198,7 +198,7 @@
     airport: IEV
   company: YanAir
   aircraft: SAAB 340
-  comment: Первый полет на самолете с <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B1%D0%BE%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C">турбовинтовым двигателем</a>. Во время полета один двигатель отказал. Экипаж принял решение вернуться в Одессу. Было страшновато.
+  comment: Первый полет на самолете с <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B1%D0%BE%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C">турбовинтовым двигателем</a>. Во время полета один двигатель отказал. Экипаж принял решение вернуться в Одессу. Было страшновато
 
 - date: "27.05"
   from: 
@@ -247,7 +247,7 @@
     airport: BUD
   company: Wizz Air
   aircraft: Airbus A320
-  comment: Первый полет с дочкой (в ее 6 месяцев).
+  comment: Первый полет с дочкой (в ее 6 месяцев)
 
 2013:
 - date: "15.10"
@@ -261,7 +261,7 @@
     airport: MSQ
   company: Белавиа
   aircraft: Boeing 737
-  comment: Первый Боинг.
+  comment: Первый Боинг
 
 - date: "15.10"
   from: 
@@ -274,7 +274,7 @@
     airport: DME
   company: S7
   aircraft: Airbus A319
-  comment: Транзит в Минск.
+  comment: Транзит в Минск
 
 - date: "18.05"
   from: 
@@ -299,7 +299,7 @@
     airport: DME
   company: Днеправиа
   aircraft: Embraer ERJ 145
-  comment: Первый полет из Днепропетровска. Первый полет не на Аэробусе.
+  comment: Первый полет из Днепропетровска. Первый полет не на Аэробусе
 
 - date: "15.02"
   from: 
@@ -376,4 +376,4 @@
     airport: DME
   company: Уральские авиалинии
   aircraft: Airbus A320
-  comment: Самый первый полет. Ночевал в аэропорту. Зарегистрировался первым и ухватил себе место в первом ряду у окна.
+  comment: Самый первый полет. Ночевал в аэропорту. Зарегистрировался первым и ухватил себе место в первом ряду у окна
