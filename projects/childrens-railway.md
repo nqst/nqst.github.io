@@ -8,6 +8,7 @@ description:
 
 hero:
   image: childrens-railway.png
+  image2x: childrens-railway@2x.png
   full_width: true
 ---
 
