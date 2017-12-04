@@ -25,7 +25,7 @@ class: 'has-dark-header'
 
 При повторном заходе на сайт книга откроется в том же месте, где читатель остановился в прошлый раз:
 
-<figure class="figure--wide figure--screenshot">
+<figure class="figure--screenshot">
   <img src="/i/projects/tao-te-ching/scroll.png" srcset="/i/projects/tao-te-ching/scroll@2x.png 2x" alt="Дао дэ цзин">
 </figure>
 
