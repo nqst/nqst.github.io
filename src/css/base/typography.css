@@ -206,12 +206,12 @@ ul {
   margin: 0 0 var(--baseline);
 }
 
-ul li,
-ol li {
+ul:not(.list--inline) li,
+ol:not(.list--inline) li {
   margin-bottom: calc(var(--baseline) * 0.5);
 }
 
-ul > li {
+ul:not(.list--inline) > li {
   padding-left: 1em;
   
   &:before {

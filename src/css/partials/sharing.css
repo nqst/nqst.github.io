@@ -1,43 +1,81 @@
 /*
  * Sharing
- * =======
- *
- * This stylesheets override and modify
- * Likely.js plugin styles (vendors/likely.css)
+ * =========
  *
  */
 
-.likely,
-.likely__widget {
-  font-family: inherit;
-  color: #fff;
-  fill: #fff;
-}
-
-.likely__button,
-.likely__counter {
-  text-rendering: auto;
-}
-
-.likely .likely__widget {
-  color: #fff;
-  /* font-weight: bold; */
-  font-size: 15px;
-  height: 26px;
-  line-height: 1;
-  margin-right: 7px;
-  margin-left: 7px;
+.share {
+  margin-top: 30px;
+  text-align: center;
   
-  &_twitter    { background-color: #52aff0; }
-  &_facebook   { background-color: #436299; }
-  &_vkontakte  { background-color: #5d7b9d; }
+  @media (--medium-screen) {
+    margin-top: 50px;
+  }
 }
 
-.likely__icon {
-  margin-top: 2px;
-  margin-left: 5px;
+.share__item {
+  display: inline-block;
 }
 
-.likely .likely__button {
-  padding: 6px 8px 5px 2px;
+.share__link {
+  display: block;
+  width: 54px;
+  height: 54px;
+  text-align: center;
+  color: #8a9dad;
+  padding-top: 12px;
+  border: 2px solid transparent;
+  border-radius: 27px;
+  transition: all 0.15s ease-in-out;
+
+  &:hover,
+  &:focus {
+    transition: border-color 0.025s ease-in-out;
+  }
+}
+
+.share__link--facebook:hover,
+.share__link--facebook:focus {
+  border-color: rgba(var(--facebook-color), 0.9);
+}
+
+.share__link--twitter:hover,
+.share__link--twitter:focus {
+  border-color: rgba(var(--twitter-color), 0.9);
+}
+
+.share__link--vk:hover,
+.share__link--vk:focus {
+  border-color: rgba(var(--vk-color), 0.9);
+}
+
+.share__icon {
+  display: inline-block;
+  fill: color(var(--link-color) s(-70%) a(50%));
+  transition: fill 0.15s ease-in-out;
+  
+  &:hover,
+  &:focus {
+    transition: fill 0.025s ease-in-out;
+  }
+}
+
+.share__link--facebook:hover .share__icon,
+.share__link--facebook:focus .share__icon {
+  fill: var(--facebook-color);
+}
+
+.share__link--twitter:hover .share__icon,
+.share__link--twitter:focus .share__icon {
+  fill: var(--twitter-color);
+}
+
+.share__link--vk:hover .share__icon,
+.share__link--vk:focus .share__icon {
+  fill: var(--vk-color);
+}
+
+
+.share__label {
+  display: none;
 }

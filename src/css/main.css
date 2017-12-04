@@ -25,7 +25,7 @@
 
 @import "partials/paginator.css";
 @import "partials/telegram.css";
-/* @import "partials/sharing.css"; */
+@import "partials/sharing.css";
 
 
 /* Miscellaneous things */
