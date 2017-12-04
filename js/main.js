@@ -10,7 +10,8 @@ $(function(){
 
     var websites = {
       facebook: { width: 600, height: 300 },
-      twitter : { width: 600, height: 254 },
+      twitter:  { width: 600, height: 254 },
+      vk:       { width: 600, height: 300 }
     }
 
     var modal = function (website) {
