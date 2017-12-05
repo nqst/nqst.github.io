@@ -187,7 +187,7 @@ figure.highlight {
 }
 
 hr {
-  border: 2px solid #eceae5;
+  border: 2px solid #edf0f2;
   width: 10%;
   text-align: center;
   display: block;
@@ -206,12 +206,12 @@ ul {
   margin: 0 0 var(--baseline);
 }
 
-ul:not(.list--inline) li,
-ol:not(.list--inline) li {
+ul li,
+ol li {
   margin-bottom: calc(var(--baseline) * 0.5);
 }
 
-ul:not(.list--inline) > li {
+.article ul > li {
   padding-left: 1em;
   
   &:before {
