@@ -17,6 +17,7 @@
   font-weight: 400;
   font-style: italic;
   line-height: 1.4;
+  max-width: none;
   
   @media (--medium-screen) {
     font-size: 36px;
@@ -28,6 +29,7 @@
 
   p {
     padding-right: 0 !important;
+    max-width: none;
   }
 }
 
@@ -37,6 +39,7 @@
 
 .post-quote__author {
   text-align: right;
+  max-width: none;
 }
 
 .posts-list .post-quote {
