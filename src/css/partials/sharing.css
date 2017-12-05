@@ -26,7 +26,7 @@
   padding-top: 12px;
   border: 2px solid transparent;
   border-radius: 27px;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.25s ease-out;
 
   &:hover,
   &:focus {
@@ -52,7 +52,7 @@
 .share__icon {
   display: inline-block;
   fill: color(var(--link-color) s(-70%) a(50%));
-  transition: fill 0.15s ease-in-out;
+  transition: fill 0.25s ease-out;
   
   &:hover,
   &:focus {
