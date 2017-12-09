@@ -1,4 +1,16 @@
 2017:
+- date: "9.12"
+  from: 
+    country: 🇧🇾
+    city: Минск
+    airport: MSQ
+  to:
+    country: 🇺🇦
+    city: Одесса
+    airport: ODS
+  company: Белавиа
+  aircraft: Boeing 737
+
 - date: "2.08"
   from: 
     country: 🇱🇹
@@ -48,7 +60,7 @@
     airport: TXL
   company: AirBaltic
   aircraft: Boeing 737
-  comment: Один из самых красивых перелетов
+  comment: Один из самых красивых перелетов — предзакатное время и самые разные облака
 
 - date: "11.07"
   from: 
