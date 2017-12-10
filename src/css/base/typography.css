@@ -68,6 +68,13 @@ h4 {
   font-size: 1rem;
 }
 
+.title-counter {
+  margin-left: 0.15em;
+  color: var(--text-muted);
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
 .post__title {
   margin-top: 0;
   margin-bottom: 1.5rem;

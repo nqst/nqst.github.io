@@ -9,9 +9,11 @@ class: 'page-flights'
 <main class="main">
   <div class="container container--full">
     <header class="page-header">
-      <h1 class="page-header__title">Авиаперелеты</h1>
+      {% assign flights = site.data.flights %}
+      <h1 class="page-header__title">Авиаперелеты <span class="title-counter">{{ flights.size }}</span></h1>
       <!-- <p class="page-header__description">25 полетов. Обновлено в июне 2017 г.</p> -->
-      <!-- <p>{{ site.data.flights | size }}</p> -->
+
+      <!-- {{ flights.size }} -->
     </header>
 
     <table class="table table--compact table--flights">
@@ -22,21 +24,25 @@ class: 'page-flights'
           <th>Куда</th>
           <th>Авиакомпания</th>
           <th>Самолет</th>
-          <th>Заметки</th>
+          <th style="width: 400px;">Заметки</th>
         </tr>
       </thead>
       <tbody>
-        {% for data in site.data.flights %}
-          {% assign year = data[0] %}
-          {% assign flights = data[1] %}
+        {% assign flightsByYear = site.data.flights | group_by_exp: "flight", "flight.date | date: '%Y'" %}
+          
+        {% for year in flightsByYear %}
           <tr class="table__title-row">
             <td colspan="6">
-              <h2>{{ year }}</h2>
+              <h2>{{ year.name }}</h2>
             </td>
           </tr>
-          {% for flight in flights %}
+
+          {% for flight in year.items %}
             <tr>
-              <td class="nowrap">{{ flight.date | replace: ".01", " января" | replace: ".02", " февраля" | replace: ".03", " марта" | replace: ".04", " апреля" | replace: ".05", " мая" | replace: ".06", " июня" | replace: ".07", " июля" | replace: ".08", " августа" | replace: ".09", " сентября" | replace: ".10", " октября" | replace: ".11", " ноября" | replace: ".12", " декабря" }}</td>
+              <td class="nowrap">
+                {{ flight.date | date: "%e" }}
+                {{ flight.date | date: "%m" | replace: "01", " января" | replace: "02", " февраля" | replace: "03", " марта" | replace: "04", " апреля" | replace: "05", " мая" | replace: "06", " июня" | replace: "07", " июля" | replace: "08", " августа" | replace: "09", " сентября" | replace: "10", " октября" | replace: "11", " ноября" | replace: "12", " декабря" }}
+              </td>
               <td class="nowrap">
                 <span class="page-flights__flag">{{ flight.from.country }}</span> {{ flight.from.city }}
               </td>

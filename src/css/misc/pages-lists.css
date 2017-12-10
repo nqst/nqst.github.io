@@ -10,7 +10,7 @@
 .list-of-lists__item {
   position: relative;
   padding: 0;
-  
+
   &:before {
     display: none;
   }
@@ -22,8 +22,6 @@
   list-style-type: none;
   margin: 1.5em 0;
   padding: 0;
-  /* border-bottom: 1px solid #eee; */
-  /* margin: 0; */
   max-width: 39em;
   
   &:before {
@@ -141,17 +139,9 @@
 
 
 .table--flights {
-
   th,
   td {
-    max-width: 300px;
-  }
-}
-
-.page-flights {
-  body {
-    /* background-color: #1b67b2; */
-    /* background-color: #004992; */
+    /* max-width: 300px; */
   }
 }
 
