@@ -11,10 +11,15 @@
 .hint:after {
   padding: 6px 8px;
   border-radius: 3px;
+  background: var(--text-color);
   box-shadow: none;
   text-shadow: none;
   font-family: inherit;
   transition: 0.2s ease-in-out;
+}
+
+.hint:hover:after {
+  transition-delay: 0.25s;
 }
 
 .hint--bottom:after {
@@ -22,5 +27,5 @@
 }
 
 .hint--bottom:hover:after {
-  transform: translateX(-50%) translateY(5px);
+  transform: translateX(-50%) translateY(4px);
 }
