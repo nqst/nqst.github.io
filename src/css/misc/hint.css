@@ -1,0 +1,26 @@
+/*
+ * Hint.css modifications
+ * ======================
+ *
+ */
+
+.hint:before {
+  display: none;
+}
+
+.hint:after {
+  padding: 6px 8px;
+  border-radius: 3px;
+  box-shadow: none;
+  text-shadow: none;
+  font-family: inherit;
+  transition: 0.2s ease-in-out;
+}
+
+.hint--bottom:after {
+  top: 110%;
+}
+
+.hint--bottom:hover:after {
+  transform: translateX(-50%) translateY(5px);
+}

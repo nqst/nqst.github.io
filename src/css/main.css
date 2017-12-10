@@ -11,6 +11,7 @@
 
 /* Vendors (third-party stuff) */
 @import "vendors/rangeslider.css";
+@import "vendors/hint.min.css";
 
 
 /* Partials */
@@ -31,6 +32,7 @@
 
 /* Miscellaneous things */
 @import "misc/animations.css";
+@import "misc/hint.css";
 @import "misc/dark-background.css";
 @import "misc/pages-lists.css";
 @import "misc/helpers.css";
