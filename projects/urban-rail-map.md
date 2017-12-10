@@ -24,11 +24,11 @@ class: 'has-dark-header'
   <img src="/i/projects/urban-rail-map/inside.jpg" alt="Схема над окнами вагона">
 </figure>
 
-Рабочие расклеивают схему в вагоне:
+<!-- Рабочие расклеивают схему в вагоне:
 
 <figure>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/EeA7exZYE8w?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</figure>
+</figure> -->
 
 <p>Процесс создания схемы:</p>
 
