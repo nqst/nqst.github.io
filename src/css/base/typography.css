@@ -218,7 +218,7 @@ ol li {
   margin-bottom: calc(var(--baseline) * 0.5);
 }
 
-.article ul > li {
+article ul > li {
   padding-left: 1em;
   
   &:before {

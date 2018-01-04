@@ -16,7 +16,7 @@ var gutil           = require('gulp-util');
 var siteRoot = '_site';
 var cssFiles = 'src/css/**/*.css';
 var additionalCssFiles = 'src/css/posts/**/*.css';
-var typografFiles = ['./**/*.md', '!_site/**/*.*'];
+var typografFiles = ['**/*.md', '!_site/**/*.*'];
 
 function handleError(err) {
   console.log(err.toString());

@@ -42,13 +42,13 @@ body {
   }
 
   @media (--large-screen) {
-    max-width: 850px;
+    max-width: 900px;
     padding-right: 75px;
     padding-left: 75px;
   }
 
   @media (--x-large-screen) {
-    max-width: 900px;
+    max-width: 1000px;
     padding-right: 100px;
     padding-left: 100px;
   }

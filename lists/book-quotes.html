@@ -1,0 +1,24 @@
+---
+layout: default
+title: Цитаты из книг
+permalink: /lists/book-highlights/
+---
+
+<main class="main">
+  <div class="container">
+    <header class="page-header">
+      <h1 class="page-header__title">Цитаты из книг</h1>
+      <p class="page-header__description">Курсив мой.</p>
+    </header>
+
+    <article>
+      {% for quote in site.data.book-highlights %}
+        <blockquote>
+          {{ quote.quote | markdownify }}
+          <p><cite>{{ quote.book }} ({{ quote.author }})</cite></p>
+        </blockquote>
+      {% endfor %}
+    </article>
+
+  </div>
+</main>
