@@ -1,3 +1,28 @@
+- date: "2018-01-28"
+  from: 
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  company: Wizz Air
+  aircraft: Airbus A320
+
+- date: "2018-01-26"
+  from: 
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  to:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  company: Wizz Air
+  aircraft: Airbus A320
+  comment: Совсем новый самолет. И, похоже, у Wizz Air теперь не откидываются кресла
+
 - date: "2017-12-09"
   from: 
     country: 🇧🇾
