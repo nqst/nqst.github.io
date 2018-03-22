@@ -175,7 +175,6 @@ figure.highlight {
   margin: calc(var(--baseline) * 1.25) 0;
   padding: 20px 18px;
   color: #373e51;
-  max-width: calc(var(--post-text-container-width) + 100);
   /* font-size: 1rem; */
   /* line-height: 1.5; */
   
