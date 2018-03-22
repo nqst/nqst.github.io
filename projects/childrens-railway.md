@@ -38,7 +38,7 @@ hero:
 
 **Касса.** Создана вывеска над кассой с информацией о ценах. Новая вывеска заменила неэффективную старую — сотрудникам железной дороги приходилось допечатывать дополнительную информацию и наклеивать ее на окно.
 
-<figure class="figure--wide">
+<figure>
   <img src="/i/projects/childrens-railway/ticket-window.png" srcset="/i/projects/childrens-railway/ticket-window@2x.png 2x" style="box-shadow: 0 1px 3px #ccc;" alt="">
 </figure>
 
@@ -83,7 +83,7 @@ hero:
 
 **Надписи в зале ожидания.** В зале ожидания, который служит учебным классом, несколько лет висела надпись с грубыми ошибками. Слова были не согласованы, [семафор](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BC%D0%B0%D1%84%D0%BE%D1%80_(%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B0%D1%8F_%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B0)) перепутан со [светофором](https://ru.wikipedia.org/wiki/%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9_%D1%81%D0%B2%D0%B5%D1%82%D0%BE%D1%84%D0%BE%D1%80) и назван «симофором». Теперь в зале ожидания висят отредактированные надписи — понятные, без ошибок и белого фона.
 
-<div class="two-columns two-columns--wide">
+<div class="two-columns">
   <figure class="two-columns__item">
     <img src="/i/childrens-railway/inside-before1.jpg" alt="Старые надписи в зале ожидания">
     <figcaption>
