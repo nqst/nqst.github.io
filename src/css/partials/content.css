@@ -26,7 +26,6 @@
     max-width: 900px;
     margin: 0 auto 40px;
     text-align: center;
-    margin-bottom: 40px;
     
     .posts-list & {
       max-width: none;
@@ -224,15 +223,15 @@ figure.figure--wide {
   }
 }
 
-.has-cover .post {
-  margin-top: 0;
+.has-cover .main {
+  /* margin-top: 0; */
   
   @media (--medium-screen) {
-    margin-top: 400px;
+    margin-top: 500px;
   }
 
   @media (--large-screen) {
-    margin-top: 420px;
+    margin-top: 560px;
   }
 }
 
