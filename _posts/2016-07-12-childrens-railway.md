@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Улучшения для детской железной дороги"
-widepost: true
+medium_width: true
 introimg: titlepic.jpg
 ogimage: ogimage.jpg
 ---

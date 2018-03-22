@@ -1,8 +1,14 @@
 2018:
+- name: "The Seven Principles for Making Marriage Work"
+  author: "John M. Gottman, Nan Silver"
+  favorite: true
+  notes: "Лучше, что я читал о взаимоотношениях в браке. Все по делу и почти без воды."
+
 - name: "Прежде чем ваш ребенок сведет вас с ума"
   author: "Найджел Латта"
   favorite: true
   notes: ""
+  finished: "2018-01"
 
 2017:
 - name: "Пять языков любви"

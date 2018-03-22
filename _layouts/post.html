@@ -5,25 +5,29 @@ ogtype: article
 
 <main class="main main--post">
 
-  <div class="container{% if page.widepost %} container--full{% endif %}">
-    <article class="post">
+  <header class="post__header">
+    <div class="container container--full">
+      {% include date.html post-date=page.date %}
+      <h1 class="post__title">{{ page.title }}</h1>
+    </div>
+  </header>
+  
+  {% if page.introimg and page.cover != true %}
+  <div class="container container--full">
+    <figure class="figure--intro">
+      <img src="/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}">
+    </figure>
+  </div>
+  {% endif %}
 
-      <header class="post__header">
-        {% include date.html post-date=page.date %}
-        <h1 class="post__title">{{ page.title }}</h1>
-      </header>
+  <div class="container{% if page.widepost %} container--full{% endif %}{% if page.medium_width %} container--medium{% endif %}">
+    <article class="post">
 
       <section class="post__content">
 
         {% if page.cover %}
           <!-- <img class="post__cover" src="/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}"> -->
           <div class="post__cover" style="background-image: url(/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }})"></div>
-        {% endif %}
-
-        {% if page.introimg and page.cover != true %}
-          <figure class="figure--intro">
-            <img src="/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}">
-          </figure>
         {% endif %}
 
         {% if page.beforeinfo %}

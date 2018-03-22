@@ -42,13 +42,13 @@ body {
   }
 
   @media (--large-screen) {
-    max-width: 900px;
+    max-width: 740px;
     padding-right: 75px;
     padding-left: 75px;
   }
 
   @media (--x-large-screen) {
-    max-width: 1000px;
+    max-width: 840px;
     padding-right: 100px;
     padding-left: 100px;
   }
@@ -70,6 +70,15 @@ body {
 
   &--full {
     max-width: 1600px !important;
+  }
+
+  &--medium {
+    max-width: 840px;
+    padding: 0 15px !important;
+    
+    @media (--medium-screen) {
+      padding: 0 30px !important;
+    }
   }
 
 }

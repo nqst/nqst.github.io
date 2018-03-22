@@ -9,18 +9,18 @@
 @custom-media --medium-screen  (width >=  600px);
 
 :root {
-  --baseline:                   1.613rem;
+  --baseline:                   1.6rem;
 
   --baseline-half:              calc(var(--baseline) / 2);
 
-  --post-text-container-width:  800px;
+  --post-text-container-width:  640px;
 
   /* --font-primary:               "Graphik LCG", "Roboto", "Helvetica Neue", "Arial", sans-serif; */
   --font-primary:               -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Arial", sans-serif;
   --font-monospace:             "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
 
-  --text-color:                 #414345;
-  --text-darker:                color(var(--text-color) l(-12%));
+  --text-color:                 #454749;
+  --text-darker:                color(var(--text-color) l(-15%));
   --text-muted:                 color(var(--text-color) a(60%));
   --link-color:                 #077bd1;
   --link-hover-color:           #c33134;
