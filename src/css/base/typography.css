@@ -32,7 +32,7 @@ h1, h2, h3 {
 h1, h2, h3 {
   margin-top: var(--baseline);
   margin-bottom: var(--baseline-half);
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 h1 {
@@ -95,17 +95,19 @@ h4 {
 }
 
 .posts-list .post__title {
+  margin-top: 0.1rem;
   margin-bottom: 1rem;
   font-size: 1.8rem;
   font-weight: 700;
   
   @media (--medium-screen) {
-    font-size: 2rem;
+    font-size: 2.33rem;
   }
 }
 
 .posts-list .figure--intro {
-  margin-top: 1.5rem;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
 }
 
 .posts-list .lead {
@@ -143,6 +145,13 @@ p {
 
 article {
   letter-spacing: 0.004em; /* SF font tuning */
+}
+
+article p,
+article li,
+article blockquote,
+article figcaption {
+  max-width: 39em;
 }
 
 article blockquote {
