@@ -51,11 +51,11 @@
 
   &--compact {
     @media (--medium-screen) {
-      font-size: 0.65rem;
+      font-size: 0.75rem;
     }
 
     thead th {
-      font-size: 0.55rem;
+      font-size: 0.6rem;
     }
   }
 }
