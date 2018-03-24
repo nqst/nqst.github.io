@@ -147,11 +147,13 @@ article {
   letter-spacing: 0.004em; /* SF font tuning */
 }
 
-article p,
-article li,
-article blockquote,
-article figcaption {
-  max-width: 39em;
+.container--full {
+  article p,
+  article li,
+  article blockquote,
+  article figcaption {
+    max-width: 39em;
+  }
 }
 
 article blockquote {
@@ -159,7 +161,12 @@ article blockquote {
   margin-left: 3px;
   /* border-left: 3px solid #c5c7c9; */
   border-left: 3px solid #e6eff7;
-  padding-left: 1.25em;
+  padding-left: 1.2em;
+  
+  font-weight: 500;
+  font-size: 1.1667rem;
+  line-height: 1.4287;
+  color: var(--text-darker);
   
   @media (--medium-screen) {
     /* margin-left: 4em; */
@@ -175,6 +182,8 @@ cite {
   display: block;
   margin-top: -0.5em;
   color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 
