@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Редизайн посадочного талона на поезд"
+title: "Редизайн посадочного талона на поезд"
 introimg: intro.jpg
 cover: true
+cover_light: true
 custom-css: true
 medium_width: true
 ---
@@ -40,7 +41,7 @@ medium_width: true
 Попробуем исправить эти проблемы и сверстать талон хорошо:
 
 <div class="new-pass-wrapper">
-  <figure class="figure--wide">
+  <figure>
     <img class="js-new-pass new-pass" data-vp-add-class="new-pass-animate" src="/i/uz-boarding-pass/pass-redesign.png">
   </figure>
 </div>

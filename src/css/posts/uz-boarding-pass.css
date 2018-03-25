@@ -21,7 +21,7 @@ body {
     padding: 40px 0;
   }
 
-  .new-pass-wrapper .figure--wide {
+  .new-pass-wrapper figure {
      width: 1020px;
      margin: 0 auto;
   }

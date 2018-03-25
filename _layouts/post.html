@@ -5,7 +5,7 @@ ogtype: article
 
 <main class="main main--post">
 
-  <header class="post__header">
+  <header class="post__header{% if page.introimg %} post__header--wide{% endif %}">
     <div class="container container--full">
       {% include date.html post-date=page.date %}
       <h1 class="post__title">{{ page.title }}</h1>
