@@ -75,7 +75,11 @@
   }
 
   &--with-rounded-corners .hero__image {
-    border-radius: 4px;
+    border-radius: 2px;
+    
+    @media (--medium-screen) {
+      border-radius: 4px;
+    }
   }
 }
 
