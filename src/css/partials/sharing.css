@@ -6,6 +6,7 @@
 
 .share {
   margin-top: 30px;
+  margin-bottom: 0;
   text-align: center;
   
   @media (--medium-screen) {
@@ -15,6 +16,7 @@
 
 .share__item {
   display: inline-block;
+  margin-bottom: 0;
 }
 
 .share__link {
