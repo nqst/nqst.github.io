@@ -12,6 +12,9 @@ hero:
   image2x: nic@2x.png
   screenshot: true
   zero_bottom: true
+  cover: true
+
+class: 'has-dark-header'
 ---
 
 NIC

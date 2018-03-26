@@ -130,16 +130,16 @@ p {
 }
 
 .lead {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   line-height: 1.4;
-  margin-bottom: 1.5rem;
-  
-  .container--medium & {
-    line-height: 1.5;
-  }
+  margin: 1.5rem 0;
   
   @media (--medium-screen) {
     font-size: 1.35rem;
+    
+    .container--medium & {
+      line-height: 1.5;
+    }
   }
 }
 

@@ -60,7 +60,11 @@ figure,
 
 .figure--intro {
   width: 100%;
-  margin: 2rem 0;
+  margin: 1rem 0;
+  
+  @media (--medium-screen) {
+    margin: 2rem 0;
+  }
   
   img {
     display: block;

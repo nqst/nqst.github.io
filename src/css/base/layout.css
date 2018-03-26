@@ -74,9 +74,8 @@ body {
   &--medium {
     max-width: var(--container-medium-width) !important;
     
-    line-height: calc(var(--baseline) * 1.03125);
-    
     @media (--medium-screen) {
+      line-height: calc(var(--baseline) * 1.03125);
       padding: 0 var(--container-medium-side-padding) !important;
     }
   }

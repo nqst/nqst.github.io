@@ -10,9 +10,10 @@
   border-top: 1px solid #eee;
   overflow: hidden;
   background-color: #fff;
+  font-size: 0.9rem;
   
   @media (--medium-screen) {
-    font-size: 0.875em;
+    font-size: 0.8rem;
   }
 }
 

@@ -5,26 +5,17 @@
  */
 
 .header {
-  /* position: relative; */
-  position: absolute; /* new */
-  width: 100%; /* new */
+  position: absolute;
+  width: 100%;
   
   z-index: 5;
   margin: 0;
   border-bottom: 1px solid #eee;
-  /* font-size: 0.9rem; */
   line-height: 1.4;
-  /* padding: 18px 0; */
+  font-size: 0.8rem;
   
   @media (--medium-screen) {
     border-bottom: none;
-    font-size: 0.8rem;
-    /* padding: 24px 0; */
-  }
-
-  @media (--large-screen) {
-    /* border-bottom: none; */
-    /* padding: 27px 0; */
   }
 }
 
@@ -100,16 +91,12 @@
 
 .header__title {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1em;
   font-weight: bold;
   line-height: inherit;
   letter-spacing: -0.004em;
   white-space: nowrap;
   color: var(--text-darker);
-  
-  @media (--medium-screen) {
-    font-size: inherit;
-  }
 }
 
 .header__title-link {

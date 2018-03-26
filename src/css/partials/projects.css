@@ -300,15 +300,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px 0;
-  height: 80vh;
-  min-height: 400px;
+  padding: 170px 0 100px;
   /* font-size: 1.4em; */
   margin-bottom: 0;
   
   @media (--medium-screen) {
+    height: 80vh;
     min-height: 600px;
-    /* padding: 150px 0; */
+    padding: 100px 0;
   }
 
   .project {
@@ -330,17 +329,17 @@
   .project__image-img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     transition: all 0.3s ease-in-out;
     
     @media (--large-screen) {
-      margin-bottom: 35px;
+      margin-bottom: 20px;
     }
   }
   
   .project__link {
     color: inherit;
-    min-height: 0;
+    height: auto;
   }
 
   .project__title {
@@ -556,6 +555,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0;
+}
+
+.hero--nic {
+  background-color: #171921;
+  /* background-image: url(/i/projects/nic-newyear/hero-bg2.jpg); */
 }
 
 .hero--nic-newyear {
