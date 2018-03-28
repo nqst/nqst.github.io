@@ -61,7 +61,8 @@ h3, h4 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 h4 {
@@ -131,7 +132,7 @@ p {
 
 .lead {
   font-size: 1.3333rem;
-  line-height: 1.4;
+  line-height: 1.4583;
   margin: 1.5rem 0;
   
   @media (--medium-screen) {
