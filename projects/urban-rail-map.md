@@ -8,12 +8,11 @@ description:
 
 hero:
   image: urban-rail-map.png
+  image: urban-rail-map@2x.png
   full_width: true
   figure:
     shadow: true
     rounded-corners: true
-
-class: 'has-dark-header'
 ---
 
 В 2014 году состоялся перезапуск киевской городской электрички, которая ездит по кольцу вокруг города. Чтобы удобнее ориентироваться во время поездки, мы с [«Агентами змін»](http://a3.kyiv.ua) сделали схему, где наглядно отображены все станции и пересадки на метро.

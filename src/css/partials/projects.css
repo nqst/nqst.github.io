@@ -488,9 +488,7 @@
 }
 
 .project--uz-boarding-pass {
-  background-color: #3a405a;
-  background-color: #009FB7;
-  background-color: #182738;
+  background-color: #111c2f;
   
   .project__img {
     top: 120px;
@@ -515,9 +513,9 @@
   background-color: rgb(255, 187, 0);
   
   .project__img {
-    position: static;
+    /* position: static; */
     /* top: 120px; */
-    max-width: 70%;
+    /* max-width: 70%; */
     margin: 20px auto;
   }
 }
@@ -531,7 +529,7 @@
 }
 
 .project--intercity-video {
-  background-color: rgb(5, 109, 164);
+  background-color: #29293c;
 }
 
 .project--tao-te-ching {
@@ -587,7 +585,7 @@
 }
 
 .hero--urban-rail-map {
-  background-color: #433c66;
+  background-color: #dfe2e3;
 }
 
 
