@@ -470,21 +470,10 @@
 
 .project--childrens-railway {
   background-color: #d5ebee;
-  /* background-color: #DFF3E4; */
-  
-  .project__img {
-    /* bottom: -25px; */
-  }
 }
 
 .project--nic-newyear {
   background-color: #1e0f99;
-  
-  .project__img {
-    /* left: 50%; */
-    /* margin-left: -225px; */
-    /* bottom: 25px; */
-  }
 }
 
 .project--uz-boarding-pass {
@@ -511,13 +500,6 @@
 
 .project--tram-map {
   background-color: rgb(255, 187, 0);
-  
-  .project__img {
-    /* position: static; */
-    /* top: 120px; */
-    /* max-width: 70%; */
-    margin: 20px auto;
-  }
 }
 
 .project--urban-rail-map {
@@ -525,6 +507,10 @@
   
   .project__title {
     color: var(--text-color);
+  }
+
+  .project__img-wrapper {
+    padding: 0;
   }
 }
 
