@@ -159,11 +159,9 @@ article {
 article blockquote {
   margin: var(--baseline) 0;
   margin-left: 3px;
-  /* border-left: 3px solid #c5c7c9; */
-  border-left: 3px solid #e6eff7;
+  border-left: 3px solid #c8def1;
   padding-left: 0.8em;
   font-size: 1.1rem;
-  font-weight: 500;
   line-height: 1.4;
   color: var(--text-darker);
   
