@@ -4,6 +4,7 @@ permalink: /projects/tram-map/
 title: Официальная схема трамвайных маршрутов Днепропетровска
 description:
   year: 2013
+  text: 'Дизайн, менеджмент'
 
 hero:
   style: 'background-color: #f4f4f4;'

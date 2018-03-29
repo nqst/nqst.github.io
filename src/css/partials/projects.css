@@ -140,30 +140,6 @@
 .important-projects,
 .rest-of-the-projects {
   font-size: 0;
-  
-  @media (--medium-screen) {
-    /* display: flex; */
-    /* margin-top: 80px; */
-    /* margin-right: -20px; */
-    /* margin-left: -20px; */
-  }
-
-  @media (--large-screen) {
-    /* margin-top: 100px; */
-    /* margin-right: -25px; */
-    /* margin-left: -25px; */
-  }
-
-  @media (--x-large-screen) {
-    /* margin-right: -30px; */
-    /* margin-left: -30px; */
-  }
-}
-
-.rest-of-the-projects {
-  @media (--medium-screen) {
-    /* flex-wrap: wrap; */
-  }
 }
 
 .rest-of-the-projects .project {
@@ -183,29 +159,7 @@
   vertical-align: top;
   font-size: 1rem;
   background-color: #999;
-  /* border: 1px solid #fff; */
-  /* border-radius: 10px; */
-  /* margin: 10px; */
-
   min-height: 350px;
-  
-  /* margin-bottom: calc(var(--baseline) * 2); */
-  
-  @media (--medium-screen) {
-    /* flex: 1 0 auto; */
-    /* padding: 0 20px; */
-    /* max-width: 50%; */
-  }
-  
-  @media (--large-screen) {
-    /* margin-bottom: calc(var(--baseline) * 2.5); */
-    /* padding: 0 25px; */
-    /* max-width: 33.3333%; */
-  }
-
-  @media (--x-large-screen) {
-    /* padding: 0 30px; */
-  }
 }
 
 .project__link {
@@ -227,11 +181,10 @@
 }
 
 .project__img-wrapper {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 0 30px;
   
   @media (--large-screen) {
-    margin-top: 20px;
     padding: 0 40px;
   }
 
@@ -246,8 +199,8 @@
 
 .project__img {
   display: block;
-  /* position: absolute; */
   max-width: 100%;
+  max-height: 230px;
   transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateZ(0);
   
@@ -256,6 +209,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: none;
   }
   
   /* @media (--large-screen) {
@@ -376,14 +330,17 @@
 
 .featured-project--nic {
   background-color: #78bd17;
-  /* background-image: linear-gradient(0deg, #A8DD1E 0%, #619D0C 100%); */
-  background-image: linear-gradient(45deg, #80BE28 0%, #619D0C 100%);
+  background-image: linear-gradient(45deg, #80be28 0%, #009432 100%);
   color: #fff;
   
   .project__image-img {
     width: 100%;
     max-width: 480px;
   }
+}
+
+.project--locked {
+  opacity: 0.4;
 }
 
 .project--important {
@@ -410,6 +367,11 @@
   @media (--medium-screen) {
     height: 440px;
   }
+}
+
+.featured-project .project__img,
+.project--important .project__img {
+  max-height: none;
 }
 
 .project--childrens-railway {
@@ -473,11 +435,13 @@
 }
 
 .project--nic-newyear {
-  background-color: #1e0f99;
+  /* background-color: #1e0f99; */
+  background-color: #1B1464;
 }
 
 .project--uz-boarding-pass {
-  background-color: #111c2f;
+  /* background-color: #111c2f; */
+  background-color: #0652DD;
   
   .project__img {
     top: 120px;
@@ -486,6 +450,7 @@
 
 .project--bkk-timetable {
   background-color: #220731;
+  background-color: #6F1E51;
   
   .project__img {
     top: 120px;
@@ -501,10 +466,12 @@
 .project--tram-map {
   /* background-color: rgb(255, 187, 0); */
   background-color: #f6b93b;
+  /* background-color: #FFC312; */
+  /* background-color: #F79F1F; */
 }
 
 .project--urban-rail-map {
-  background-color: #f5f7f9;
+  /* background-color: #f5f7f9; */
   background-color: #e55039;
   
   .project__title {
@@ -516,6 +483,11 @@
     position: absolute;
     right: 0;
     margin-right: -2px;
+  }
+
+  .project__img {
+    box-shadow: 0 1px 3px 0 rgba(51,61,70,0.18);
+    border-radius: 4px;
   }
 }
 
@@ -541,6 +513,14 @@
   .project__title {
     color: var(--text-color);
   }
+
+  .project__img {
+    transform: none;
+    top: auto;
+    left: auto;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 /* Project heros */
@@ -552,6 +532,7 @@
 
 .hero--nic {
   background-color: #171921;
+  background-image: linear-gradient(45deg, #80BE28 0%, #009432 100%);
   /* background-image: url(/i/projects/nic-newyear/hero-bg2.jpg); */
 }
 
@@ -576,7 +557,8 @@
 }
 
 .hero--urban-rail-map {
-  background-color: #dfe2e3;
+  /* background-color: #dfe2e3; */
+  background-color: #e55039;
 }
 
 
