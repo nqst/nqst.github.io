@@ -187,7 +187,7 @@
   /* border-radius: 10px; */
   /* margin: 10px; */
 
-  min-height: 300px;
+  min-height: 350px;
   
   /* margin-bottom: calc(var(--baseline) * 2); */
   
@@ -210,7 +210,7 @@
 
 .project__link {
   display: block;
-  height: 300px;
+  height: 350px;
   position: relative;
   overflow: hidden;
   /* transition: opacity 0.2s ease-out; */
@@ -499,18 +499,23 @@
 }
 
 .project--tram-map {
-  background-color: rgb(255, 187, 0);
+  /* background-color: rgb(255, 187, 0); */
+  background-color: #f6b93b;
 }
 
 .project--urban-rail-map {
   background-color: #f5f7f9;
+  background-color: #e55039;
   
   .project__title {
-    color: var(--text-color);
+    /* color: var(--text-color); */
   }
 
   .project__img-wrapper {
-    padding: 0;
+    padding-right: 0;
+    position: absolute;
+    right: 0;
+    margin-right: -2px;
   }
 }
 
@@ -519,7 +524,7 @@
 }
 
 .project--tao-te-ching {
-  background-color: #12222f;
+  background-color: #08162f;
 }
 
 .project--the-cutlets {
