@@ -449,8 +449,9 @@
 }
 
 .project--bkk-timetable {
-  background-color: #220731;
-  background-color: #6F1E51;
+  /* background-color: #220731; */
+  /* background-color: #6F1E51; */
+  background-color: #500334;
   
   .project__img {
     top: 120px;

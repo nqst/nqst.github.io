@@ -68,7 +68,7 @@ body {
   }
 
   &--full {
-    max-width: 1600px !important;
+    max-width: var(--container-full-width) !important;
   }
 
   &--medium {

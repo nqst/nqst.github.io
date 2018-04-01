@@ -14,13 +14,13 @@ ogtype: article
   
   {% if page.introimg and page.cover != true %}
   <div class="container {% if page.widepost %}container--full{% else %}container--wide{% endif %}">
-    <figure class="figure--intro">
+    <figure class="intro-image{% if page.widepost %} intro-image--full{% endif %}">
       <img src="/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}">
     </figure>
   </div>
   {% endif %}
 
-  <div class="container{% if page.widepost %} container--wide{% endif %}{% if page.medium_width %} container--medium{% endif %}">
+  <div class="container{% if page.widepost %} container--full{% endif %}{% if page.medium_width %} container--medium{% endif %}">
     <article class="post">
 
       <section class="post__content">
