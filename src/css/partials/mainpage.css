@@ -24,8 +24,8 @@
   &__description {
     font-size: 1.75rem;
     line-height: 1.3;
-    font-weight: 500;
-    max-width: 740px;
+    font-weight: 600;
+    max-width: 30em;
     color: var(--text-darker);
     
     strong {
@@ -33,8 +33,17 @@
     }
 
     @media (--medium-screen) {
-      font-size: 2rem;
-      line-height: 1.35;
+      font-size: 3rem;
+      font-size: 4vw;
+      line-height: 1.3;
+    }
+
+    @media (--large-screen) {
+      font-size: 3.6vw;
+    }
+
+    @media screen and (min-width: 1440px) {
+      font-size: 54px;
     }
   }
 }
