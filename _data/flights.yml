@@ -1,3 +1,30 @@
+- date: "2018-04-15"
+  from: 
+    country: 🇨🇾
+    city: Ларнака
+    airport: LCA
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  company: Wizz Air
+  aircraft: Airbus A320
+  comment: Пролетали над вечерним Стамбулом — какой огромный город!
+  withAurora: true
+
+- date: "2018-04-08"
+  from: 
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  to:
+    country: 🇨🇾
+    city: Ларнака
+    airport: LCA
+  company: Wizz Air
+  aircraft: Airbus A320
+  withAurora: true
+
 - date: "2018-01-28"
   from: 
     country: 🇭🇺
