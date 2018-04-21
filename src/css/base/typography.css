@@ -106,12 +106,8 @@ h4 {
   }
 }
 
-.posts-list .intro-image {
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-}
-
 .posts-list .lead {
+  margin-top: 1.33rem;
   margin-bottom: 1rem;
 }
 
@@ -133,7 +129,7 @@ p {
 .lead {
   font-size: 1.3333rem;
   line-height: 1.4583;
-  margin: 1.5rem 0;
+  margin: 1rem 0 1.5rem;
   
   @media (--medium-screen) {
     
@@ -152,7 +148,7 @@ article {
   article li,
   article blockquote,
   article figcaption {
-    max-width: 39em;
+    max-width: 40rem;
   }
 }
 

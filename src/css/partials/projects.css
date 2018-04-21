@@ -66,8 +66,8 @@
   }
 
   &--screenshot .hero__image {
-    box-shadow: 0 23px 38px rgba(0, 0, 0, 0.43),
-                0 25px 65px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 23px 38px rgba(0, 0, 0, 0.33),
+                0 25px 65px rgba(0, 0, 0, 0.07);
   }
   
   &--with-subtle-shadow .hero__image {
@@ -532,9 +532,9 @@
 }
 
 .hero--nic {
-  background-color: #171921;
-  background-image: linear-gradient(45deg, #80BE28 0%, #009432 100%);
-  /* background-image: url(/i/projects/nic-newyear/hero-bg2.jpg); */
+  /* background-color: #171921; */
+  /* background-image: linear-gradient(45deg, #80BE28 0%, #009432 100%); */
+  background-color: #272221;
 }
 
 .hero--nic-newyear {

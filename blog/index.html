@@ -21,7 +21,7 @@ ogtype: website
         {% if post.layout == 'post' %}
           
             {% if post.introimg %}
-              <figure class="figure--intro">
+              <figure class="intro-image">
                 <a href="{{ post.url }}"><img src="/i{{ post.url | remove_first:'/blog' }}{{ post.introimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
               </figure>
             {% endif %}

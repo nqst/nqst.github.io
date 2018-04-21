@@ -63,7 +63,11 @@ figure,
   margin: 1rem 0;
   
   @media (--medium-screen) {
-    margin: 2rem 0;
+    margin: 2rem 0 1.5rem;
+  }
+
+  a {
+    display: block;
   }
   
   img {
@@ -77,6 +81,11 @@ figure,
   &--full img {
     width: 100%;
   }
+}
+
+.posts-list .intro-image {
+  margin-top: 1.5rem;
+  margin-bottom: 1.33rem;
 }
 
 .figure--center {
