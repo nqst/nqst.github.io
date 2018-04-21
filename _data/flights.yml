@@ -23,6 +23,7 @@
     airport: LCA
   company: Wizz Air
   aircraft: Airbus A320
+  comment: Первый относительно длинный перелет — около трех часов.
   withAurora: true
 
 - date: "2018-01-28"
