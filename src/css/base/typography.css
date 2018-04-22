@@ -163,7 +163,7 @@ article blockquote {
   @media (--medium-screen) {
     padding-left: 1.1em;
     font-size: 1.3333rem;
-    line-height: 1.4287;
+    line-height: 1.45;
   }
 }
 
