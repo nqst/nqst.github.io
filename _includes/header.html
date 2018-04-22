@@ -25,8 +25,6 @@
   {% if page.ogimage %}<meta property="og:image" content="http://zaytsev.io/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">
   <link rel="image_src" href="http://zaytsev.io/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">{% endif %}
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700,700italic&subset=latin,cyrillic">
-  
   <link rel="stylesheet" href="/css/main.css">
   {% if page.extrahead %}{{ page.extrahead }}{% endif %}
   {% if page.custom-css %}<link rel="stylesheet" href="/css/posts{{ page.id | remove_first:'/blog' }}.css">{% endif %}
