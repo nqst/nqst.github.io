@@ -18,10 +18,9 @@
      
   --container-full-width:            1400px;
 
-  --font-primary:                    -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  --font-primary:                    -apple-system, BlinkMacSystemFont, "IBM Plex Sans", "Roboto", "Helvetica Neue", "Arial", sans-serif;
   --font-monospace:                  "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
 
-  /* --text-color:                      #454749; */
   --text-color:                      #3d3e40;
   --text-darker:                     color(var(--text-color) l(-10%));
   --text-muted:                      color(var(--text-color) a(60%));
