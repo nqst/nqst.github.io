@@ -5,7 +5,7 @@ class: mainpage
 ---
 
 <main class="main">
-  <div class="container container--medium">
+  <div class="container container--full">
     
     <div class="mainpage-intro">
       <div class="mainpage-intro__description">
@@ -26,7 +26,10 @@ class: mainpage
       </div>
     </div>
 
-    <div class="mainpage-projects">
+  </div> <!-- /container -->
+
+  <div class="container container--full">
+    <div class="mainpage-projects bricklayer">
       <div class="mainpage-projects__item mainpage-projects__item--childrens-railway">
         <a class="mainpage-projects__link" href="/projects/childrens-railway/">
           <img class="mainpage-projects__img" src="/i/projects/childrens-railway/teaser.png" srcset="/i/projects/childrens-railway/teaser@2x.png 2x" alt="">
@@ -44,31 +47,23 @@ class: mainpage
           <img class="mainpage-projects__img" src="/i/projects/uz-boarding-pass/teaser.png" srcset="/i/projects/uz-boarding-pass/teaser@2x.png 2x" alt="">
         </a>
       </div>
+
+      <div class="mainpage-projects__item mainpage-projects__item--nic">
+        <a class="mainpage-projects__link" href="/projects/nic/">
+          <img class="mainpage-projects__img mainpage-projects__img--shadow" src="/i/projects/nic/teaser.png" srcset="/i/projects/nic/teaser@2x.png 2x" alt="">
+        </a>
+      </div>
       
       <div class="mainpage-projects__item mainpage-projects__item--bkk-timetable">
         <a class="mainpage-projects__link" href="/projects/bkk-timetable/">
           <img class="mainpage-projects__img" src="/i/projects/bkk-timetable/teaser.png" srcset="/i/projects/bkk-timetable/teaser@2x.png 2x" alt="">
         </a>
       </div>
-    </div>
-
-    <!-- <h3>Избранные проекты</h3>
-    <ul>
-      <li><a href="#">Улучшения для Днепровской детской железной дороги</a></li>
-      <li><a href="#">Редизайн посадочного билета на поезд (концепт)</a></li>
-      <li><a href="#">Схема трамвайных маршрутов Днепропетровска</a></li>
-      <li><a href="#">Новогодняя акция NIC.UA</a></li>
-      <li><a href="#">Видеоролик для скоростных поездов «Интерсити+»</a></li>
-    </ul> -->
-
-    <!-- <h3>Избранные клиенты</h3>
-    <ul>
-      <li><a href="#">NIC.UA</a></li>
-      <li><a href="#">Poster</a></li>
-      <li><a href="#">Work.ua</a></li>
-      <li><a href="#">Киевское метро</a></li>
-      <li><a href="#">Transloadit</a></li>
-    </ul> -->
-
-  </div>
+    </div> <!-- /mainpage-projects -->
+  </div> <!-- /container -->
 </main>
+
+<script src="/js/bricklayer.min.js"></script>
+<script>
+  var bricklayer = new Bricklayer(document.querySelector('.bricklayer'));
+</script>
