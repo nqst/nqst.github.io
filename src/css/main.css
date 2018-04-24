@@ -11,6 +11,7 @@
 
 /* Vendors (third-party stuff) */
 @import "vendors/bricklayer.min.css";
+@import "vendors/justifiedGallery.min.css";
 @import "vendors/rangeslider.css";
 @import "vendors/hint.min.css";
 

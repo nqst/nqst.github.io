@@ -79,6 +79,7 @@
 
 .mainpage-projects {
   margin-top: 80px;
+  margin-bottom: 80px;
 
   &__item {
     display: block;
@@ -119,7 +120,7 @@
   }
 
   &__item--bkk-timetable {
-    background-color: #DED3F2;
+    background-color: #ffedf2;
   }
 
   &__item--uz-boarding-pass {
@@ -143,7 +144,7 @@
   }
 
   &__item--nic-newyear {
-    background-color: #e5f0ef;
+    background-color: #e3f7f6;
   }
 }
 
