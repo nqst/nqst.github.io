@@ -76,7 +76,7 @@
   aircraft: Airbus A320
   comment: Совсем новый самолет. И, похоже, у Wizz Air теперь не откидываются кресла
 
-- date: "2017-12-09"
+- date: "2017-12-08"
   from: 
     country: 🇧🇾
     city: Минск
@@ -86,7 +86,7 @@
     city: Одесса
     airport: ODS
   company: Белавиа
-  aircraft: Boeing 737
+  aircraft: Boeing 737-300
 
 - date: "2017-08-02"
   from: 
@@ -98,7 +98,7 @@
     city: Киев
     airport: KBP
   company: МАУ
-  aircraft: Boeing 737
+  aircraft: Boeing 737-500
   comment: Первый перелет с МАУ
   withAurora: true
 
@@ -112,7 +112,7 @@
     city: Каунас
     airport: KUN
   company: AirBaltic
-  aircraft: Boeing 737
+  aircraft: Boeing 737-500
   withAurora: true
 
 - date: "2017-07-25"
@@ -139,7 +139,7 @@
     city: Берлин
     airport: TXL
   company: AirBaltic
-  aircraft: Boeing 737
+  aircraft: Boeing 737-500
   comment: Один из самых красивых перелетов — предзакатное время и много разных облаков
   withAurora: true
 
@@ -153,7 +153,7 @@
     city: Минск
     airport: MSQ
   company: Белавиа
-  aircraft: Boeing 737
+  aircraft: Boeing 737-300
   withAurora: true
 
 - date: "2017-06-03"
@@ -219,7 +219,7 @@
     city: Киев
     airport: KBP
   company: Белавиа
-  aircraft: Boeing 737
+  aircraft: Boeing 737-300
 
 - date: "2016-12-06"
   from: 
@@ -231,7 +231,7 @@
     city: Минск
     airport: MSQ
   company: Белавиа
-  aircraft: Boeing 737
+  aircraft: Boeing 737-300
   comment: Первый полет из Борисполя. Летели на самолете с ливреей «World of Tanks»
 
 - date: "2016-02-15"
