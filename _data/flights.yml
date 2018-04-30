@@ -1,3 +1,28 @@
+- date: "2018-04-29"
+  from: 
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  company: Wizz Air
+  aircraft: Airbus A320
+  comment: Во время полета испытал сильнейшую головную боль ;(
+
+- date: "2018-04-25"
+  from: 
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  to:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  company: Wizz Air
+  aircraft: Airbus A320
+
 - date: "2018-04-15"
   from: 
     country: 🇨🇾
@@ -23,7 +48,7 @@
     airport: LCA
   company: Wizz Air
   aircraft: Airbus A320
-  comment: Первый относительно длинный перелет — около трех часов.
+  comment: Первый относительно длинный перелет — около трех часов
   withAurora: true
 
 - date: "2018-01-28"
