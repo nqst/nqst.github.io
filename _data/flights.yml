@@ -1,3 +1,29 @@
+- date: "2018-05-12"
+  from: 
+    country: 🇵🇹
+    city: Порту
+    airport: OPO
+  to:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  company: Wizz Air
+  aircraft: Airbus A320
+  comment: Обучали венгерскую попутчицу читать кириллические буквы и пели вместе с ней Autó Egy Szerpentinen — трехчасовой полет прошел незаметно
+
+- date: "2018-05-08"
+  from: 
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  to:
+    country: 🇵🇹
+    city: Порту
+    airport: OPO
+  company: Wizz Air
+  aircraft: Airbus A321
+  comment: Первый A321! Пролетали Монблан
+
 - date: "2018-04-29"
   from: 
     country: 🇭🇺
