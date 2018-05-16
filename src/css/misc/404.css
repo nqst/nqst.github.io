@@ -1,16 +1,21 @@
 .error404 {
-  background-size: 10vw 10vw;
+  background-color: #0049B0;
+
+  background-size: 9vw 9vw;
   background-image: linear-gradient(to right, #adcbf5 0.3vw, transparent 1px), linear-gradient(to bottom, #adcbf5 0.3vw, transparent 1px);
   background-position: -0.3vw -0.3vw;
   line-height: 1.25;
   
   &__container {
     position: absolute;
-    top: 10vw;
-    left: 20vw;
-    width: calc(60vw - 0.3vw);
-    height: calc(10vw - 0.3vw);
-    background-color: #fff;
+    top: 10%;
+    left: 20%;
+    /* width: calc(7 * 9vw - 0.3vw); */
+    min-height: 11vw;
+    /* height: calc(9vw - 0.3vw); */
+    /* background-color: #fff; */
+    background-color: #064195;
+    border: 0.5vw solid #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,10 +24,10 @@
   &__back {
     position: absolute;
     font-size: 4vw;
-    top: 10vw;
-    left: 10vw;
-    width: calc(10vw - 0.3vw);
-    height: calc(10vw - 0.3vw);
+    top: 9vw;
+    left: 9vw;
+    width: calc(9vw - 0.3vw);
+    height: calc(9vw - 0.3vw);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,14 +42,16 @@
 
   &__title {
     font-size: 4vw;
-    text-align: center;
     font-weight: 700;
-    color: #00429e;
+    /* color: #00429e; */
+    color: #fff;
     line-height: 1.25;
     margin: -0.07em 0 0;
+    padding: 0.75em 1.75em 1em 1.25em;
   }
 
   &__code {
     font-weight: 400;
+    display: block;
   }
 }
