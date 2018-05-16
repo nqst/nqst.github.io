@@ -1,53 +1,58 @@
 .error404 {
   background-color: #0049B0;
 
-  background-size: 9vw 9vw;
-  background-image: linear-gradient(to right, #adcbf5 0.3vw, transparent 1px), linear-gradient(to bottom, #adcbf5 0.3vw, transparent 1px);
-  background-position: -0.3vw -0.3vw;
+  background-size: 8vw 8vw;
+  background-image: linear-gradient(to right, #cad8eb 0.15vw, transparent 1px), linear-gradient(to bottom, #cad8eb 0.15vw, transparent 1px);
+  background-position: -0.15vw -0.15vw;
   line-height: 1.25;
   
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
   &__container {
     position: absolute;
-    top: 10%;
+    top: 14%;
     left: 20%;
-    /* width: calc(7 * 9vw - 0.3vw); */
     min-height: 11vw;
-    /* height: calc(9vw - 0.3vw); */
-    /* background-color: #fff; */
-    background-color: #064195;
-    border: 0.5vw solid #fff;
+    background-color: #0873ca;
+    border: 0.6vw solid #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 3px;
+    
+    box-shadow: 0 -1px 5px 0 rgba(26,26,67,.05),
+                0 40px 125px -25px rgba(50,50,93,.2),
+                0 40px 75px -37.5px rgba(0,0,0,.3);
   }
 
   &__back {
     position: absolute;
     font-size: 4vw;
-    top: 9vw;
-    left: 9vw;
-    width: calc(9vw - 0.3vw);
-    height: calc(9vw - 0.3vw);
+    top: 8vw;
+    left: 8vw;
+    width: calc(8vw - 0.15vw);
+    height: calc(8vw - 0.15vw);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #adcbf5;
+    color: #cad8eb;
     margin-top: -0.025em;
     
     &:hover {
-      color: #00429e;
+      color: #fff;
     }
   }
 
   &__title {
     font-size: 4vw;
-    font-weight: 700;
-    /* color: #00429e; */
+    font-weight: 800;
     color: #fff;
-    line-height: 1.25;
+    line-height: 1.1;
     margin: -0.07em 0 0;
-    padding: 0.75em 1.75em 1em 1.25em;
+    padding: 0.9em 3em 1.1em 1.1em;
   }
 
   &__code {
