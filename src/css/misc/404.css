@@ -1,0 +1,50 @@
+.error404 {
+  background-size: 10vw 10vw;
+  background-image: linear-gradient(to right, #adcbf5 0.3vw, transparent 1px), linear-gradient(to bottom, #adcbf5 0.3vw, transparent 1px);
+  background-position: -0.3vw -0.3vw;
+  line-height: 1.25;
+  
+  &__container {
+    position: absolute;
+    top: 10vw;
+    left: 20vw;
+    width: calc(60vw - 0.3vw);
+    height: calc(10vw - 0.3vw);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__back {
+    position: absolute;
+    font-size: 4vw;
+    top: 10vw;
+    left: 10vw;
+    width: calc(10vw - 0.3vw);
+    height: calc(10vw - 0.3vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #adcbf5;
+    margin-top: -0.025em;
+    
+    &:hover {
+      color: #00429e;
+    }
+  }
+
+  &__title {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 700;
+    color: #00429e;
+    line-height: 1.25;
+    margin: -0.07em 0 0;
+  }
+
+  &__code {
+    font-weight: 400;
+  }
+}
