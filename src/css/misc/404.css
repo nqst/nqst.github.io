@@ -1,34 +1,10 @@
 .error404 {
-  /* background-color: #0049B0; */
   background-color: #fff;
 
   background-size: 8vw 8vw;
   background-image: linear-gradient(to right, #B4D7F5 0.2vw, transparent 1px), linear-gradient(to bottom, #B4D7F5 0.2vw, transparent 1px);
   background-position: -0.2vw -0.2vw;
   line-height: 1.25;
-  
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-
-  &__container {
-    position: absolute;
-    top: 14%;
-    left: 20%;
-    min-height: 11vw;
-    background-color: #0873ca;
-    border: 0.6vw solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 3px;
-    
-    display: none;
-    
-    box-shadow: 0 -1px 5px 0 rgba(26,26,67,.05),
-                0 40px 125px -25px rgba(50,50,93,.2),
-                0 40px 75px -37.5px rgba(0,0,0,.3);
-  }
 
   &__back {
     position: absolute;
@@ -48,22 +24,6 @@
       color: #2479C2;
     }
   }
-
-  &__title {
-    font-size: 4vw;
-    font-weight: 800;
-    color: #fff;
-    line-height: 1.1;
-    margin: -0.07em 0 0;
-    padding: 0.9em 3em 1.1em 1.1em;
-  }
-
-  &__code {
-    font-weight: 400;
-    display: block;
-  }
-
-
 
   &__text {
     position: absolute;
