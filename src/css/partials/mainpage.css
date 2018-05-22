@@ -69,10 +69,10 @@
   }
 
   &__item {
-    color: var(--text-muted);
+    color: var(--text-color);
     
     &:hover {
-      color: var(--text-color);
+      color: var(--text-darker);
     }
   }
 }
