@@ -24,7 +24,7 @@
   }
   
   &__description {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.4;
     font-weight: 400;
     max-width: 30em;
@@ -35,13 +35,15 @@
     }
 
     @media (--medium-screen) {
-      font-size: 36px;
+      /* font-size: 36px; */
+      font-size: 24px;
       /* font-size: 4vw; */
       line-height: 1.35;
     }
 
     @media (--large-screen) {
-      font-size: 40px;
+      /* font-size: 40px; */
+      font-size: 30px;
     }
 
     @media screen and (min-width: 1440px) {
