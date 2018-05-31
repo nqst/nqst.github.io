@@ -69,7 +69,6 @@
 }
 
 .footer__social-link {
-  
   margin-left: 1.2em;
   display: inline-block;
   background-repeat: no-repeat;
@@ -81,15 +80,5 @@
 
   &:first-child {
     margin-left: 0;
-  }
-
-  &--facebook {
-    padding-left: 14px;
-    background-image: url('../i/facebook.svg');
-  }
-
-  &--twitter {
-    padding-left: 20px;
-    background-image: url('../i/twitter.svg');
   }
 }
