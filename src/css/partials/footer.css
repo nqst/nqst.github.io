@@ -63,7 +63,7 @@
 
   &-link {
     display: inline-block;
-    background: url('../i/envelope-2.svg') no-repeat left 50%;
+    background: url('../i/envelope.svg') no-repeat left 50%;
     padding-left: 21px;
   }
 }
