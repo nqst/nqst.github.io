@@ -11,7 +11,7 @@ medium_width: true
 На некоторые поезда в Украине можно распечатать посадочный талон у себя на принтере и идти с ним в поезд. Талон выглядит так:
 
 <figure>
-  <img src="/i/uz-boarding-pass/pass-current.png">
+  <img src="/i/blog/uz-boarding-pass/pass-current.png">
 </figure>
 
 Пассажиру приходится пробираться сквозь дебри технической информации в поисках самого важного. Даты и время, станции отправления и прибытия, номер поезда, вагон — всё это смешано с <code>2210700</code>, <code>КБ ФIРМ НШ</code> и прочими <code>П/Б ПРИДН</code>.
@@ -22,18 +22,18 @@ medium_width: true
 
 - Главная информация должна быть максимально заметной. Нужно отделить ее от всех остальных данных:
     <figure>
-      <img src="/i/uz-boarding-pass/pass-current-main.png" alt="">
+      <img src="/i/blog/uz-boarding-pass/pass-current-main.png" alt="">
     </figure>
 - Сейчас всё смешано в кашу. Хорошо бы разделить данные на смысловые блоки:
     <figure>
-      <img src="/i/uz-boarding-pass/pass-grid.png" alt="">
+      <img src="/i/blog/uz-boarding-pass/pass-grid.png" alt="">
     </figure>
 - Избыточная повторяемость. Нет никакой нужды писать много раз «Посадочний документ» и «Цей посадочний документ є підставою для проїзду».
 - Информацию для пассажира нужно написать по-человечески. Например, нельзя писать так о страховке: <em>#СТР.ВІД Н/В 6000НЕОП.МІН. ПрАТ СК"РАРИТЕТ"...</em>
 - Талон сильно громоздкий. Хочется уменьшить его по высоте, а размеры приблизить к привычным пропорциям авиа- и железнодорожных билетов.
 - Нужно поработать над эстетикой. Сейчас слишком много ненужных рамок, четыре разных шрифта:
     <figure>
-      <img src="/i/uz-boarding-pass/pass-current-fonts.png" alt="">
+      <img src="/i/blog/uz-boarding-pass/pass-current-fonts.png" alt="">
     </figure>
 
 ---
@@ -42,20 +42,20 @@ medium_width: true
 
 <div class="new-pass-wrapper">
   <figure>
-    <img class="js-new-pass new-pass" data-vp-add-class="new-pass-animate" src="/i/uz-boarding-pass/pass-redesign.png">
+    <img class="js-new-pass new-pass" data-vp-add-class="new-pass-animate" src="/i/blog/uz-boarding-pass/pass-redesign.png">
   </figure>
 </div>
 
 Было-стало:
 
 <figure>
-  <img src="/i/uz-boarding-pass/before-after.jpg" alt="">
+  <img src="/i/blog/uz-boarding-pass/before-after.jpg" alt="">
 </figure>
 
 Эволюция нового дизайна:
 
 <figure class="js-slide-wrapper">
-  <img class="js-slide js-slide-initial" src="/i/uz-boarding-pass/evolution/1.png" style="display: block; border-radius: 0; box-shadow: 0 1px 2px #bbb;">
+  <img class="js-slide js-slide-initial" src="/i/blog/uz-boarding-pass/evolution/1.png" style="display: block; border-radius: 0; box-shadow: 0 1px 2px #bbb;">
 </figure>
 
 <div>

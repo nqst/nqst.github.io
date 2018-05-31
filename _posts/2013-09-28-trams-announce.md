@@ -5,5 +5,5 @@ published: false
 ---
 
 <figure>
-    <img src="/i/trams-announce/instaphoto.jpg" width="100%" alt="Скоро">
+    <img src="/i/blog/trams-announce/instaphoto.jpg" width="100%" alt="Скоро">
 </figure>

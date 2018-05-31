@@ -168,7 +168,7 @@ cover: true
 
   <p>
     <figure>
-      <img src="/i/good-manners/orange.jpg" alt="">
+      <img src="/i/blog/good-manners/orange.jpg" alt="">
       <figcaption>А. З.: Как-то так. Источник картинки — <a href="http://www.dailymail.co.uk/femail/food/article-3081786/The-15-foods-ve-eating-WRONG-properly.html">dailymail.co.uk</a></figcaption>
     </figure>
   </p>

@@ -14,12 +14,12 @@ beforeinfo: 'Это завершение серии заметок о диза�
 <!-- more -->
 
 <figure>
-  <img src="/i/metrograd/where-am-i.jpg" alt="">
+  <img src="/i/blog/metrograd/where-am-i.jpg" alt="">
   <figcaption>В какую сторону идти? Как пройти к Бессарабскому рынку? Где здесь туалет?</figcaption>
 </figure>
 
 <figure>
-  <img src="/i/metrograd/exit.jpg" alt="">
+  <img src="/i/blog/metrograd/exit.jpg" alt="">
   <figcaption>Куда я выйду?</figcaption>
 </figure>
 
@@ -30,32 +30,32 @@ beforeinfo: 'Это завершение серии заметок о диза�
 После анализа основных проблем и прогулки по Метрограду, мы начали придумывать идеи и рисовать:
 
 <figure>
-  <img src="/i/metrograd/sketches.jpg" alt="">
+  <img src="/i/blog/metrograd/sketches.jpg" alt="">
 </figure>
 
 <figure>
-  <img src="/i/metrograd/sketches-2.jpg" alt="">
+  <img src="/i/blog/metrograd/sketches-2.jpg" alt="">
 </figure>
 
 <figure>
-  <img src="/i/metrograd/idea-route.jpg" alt="">
+  <img src="/i/blog/metrograd/idea-route.jpg" alt="">
 </figure>
 
 <figure>
-  <img src="/i/metrograd/exits.jpg" alt="">
+  <img src="/i/blog/metrograd/exits.jpg" alt="">
 </figure>
 
 Пообщались с коллегами и решили пронумеровать выходы. Нумерация поможет легче назначать встречи («встретимся у входа A7») и быстрее строить правильный маршрут.
 
 <figure>
-  <img src="/i/metrograd/map.png" alt="">
+  <img src="/i/blog/metrograd/map.png" alt="">
 </figure>
 
 
 Попробовали еще и напольную навигацию: нарисовали плитки и придумали навигационный ромб для перекрестков:
 
 <figure>
-  <img src="/i/metrograd/floor.jpg" alt="">
+  <img src="/i/blog/metrograd/floor.jpg" alt="">
   <figcaption>Еще очень сыро, но идеи можно развивать</figcaption>
 </figure>
 
@@ -63,78 +63,78 @@ beforeinfo: 'Это завершение серии заметок о диза�
 Перед лекциями идем в типографию и распечатываем первые образцы в реальном размере. Печатать приходится на формате А3, поэтому быстренько склеиваем всё вручную:
 
 <figure>
-  <img src="/i/metrograd/testing.jpg" alt="">
+  <img src="/i/blog/metrograd/testing.jpg" alt="">
 </figure>
 
 Спускаемся в Метроград на первую примерку. Охрана уже напряглась:
 
 <figure>
-  <img src="/i/metrograd/trying-on.jpg" alt="">
+  <img src="/i/blog/metrograd/trying-on.jpg" alt="">
 </figure>
 
 Продолжаем работать и примеряем таблички прямо в коворкинге — туда недавно принесли принтер:
 
 <figure>
-  <img src="/i/metrograd/trying-on-clockface.jpg" alt="">
+  <img src="/i/blog/metrograd/trying-on-clockface.jpg" alt="">
 </figure>
 
 <figure>
-  <img src="/i/metrograd/trying-on-clockface-exit.jpg" alt="">
+  <img src="/i/blog/metrograd/trying-on-clockface-exit.jpg" alt="">
 </figure>
 
 Рисуем подвесную квадратную штуку для перекрестков:
 
 <figure>
-  <img src="/i/metrograd/road-crossing.jpg" alt="">
+  <img src="/i/blog/metrograd/road-crossing.jpg" alt="">
 </figure>
 
 Работаем над напольной навигацией. Придумали четыре вида на все случаи жизни:
 
 <figure class="figure--wide">
-  <img src="/i/metrograd/floor-types.jpg" alt="">
+  <img src="/i/blog/metrograd/floor-types.jpg" alt="">
 </figure>
 
 <!-- Кто-то принес пенокартон. Примеряем на нем напольную:
 
 <figure>
-  <img src="/i/metrograd/foamcore.jpg" alt="">
+  <img src="/i/blog/metrograd/foamcore.jpg" alt="">
 </figure> -->
 
 Идем в Метроград еще раз. Примерили и отфоткали обновленную напольную, а длинную табличку над дверями выхода растянуть уже не смогли — не разрешила охрана :-)
 
 <figure>
-  <img src="/i/metrograd/trying-on-fail.jpg" alt="">
+  <img src="/i/blog/metrograd/trying-on-fail.jpg" alt="">
 </figure>
 
 Работаем над выходами. Пробуем покрасить двери в черный, сверху делаем широкую табличку.
 
 <figure class="figure--wide">
-  <img src="/i/metrograd/exits-inside.jpg" alt="">
+  <img src="/i/blog/metrograd/exits-inside.jpg" alt="">
 </figure>
 
 Там, где низкий потолок и повесить табличку нельзя, подписываем номер выхода прямо на двери. Заодно убираем с дверей рекламу:
 
 <figure>
-  <img src="/i/metrograd/low-exit.jpg" alt="">
+  <img src="/i/blog/metrograd/low-exit.jpg" alt="">
 </figure>
 
 Улучшаем входы:
 
 <figure class="figure--wide">
-  <img src="/i/metrograd/entrance.jpg" alt="">
+  <img src="/i/blog/metrograd/entrance.jpg" alt="">
 </figure>
 
 
 Подписываем неподписанное:
 
 <figure>
-  <img src="/i/metrograd/entrance-2.jpg" alt="">
+  <img src="/i/blog/metrograd/entrance-2.jpg" alt="">
 </figure>
 
 Приводим таблички в порядок:
 
 <figure>
-  <img src="/i/metrograd/types.jpg" alt="">
+  <img src="/i/blog/metrograd/types.jpg" alt="">
 </figure>
 
 
@@ -144,14 +144,14 @@ beforeinfo: 'Это завершение серии заметок о диза�
 Эволюция табличек на перекрестке:
 
 <figure class="">
-  <img src="/i/metrograd/square-evolution.jpg" alt="">
+  <img src="/i/blog/metrograd/square-evolution.jpg" alt="">
 </figure>
 
 <br>
 Эволюция нумерации выходов:
 
 <figure class="figure--wide">
-  <img src="/i/metrograd/exits-evolution.png" alt="">
+  <img src="/i/blog/metrograd/exits-evolution.png" alt="">
 </figure>
 
 Первый подход — просто номер выхода. Мы тут же добавили цвета, чтобы была привязка к определенным зонам торгового центра.
@@ -164,7 +164,7 @@ beforeinfo: 'Это завершение серии заметок о диза�
 Эволюция напольного ромба:
 
 <figure class="figure--wide">
-  <img src="/i/metrograd/floor-evolution.png" alt="">
+  <img src="/i/blog/metrograd/floor-evolution.png" alt="">
 </figure>
 
 ---
@@ -178,7 +178,7 @@ beforeinfo: 'Это завершение серии заметок о диза�
 Коллеги из других команд за время практикума улучшали схему киевского метро, дизайн паркоматов, огромную транспортную развязку «Святошин» и станцию метро «Крещатик». Ребята предложили десятки отличных идей — и если реализовать даже часть, можно упростить людям жизнь и сделать Киев более современным и приятным городом.
 
 <figure style="max-width: 560px;">
-  <img src="/i/metrograd/parkomat.jpg" alt="">
+  <img src="/i/blog/metrograd/parkomat.jpg" alt="">
   <figcaption>Одна из самых любимых фотографий с практикума: парковщик тестирует прототип интерфейса паркомата, придуманного коллегами</figcaption>
 </figure>
 
@@ -190,5 +190,5 @@ beforeinfo: 'Это завершение серии заметок о диза�
 
 
 <figure>
-  <img src="/i/metrograd/thank-you.jpg" alt="">
+  <img src="/i/blog/metrograd/thank-you.jpg" alt="">
 </figure>

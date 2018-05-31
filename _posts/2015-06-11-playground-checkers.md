@@ -5,7 +5,7 @@ ogimage: DSC02730.jpg
 ---
 
 <figure>
-  <img src="/i/playground-checkers/DSC02730.jpg">
+  <img src="/i/blog/playground-checkers/DSC02730.jpg">
 </figure>
 
 На фотографии — беседки на детской площадке в Будапеште. На столиках в каждой беседке предусмотрены поля для игры в шашки и [мельницу](https://en.wikipedia.org/wiki/Nine_Men%27s_Morris). Для обоих игр нужны белые и черные фишки.
@@ -17,14 +17,14 @@ ogimage: DSC02730.jpg
 Здесь проблема решена намного проще. Белых и черных фишек — бесконечно много:
 
 <figure>
-  <img src="/i/playground-checkers/DSC02727.jpg">
+  <img src="/i/blog/playground-checkers/DSC02727.jpg">
   <figcaption>Слева — мелкая деревянная кора, на которую не больно падать, ей усыпана вся территория площадки. Справа — камешки, которые насыпаны под беседкой.</figcaption>
 </figure>
 
 Смотрите, как здорово и остроумно:
 
 <figure>
-  <img src="/i/playground-checkers/DSC02729.jpg">
+  <img src="/i/blog/playground-checkers/DSC02729.jpg">
 </figure>
 
 Можно играть сколько хочешь и не бояться ничего потерять. Такое вот изящное решение изобретательской задачи.

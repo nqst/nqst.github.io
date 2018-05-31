@@ -15,7 +15,7 @@ published: false
 На 24-м маршруте было не так много низкопольных троллейбусов, но я и моя семья ими пользовались — с коляской это удобно, и это был единственный низкопольный транспорт, который ездил от моего дома к метро «Минская». Сейчас ездят дохленькие «Антоновы»:
 
 <figure>
-  <img src="/i/kyiv-elections/antonov.jpg">
+  <img src="/i/blog/kyiv-elections/antonov.jpg">
   <figcaption>
     Источник:
     <a href="http://transler.ru/content/arxiv_perevozhic/perevizhik_10/perevozhic_114/Passazhirskie_perevozki__Jelektrotransport_v_Ukraine-_spisaniju_ne_podlezhit">transler.ru</a>
@@ -27,7 +27,7 @@ published: false
 На всякий случай упомяну, что такая реклама в лифте — незаконна.
 
 <figure>
-  <img src="/i/kyiv-elections/IMG_1151.jpg">
+  <img src="/i/blog/kyiv-elections/IMG_1151.jpg">
 </figure>
 
 В своей предвыборной программе человек, конечно же, обещает благоустраивать дворы и подъезды нашего района.
@@ -37,21 +37,21 @@ published: false
 Под конец — несколько случайных картинок из фейсбука, которые попались за вечер, и за которые стыдно. Киев, Украина, наши дни.
 
 <figure>
-  <img src="/i/kyiv-elections/masha.jpg">
+  <img src="/i/blog/kyiv-elections/masha.jpg">
 </figure>
 
 <figure>
-  <img src="/i/kyiv-elections/trash.jpg">
+  <img src="/i/blog/kyiv-elections/trash.jpg">
 </figure>
 
 <figure>
-  <img src="/i/kyiv-elections/speech.jpg">
+  <img src="/i/blog/kyiv-elections/speech.jpg">
 </figure>
 
 <figure>
-  <img src="/i/kyiv-elections/bereza.jpg">
+  <img src="/i/blog/kyiv-elections/bereza.jpg">
 </figure>
 
 <figure>
-  <img src="/i/kyiv-elections/reformy.png">
+  <img src="/i/blog/kyiv-elections/reformy.png">
 </figure>

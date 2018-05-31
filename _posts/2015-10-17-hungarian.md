@@ -131,12 +131,12 @@ ogimage: ogimage.jpg
 
 	- Посмотрите на глаголы движения в русском языке. Вы о них и не задумывались никогда, а кто-то страдает и учит табличку:
 		<figure>
-		  <img src="/i/hungarian/russian-verbs-of-motion.png">
+		  <img src="/i/blog/hungarian/russian-verbs-of-motion.png">
 		</figure>
 
 	- Или вот [StackExchange про русский язык](http://russian.stackexchange.com/) (там всегда праздник):
 		<figure>
-		  <img src="/i/hungarian/stackexchange.png" alt="">
+		  <img src="/i/blog/hungarian/stackexchange.png" alt="">
 		</figure>
 
 	- Рекомендую на досуге почитать статью о грамматике русского языка [в английской Википедии](https://en.wikipedia.org/wiki/Russian_grammar).

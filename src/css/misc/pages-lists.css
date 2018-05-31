@@ -103,17 +103,6 @@
   padding-left: 0.2em;
 }
 
-
-/* .page-movies {
-  body {
-    background: #002338 url('../i/movies-gradient.png') repeat-x;
-  }
-
-  .movies__details {
-    color: color(#fff a(50%));
-  }
-} */
-
 .countries__item {
   @media (--large-screen) {
     margin-left: 1.7em;

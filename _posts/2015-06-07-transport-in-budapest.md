@@ -11,38 +11,38 @@ widepost: true
 <!-- more -->
 
 <!-- <figure>
-  <img src="/i/transport-in-budapest/DSC03578.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03578.jpg">
 </figure> -->
 
 Каждый вид наземного транспорта в Будапеште имеет свой цвет. Трамваи — желтые:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02185.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02185.jpg">
   <figcaption>На фотографии — шестивагонный Siemens Combino, самый длинный пассажирский трамвай в мире (54 м).</figcaption>
 </figure>
 
 <!-- <figure>
-  <img src="/i/transport-in-budapest/DSC02576.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02576.jpg">
 </figure> -->
 
 Автобусы — синие:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03038.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03038.jpg">
   <figcaption>Раньше автобусы красили темно-синим, а теперь красят сине-голубым — смелее и современнее.</figcaption>
 </figure>
 
 Троллейбусы — красные:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03499.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03499.jpg">
   <figcaption>Можно подумать, что этот Икарус — автобус, но нет, троллейбус ;)</figcaption>
 </figure>
 
 Пригородные электрички — зеленые:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03503.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03503.jpg">
 </figure>
 
 <!-- Цветовое кодирование помогает выделить транспорт на дороге, а также на схемах и расписаниях.
@@ -53,19 +53,19 @@ widepost: true
 В метро по желтой ветке ходят поезда желтого цвета, по синей — синего. Но это, скорее, исторически сложилось. По красной и зеленой ветке ездят симпатичные [Alstom Metropolis](https://en.wikipedia.org/wiki/AM5-M2) белого цвета:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02880.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02880.jpg">
 </figure>
 
 На третьей ветке, синей, пока еще ездят небезызвестные поезда Мытищинского завода:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03526.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03526.jpg">
 </figure>
 
 Есть в Будапеште и непривычное для наших краев явление — трамвай на зубчатой железной дороге. Он ездит вверх и вниз по горе с десятью остановками — местные пользуются. От трамвая № 60 у нас осталось больше впечатлений, чем от туристического фуникулера.
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02949.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02949.jpg">
 </figure>
 
 <hr>
@@ -73,19 +73,19 @@ widepost: true
 Тут много разных билетов, есть из чего выбрать оптимальный вариант. Мы использовали проездной «5/30» (5 суток из 30). Принцип такой: обводишь ручкой определенный день и время, и начиная с этого времени ездишь без ограничений в течение суток. И так пять раз.
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03552.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03552.jpg">
   <figcaption>Проездной работает не с 0 до 24, а с того времени, что указал. Удобно — можно растянуть удовольствие на два дня.</figcaption>
 </figure>
 
 Билеты продаются в кассах и терминалах. Платить можно как наличными, так и карточкой — в том числе бесконтактно!
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02337.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02337.jpg">
   <figcaption>Интерфейс мультиязычный, нашелся и русский язык.</figcaption>
 </figure>
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02943.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02943.jpg">
 </figure>
 
 За порядком с билетами следят контролеры — иногда заходят во время поездки. Кондукторов, конечно же, нет. Штраф за безбилетный проезд тут в двадцать раз больше, чем в Киеве — 16 000 форинтов (≈ $57).
@@ -101,99 +101,99 @@ widepost: true
 Вся важная информация, схемы и расписания переведены на английский:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02926.jpg" alt="">
+  <img src="/i/blog/transport-in-budapest/DSC02926.jpg" alt="">
   <figcaption>В венгерском языке используется латиница, поэтому названия остановок можно не транслитерировать — это облегчает жизнь дизайнеру.</figcaption>
 </figure>
 
 На новой ветке метро значок коляски помогает стать в правильном месте, пока ждешь поезд. Вот поезд приехал и видно, что места для инвалидов и пассажиров с колясками расположены сразу возле нашего входа.
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02883.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02883.jpg">
   <figcaption>Дизайнерская находка: пиктограммы на стекле работают как снаружи («места для инвалидов и пассажиров с колясками — здесь»), так и изнутри («уступайте место»).</figcaption>
 </figure>
 
 Внутри практично и удобно:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02884.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02884.jpg">
 </figure>
 
 Хотя старые трамваи не низкопольные, там тоже заботятся о пассажирах с детьми в колясках. На этой остановке маме с коляской тоже не придется бегать в поисках нужных дверей:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02936.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02936.jpg">
 </figure>
 
 Как сделать старый трамвай ближе к людям с колясками? Легко: убираем сиденье возле входа и рисуем заметную зону с пиктограммой коляски. Готово.
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02457.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02457.jpg">
   <figcaption>Благодаря желтой плашке места для колясок заметные и узнаваемые — пассажиры уступали нам это место до того, как мы успевали на него посмотреть.</figcaption>
 </figure>
 
 Первые три ветки в метро старые, поэтому там нет пандусов и лифтов. Но транспортная компания не закрывает на это глаза — можно [прийти на сайт](http://www.bkk.hu/en/accessible-public-transport-in-budapest/) и подобрать альтернативный маршрут на доступном транспорте с низким полом. Первую ветку метро, объект наследия ЮНЕСКО и самый первый метрополитен в континентальной Европе, планируют оборудовать лифтами.
 
 <!-- <figure>
-  <img src="/i/transport-in-budapest/DSC02611.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02611.jpg">
 </figure> -->
 
 Фотографировал расписание, а когда перебирал фотки, заметил мелочь: некоторые минуты подчеркнуты. Оказалось, это время прибытия низкопольных автобусов!
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03488.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03488.jpg">
   <figcaption>Расписание, конечно же, соблюдается — автобус приедет в нужное время.</figcaption>
 </figure>
 
 На многих остановках установлены информационные табло с ожидаемым временем прибытия транспорта.
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02606.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02606.jpg">
 </figure>
 
 Подобное табло есть и в вестибюле метро:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03512.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03512.jpg">
   <figcaption>Интересно, что тут предусмотрен столбец «Exit» — для отображения буквы выхода из метро (каждый выход имеет свою букву для простоты ориентирования). Когда эту фичу доделают, будет вообще сказка.</figcaption>
 </figure>
 
 В местах, где ведутся работы, стараются делать навигацию:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02946.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02946.jpg">
   <figcaption>Тут наглядно видна эффективность цветового кодирования транспорта. Все в городе знают, что желтый — трамвай, а синий — автобус. Не нужно вглядываться в пиктограммы, чтобы это понять.</figcaption>
 </figure>
 
 В трамваях висят удобные схемы текущего маршрута с пересадками на другие виды транспорта:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02462.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02462.jpg">
   <figcaption>Схемы печатаются на простой неклеящейся бумаге. Это хороший вариант: если трамвай поедет по другому маршруту или надо будет обновить схему, не придется ничего отклеивать или сдирать. Только бумагу хочется плотнее.</figcaption>
 </figure>
 
 В новых автобусах установлены экраны, где показывают ближайшие три остановки и конечную:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03466.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03466.jpg">
   <figcaption>Буква М означает пересадку на метро. Красный значок STOP информирует о том, что кто-то выходит на ближайшей остановке (остановки выполняются по требованию — по всему салону автобуса установлены кнопки).</figcaption>
 </figure>
 
 Новых моделей много. Тут ездят и гибридные автобусы (с бензиновым и электрическим двигателями), и автобусы, умеющие наклонять кузов, чтобы легко было заезжать на инвалидной коляске.
 
 <figure>
-  <img src="/i/transport-in-budapest/Volvo-buszok.jpg">
+  <img src="/i/blog/transport-in-budapest/Volvo-buszok.jpg">
   <figcaption>Источник: <a href="http://www.bkk.hu/2014/04/egyedulallo-buszflotta-erkezik-budapestre/">bkk.hu</a></figcaption>
 </figure>
 <!-- 
 <figure>
-  <img src="/i/transport-in-budapest/NYD_2567.jpg">
+  <img src="/i/blog/transport-in-budapest/NYD_2567.jpg">
   <figcaption>Источник: <a href="http://www.bkk.hu/2015/05/juniustol-ujabb-25-uj-alacsonypadlos-kornyezetbarat-busz-all-forgalomba-budapesten/">bkk.hu</a> [Оптимизировать картинку!]</figcaption>
 </figure> -->
 
 А еще здесь продолжают ездить старенькие Икарусы. Они постепенно исчезают с улиц Будапешта, но я очень рад, что сейчас они в хорошем состоянии — есть у меня сильная иррациональная любовь к этим автобусам.
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03042.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03042.jpg">
 </figure>
 
 * * *
@@ -201,7 +201,7 @@ widepost: true
 В Будапеште действует и ночная транспортная сеть — автобусы покрывают основные маршруты по всему городу, а важный 6-й трамвай ездит круглосуточно. Из аэропорта можно уехать на автобусе в любое время суток:
 
 <figure>
-  <img src="/i/transport-in-budapest/night.png" style="box-shadow: 0 1px 4px #bbb;">
+  <img src="/i/blog/transport-in-budapest/night.png" style="box-shadow: 0 1px 4px #bbb;">
 </figure>
 
 
@@ -210,7 +210,7 @@ widepost: true
 Чтобы автомобили не ездили по трамвайным рельсам, они отделены от проезжей части небольшими бетонными бугорками:
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03515.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03515.jpg">
 </figure>
 
 Если по улице с трамвайной колеей ездят и автобусы, то они ездят по этой трамвайной колее. Остановки трамвая и автобуса в таком случае часто находятся в одном и том же месте.
@@ -220,13 +220,13 @@ widepost: true
 Недавно в Будапеште появились рейсовые речные трамвайчики. И это тоже часть городской транспортной сети! Мы с нашим билетом катались на таких без дополнительной платы (так можно делать по будням; на выходных маршрутов больше и придется купить отдельный билет).
 
 <figure>
-  <img src="/i/transport-in-budapest/boat1.jpg">
+  <img src="/i/blog/transport-in-budapest/boat1.jpg">
 </figure>
 
 Кораблики везут пассажиров по быстрому Дунаю, ловко переправляясь с одного берега на другой:
 
 <figure>
-  <img src="/i/transport-in-budapest/boat.png">
+  <img src="/i/blog/transport-in-budapest/boat.png">
   <!-- <figcaption>Схема полностью — <a href="http://www.bkk.hu/apps/docs/terkep/hajojaratok.pdf">bkk.hu/apps/docs/terkep/hajojaratok.pdf</a></figcaption> -->
 </figure>
 
@@ -235,7 +235,7 @@ widepost: true
 Развивается и велосипедная инфраструктура.
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC03463.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC03463.jpg">
 </figure>
 
 Такие зеленые велосипеды — продолжение общественного транспорта. Берешь велик на одной велостанции, едешь куда нужно, оставляешь на другой станции — возле места назначения. Сейчас работает 76 велостанций, этим летом откроется еще 22. Аренда недорогая — на сегодняшний день годовой абонемент стоит 12 000 форинтов (≈ $42). Дополнительно оплачивается время использования велосипеда, но если уложиться в полчаса, платить не нужно.
@@ -243,7 +243,7 @@ widepost: true
 У велопроката [есть сайт](http://molbubi.bkk.hu/) со всей нужной информацией и возможностью купить билет онлайн. Доступна и карта велостанций, где можно посмотреть, сколько великов припарковано на выбранной станции.
 
 <figure>
-  <img src="/i/transport-in-budapest/velostations.png">
+  <img src="/i/blog/transport-in-budapest/velostations.png">
 </figure>
 
 * * *
@@ -251,7 +251,7 @@ widepost: true
 Осенью 2013 года в Будапеште свершилось величайшее торжество здравого смысла — полностью изменилась система такси.
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02161.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02161.jpg">
   <figcaption>Женщина в красном, к слову, — водитель такси.</figcaption>
 </figure>
 
@@ -260,14 +260,14 @@ widepost: true
 В каждой машине такси висит такой информационный листок. Читаешь и радуешься. Так должно быть везде:
 
 <figure>
-  <img src="/i/transport-in-budapest/taxi-rules.png">
+  <img src="/i/blog/transport-in-budapest/taxi-rules.png">
   <figcaption>В номере горячей линии транспортной компании BKK повторяются цифры 255. Этим цифрам соответствуют буквы BKK на <a href="/i/transport-in-budapest/keypad.png">клавиатуре телефона</a>. Обожаю такую любовь к мелочам.</figcaption>
 </figure>
 
 Такси мы так и не воспользовались, хотя много ездили по городу и дважды — в аэропорт. В Киеве, когда мы едем куда-то с ребенком, я вызываю такси в 8 случаях из 10 — и постоянно уточняю у водителя, есть ли в машине ремни безопасности сзади (они есть далеко не всегда).
 
 <!-- <figure class="figure--wide">
-  <img src="/i/transport-in-budapest/DSC02204.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02204.jpg">
 </figure> -->
 
 * * *
@@ -279,5 +279,5 @@ widepost: true
 Если интересуетесь или занимаетесь транспортом — приезжайте за вдохновением в Будапешт. Уверен, что вам понравится.
 
 <figure>
-  <img src="/i/transport-in-budapest/DSC02345.jpg">
+  <img src="/i/blog/transport-in-budapest/DSC02345.jpg">
 </figure>

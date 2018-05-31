@@ -13,22 +13,22 @@ introimg: arrow.jpg
 Перед курсом надо было сделать несколько фотографий мест, где есть проблемы с навигацией. Вот, что я сфоткал:
 
 <figure>
-  <img src="/i/navigation-workshop/poor-nav-1.jpg" alt="">
+  <img src="/i/blog/navigation-workshop/poor-nav-1.jpg" alt="">
   <figcaption>Я нахожусь прямо у Караимской кенассы, но точка «Вы здесь» говорит, что я где-то через дорогу. Дизайнеры не вместили две иконки в одном месте. Кроме того: неаккуратная типографика, плохое разделение на слои, избыточная детализация.</figcaption>
 </figure>
 
 <figure>
-  <img src="/i/navigation-workshop/poor-nav-2.jpg" alt="">
+  <img src="/i/blog/navigation-workshop/poor-nav-2.jpg" alt="">
   <figcaption>На каком доме установлена эта табличка? 11? 13? Или, может, 11а?</figcaption>
 </figure>
 
 <figure>
-  <img src="/i/navigation-workshop/poor-nav-3.jpg" alt="">
+  <img src="/i/blog/navigation-workshop/poor-nav-3.jpg" alt="">
   <figcaption>Две арки справа — входы и выходы из метро. Это не понятно до тех пор, пока не посмотришь на них в упор.</figcaption>
 </figure>
 
 <figure>
-  <img src="/i/navigation-workshop/poor-nav-4.jpg" alt="">
+  <img src="/i/blog/navigation-workshop/poor-nav-4.jpg" alt="">
   <figcaption>Троллейбусная схема Киева. Очень мелкая, с неудобными вертикальными надписями и одним цветом линий.</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ introimg: arrow.jpg
 * **Делайте более удобные презентации.** В презентациях ребята из Студии делают отдельные страницы, где резюмируется показанное раньше. Клиент не теряется и не забывает, о чем шла речь, да и когда смотришь еще раз, могут возникнуть нужные вопросы, которые лучше задать как можно раньше.
 
 <figure>
-  <img src="/i/navigation-workshop/vegas.jpg" alt="">
+  <img src="/i/blog/navigation-workshop/vegas.jpg" alt="">
 </figure>
 
 * **Пишите тезисы о своих принципах,** чтобы где-то были записаны ответы на вопросы, почему вы решили сделать именно так, а не иначе. Людвиг, работая над схемой московского метро, постоянно писал в [свой ЖЖ](http://grosslarnakh.livejournal.com/). Прямая трансляция работы над схемой дала много хорошего. В частности, подключился коллективный разум: люди со всего интернета быстро и с удовольствием помогали решить проблемы с ошибками, транслитерацией и цветами для дальтоников. Поэтому надо не стесняться и находить время писать в блог :-)
@@ -65,7 +65,7 @@ introimg: arrow.jpg
 Мы разделились по командам и у нас уже есть групповое задание: обнаружить и отфоткать проблемы в киевском навигационном аду — подземном торговом центре «Метроград». Сегодня продолжим!
 
 <figure>
-  <img src="/i/navigation-workshop/metrograd.jpg" alt="">
+  <img src="/i/blog/navigation-workshop/metrograd.jpg" alt="">
 </figure>
 
 <span class="hint">Это первая часть серии заметок о дизайн-практикуме. Продолжение: [дни 2 и 3](/blog/navigation-workshop-2/), [дни 4–8](/blog/navigation-workshop-3/).</span>

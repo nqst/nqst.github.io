@@ -11,7 +11,7 @@ title: "Альтернатива"
 Пример из ялтинского Макдональдса:
 
 <figure>
-<img src="/i/alternative/mcd.jpg">
+<img src="/i/blog/alternative/mcd.jpg">
 <figcaption>— «Посетителей в купальных костюмах приглашаем к окну Экспресс».</figcaption>
 </figure>
 

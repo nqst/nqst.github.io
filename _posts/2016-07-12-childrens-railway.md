@@ -18,14 +18,14 @@ ogimage: ogimage.jpg
 
 <div class="two-columns">
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/timetable-before.jpg" alt="Старое расписание">
+    <img src="/i/blog/childrens-railway/timetable-before.jpg" alt="Старое расписание">
     <figcaption>
       Было
     </figcaption>
   </figure>
 
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/timetable-after.jpg" alt="Новое расписание">
+    <img src="/i/blog/childrens-railway/timetable-after.jpg" alt="Новое расписание">
     <figcaption>
       Стало
     </figcaption>
@@ -36,14 +36,14 @@ ogimage: ogimage.jpg
 
 <div class="two-columns">
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/tickets-before.jpg" alt="Касса до изменений">
+    <img src="/i/blog/childrens-railway/tickets-before.jpg" alt="Касса до изменений">
     <figcaption>
       Было
     </figcaption>
   </figure>
 
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/tickets-after.jpg" alt="Касса после изменений">
+    <img src="/i/blog/childrens-railway/tickets-after.jpg" alt="Касса после изменений">
     <figcaption>
       Стало
     </figcaption>
@@ -55,14 +55,14 @@ ogimage: ogimage.jpg
 
 <div class="two-columns">
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/sign-before.jpg" alt="Старая табличка">
+    <img src="/i/blog/childrens-railway/sign-before.jpg" alt="Старая табличка">
     <figcaption>
       Было
     </figcaption>
   </figure>
 
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/sign-after.jpg" alt="Новая табличка">
+    <img src="/i/blog/childrens-railway/sign-after.jpg" alt="Новая табличка">
     <figcaption>
       Стало
     </figcaption>
@@ -73,14 +73,14 @@ ogimage: ogimage.jpg
 
 <div class="two-columns">
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/inside-before1.jpg" alt="Старые надписи в зале ожидания">
+    <img src="/i/blog/childrens-railway/inside-before1.jpg" alt="Старые надписи в зале ожидания">
     <figcaption>
       Было
     </figcaption>
   </figure>
 
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/inside-after1.jpg" alt="Новые надписи в зале ожидания">
+    <img src="/i/blog/childrens-railway/inside-after1.jpg" alt="Новые надписи в зале ожидания">
     <figcaption>
       Стало
     </figcaption>
@@ -90,7 +90,7 @@ ogimage: ogimage.jpg
 **Билеты**. Оказалось, что на нашей детской железной дороге уже давно не выдают билеты. Вместо них — обычные чеки:
 
 <figure class="figure--not-that-wide">
-  <img src="/i/childrens-railway/IMG_1912.jpg">
+  <img src="/i/blog/childrens-railway/IMG_1912.jpg">
   <figcaption>
     Даже если заплатить за двоих, вместо двух билетов будет один чек.
   </figcaption>
@@ -108,15 +108,15 @@ ogimage: ogimage.jpg
 
 <div class="three-columns">
   <figure class="three-columns__item">
-    <img src="/i/childrens-railway/ticket-1.jpg" alt="">
+    <img src="/i/blog/childrens-railway/ticket-1.jpg" alt="">
   </figure>
 
   <figure class="three-columns__item">
-    <img src="/i/childrens-railway/ticket-3.jpg" alt="">
+    <img src="/i/blog/childrens-railway/ticket-3.jpg" alt="">
   </figure>
 
   <figure class="three-columns__item">
-    <img src="/i/childrens-railway/ticket-2.jpg" alt="">
+    <img src="/i/blog/childrens-railway/ticket-2.jpg" alt="">
   </figure>
 </div>
 
@@ -141,7 +141,7 @@ ogimage: ogimage.jpg
 Эта работа дала мне отличный новый опыт и радость от воплощения идей. Детская железная дорога стала немного лучше. Приходите кататься!
 
 <figure>
-  <img src="/i/childrens-railway/punch.jpg" alt="">
+  <img src="/i/blog/childrens-railway/punch.jpg" alt="">
 </figure>
 
 P.S. Если вы читаете мой блог впервые, посмотрите другие проекты:
