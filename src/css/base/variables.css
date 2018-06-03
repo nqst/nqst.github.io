@@ -21,7 +21,7 @@
   --font-primary:                    -apple-system, BlinkMacSystemFont, "IBM Plex Sans", "Roboto", "Helvetica Neue", "Arial", sans-serif;
   --font-monospace:                  "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
 
-  --text-color:                      #3d3e40;
+  --text-color:                      #38393b;
   --text-darker:                     color(var(--text-color) l(-10%));
   --text-muted:                      color(var(--text-color) a(60%));
   --link-color:                      #077bd1;
