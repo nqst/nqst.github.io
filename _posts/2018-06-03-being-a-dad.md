@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Мой опыт быть папой"
-# published: false
+published: false
 # ogimage: ogimage.jpg
 medium_width: true
 ---
