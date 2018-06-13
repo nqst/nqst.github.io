@@ -352,7 +352,7 @@
   font-size: 1.167rem;
   
   @media (--large-screen) {
-    width: 50%;
+    /* width: 50%; */
   }
 }
 
