@@ -22,14 +22,14 @@ hero:
 
 <div class="two-columns">
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/timetable-before.jpg" alt="Старое расписание">
+    <img src="/i/projects/childrens-railway/timetable-before.jpg" alt="Старое расписание">
     <figcaption>
       Было
     </figcaption>
   </figure>
 
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/timetable-after.jpg" alt="Новое расписание">
+    <img src="/i/projects/childrens-railway/timetable-after.jpg" alt="Новое расписание">
     <figcaption>
       Стало
     </figcaption>
@@ -44,14 +44,14 @@ hero:
 
 <div class="two-columns">
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/tickets-before.jpg" alt="Касса до изменений">
+    <img src="/i/projects/childrens-railway/tickets-before.jpg" alt="Касса до изменений">
     <figcaption>
       Было
     </figcaption>
   </figure>
 
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/tickets-after.jpg" alt="Касса после изменений">
+    <img src="/i/projects/childrens-railway/tickets-after.jpg" alt="Касса после изменений">
     <figcaption>
       Стало
     </figcaption>
@@ -67,14 +67,14 @@ hero:
 
 <div class="two-columns">
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/sign-before.jpg" alt="Старая табличка">
+    <img src="/i/projects/childrens-railway/sign-before.jpg" alt="Старая табличка">
     <figcaption>
       Было
     </figcaption>
   </figure>
 
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/sign-after.jpg" alt="Новая табличка">
+    <img src="/i/projects/childrens-railway/sign-after.jpg" alt="Новая табличка">
     <figcaption>
       Стало
     </figcaption>
@@ -85,14 +85,14 @@ hero:
 
 <div class="two-columns">
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/inside-before1.jpg" alt="Старые надписи в зале ожидания">
+    <img src="/i/projects/childrens-railway/inside-before1.jpg" alt="Старые надписи в зале ожидания">
     <figcaption>
       Было
     </figcaption>
   </figure>
 
   <figure class="two-columns__item">
-    <img src="/i/childrens-railway/inside-after1.jpg" alt="Новые надписи в зале ожидания">
+    <img src="/i/projects/childrens-railway/inside-after1.jpg" alt="Новые надписи в зале ожидания">
     <figcaption>
       Стало
     </figcaption>
@@ -103,15 +103,15 @@ hero:
 
 <div class="three-columns">
   <figure class="three-columns__item">
-    <img src="/i/childrens-railway/ticket-1.jpg" alt="">
+    <img src="/i/projects/childrens-railway/ticket-1.jpg" alt="">
   </figure>
 
   <figure class="three-columns__item">
-    <img src="/i/childrens-railway/ticket-3.jpg" alt="">
+    <img src="/i/projects/childrens-railway/ticket-3.jpg" alt="">
   </figure>
 
   <figure class="three-columns__item">
-    <img src="/i/childrens-railway/ticket-2.jpg" alt="">
+    <img src="/i/projects/childrens-railway/ticket-2.jpg" alt="">
   </figure>
 </div>
 
@@ -134,6 +134,6 @@ hero:
 Благодарю всех, кто поддержал проект деньгами; инструктора детской железной дороги Александра Бойко за неоценимую помощь в работе над проектом; [Александра Колодько](http://alexkolodko.com/) и [Марину Зайцеву](http://marin-k-a.com/) за советы и поддержку.
 
 <figure>
-  <img src="/i/childrens-railway/punch.jpg" alt="">
+  <img src="/i/projects/childrens-railway/punch.jpg" alt="">
 </figure>
 
