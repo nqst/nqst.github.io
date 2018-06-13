@@ -141,8 +141,8 @@ figure.figure--wide {
   }
 
   .posts-list & {
-    margin-left: 0;
-    width: auto;
+    margin-left: 0 !important;
+    width: auto !important;
   }
 
   figcaption {
