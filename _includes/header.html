@@ -17,8 +17,8 @@
   
   {% if page.introimg %}
     {% unless page.ogimage %}
-  <meta property="og:image" content="http://nqst.github.io/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}">
-  <link rel="image_src" href="http://zaytsev.io/i{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}">
+  <meta property="og:image" content="https://nqst.github.io/i{{ page.id }}/{{ page.introimg }}">
+  <link rel="image_src" href="https://zaytsev.io/i{{ page.id }}/{{ page.introimg }}">
     {% endunless %}
   {% endif %}
   
