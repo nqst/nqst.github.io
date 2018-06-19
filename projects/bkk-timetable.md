@@ -57,7 +57,7 @@ class: 'has-dark-header'
   </figure>
 
   <figure class="two-columns__item">
-    <img src="/i/projects/bkk-timetable/table-after.png" alt="Новая таблица">
+    <img src="/i/projects/bkk-timetable/table-after-new.png" alt="Новая таблица">
     <figcaption>
       Стало
     </figcaption>
