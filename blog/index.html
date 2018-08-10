@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Блог Александра Зайцева
+title: Александр Зайцев — Блог
 ogtype: website
 ---
 
 <main class="main posts-list">
   <div class="container container--medium">
     {% for post in paginator.posts %}
-      
+
       <article class="post">
-      
+
         {% if post.layout != 'quote' %}
           <header class="post__header">
             {% include date.html post-date=post.date %}
@@ -19,13 +19,13 @@ ogtype: website
 
         <section class="post__content">
         {% if post.layout == 'post' %}
-          
+
             {% if post.introimg %}
               <figure class="intro-image">
                 <a href="{{ post.url }}"><img src="/i/blog{{ post.url | remove_first:'/blog' }}{{ post.introimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
               </figure>
             {% endif %}
-            
+
             {% if post.content contains '<!-- more -->' %}
               {{ post.content | split:'<!-- more -->' | first | markdownify }}
               <div class="read-more">
@@ -50,12 +50,12 @@ ogtype: website
             {% endif %}
 
           {% endif %}
-            
+
         </section>
 
       </article>
     {% endfor %}
-  
+
   </div>
 
 </main>
@@ -68,7 +68,7 @@ ogtype: website
   {% if paginator.next_page %}
     <a class="paginator__link paginator__prev{% if paginator.page == 1 %} paginator__link--wide{% endif %}" href="/blog/page{{ paginator.next_page }}">Ранее</a>
   {% endif %}
-  
+
   {% if paginator.page == 2 %}
     <a class="paginator__link paginator__next" href="/">Позднее</a>
   {% elsif paginator.page > 2 %}

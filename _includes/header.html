@@ -5,32 +5,32 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description" content="Сайт Александра Зайцева">
+  <meta name="description" content="Александр Зайцев">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@nqst">
   <meta name="twitter:creator" content="@nqst">
-  
+
   <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="Сайт Александра Зайцева">
+  <meta property="og:description" content="Александр Зайцев">
   {% if page.ogtype %}<meta property="og:type" content="{{ page.ogtype }}">{% endif %}
-  
+
   {% if page.introimg %}
     {% unless page.ogimage %}
   <meta property="og:image" content="https://zaytsev.io/i{{ page.id }}/{{ page.introimg }}">
   <link rel="image_src" href="https://zaytsev.io/i{{ page.id }}/{{ page.introimg }}">
     {% endunless %}
   {% endif %}
-  
+
   {% if page.ogimage %}<meta property="og:image" content="http://zaytsev.io/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">
   <link rel="image_src" href="http://zaytsev.io/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">{% endif %}
-  
+
   <link rel="stylesheet" href="/css/main.css">
   {% if page.extrahead %}{{ page.extrahead }}{% endif %}
   {% if page.custom-css %}<link rel="stylesheet" href="/css/posts{{ page.id | remove_first:'/blog' }}.css">{% endif %}
   {% if page.plyr %}<link rel="stylesheet" href="/css/plyr.css">{% endif %}
 
-  <link rel="alternate" type="application/rss+xml" title="Блог Александра Зайцева" href="/blog/rss/">
+  <link rel="alternate" type="application/rss+xml" title="Александр Зайцев" href="/blog/rss/">
 
   <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
   <script>window.jQuery || document.write('<script src="/js/jquery-2.2.3.min.js"><\/script>')</script>
