@@ -1,4 +1,8 @@
 2018:
+- name: "Intercom on Product Management"
+  author: "Intercom"
+  favorite: true
+
 - name: "Intercom on Onboarding"
   author: "Intercom"
 
