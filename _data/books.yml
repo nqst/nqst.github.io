@@ -1,4 +1,7 @@
 2018:
+- name: "От нуля к единице"
+  author: "Питер Тиль"
+
 - name: "Intercom on Product Management"
   author: "Intercom"
   favorite: true
