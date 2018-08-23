@@ -55,7 +55,7 @@ medium_width: true
 
 <figure class="figure--wide">
   <img src="/i/blog/belaya-tserkov/IMG_5427.jpg" alt="">
-  <figcaption>Органистам приходится немало работать ногами — там снизу целая клавиатура</figcaption>
+  <figcaption>Оказывается, органистам приходится немало работать ногами — там снизу целая клавиатура</figcaption>
 </figure>
 
 <div class="two-columns two-columns--wide">
