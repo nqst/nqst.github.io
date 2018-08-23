@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Один день в Белой Церкви"
+title: "Один день в Белой Церкви"
 introimg: IMG_5433.jpg
 medium_width: true
 ---
@@ -55,7 +55,7 @@ medium_width: true
 
 <figure class="figure--wide">
   <img src="/i/blog/belaya-tserkov/IMG_5427.jpg" alt="">
-  <figcaption>Тут я увидел, что органистам приходится немало работать ногами — там снизу целая клавиатура</figcaption>
+  <figcaption>Органистам приходится немало работать ногами — там снизу целая клавиатура</figcaption>
 </figure>
 
 <div class="two-columns two-columns--wide">
