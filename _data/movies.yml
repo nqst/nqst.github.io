@@ -1,7 +1,18 @@
 2018:
+- name: "Жизнь других"
+  original_name: "Das Leben der Anderen"
+  released: 2006
+  favorite: true
+  rating: "9"
+
+- name: "Everything is a Remix"
+  released: "2010–2012"
+  rating: "7"
+
 - name: "Кристофер Робин"
   original_name: "Christopher Robin"
   released: 2018
+  rating: "8"
 
 - name: "The Big Sick"
   released: 2017
