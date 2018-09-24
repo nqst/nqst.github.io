@@ -1,4 +1,8 @@
 2018:
+- name: "The Mom Test"
+  author: "Rob Fitzpatrick"
+  favorite: true
+
 - name: "От нуля к единице"
   author: "Питер Тиль"
 
