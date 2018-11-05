@@ -1,3 +1,30 @@
+- date: "2018-11-02"
+  from:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  company: Wizz Air
+  aircraft: Airbus A320
+  withAurora: true
+  comment: Летели с дочкой в ее день рождения
+
+- date: "2018-10-29"
+  from:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  to:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  company: Wizz Air
+  aircraft: Airbus A320
+  withAurora: true
+
 - date: "2018-07-16"
   from:
     country: 🇩🇪
