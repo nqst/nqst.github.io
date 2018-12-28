@@ -1,4 +1,14 @@
 2018:
+  - name: "Мэри Поппинс"
+    original_name: "Mary Poppins"
+    released: 1964
+    rating: 8
+
+  - name: "Богемская рапсодия"
+    original_name: "Bohemian Rhapsody"
+    released: 2018
+    rating: 7
+
   - name: "Спасти мистера Бэнкса"
     original_name: "Saving Mr. Banks"
     released: 2013
