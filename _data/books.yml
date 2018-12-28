@@ -1,4 +1,9 @@
 2018:
+- name: "Мертвые души"
+  author: "Николай Гоголь"
+  favorite: true
+  rating: 8
+
 - name: "Тонкое искусство пофигизма"
   author: "Марк Мэнсон"
   rating: 7
