@@ -104,13 +104,24 @@ figure,
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15),
               0 15px 35px rgba(0, 0, 0, 0.05);
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+
+  & + figcaption {
+    margin-top: -35px;
+    margin-bottom: 20px;
+  }
 
   @media (--medium-screen) {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     box-shadow: 0 23px 38px rgba(0, 0, 0, 0.2),
                 0 25px 65px rgba(0, 0, 0, 0.05);
+
+    & + figcaption {
+      margin-top: -65px;
+    }
+
   }
+
 }
 
 article img {
