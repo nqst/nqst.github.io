@@ -221,7 +221,11 @@ hr {
   width: 10%;
   text-align: center;
   display: block;
-  margin: calc(var(--baseline) * 2) auto;
+  margin: calc(var(--baseline) * 1.5) auto;
+
+  @media (--medium-screen) {
+    margin: calc(var(--baseline) * 2) auto;
+  }
 
   .container--full & {
     margin-left: 0;
