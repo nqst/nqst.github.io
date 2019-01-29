@@ -218,12 +218,13 @@ figure.highlight {
 
 hr {
   border: 2px solid #edf0f2;
-  width: 10%;
+  width: 20%;
   text-align: center;
   display: block;
   margin: calc(var(--baseline) * 1.5) auto;
 
   @media (--medium-screen) {
+    width: 10%;
     margin: calc(var(--baseline) * 2) auto;
   }
 
