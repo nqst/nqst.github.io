@@ -21,7 +21,7 @@ layout: null
       <description>
         {% capture imgtag %}
           <figure>
-            <img src="/i{{ post.url }}/{{ post.introimg }}" width="650" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
+            <img src="/i{{ post.url }}{{ post.introimg }}" width="650" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
           </figure>
         {% endcapture %}
         {% if post.introimg %}
@@ -37,5 +37,5 @@ layout: null
     </item>
     {% endfor %}
 
-  </channel> 
+  </channel>
 </rss>
