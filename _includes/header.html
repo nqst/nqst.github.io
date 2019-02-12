@@ -22,8 +22,8 @@
     {% endunless %}
   {% endif %}
 
-  {% if page.ogimage %}<meta property="og:image" content="http://zaytsev.io/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">
-  <link rel="image_src" href="http://zaytsev.io/i{{ page.id | remove_first:'/blog' }}/{{ page.ogimage }}">{% endif %}
+  {% if page.ogimage %}<meta property="og:image" content="http://zaytsev.io/i{{ page.id }}/{{ page.ogimage }}">
+  <link rel="image_src" href="http://zaytsev.io/i{{ page.id }}/{{ page.ogimage }}">{% endif %}
 
   <link rel="stylesheet" href="/css/main.css">
   {% if page.extrahead %}{{ page.extrahead }}{% endif %}
