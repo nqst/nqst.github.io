@@ -51,8 +51,8 @@ h1 {
 h2 {
   font-weight: normal;
   margin-top: 2.7rem;
-  margin-bottom: 1rem;
-  font-size: 1.6875rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
 }
 
 h3, h4 {
@@ -170,6 +170,7 @@ article blockquote {
 article b,
 article strong {
   color: var(--text-darker);
+  font-weight: 600;
 }
 
 cite {
