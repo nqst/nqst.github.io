@@ -108,7 +108,7 @@ medium_width: true
       var val = $(this).val();
       var commentIndex = parseInt(val) - 1;
 
-      $('.js-slide').attr('src', '/i/uz-boarding-pass/evolution/' + val + '.png');
+      $('.js-slide').attr('src', '/i/blog/uz-boarding-pass/evolution/' + val + '.png');
       $('.js-range-comment').text(comments[commentIndex]);
     });
 
@@ -120,13 +120,13 @@ medium_width: true
     }
 
     var imagesToPreload = [
-      '/i/uz-boarding-pass/evolution/2.png',
-      '/i/uz-boarding-pass/evolution/3.png',
-      '/i/uz-boarding-pass/evolution/4.png',
-      '/i/uz-boarding-pass/evolution/5.png',
-      '/i/uz-boarding-pass/evolution/6.png',
-      '/i/uz-boarding-pass/evolution/7.png',
-      '/i/uz-boarding-pass/evolution/8.png'
+      '/i/blog/uz-boarding-pass/evolution/2.png',
+      '/i/blog/uz-boarding-pass/evolution/3.png',
+      '/i/blog/uz-boarding-pass/evolution/4.png',
+      '/i/blog/uz-boarding-pass/evolution/5.png',
+      '/i/blog/uz-boarding-pass/evolution/6.png',
+      '/i/blog/uz-boarding-pass/evolution/7.png',
+      '/i/blog/uz-boarding-pass/evolution/8.png'
     ];
     $(imagesToPreload).preload();
   });
