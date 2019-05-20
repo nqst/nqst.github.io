@@ -1,24 +1,25 @@
+2019:
+- name: "About Time"
+  released: 2013
+  rating: 9
+  favorite: true
+
+- name: "Зеленая книга"
+  original_name: "Green Book"
+  released: 2018
+  rating: 8
+
+- name: "Остров собак"
+  original_name: "Isle of Dogs"
+  released: 2018
+  rating: 7
+  
+- name: "Человек-паук: Через вселенные"
+  original_name: "Spider-Man: Into the Spider-Verse"
+  released: 2018
+  rating: 6
+
 2018:
-  - name: "About Time"
-    released: 2013
-    rating: 9
-    favorite: true
-
-  - name: "Зеленая книга"
-    original_name: "Green Book"
-    released: 2018
-    rating: 8
-
-  - name: "Остров собак"
-    original_name: "Isle of Dogs"
-    released: 2018
-    rating: 7
-
-  - name: "Человек-паук: Через вселенные"
-    original_name: "Spider-Man: Into the Spider-Verse"
-    released: 2018
-    rating: 6
-
   - name: "Мэри Поппинс"
     original_name: "Mary Poppins"
     released: 1964
