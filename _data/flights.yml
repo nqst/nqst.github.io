@@ -1,3 +1,29 @@
+- date: "2019-06-05"
+  from:
+    country: 🇹🇷
+    city: Анталья
+    airport: AYT
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: KBP
+  company: WINDROSE
+  aircraft: Airbus A320
+  withAurora: true
+
+- date: "2019-05-28"
+  from:
+    country: 🇺🇦
+    city: Киев
+    airport: KBP
+  to:
+    country: 🇹🇷
+    city: Анталья
+    airport: AYT
+  company: WINDROSE
+  aircraft: Airbus A321
+  withAurora: true
+
 - date: "2018-11-02"
   from:
     country: 🇭🇺
