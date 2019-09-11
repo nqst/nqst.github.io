@@ -1,0 +1,28 @@
+.interview-intro {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.interview-intro__photo {
+  width: 45%;
+  margin-right: 40px;
+}
+
+.interview-intro__photo img {
+  max-width: 100%;
+  display: block;
+}
+
+.interview-intro__text {
+  width: 55%;
+  text-align: left;
+  padding: 2rem 0;
+}
+
+.interview-intro__text .lead {
+  /* font-size: 1.2rem; */
+  /* margin-bottom: 0; */
+}

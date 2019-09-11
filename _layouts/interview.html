@@ -1,0 +1,73 @@
+---
+layout: default
+ogtype: article
+---
+
+<main class="main main--post">
+  <div class="container container--wide">
+    <div class="interview-intro">
+      <div class="interview-intro__photo">
+        <figure>
+          <img src="/i/blog/{{ page.introimg }}" alt="">
+        </figure>
+      </div>
+      <div class="interview-intro__text">
+        <!-- {% include date.html post-date=page.date %} -->
+        <h1 class="post__title">{{ page.title }}</h1>
+        <p class="lead">
+          {{ page.lead }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container{% if page.widepost %} container--full{% endif %}{% if page.medium_width %} container--medium{% endif %}">
+    <article class="post">
+
+      <section class="post__content">
+        {% if page.beforeinfo %}
+          <p><span class="hint">{{ page.beforeinfo }}</span></p>
+        {% endif %}
+
+        {{ content }}
+        
+        {% if page.credits %}
+          <p class="post__credits">{{ page.credits }}</p>
+        {% endif %}
+      </section>
+
+    </article>
+    
+    {% include share.html %}
+
+    <!-- <hr> -->
+
+    <!-- {% include telegram.html %} -->
+
+  </div>
+
+  {% unless page.comments == false %}
+    <section class="comments">
+      <div class="container">
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_config = function () {
+        this.page.url = "{{ site.url }}{{ page.url }}";
+        this.page.identifier = "{{ page.id }}";
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://zaytsev-io.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+    </section>
+  {% endunless %}
+
+</main>
+
+{% include paginator-inner.html %}
