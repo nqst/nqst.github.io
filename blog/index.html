@@ -18,9 +18,9 @@ ogtype: website
         {% endif %}
 
         <section class="post__content">
-        {% if post.layout == 'post' %}
+        {% if post.layout == 'post' or post.layout == 'interview' %}
 
-            {% if post.introimg %}
+            {% if post.introimg and post.layout != 'interview' %}
               <figure class="intro-image">
                 <a href="{{ post.url }}"><img src="/i/blog{{ post.url | remove_first:'/blog' }}{{ post.introimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
               </figure>

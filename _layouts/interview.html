@@ -8,7 +8,7 @@ ogtype: article
     <div class="interview-intro">
       <div class="interview-intro__photo">
         <figure>
-          <img src="/i/blog/{{ page.introimg }}" alt="">
+          <img src="/i/blog{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}">
         </figure>
       </div>
       <div class="interview-intro__text">

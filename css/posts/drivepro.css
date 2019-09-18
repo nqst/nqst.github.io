@@ -36,6 +36,10 @@
   color: #6e8395;
 }
 
+.interview-about {
+  display: none;
+}
+
 /* Костыли-перекостыли */
 .post--interview p strong:only-child {
   font-size: 27px;
