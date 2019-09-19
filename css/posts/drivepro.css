@@ -1,28 +1,91 @@
-.interview-intro {
-  display: flex;
-  width: 100%;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: 40px;
+.interview-intro .post__title {
+  margin-bottom: 1rem;
 }
 
-.interview-intro__photo {
-  width: 45%;
-  margin-right: 40px;
+@media screen and (min-width: 768px) {
+  .interview-intro {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .interview-intro__photo {
+    width: 44%;
+    margin-right: 40px;
+    order: 0;
+  }
+
+  .interview-intro__text {
+    width: 56%;
+    text-align: left;
+    /* padding: 2rem 0 6rem; */
+    padding-top: 3rem;
+    order: 1;
+  }
+
+  .interview-intro .post__title {
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-size: 3em;
+  }
 }
 
 .interview-intro__photo img {
   max-width: 100%;
   display: block;
-}
-
-.interview-intro__text {
-  width: 55%;
-  text-align: left;
-  padding: 2rem 0;
+  border-radius: 5px;
 }
 
 .interview-intro__text .lead {
   /* font-size: 1.2rem; */
   /* margin-bottom: 0; */
+  color: #6e8395;
+}
+
+.interview-about {
+  display: none;
+}
+
+/* Костыли-перекостыли */
+.post--interview p strong:only-child,
+.post--interview div.question {
+  font-size: 27px;
+  font-weight: 800;
+  display: inline-block;
+  margin-top: 27px;
+  line-height: 1.3;
+}
+
+div.question {
+  margin-bottom: 1rem;
+}
+
+div.question strong {
+  font-weight: 800;
+  margin-right: 0.33rem;
+}
+
+div.question + ol {
+  margin-top: 0;
+}
+
+.question__label {
+  position: relative;
+  top: -3px;
+  font-size: 0.75rem;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ffe065;
+  /* color: #222; */
+  padding: 3px 8px 4px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.post--interview blockquote {
+  margin: 2rem 0;
+  font-weight: 500;
+  font-size: 24px;
 }

@@ -6,11 +6,6 @@ ogtype: article
 <main class="main main--post">
   <div class="container container--wide">
     <div class="interview-intro">
-      <div class="interview-intro__photo">
-        <figure>
-          <img src="/i/blog/{{ page.introimg }}" alt="">
-        </figure>
-      </div>
       <div class="interview-intro__text">
         <!-- {% include date.html post-date=page.date %} -->
         <h1 class="post__title">{{ page.title }}</h1>
@@ -18,11 +13,20 @@ ogtype: article
           {{ page.lead }}
         </p>
       </div>
+      <div class="interview-intro__photo">
+        <figure>
+          {% if page.temp %}
+          <img src="/i/{{ page.introimg }}" alt="{{ page.title }}">
+          {% else %}
+          <img src="/i/blog{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}">
+          {% endif %}
+        </figure>
+      </div>
     </div>
   </div>
 
   <div class="container{% if page.widepost %} container--full{% endif %}{% if page.medium_width %} container--medium{% endif %}">
-    <article class="post">
+    <article class="post post--interview">
 
       <section class="post__content">
         {% if page.beforeinfo %}
