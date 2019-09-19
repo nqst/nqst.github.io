@@ -6,17 +6,17 @@ ogtype: article
 <main class="main main--post">
   <div class="container container--wide">
     <div class="interview-intro">
-      <div class="interview-intro__photo">
-        <figure>
-          <img src="/i/blog{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}">
-        </figure>
-      </div>
       <div class="interview-intro__text">
         <!-- {% include date.html post-date=page.date %} -->
         <h1 class="post__title">{{ page.title }}</h1>
         <p class="lead">
           {{ page.lead }}
         </p>
+      </div>
+      <div class="interview-intro__photo">
+        <figure>
+          <img src="/i/blog{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}">
+        </figure>
       </div>
     </div>
   </div>

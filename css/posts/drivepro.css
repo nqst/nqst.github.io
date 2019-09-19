@@ -1,33 +1,41 @@
-.interview-intro {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 50px;
+.interview-intro .post__title {
+  margin-bottom: 1rem;
 }
 
-.interview-intro__photo {
-  width: 44%;
-  margin-right: 40px;
+@media screen and (min-width: 768px) {
+  .interview-intro {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .interview-intro__photo {
+    width: 44%;
+    margin-right: 40px;
+    order: 0;
+  }
+
+  .interview-intro__text {
+    width: 56%;
+    text-align: left;
+    /* padding: 2rem 0 6rem; */
+    padding-top: 3rem;
+    order: 1;
+  }
+
+  .interview-intro .post__title {
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-size: 3em;
+  }
 }
 
 .interview-intro__photo img {
   max-width: 100%;
   display: block;
   border-radius: 5px;
-}
-
-.interview-intro__text {
-  width: 56%;
-  text-align: left;
-  /* padding: 2rem 0 6rem; */
-  padding-top: 3rem;
-}
-
-.interview-intro .post__title {
-  font-weight: 800;
-  margin-bottom: 1rem;
-  font-size: 3em;
 }
 
 .interview-intro__text .lead {
