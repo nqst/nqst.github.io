@@ -15,7 +15,11 @@ ogtype: article
       </div>
       <div class="interview-intro__photo">
         <figure>
+          {% if page.temp %}
+          <img src="/i/{{ page.introimg }}" alt="{{ page.title }}">
+          {% else %}
           <img src="/i/blog{{ page.id | remove_first:'/blog' }}/{{ page.introimg }}" alt="{{ page.title }}">
+          {% endif %}
         </figure>
       </div>
     </div>

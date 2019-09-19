@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="/css/main.css">
   {% if page.extrahead %}{{ page.extrahead }}{% endif %}
   {% if page.custom-css %}<link rel="stylesheet" href="/css/posts{{ page.id | remove_first:'/blog' }}.css">{% endif %}
+  {% if page.tmp-css %}<link rel="stylesheet" href="/css/posts/{{ page.tmp-css }}">{% endif %}
   {% if page.plyr %}<link rel="stylesheet" href="/css/plyr.css">{% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="Александр Зайцев" href="/blog/rss/">
