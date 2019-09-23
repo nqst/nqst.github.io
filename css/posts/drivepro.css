@@ -2,7 +2,7 @@
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .interview-intro {
     display: flex;
     width: 100%;
@@ -12,16 +12,16 @@
   }
 
   .interview-intro__photo {
-    width: 44%;
+    width: 45%;
     margin-right: 40px;
     order: 0;
   }
 
   .interview-intro__text {
-    width: 56%;
+    width: 50%;
     text-align: left;
     /* padding: 2rem 0 6rem; */
-    padding-top: 3rem;
+    padding-top: 2rem;
     order: 1;
   }
 
@@ -36,6 +36,13 @@
   max-width: 100%;
   display: block;
   border-radius: 5px;
+}
+
+.interview-lead {
+  color: #5a6c7a;
+  margin-bottom: 2rem;
+  font-size: 1.333rem;
+  line-height: 1.45;
 }
 
 .interview-intro__text .lead {
