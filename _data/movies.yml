@@ -1,4 +1,10 @@
 2019:
+- name: "Ford против Ferrari"
+  original_name: "Ford v Ferrari"
+  released: 2019
+  rating: 10
+  favorite: true
+
 - name: "About Time"
   released: 2013
   rating: 9

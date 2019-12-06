@@ -1,3 +1,29 @@
+- date: "2019-12-04"
+  from:
+    country: 🇧🇾
+    city: Минск
+    airport: MSQ
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  company: Белавиа
+  aircraft: Boeing 737-300
+  comment: Перед посадкой в районе полночи было ясное небо — было приятно смотреть на ночной Киев
+
+- date: "2019-12-02"
+  from:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  to:
+    country: 🇧🇾
+    city: Минск
+    airport: MSQ
+  company: Белавиа
+  aircraft: Boeing 737-800
+  comment: Мой первый 737-800
+
 - date: "2019-06-05"
   from:
     country: 🇹🇷
