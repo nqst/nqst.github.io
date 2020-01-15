@@ -1,3 +1,30 @@
+- date: "2020-01-12"
+  from:
+    country: 🇩🇰
+    city: Копенгаген
+    airport: CPH
+  to:
+    country: 🇺🇦
+    city: Львов
+    airport: LWO
+  company: Wizz Air
+  aircraft: Airbus A321
+  withAurora: true
+
+- date: "2020-01-08"
+  from:
+    country: 🇺🇦
+    city: Львов
+    airport: LWO
+  to:
+    country: 🇩🇰
+    city: Копенгаген
+    airport: CPH
+  company: Wizz Air
+  aircraft: Airbus A321
+  comment: Первый полет в День рождения. Первый полет из Львова. Встретили красивый закат
+  withAurora: true
+
 - date: "2019-12-04"
   from:
     country: 🇧🇾

@@ -1,7 +1,13 @@
-- country: Турция
-  flag: 🇹🇷
-  year: 2019
-  cities: Аланья
+- country: Швеция
+  flag: 🇸🇪
+  year: 2020
+  cities: Мальмё
+  aurora: true
+
+- country: Дания
+  flag: 🇩🇰
+  year: 2020
+  cities: Копенгаген
   aurora: true
 
 - country: Швейцария
