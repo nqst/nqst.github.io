@@ -1,9 +1,21 @@
+2020:
+- name: "Просто помиловать"
+  original_name: "Just Mercy"
+  released: 2019
+  rating: 9
+  favorite: true
+
 2019:
 - name: "Ford против Ferrari"
   original_name: "Ford v Ferrari"
   released: 2019
   rating: 10
   favorite: true
+
+- name: "Красота по-американски"
+  original_name: "American Beauty"
+  released: 1999
+  rating: 8
 
 - name: "About Time"
   released: 2013
