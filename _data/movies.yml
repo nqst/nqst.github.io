@@ -1,4 +1,8 @@
 2020:
+- name: "Rams"
+  released: 2018
+  rating: 8
+
 - name: "Просто помиловать"
   original_name: "Just Mercy"
   released: 2019
