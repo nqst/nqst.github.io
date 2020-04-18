@@ -1,3 +1,28 @@
+- date: "2020-03-15"
+  from:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  company: Wizz Air
+  aircraft: Airbus A320
+  comment: Очень хотелось, чтобы этот рейс не отменили — летел за день до того, как всех украинцев попросили вернуться домой из-за коронавируса
+
+- date: "2020-03-13"
+  from:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  to:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  company: Wizz Air
+  aircraft: Airbus A320
+
 - date: "2020-01-12"
   from:
     country: 🇩🇰
