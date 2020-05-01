@@ -1,4 +1,9 @@
 2020:
+- name: "Достать ножи"
+- original_name: "Knives out"
+  released: 2019
+  rating: 8
+
 - name: "Rams"
   released: 2018
   rating: 8
