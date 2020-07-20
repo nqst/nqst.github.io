@@ -2,7 +2,7 @@ var gulp            = require('gulp');
 var postcss         = require('gulp-postcss');
 var atImport        = require('postcss-import');
 var cssnext         = require('postcss-cssnext');
-var nano            = require('gulp-cssnano');
+var nano            = require('cssnano');
 var mqpacker        = require('css-mqpacker');
 var nested          = require('postcss-nested');
 var colorAlpha      = require('postcss-color-alpha');
@@ -11,7 +11,8 @@ var stylelint       = require('stylelint');
 var typograf        = require('gulp-typograf');
 var browserSync     = require('browser-sync').create();
 var child           = require('child_process');
-var gutil           = require('gulp-util');
+var beeper          = require('beeper');
+var log             = require('fancy-log');
 
 var siteRoot = '_site';
 var cssFiles = 'src/css/**/*.css';
@@ -20,7 +21,7 @@ var typografFiles = ['**/*.md', '!_site/**/*.*'];
 
 function handleError(err) {
   console.log(err.toString());
-  gutil.beep();
+  beeper();
   this.emit('end');
 }
 
@@ -36,7 +37,17 @@ var processors = [
   colorAlpha,
   mqpacker,
   stylelint,
-  reporter({ clearReportedMessages: true })
+  nano({
+    safe: true,
+    autoprefixer: false,
+    normalizeUrl: false,
+    discardComments: {
+      removeAll: true
+    }
+  }),
+  reporter({
+    clearReportedMessages: true
+  })
 ];
 
 gulp.task('typograf', function() {
@@ -66,14 +77,6 @@ gulp.task('css', function() {
   return gulp.src('src/css/main.css')
     .pipe(postcss(processors))
     .on('error', handleError)
-    .pipe(nano({
-      safe: true,
-      autoprefixer: false,
-      normalizeUrl: false,
-      discardComments: {
-        removeAll: true
-      }
-    }))
     .pipe(gulp.dest('css/'));
 });
 
@@ -83,15 +86,12 @@ gulp.task('additional-css', function() {
 });
 
 gulp.task('jekyll', function() {
-  var jekyll = child.spawn('jekyll', ['build',
-    '--watch',
-    // '--incremental'
-  ]);
+  var jekyll = child.spawn('jekyll', ['build', '--watch']);
 
   var jekyllLogger = function(buffer) {
     buffer.toString()
       .split(/\n/)
-      .forEach((message) => gutil.log('Jekyll: ' + message));
+      .forEach((message) => log('Jekyll: ' + message));
   };
 
   jekyll.stdout.on('data', jekyllLogger);
@@ -111,8 +111,10 @@ gulp.task('serve', function() {
     logLevel: 'silent'
   });
 
-  gulp.watch(cssFiles, ['css']);
-  gulp.watch(additionalCssFiles, ['additional-css']);
+  gulp.watch(cssFiles, gulp.series('css'));
+  gulp.watch(additionalCssFiles, gulp.series('additional-css'));
 });
 
-gulp.task('default', ['css', 'additional-css', 'jekyll', 'serve']);
+gulp.task('default',
+  gulp.parallel('css', 'additional-css', 'jekyll', 'serve')
+);
