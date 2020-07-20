@@ -37,7 +37,17 @@ var processors = [
   colorAlpha,
   mqpacker,
   stylelint,
-  reporter({ clearReportedMessages: true })
+  nano({
+    safe: true,
+    autoprefixer: false,
+    normalizeUrl: false,
+    discardComments: {
+      removeAll: true
+    }
+  }),
+  reporter({
+    clearReportedMessages: true
+  })
 ];
 
 gulp.task('typograf', function() {
@@ -67,14 +77,6 @@ gulp.task('css', function() {
   return gulp.src('src/css/main.css')
     .pipe(postcss(processors))
     .on('error', handleError)
-    // .pipe(nano({
-    //   safe: true,
-    //   autoprefixer: false,
-    //   normalizeUrl: false,
-    //   discardComments: {
-    //     removeAll: true
-    //   }
-    // }))
     .pipe(gulp.dest('css/'));
 });
 
