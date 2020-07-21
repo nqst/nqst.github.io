@@ -5,16 +5,12 @@ medium_width: true
 introimg: "1.png"
 ---
 
-Однажды я по уши влюбился в [Маринку](https://twitter.com/marin_k_a) из Радио-Т. Мы виделись всего два раза, а после второй встречи близился день влюбленных. Я был очень вдохновлен и сделал для нее небольшой квест.
+Однажды я по уши влюбился в [Маринку](https://twitter.com/marin_k_a) из Радио-Т. Мы виделись всего два раза, а после второй встречи близился день влюбленных. Я был очень вдохновлен и сделал для нее небольшой квест.
 {:.lead}
-
-<!-- <figure class="figure--shadow">
-  <img src="/i/blog/valentines-day-2012/1.png" alt="">
-</figure> -->
 
 <!-- more -->
 
-Нашел на днях заброшенную папку на хостинге. Мне так понравилось все это вспомнить, что захотелось сохранить здесь скриншоты.
+Нашел на днях заброшенную папку на хостинге. Мне так понравилось все это вспомнить, что захотелось сохранить здесь скриншоты.
 
 <figure class="figure--shadow">
   <img src="/i/blog/valentines-day-2012/2.png" alt="">
@@ -28,7 +24,7 @@ introimg: "1.png"
 
 <figure class="figure--shadow">
   <img src="/i/blog/valentines-day-2012/4.png" alt="">
-  <figcaption>Известный венгр — Эрнё Рубик. Марина родилась с ним в один день</figcaption>
+  <figcaption>Известный венгр — Эрнё Рубик. Марина родилась с ним в один день</figcaption>
 </figure>
 
 <figure class="figure--shadow">
@@ -43,7 +39,7 @@ introimg: "1.png"
 
 <figure class="figure--shadow">
   <img src="/i/blog/valentines-day-2012/7.png" alt="">
-  <figcaption>Тут я затер числа на старых фотках из Инстаграма Марины. Нужно было их найти и всё посчитать.</figcaption>
+  <figcaption>Тут я затер числа на старых фотках из Инстаграма Марины. Нужно было их найти и всё посчитать.</figcaption>
 </figure>
 
 <figure class="figure--shadow">
@@ -58,7 +54,7 @@ introimg: "1.png"
 
 <figure class="figure--shadow">
   <img src="/i/blog/valentines-day-2012/10.png" alt="">
-  <figcaption>Сердечки на валентинке не обязательны :)</figcaption>
+  <figcaption>Сердечки на валентинке не обязательны :)</figcaption>
 </figure>
 
 Адресат была довольна:
