@@ -113,8 +113,6 @@ figure,
 
   @media (--medium-screen) {
     margin-bottom: 60px;
-    box-shadow: 0 23px 38px rgba(0, 0, 0, 0.2),
-                0 25px 65px rgba(0, 0, 0, 0.05);
 
     & + figcaption {
       margin-top: -65px;
