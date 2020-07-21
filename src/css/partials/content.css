@@ -141,20 +141,20 @@ figure.figure--wide,
   @media (--large-screen) {
     width: 980px;
     margin-bottom: calc(var(--baseline) * 1.5);
-    margin-left: calc((980 - 800px + 150) / -2); /* 740 is container max-width in --large-screen. @todo - put into variable */
+    margin-left: calc((980px - 800px + 150px) / -2); /* 740 is container max-width in --large-screen. @todo - put into variable */
     text-align: center;
 
     .container--medium & {
-      margin-left: calc((980 - var(--container-medium-width) + var(--container-medium-side-padding) * 2) / -2);
+      margin-left: calc((980px - var(--container-medium-width) + var(--container-medium-side-padding) * 2) / -2);
     }
   }
 
   @media (--x-large-screen) {
     width: 1100px;
-    margin-left: calc((1100 - 900px + 200) / -2); /* 840 is container max-width in --x-large-screen. @todo - put into variable */
+    margin-left: calc((1100px - 900px + 200px) / -2); /* 840 is container max-width in --x-large-screen. @todo - put into variable */
 
     .container--medium & {
-      margin-left: calc((1100 - var(--container-medium-width) + var(--container-medium-side-padding) * 2) / -2);
+      margin-left: calc((1100px - var(--container-medium-width) + var(--container-medium-side-padding) * 2) / -2);
     }
   }
 
