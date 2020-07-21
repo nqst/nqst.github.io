@@ -4,9 +4,9 @@ layout: null
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Блог Александра Зайцева</title>
-    <link>http://zaytsev.io/blog/</link>
-    <atom:link href="http://zaytsev.io/blog/rss.xml" rel="self" type="application/rss+xml" />
+    <title>Александр Зайцев</title>
+    <link>https://zaytsev.io/blog/</link>
+    <atom:link href="https://zaytsev.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>ru</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
@@ -15,19 +15,24 @@ layout: null
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>http://zaytsev.io{{ post.url }}</link>
+      <link>https://zaytsev.io{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <guid>http://zaytsev.io{{ post.id }}</guid>
+      <guid>https://zaytsev.io{{ post.id }}</guid>
       <description>
         {% capture imgtag %}
           <figure>
-            <img src="/i{{ post.url }}{{ post.introimg }}" width="650" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
+            <img src="https://zaytsev.io/i{{ post.url }}{{ post.introimg }}" width="650" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}" />
           </figure>
         {% endcapture %}
         {% if post.introimg %}
           {{ imgtag | xml_escape }}
         {% endif %}
         {{ post.content | xml_escape }}
+        {% if post.layout == 'quote' %}
+          {% if post.author %}
+            — {{ post.author }}
+          {% endif %}
+        {% endif %}
       </description>
     </item>
     {% endfor %}
