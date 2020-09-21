@@ -4,6 +4,6 @@ plugins: [jekyll-paginate]
 paginate: 9
 paginate_path: /blog/page:num
 highlighter: rouge
-url: "http://zaytsev.io"
+url: "https://zaytsev.io"
 
 exclude: ["node_modules", "src", "gulpfile.js", "package.json", "nqstnet.sublime-project", "nqstnet.sublime-workspace"]
