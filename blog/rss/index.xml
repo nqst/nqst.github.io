@@ -27,7 +27,7 @@ layout: null
         {% if post.introimg %}
           {{ imgtag | xml_escape }}
         {% endif %}
-        {{ post.content | xml_escape }}
+        {{ post.content | replace: 'img src="/i/', 'img src="https://zaytsev.io/i/' | xml_escape }}
         {% if post.layout == 'quote' %}
           {% if post.author %}
             — {{ post.author }}
