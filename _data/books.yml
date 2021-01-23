@@ -1,3 +1,10 @@
+2021:
+- name: "The Life-Changing Magic of Tidying Up"
+  author: "Marie Kondo"
+  favorite: true
+  rating: 10
+  notes: "Очень вдохновляющая книга с идеями, меняющими жизнь к лучшему"
+
 2020:
 - name: "Your Music and People"
   author: "Derek Sivers"
