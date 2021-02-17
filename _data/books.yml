@@ -1,4 +1,8 @@
 2021:
+- name: "Радость жизни"
+  author: "Уильям Ирвин"
+  rating: 8
+
 - name: "The Life-Changing Magic of Tidying Up"
   author: "Marie Kondo"
   favorite: true

@@ -1,4 +1,16 @@
 2020:
+- name: "Ровно в полдень"
+  original_name: "High Noon"
+  released: 1952
+  rating: 8
+
+2020:
+- name: "Душа"
+  original_name: "Soul"
+  released: 2020
+  rating: 9
+  favorite: true
+
 - name: "Тролли"
   original_name: "Trolls"
   released: 2016
