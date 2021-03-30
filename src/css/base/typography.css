@@ -187,6 +187,7 @@ figure.highlight {
   margin: calc(var(--baseline) * 1.25) 0;
   padding: 20px 18px;
   color: #373e51;
+  border-radius: 4px;
 
   @media (--medium-screen) {
     padding: 15px 25px;
