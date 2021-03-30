@@ -1,5 +1,6 @@
 var gulp            = require('gulp');
 var postcss         = require('gulp-postcss');
+var touch           = require('gulp-touch-cmd');
 var atImport        = require('postcss-import');
 var cssnext         = require('postcss-cssnext');
 var nano            = require('cssnano');
@@ -77,7 +78,8 @@ gulp.task('css', function() {
   return gulp.src('src/css/main.css')
     .pipe(postcss(processors))
     .on('error', handleError)
-    .pipe(gulp.dest('css/'));
+    .pipe(gulp.dest('css/'))
+    .pipe(touch());
 });
 
 gulp.task('additional-css', function() {

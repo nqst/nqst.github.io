@@ -2358,6 +2358,14 @@ gulp-postcss@^8.0.0:
     postcss-load-config "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.1"
 
+gulp-touch-cmd@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/gulp-touch-cmd/-/gulp-touch-cmd-0.0.1.tgz#73aebd040f5cbfbf567a06e3fdb7976ef0fb88cc"
+  integrity sha1-c669BA9cv79Wegbj/beXbvD7iMw=
+  dependencies:
+    graceful-fs "^4.1.2"
+    through2 "^2.0.3"
+
 gulp-typograf@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/gulp-typograf/-/gulp-typograf-4.0.3.tgz#4ca55337cbec548a9f22c9fba311275f2c42d95f"
