@@ -178,6 +178,13 @@ figure.figure--wide,
   }
 }
 
+.two-columns + .two-columns,
+.three-columns + .three-columns {
+  @media (--medium-screen) {
+    margin-top: calc(var(--baseline) * -1);
+  }
+}
+
 .two-columns__item {
   margin: 0;
 

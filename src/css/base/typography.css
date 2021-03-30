@@ -180,19 +180,15 @@ cite {
   font-size: 1rem;
 }
 
-
 .serious-thing,
+.details-box,
 figure.highlight {
   background: var(--highlight-color);
   margin: calc(var(--baseline) * 1.25) 0;
   padding: 20px 18px;
   color: #373e51;
-  /* font-size: 1rem; */
-  /* line-height: 1.5; */
 
   @media (--medium-screen) {
-    /* margin-right: -30px; */
-    /* margin-left: -30px; */
     padding: 15px 25px;
     border-radius: 5px;
   }
@@ -202,6 +198,36 @@ figure.highlight {
     margin-left: -35px;
     padding: 20px 35px;
     border-radius: 7px;
+  }
+}
+
+.details-box {
+  background: #3165A0;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  li code, p code {
+    background-color: rgba(#fff, 0.1);
+    color: #fff;
+  }
+
+  ul>li::before {
+    color: rgba(#fff, 0.5);
+  }
+  
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    color: #fff;
   }
 }
 
