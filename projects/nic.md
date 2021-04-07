@@ -20,8 +20,6 @@ class: 'has-dark-header'
 NIC.UA — популярный украинский регистратор доменов с десятками тысяч клиентов. Вместе с [Сашей Колодько](http://alexkolodko.com) и компанией [StFalcon](http://stfalcon.com/) мы сделали для «Ника» новый сайт — простой и удобный.
 {:.lead}
 
-Рассказать о самом большом проекте, за дизайн и верстку которого я отвечал, оказалось сложнее чем я думал. Пока здесь только несколько скриншотов:
-
 <figure class="figure--screenshot">
   <img src="/i/projects/nic/screenshot-1.png" alt="Корзина NIC.UA">
 </figure>
@@ -45,5 +43,3 @@ NIC.UA — популярный украинский регистратор до
 <figure class="figure--screenshot">
   <img src="/i/projects/nic/screenshot-6.png" alt="Серверы имен на NIC.UA">
 </figure>
-
-Описание дополняется.
