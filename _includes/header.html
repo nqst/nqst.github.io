@@ -11,19 +11,25 @@
   <meta name="twitter:site" content="@nqst">
   <meta name="twitter:creator" content="@nqst">
 
+  <meta property="twitter:title" content="{{ page.title }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="Александр Зайцев">
   {% if page.ogtype %}<meta property="og:type" content="{{ page.ogtype }}">{% endif %}
 
   {% if page.introimg %}
     {% unless page.ogimage %}
+  <meta name="twitter:card" content="summary_large_image">
   <meta property="og:image" content="https://zaytsev.io/i{{ page.id }}/{{ page.introimg }}">
   <link rel="image_src" href="https://zaytsev.io/i{{ page.id }}/{{ page.introimg }}">
+  <meta name="twitter:image" content="https://zaytsev.io/i{{ page.id }}/{{ page.introimg }}">
     {% endunless %}
   {% endif %}
 
-  {% if page.ogimage %}<meta property="og:image" content="https://zaytsev.io/i{{ page.id }}/{{ page.ogimage }}">
-  <link rel="image_src" href="https://zaytsev.io/i{{ page.id }}/{{ page.ogimage }}">{% endif %}
+  {% if page.ogimage %}<meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://zaytsev.io/i{{ page.id }}/{{ page.ogimage }}">
+  <link rel="image_src" href="https://zaytsev.io/i{{ page.id }}/{{ page.ogimage }}">
+  <meta name="twitter:image" content="https://zaytsev.io/i{{ page.id }}/{{ page.ogimage }}">
+  {% endif %}
 
   <link rel="stylesheet" href="/css/main.css">
   {% if page.extrahead %}{{ page.extrahead }}{% endif %}
