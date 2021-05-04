@@ -1,4 +1,10 @@
 2021:
+- name: "Дети небес"
+  original_name: "بچه‌های آسمان"
+  released: 1997
+  rating: 8
+  favorite: true
+
 - name: "Тед Лассо"
   original_name: "Ted Lasso"
   released: 2020
