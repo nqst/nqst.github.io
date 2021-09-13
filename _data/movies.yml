@@ -1,4 +1,19 @@
 2021:
+- name: "Небесный замок Лапута"
+  original_name: "天空の城ラピュタ"
+  released: 1986
+  rating: 8
+
+- name: "Рыбка Поньо на утёсе"
+  original_name: "崖の上のポニョ"
+  released: 2008
+  rating: 7
+
+- name: "Рыбка Поньо на утёсе"
+  original_name: "崖の上のポニョ"
+  released: 2008
+  rating: 6
+
 - name: "Дети небес"
   original_name: "بچه‌های آسمان"
   released: 1997
@@ -78,7 +93,7 @@
   original_name: "Isle of Dogs"
   released: 2018
   rating: 7
-  
+
 - name: "Человек-паук: Через вселенные"
   original_name: "Spider-Man: Into the Spider-Verse"
   released: 2018
