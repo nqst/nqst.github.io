@@ -1,3 +1,28 @@
+- date: "2021-09-22"
+  from:
+    country: 🇮🇹
+    city: Милан
+    airport: BGY
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: KBP
+  company: Ryanair / Malta Air
+  aircraft: Boeing 737-8200
+  comment: "Первый Ryanair, но самолет был с ливреей Malta Air. Понравилось посидеть в лаунже аэропорта Милан Бергамо и выпить бокал просекко :)"
+
+- date: "2021-09-17"
+  from:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  to:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  company: Wizz Air
+  aircraft: Airbus A320
+
 - date: "2020-08-17"
   from:
     country: 🇺🇦
