@@ -1,3 +1,27 @@
+- date: "2021-10-29"
+  from:
+    country: 🇩🇪
+    city: Дортмунд
+    airport: DTM
+  to:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  company: Wizz Air
+  aircraft: Airbus A320
+
+- date: "2021-10-25"
+  from:
+    country: 🇺🇦
+    city: Киев
+    airport: IEV
+  to:
+    country: 🇩🇪
+    city: Дортмунд
+    airport: DTM
+  company: Wizz Air
+  aircraft: Airbus A320
+
 - date: "2021-09-22"
   from:
     country: 🇮🇹
