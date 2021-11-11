@@ -17,13 +17,13 @@ p code, li code {
   border-radius: 3px;
   white-space: nowrap;
   margin: -1px 0.1em;
-  font-size: 0.875em;
+  font-size: 0.8em;
   line-height: 1.6;
 }
 
 
 .highlight pre {
-  font-size: 0.875em;
+  font-size: 0.8em;
 }
 
 .highlight .c { color: #999988; font-style: italic } /* Comment */
