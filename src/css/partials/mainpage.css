@@ -7,30 +7,31 @@
 .mainpage-intro {
   margin-bottom: 4em;
   max-width: 800px;
-  
+
   @media (--large-screen) {
     /* margin-top: 1em; */
     max-width: 1000px;
   }
-  
+
   &__title {
     font-size: 2.3rem;
     margin-bottom: 1.5rem;
-    
+
     em {
       font-weight: 600;
       font-style: normal;
     }
   }
-  
+
   &__description {
     font-size: 1.3rem;
     line-height: 1.4;
     font-weight: 400;
     max-width: 28em;
     color: var(--text-darker);
-    
+
     strong {
+      font-family: var(--font-secondary);
       /* font-weight: 600; */
     }
 
@@ -56,14 +57,15 @@
   color: var(--text-muted);
   font-size: 0.9rem;
   line-height: 1.4;
-  
+
   &__title {
-    color: color(var(--text-color) a(90%));
+    /* color: color(var(--text-color) a(90%)); */
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.7em;
     letter-spacing: 0.025em;
     margin: 0 0 0.5em;
-    
+    font-family: var(--font-secondary);
+
     @media (--medium-screen) {
       display: inline-block;
       margin: 0 0.25em 0 0;
@@ -71,8 +73,9 @@
   }
 
   &__item {
+    font-style: italic;
     color: var(--text-color);
-    
+
     &:hover {
       color: var(--text-darker);
     }
@@ -81,7 +84,7 @@
 
 .mainpage-projects {
   margin: 40px 0;
-  
+
   @media (--medium-screen) {
     margin: 80px 0;
   }
@@ -90,7 +93,7 @@
     display: block;
     text-align: center;
     margin-bottom: 20px;
-    
+
     @media (--medium-screen) {
       /* margin-bottom: 40px; */
       margin-bottom: 10px;
@@ -100,7 +103,7 @@
   &__link {
     display: block;
     padding: 25px 30px;
-    
+
     @media (--medium-screen) {
       /* padding: 70px 90px 80px; */
       padding: 30px 40px;
@@ -111,7 +114,7 @@
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    
+
     &--shadow {
       box-shadow: 0 13px 28px rgba(0, 0, 0, 0.03),
                   0 15px 55px rgba(0, 0, 0, 0.02);
@@ -162,7 +165,7 @@
 .mainpage-about {
   font-size: 18px;
   line-height: 1.5;
-  
+
   @media (--medium-screen) {
     margin-top: 100px;
     font-size: 27px;

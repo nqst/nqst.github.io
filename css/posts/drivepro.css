@@ -39,7 +39,7 @@
 }
 
 .interview-lead {
-  color: #5a6c7a;
+  color: #4d555a;
   margin-bottom: 2rem;
   font-size: 1.333rem;
   line-height: 1.45;
@@ -58,8 +58,8 @@
 /* Костыли-перекостыли */
 .post--interview p strong:only-child,
 .post--interview div.question {
-  font-size: 27px;
-  font-weight: 800;
+  font-size: 24px;
+  font-weight: 700;
   display: inline-block;
   margin-top: 27px;
   line-height: 1.3;

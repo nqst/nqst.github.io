@@ -7,13 +7,14 @@
 .header {
   position: absolute;
   width: 100%;
-  
+
   z-index: 5;
   margin: 0;
   border-bottom: 1px solid #eee;
   line-height: 1.4;
-  font-size: 0.8rem;
-  
+  font-size: 0.7rem;
+  font-family: var(--font-secondary);
+
   @media (--medium-screen) {
     border-bottom: none;
   }
@@ -22,7 +23,7 @@
 .header--dark {
   border-bottom: none;
   background-color: rgba(#000, 0.08);
-  
+
   @media (--medium-screen) {
     background-color: transparent;
     box-shadow: none;
@@ -39,7 +40,7 @@
 
   .header__menu-link {
     color: rgba(#fff, 0.5);
-    
+
     &:hover,
     &--active {
       color: #fff;
@@ -57,7 +58,7 @@
     justify-content: space-between;
     align-items: baseline;
     max-width: var(--container-full-width) !important;
-    
+
     padding-top: 28px;
     padding-bottom: 28px;
   }
@@ -71,7 +72,7 @@
 .has-cover:not(.has-cover--light) .header {
   @media (--medium-screen) {
     text-shadow: 0 1px 3px rgba(#000,0.5);
-    
+
     /* Code below is just a copy of .header--dark. One day I should find a more elegant way without repeating myself */
     .header__title a,
     .header__title a:hover {
@@ -80,7 +81,7 @@
 
     .header__menu-link {
       color: rgba(#fff, 0.5);
-      
+
       &:hover,
       &--active {
         color: #fff;
@@ -104,11 +105,11 @@
   margin: -0.2em -0.6em;
   padding: 0.2em 0.6em;
   color: inherit;
-  
+
   &--inactive {
     pointer-events: none;
   }
-  
+
   &:hover {
     color: #000;
   }
@@ -118,7 +119,7 @@
   margin: 0.5rem 0 0;
   padding: 0;
   /* flex: 1; */
-  
+
   @media (--medium-screen) {
     margin-top: 0;
     /* text-align: right; */
@@ -129,15 +130,15 @@
   display: inline-block;
   margin: 0 0 0 1.2em;
   padding: 0;
-  
+
   @media (--medium-screen) {
     margin-left: 1.6em;
   }
-  
+
   &:first-child {
     margin-left: 0;
   }
-  
+
   &:before {
     display: none;
   }

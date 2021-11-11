@@ -11,9 +11,10 @@
   overflow: hidden;
   background-color: #fff;
   font-size: 0.9rem;
-  
+  font-family: var(--font-secondary);
+
   @media (--medium-screen) {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -22,12 +23,12 @@
   transition: background-color 0.3s ease-in-out;
   display: block;
   text-align: center;
-  
+
   @media (--medium-screen) {
     padding-right: 50px;
     padding-left: 50px;
   }
-  
+
   @media (--large-screen) {
     min-width: 50%;
     padding-right: 75px;
@@ -38,7 +39,7 @@
     padding-right: 100px;
     padding-left: 100px;
   }
-  
+
   &:hover {
     background-color: rgba(var(--link-color), 0.03));
     color: var(--link-color);
@@ -46,16 +47,16 @@
 }
 
 .paginator__prev {
-  
+
   @media (--large-screen) {
     float: left;
     text-align: left;
   }
-  
+
   &:before {
     content: "‹";
     padding-right: 5px;
-    
+
     @media (--large-screen) {
       padding-right: 8px;
     }
@@ -64,18 +65,18 @@
 
 .paginator__next {
   border-top: 1px solid #eee;
-  
+
   @media (--large-screen) {
     float: right;
     text-align: right;
     border-top: none;
     border-left: 1px solid #eee;
   }
-  
+
   &:after {
     content: "›";
     padding-left: 5px;
-    
+
     @media (--large-screen) {
       padding-left: 7px;
     }
@@ -84,7 +85,7 @@
 
 .paginator__link--wide {
   border: none;
-  
+
   @media (--large-screen) {
     min-width: 100%;
   }

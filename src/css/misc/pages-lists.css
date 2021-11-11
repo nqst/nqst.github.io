@@ -10,8 +10,9 @@
 .list-of-lists__item {
   position: relative;
   padding: 0;
+  font-family: var(--font-secondary);
 
-  &:before {
+  &::before {
     display: none;
   }
 }
@@ -23,11 +24,11 @@
   margin: 1.5em 0;
   padding: 0;
   max-width: 39em;
-  
-  &:before {
+
+  &::before {
     display: none;
   }
-  
+
   &:last-child {
     border-bottom: none;
   }
@@ -47,9 +48,10 @@
 .countries__name {
   display: block;
   position: relative;
-  margin-bottom: 0.15em;
-  font-size: 1.15rem;
+  margin-bottom: 0.1em;
+  font-size: 1.1rem;
   line-height: 1.4;
+  letter-spacing: -0.01em;
   font-weight: normal;
 }
 
@@ -60,7 +62,7 @@
   margin-left: 0.5em;
   color: #f90;
   font-size: 0.9em;
-  
+
   @media (--x-large-screen) {
     position: absolute;
     left: -1.5em;
@@ -72,9 +74,10 @@
 .movies__details,
 .countries__details {
   display: block;
-  line-height: 1.5;
-  color: var(--text-muted);
-  font-size: 0.8em;
+  line-height: 1.3;
+  /* color: var(--text-muted); */
+  font-size: 0.9em;
+  font-style: italic;
   max-width: 39em;
 }
 
@@ -91,7 +94,7 @@
 /* .movies__details > a {
   color: var(--text-muted);
   border-bottom: 1px solid color(var(--text-muted) a(20%));
-  
+
   &:hover {
     color: var(--link-hover-color);
     border-bottom-color: color(var(--link-hover-color) a(20%));
@@ -114,11 +117,11 @@
   position: relative;
   top: 0.1em;
   margin-right: 0.3em;
-  
+
   @media (--medium-screen) {
     top: 0.08em;
   }
-  
+
   @media (--large-screen) {
     position: absolute;
     left: -1.35em;

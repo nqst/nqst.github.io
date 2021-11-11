@@ -18,7 +18,8 @@
 
   --container-full-width:            1410px;
 
-  --font-primary:                    'Spectral', -apple-system, BlinkMacSystemFont, "IBM Plex Sans", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  --font-primary:                    'Spectral', serif;
+  --font-secondary:                  -apple-system, BlinkMacSystemFont, "IBM Plex Sans", "Roboto", "Helvetica Neue", "Arial", sans-serif;
   --font-monospace:                  "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
 
   --text-color:                      #303133;
