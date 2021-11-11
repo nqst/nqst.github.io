@@ -8,7 +8,8 @@
   margin-top: 30px;
   margin-bottom: 0;
   text-align: center;
-  
+  font-family: var(--font-secondary);
+
   @media (--medium-screen) {
     margin-top: 50px;
   }
@@ -55,7 +56,7 @@
   display: inline-block;
   fill: color(var(--link-color) s(-70%) a(50%));
   transition: fill 0.25s ease-out;
-  
+
   &:hover,
   &:focus {
     transition: fill 0.025s ease-in-out;

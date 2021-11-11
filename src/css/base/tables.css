@@ -9,22 +9,23 @@
   width: 100%;
   max-width: 100%;
   margin-bottom: var(--baseline);
-  font-size: 0.8rem;
-  
+  font-size: 0.7rem;
+  font-family: var(--font-secondary);
+
   @media screen and (max-width: 768px) {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
-  
+
   th,
   td {
     vertical-align: top;
     line-height: 1.5;
     padding: 8px 10px;
     border-top: 1px solid #eee;
-    
+
     @media (--medium-screen) {
       padding: 12px 15px;
     }
@@ -55,7 +56,7 @@
 
   &--compact {
     @media (--medium-screen) {
-      font-size: 0.75rem;
+      font-size: 0.65rem;
     }
 
     thead th {
@@ -70,7 +71,7 @@
     /* padding-top: 30px; */
     padding-bottom: 4px;
   }
-  
+
   h2 {
     margin: 0.5em 0 0;
     font-size: 1.5rem;

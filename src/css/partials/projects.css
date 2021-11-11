@@ -9,7 +9,7 @@
   padding: 120px 0 50px;
   text-align: center;
   background-color: #f5f7f9;
-  
+
   @media (--medium-screen) {
     padding: 130px 0 75px;
   }
@@ -21,7 +21,7 @@
 
 .hero__title {
   margin-bottom: 0;
-  
+
   @media (--large-screen) {
     max-width: 90%;
     margin-right: auto;
@@ -31,12 +31,13 @@
 
 .hero__description {
   margin-top: 0.6rem;
+  font-family: var(--font-secondary);
   color: var(--text-muted);
   font-size: 0.8rem;
   line-height: 1.5;
   padding-right: 25px; /* nicer paddings on mobile */
   padding-left: 25px;
-  
+
   @media (--medium-screen) {
     font-size: 0.9rem;
   }
@@ -47,9 +48,10 @@
 }
 
 .hero__link {
+  font-family: var(--font-secondary);
   font-size: 0.8rem;
   font-weight: 500;
-  
+
   @media (--medium-screen) {
     font-size: 0.9rem;
   }
@@ -58,7 +60,7 @@
 .hero__figure {
   text-align: center;
   margin-bottom: 0;
-  
+
   &--screenshot {
     @media (--medium-screen) {
       margin-top: 50px;
@@ -69,14 +71,14 @@
     box-shadow: 0 23px 38px rgba(0, 0, 0, 0.33),
                 0 25px 65px rgba(0, 0, 0, 0.07);
   }
-  
+
   &--with-subtle-shadow .hero__image {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   }
 
   &--with-rounded-corners .hero__image {
     border-radius: 2px;
-    
+
     @media (--medium-screen) {
       border-radius: 4px;
     }
@@ -94,7 +96,7 @@
 
 .has-dark-header .hero {
   color: #fff;
-  
+
   .hero__title {
     color: #fff;
   }
@@ -118,7 +120,7 @@
   background-color: #fff;
   position: relative;
   z-index: 5;
-  
+
   @media (--medium-screen) {
     padding-top: 40px;
   }
@@ -147,7 +149,7 @@
   font-size: 1rem;
   background-color: #999;
   /* min-height: 350px; */
-  
+
   @media screen and (min-width: 780px) {
     max-width: 760px;
     margin: 0 auto 50px;
@@ -170,7 +172,7 @@
 .rest-of-the-projects {
   max-width: 760px;
   margin: 0 auto;
-  
+
   @media screen and (min-width: 780px) {
     margin-bottom: 100px;
   }
@@ -178,13 +180,13 @@
 
 .rest-of-the-projects .project {
   width: 100%;
-  
+
   @media screen and (min-width: 780px) {
     margin: 0 0 20px;
-    width: 370px; 
+    width: 370px;
     display: inline-block;
     margin-right: 20px;
-    
+
     &:nth-child(even) {
       margin-right: 0;
     }
@@ -226,14 +228,14 @@
 .project__img-wrapper {
   margin-top: 20px;
   padding: 0 30px;
-  
+
   @media (--large-screen) {
     padding: 0 40px;
   }
 
   .project--important & {
     margin-top: 30px;
-    
+
     @media (--large-screen) {
       /* margin-top: 40px; */
     }
@@ -246,7 +248,7 @@
   max-height: 230px;
   transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translateZ(0);
-  
+
   &--cover {
     position: absolute;
     top: 50%;
@@ -254,7 +256,7 @@
     transform: translate(-50%, -50%);
     max-height: none;
   }
-  
+
   /* @media (--large-screen) {
     left: 40px;
   } */
@@ -271,7 +273,7 @@
   /* background-color: #eee; */
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  
+
   &-img {
     display: inline-block;
   }
@@ -280,16 +282,17 @@
 .project__title {
   display: inline-block;
   line-height: 1.4;
-  
+
   position: relative;
   z-index: 10;
   margin-top: 20px;
   /* left: 0; */
   padding: 0 30px;
+  font-family: var(--font-secondary);
   color: #fff;
-  
+
   max-width: 460px;
-  
+
   @media (--large-screen) {
     /* margin-top: 25px; */
     padding: 0 40px;
@@ -304,7 +307,7 @@
   padding: 170px 0 100px;
   /* font-size: 1.4em; */
   margin-bottom: 0;
-  
+
   @media (--medium-screen) {
     height: 80vh;
     min-height: 600px;
@@ -319,7 +322,7 @@
     min-height: 0;
     background-color: transparent;
   }
-  
+
   .project__image {
     margin-bottom: 0;
     border-radius: 0;
@@ -332,12 +335,12 @@
     height: auto;
     /* margin-bottom: 20px; */
     transition: all 0.3s ease-in-out;
-    
+
     @media (--large-screen) {
       margin-bottom: 20px;
     }
   }
-  
+
   .project__link {
     color: inherit;
     height: auto;
@@ -360,11 +363,11 @@
 .featured-project--uz {
   background-color: #0fa7d8;
   color: #fff;
-  
+
   .project__image-img {
     box-shadow: 0 2px 5px rgba(#000, 0.2);
     border-radius: 2px;
-    
+
     @media (--medium-screen) {
       border-radius: 4px;
     }
@@ -375,7 +378,7 @@
   background-color: #78bd17;
   background-image: linear-gradient(45deg, #80be28 0%, #009432 100%);
   color: #fff;
-  
+
   .project__image-img {
     width: 100%;
     max-width: 480px;
@@ -388,7 +391,7 @@
 
 .project--important .project__title {
   margin-top: 25px;
-  
+
   @media (--large-screen) {
     /* margin-top: 30px; */
   }
@@ -419,15 +422,15 @@
   padding: 120px 0;
   /* border-top: 1px solid #eee;
   border-bottom: 1px solid #eee; */
-  
+
   text-align: center;
-  
+
   &__quote {
     font-size: 1.5rem;
     line-height: 1.5;
     margin: 0;
   }
-  
+
   &__details {
     margin-top: 1rem;
     font-size: 0.8889rem;
@@ -455,9 +458,9 @@
 
 /* .project--childrens-railway .project__link {
   background: #d5ebee url('/i/projects/childrens-railway/teaser.png') no-repeat left 50% bottom -20px;
-  
-  @media 
-  (-webkit-min-device-pixel-ratio: 1.5), 
+
+  @media
+  (-webkit-min-device-pixel-ratio: 1.5),
   (min-resolution: 144dpi) {
     background-image: url('/i/projects/childrens-railway/teaser@2x.png');
     background-size: 562px 348px;
@@ -476,7 +479,7 @@
 .project--uz-boarding-pass {
   /* background-color: #111c2f; */
   background-color: #0652DD;
-  
+
   .project__img {
     top: 120px;
   }
@@ -486,7 +489,7 @@
   /* background-color: #220731; */
   /* background-color: #6F1E51; */
   background-color: #500334;
-  
+
   .project__img {
     top: 120px;
   }
@@ -508,7 +511,7 @@
 .project--urban-rail-map {
   /* background-color: #f5f7f9; */
   background-color: #e55039;
-  
+
   .project__title {
     /* color: var(--text-color); */
   }
@@ -536,7 +539,7 @@
 
 .project--the-cutlets {
   background-color: #eaedf0;
-  
+
   .project__title {
     color: var(--text-color);
   }
@@ -544,7 +547,7 @@
 
 .project--stadium {
   background-color: #fff;
-  
+
   .project__title {
     color: var(--text-color);
   }
@@ -610,7 +613,7 @@
   .plyr--youtube .plyr__play-large {
     padding: 20px;
     border-width: 5px;
-    
+
     svg {
       width: 25px;
       height: 25px;
