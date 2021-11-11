@@ -5,7 +5,7 @@
  */
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 
   @media (--medium-screen) {
     font-size: 20px;
