@@ -9,7 +9,7 @@
 @custom-media --medium-screen  (width >=  600px);
 
 :root {
-  --baseline:                        1.5rem;
+  --baseline:                        1.4rem;
 
   --baseline-half:                   calc(var(--baseline) / 2);
 

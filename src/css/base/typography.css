@@ -79,7 +79,7 @@ h4 {
 
 .post__title {
   margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   font-size: 2.25rem;
 
 
@@ -129,13 +129,13 @@ p {
 
 .lead {
   font-size: 1.3333rem;
-  line-height: 1.4583;
+  line-height: 1.4;
   margin: 1rem 0 1.5rem;
 
   @media (--medium-screen) {
 
     .container--medium & {
-      line-height: 1.5;
+      /* line-height: 1.5; */
     }
   }
 }
