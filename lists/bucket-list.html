@@ -1,0 +1,37 @@
+---
+layout: default
+title: Bucket list
+permalink: /lists/bucket-list/
+class: 'page-bucket-list'
+---
+
+<main class="main">
+  <div class="container container--full">
+    <header class="page-header">
+      <h1 class="page-header__title">{{ page.title }}</h1>
+    </header>
+
+      {% assign data = site.data.bucket-list %}
+      {% assign done = data.done %}
+      {% assign todo = data.todo %}
+
+      <h2>Уже сделал</h2>
+      <ul class="bucket-list bulleted-list">
+        {% for item in done %}
+          <li class="bucket-list__item">
+            {{ item | markdownify | remove: "<p>" | remove: "</p>" }}
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h2>Хочу сделать</h2>
+      <ul class="bucket-list bulleted-list">
+        {% for item in todo %}
+          <li class="bucket-list__item">
+            {{ item | markdownify | remove: "<p>" | remove: "</p>" }}
+          </li>
+        {% endfor %}
+      </ul>
+
+  </div>
+</main>
