@@ -1,3 +1,10 @@
+2022:
+- name: "Зверопой"
+  original_name: "Sing"
+  released: 2016
+  rating: 10
+  favorite: true
+
 2021:
 - name: "The French Dispatch"
   released: 2021
