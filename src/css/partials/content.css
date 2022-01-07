@@ -138,7 +138,8 @@ article figcaption {
 }
 
 figure.figure--wide,
-.two-columns--wide {
+.two-columns--wide,
+.three-columns--wide {
   @media (--large-screen) {
     width: 980px;
     margin-bottom: calc(var(--baseline) * 1.5);
@@ -176,6 +177,10 @@ figure.figure--wide,
   @media (--medium-screen) {
     display: flex;
     justify-content: space-between;
+  }
+
+  &--center {
+    align-items: center;
   }
 }
 
