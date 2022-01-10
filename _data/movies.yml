@@ -1,4 +1,10 @@
 2022:
+- name: "Зверопой 2"
+  original_name: "Sing 2"
+  released: 2021
+  rating: 9
+  favorite: true
+
 - name: "Зверопой"
   original_name: "Sing"
   released: 2016
