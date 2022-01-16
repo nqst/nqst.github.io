@@ -1,4 +1,10 @@
 2022:
+- name: "Того"
+  original_name: "Togo"
+  released: 2019
+  rating: 8
+  favorite: true
+
 - name: "Don’t Look Up"
   released: 2021
   rating: 7
