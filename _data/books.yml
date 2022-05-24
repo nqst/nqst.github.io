@@ -1,3 +1,10 @@
+2022:
+- name: "The Courage to Be Disliked"
+  author: "Ichiro Kishimi, Fumitake Koga"
+  favorite: true
+  rating: 9
+  notes: "Must read"
+
 2021:
 - name: "How to Live"
   author: "Derek Sivers"

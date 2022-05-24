@@ -1,4 +1,8 @@
 2022:
+- name: "Hamilton"
+  released: 2015
+  rating: 7
+
 - name: "Того"
   original_name: "Togo"
   released: 2019
