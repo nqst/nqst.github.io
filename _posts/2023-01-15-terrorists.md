@@ -7,6 +7,8 @@ title: "Фрагмент из жизни русских террористов"
 
 ![](/i/blog/terrorists/tragedy.webp)
 
+<!-- more -->
+
 Как реагирует Россия? Вот так:
 
 ![](/i/blog/terrorists/fuck-you-russian-ministry-of-defence.png)
