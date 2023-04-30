@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Один день в Белой Церкви"
 introimg: IMG_5433.jpg
 medium_width: true

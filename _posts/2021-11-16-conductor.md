@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Место кондуктора"
 introimg: ogimage.jpg
 ogimage: ogimage.jpg

@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Транспорт в Будапеште"
 introimg: DSC02115.jpg
 ogimage: DSC02345.jpg

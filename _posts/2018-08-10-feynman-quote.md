@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Цитата из Фейнмана"
 introimg: feynman.jpg
 ---

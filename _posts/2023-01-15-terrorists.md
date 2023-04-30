@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Фрагмент из жизни русских террористов"
 ---
 

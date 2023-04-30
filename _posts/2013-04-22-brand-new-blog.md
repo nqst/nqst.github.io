@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Новый блог"
 introimg: helloworld.jpg
 ---

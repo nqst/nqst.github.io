@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Квест на день влюбленных — 2012"
 medium_width: true
 introimg: "1.png"

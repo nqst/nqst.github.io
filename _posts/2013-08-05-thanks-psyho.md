@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Спасибо, Psyho"
 introimg: psyho.jpg
 ---

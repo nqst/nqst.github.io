@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Шашки на детской площадке"
 ogimage: DSC02730.jpg
 ---

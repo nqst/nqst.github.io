@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Фиолетовые флаги"
 ---
 

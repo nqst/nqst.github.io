@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "JavaScript в Adobe Illustrator"
 introimg: coupons.jpg
 ---

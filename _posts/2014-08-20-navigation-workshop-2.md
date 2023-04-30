@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Практикум по навигации. Дни 2 и 3"
 introimg: pantone.jpg
 beforeinfo: 'Это продолжение серии заметок о дизайн-практикуме Студии Лебедева. См. также <a href="/blog/navigation-workshop/">день 1</a>.'

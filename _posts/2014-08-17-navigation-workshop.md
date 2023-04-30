@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Практикум по навигации. День 1"
 introimg: arrow.jpg
 ---
