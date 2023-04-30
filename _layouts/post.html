@@ -6,12 +6,12 @@ ogtype: article
 <main class="main main--post">
 
   <header class="post__header{% if page.introimg %} post__header--wide{% endif %}">
-    <div class="container container--full">
+    <div class="container">
       {% include date.html post-date=page.date %}
       <h1 class="post__title">{{ page.title }}</h1>
     </div>
   </header>
-  
+
   {% if page.introimg and page.cover != true %}
   <div class="container {% if page.widepost %}container--full{% else %}container--wide{% endif %}">
     <figure class="intro-image{% if page.widepost %} intro-image--full{% endif %}">
@@ -35,14 +35,14 @@ ogtype: article
         {% endif %}
 
         {{ content }}
-        
+
         {% if page.credits %}
           <p class="post__credits">{{ page.credits }}</p>
         {% endif %}
       </section>
 
     </article>
-    
+
     {% include share.html %}
 
     <!-- <hr> -->
@@ -60,7 +60,7 @@ ogtype: article
         this.page.url = "{{ site.url }}{{ page.url }}";
         this.page.identifier = "{{ page.id }}";
         };
-        
+
         (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
         s.src = 'https://zaytsev-io.disqus.com/embed.js';
