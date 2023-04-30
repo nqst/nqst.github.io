@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Александр Зайцев — Блог
+title: Олександр Зайцев — Блог
 ogtype: website
 ---
 
@@ -29,12 +29,12 @@ ogtype: website
             {% if post.content contains '<!-- more -->' %}
               {{ post.content | split:'<!-- more -->' | first | markdownify }}
               <div class="read-more">
-                <a class="read-more__link" href="{{ post.url }}">Читать дальше ›</a>
+                <a class="read-more__link" href="{{ post.url }}">Читати далі ›</a>
               </div>
             {% elsif post.content contains '<!-- more-enlarge -->' %}
               {{ post.content | split:'<!-- more-enlarge -->' | first | markdownify }}
               <div class="read-more">
-                <a class="read-more__link" href="{{ post.url }}">Посмотреть поближе ›</a>
+                <a class="read-more__link" href="{{ post.url }}">Збільшити ›</a>
               </div>
             {% else %}
               {{ post.content | markdownify }}
@@ -66,12 +66,12 @@ ogtype: website
 
 <div class="paginator clearfix">
   {% if paginator.next_page %}
-    <a class="paginator__link paginator__prev{% if paginator.page == 1 %} paginator__link--wide{% endif %}" href="/blog/page{{ paginator.next_page }}">Ранее</a>
+    <a class="paginator__link paginator__prev{% if paginator.page == 1 %} paginator__link--wide{% endif %}" href="/blog/page{{ paginator.next_page }}">Раніше</a>
   {% endif %}
 
   {% if paginator.page == 2 %}
-    <a class="paginator__link paginator__next" href="/">Позднее</a>
+    <a class="paginator__link paginator__next" href="/">Пізніше</a>
   {% elsif paginator.page > 2 %}
-    <a class="paginator__link paginator__next{% unless paginator.next_page %} paginator__link--wide{% endunless %}" href="/blog/page{{ paginator.previous_page }}">Позднее</a>
+    <a class="paginator__link paginator__next{% unless paginator.next_page %} paginator__link--wide{% endunless %}" href="/blog/page{{ paginator.previous_page }}">Пізніше</a>
   {% endif %}
 </div>
