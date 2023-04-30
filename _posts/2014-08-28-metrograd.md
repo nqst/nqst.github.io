@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Практикум по навигации. Метроград"
 introimg: intro.jpg
 beforeinfo: 'Это завершение серии заметок о дизайн-практикуме Студии Лебедева. См. также: <a href="/blog/navigation-workshop/">день 1</a>, <a href="/blog/navigation-workshop-2/">дни 2–3</a>, <a href="/blog/navigation-workshop-3/">дни 4–8</a>.'

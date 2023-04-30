@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Перфекционизм повседневных вещей"
 published: false
 ---

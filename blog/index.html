@@ -7,7 +7,7 @@ ogtype: website
 <main class="main posts-list">
   <div class="container container--medium">
     {% for post in paginator.posts %}
-
+      {%- if post.archived == true %}{% continue %}{% endif -%}
       <article class="post">
 
         {% if post.layout != 'quote' %}

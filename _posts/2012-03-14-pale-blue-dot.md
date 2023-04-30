@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Бледно-голубая точка"
 introimg: pale-blue-dot-wide.jpg
 ---

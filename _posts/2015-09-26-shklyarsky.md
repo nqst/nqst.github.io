@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: С Днем рождения, Эдмунд Шклярский!
 introimg: shklyarsky.jpg
 credits: <br>Источник фотографии — <a href="https://instagram.com/piknik.info">официальный инстаграм группы «Пикник»</a>

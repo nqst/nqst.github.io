@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Схема трамвайных маршрутов. Анонс"
 published: false
 ---

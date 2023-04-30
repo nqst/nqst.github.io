@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Медицина будущего"
 published: false
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Мой опыт быть папой"
 introimg: cover.jpg
 medium_width: true

@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Венгерский язык"
 introimg: kiraly.jpg
 ogimage: ogimage.jpg

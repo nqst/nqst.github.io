@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "О юлианском и григорианском календарях"
 ---
 

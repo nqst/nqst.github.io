@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Киевские предвыборные реалии"
 published: false
 ---

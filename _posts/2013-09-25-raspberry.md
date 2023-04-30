@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Raspberry Pi"
 introimg: intro.jpg
 ---

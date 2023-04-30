@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Пока, Киев!"
 introimg: intro.jpeg
 ogimage: ogimage.jpg

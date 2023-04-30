@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Транспорт в Будапеште"
 introimg: DSC02115.jpg
 ogimage: DSC02345.jpg
@@ -184,7 +185,7 @@ widepost: true
   <img src="/i/blog/transport-in-budapest/Volvo-buszok.jpg">
   <figcaption>Источник: <a href="http://www.bkk.hu/2014/04/egyedulallo-buszflotta-erkezik-budapestre/">bkk.hu</a></figcaption>
 </figure>
-<!-- 
+<!--
 <figure>
   <img src="/i/blog/transport-in-budapest/NYD_2567.jpg">
   <figcaption>Источник: <a href="http://www.bkk.hu/2015/05/juniustol-ujabb-25-uj-alacsonypadlos-kornyezetbarat-busz-all-forgalomba-budapesten/">bkk.hu</a> [Оптимизировать картинку!]</figcaption>

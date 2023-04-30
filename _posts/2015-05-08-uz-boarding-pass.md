@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Редизайн посадочного талона на поезд"
 introimg: intro.jpg
 cover: true
@@ -90,7 +91,7 @@ medium_width: true
     ];
 
     $('.js-range-comment').text(comments[0]);
-    
+
 
     $('.js-slide').load(function(){
 

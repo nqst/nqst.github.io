@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Как приготовить карбонару"
 introimg: carbonara.jpg
 alt: "Карбонара"
