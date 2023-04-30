@@ -9,20 +9,22 @@
 @custom-media --medium-screen  (width >=  600px);
 
 :root {
-  --baseline:                        1.4rem;
+  --baseline:                        1.45rem;
 
   --baseline-half:                   calc(var(--baseline) / 2);
 
-  --container-medium-width:          820px;
+  --container-medium-width:          720px;
   --container-medium-side-padding:   30px;
 
   --container-full-width:            1410px;
 
-  --font-primary:                    'Spectral', serif;
-  --font-secondary:                  -apple-system, BlinkMacSystemFont, "IBM Plex Sans", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  --font-primary:                    "FixelText", system-ui, -apple-system, "Segoe UI", Roboto,
+                                     "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+                                     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* --font-secondary:                  -apple-system, BlinkMacSystemFont, "IBM Plex Sans", "Roboto", "Helvetica Neue", "Arial", sans-serif; */
   --font-monospace:                  "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
 
-  --text-color:                      #303133;
+  --text-color:                      #242629;
   --text-darker:                     color(var(--text-color) l(-10%));
   --text-muted:                      color(var(--text-color) a(60%));
   --link-color:                      #077bd1;

@@ -10,7 +10,7 @@
 .list-of-lists__item {
   position: relative;
   padding: 0;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
 
   &::before {
     display: none;

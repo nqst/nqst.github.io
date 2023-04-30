@@ -9,7 +9,7 @@
   padding: 19px 0 20px;
   color: color(var(--text-color) a(75%));
   font-size: 0.7rem;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
   border-top: 1px solid #eee;
 
   /* box-shadow: inset 0 0  0    1px rgba(#000, 0.05),

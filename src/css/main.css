@@ -3,6 +3,7 @@
 /* Base/root styles */
 @import "base/variables.css";
 @import "base/reset.css";
+@import "base/fonts.css";
 @import "base/layout.css";
 @import "base/typography.css";
 @import "base/code.css";
