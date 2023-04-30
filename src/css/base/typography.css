@@ -192,6 +192,20 @@ figure.highlight {
   }
 }
 
+.language-note {
+  background-color: #ffeb7b;
+  color: #342810;
+  margin: 4em 0;
+  padding: 1em 0;
+  /* border-top: 5px solid #0057b7; */
+  font-size: 0.85rem;
+  line-height: 1.4;
+
+  p {
+    margin: 0;
+  }
+}
+
 .details-box {
   background: #3165A0;
   margin-right: 0 !important;
