@@ -288,9 +288,10 @@ article ul > li,
     position: relative;
     max-width: 0px;
     max-height: 0px;
-    left: -1.1em;
-    top: 0;
-    color: #b9b5ac;
+    left: -0.75em;
+    font-size: 1.2em;
+    top: -0.08em;
+    color: #938f86;
   }
 
   @media (--medium-screen) {

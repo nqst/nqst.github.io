@@ -61,7 +61,7 @@
   &__title {
     /* color: color(var(--text-color) a(90%)); */
     text-transform: uppercase;
-    font-size: 0.7em;
+    font-size: 0.8em;
     letter-spacing: 0.025em;
     margin: 0 0 0.5em;
     /* font-family: var(--font-secondary); */
@@ -73,7 +73,6 @@
   }
 
   &__item {
-    font-style: italic;
     color: var(--text-color);
 
     &:hover {

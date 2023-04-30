@@ -13,7 +13,7 @@
 
   --baseline-half:                   calc(var(--baseline) / 2);
 
-  --container-medium-width:          720px;
+  --container-medium-width:          840px;
   --container-medium-side-padding:   30px;
 
   --container-full-width:            1410px;

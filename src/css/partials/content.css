@@ -23,6 +23,7 @@
 
 .post__header--wide {
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .post__date {
