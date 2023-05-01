@@ -54,7 +54,7 @@ var processors = [
 gulp.task('typograf', function() {
   gulp.src(typografFiles, { base: './' })
     .pipe(typograf({
-      locale: ['ru'],
+      locale: ['uk'],
       disableRule: [
         'common/number/mathSigns',
         'common/number/times',
