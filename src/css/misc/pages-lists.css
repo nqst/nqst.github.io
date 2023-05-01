@@ -61,7 +61,6 @@
   content: '★';
   margin-left: 0.5em;
   color: #f90;
-  font-size: 0.9em;
 
   @media (--x-large-screen) {
     position: absolute;
