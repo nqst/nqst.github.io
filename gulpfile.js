@@ -18,7 +18,7 @@ var log             = require('fancy-log');
 var siteRoot = '_site';
 var cssFiles = 'src/css/**/*.css';
 var additionalCssFiles = 'src/css/posts/**/*.css';
-var typografFiles = ['**/*.md', '!_site/**/*.*'];
+var typografFiles = ['**/*.md', '!_posts/{2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022}-*.md', '!_site/**/*.*'];
 
 function handleError(err) {
   console.log(err.toString());
@@ -52,9 +52,9 @@ var processors = [
 ];
 
 gulp.task('typograf', function() {
-  gulp.src(typografFiles, { base: './' })
+  return gulp.src(typografFiles, { base: './' })
     .pipe(typograf({
-      locale: ['uk'],
+      locale: ['uk', 'ru'],
       disableRule: [
         'common/number/mathSigns',
         'common/number/times',
