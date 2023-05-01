@@ -15,7 +15,7 @@ class: 'page-bucket-list'
       {% assign done = data.done %}
       {% assign todo = data.todo %}
 
-      <h2>Уже сделал</h2>
+      <h2>✅ Вже зробив</h2>
       <ul class="bucket-list bulleted-list">
         {% for item in done %}
           <li class="bucket-list__item">
@@ -24,7 +24,7 @@ class: 'page-bucket-list'
         {% endfor %}
       </ul>
 
-      <h2>Хочу сделать</h2>
+      <h2>🗒️ Хочу зробити</h2>
       <ul class="bucket-list bulleted-list">
         {% for item in todo %}
           <li class="bucket-list__item">
