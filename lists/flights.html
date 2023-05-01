@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Авиаперелеты
+title: Авіаперельоти
 permalink: /lists/flights/
 extrahead: '<script src="//twemoji.maxcdn.com/2/twemoji.min.js"></script>'
 class: 'page-flights'
@@ -10,7 +10,7 @@ class: 'page-flights'
   <div class="container container--full">
     <header class="page-header">
       {% assign flights = site.data.flights %}
-      <h1 class="page-header__title">Авиаперелеты <span class="title-counter">{{ flights.size }}</span></h1>
+      <h1 class="page-header__title">Авіаперельоти <span class="title-counter">{{ flights.size }}</span></h1>
       <!-- <p class="page-header__description">25 полетов. Обновлено в июне 2017 г.</p> -->
 
       <!-- {{ flights.size }} -->
@@ -20,16 +20,16 @@ class: 'page-flights'
       <thead>
         <tr>
           <th>Дата</th>
-          <th>Откуда</th>
-          <th>Куда</th>
-          <th>Авиакомпания</th>
-          <th>Самолет</th>
-          <th style="width: 400px;">Заметки</th>
+          <th>Звідки</th>
+          <th>Куди</th>
+          <th>Авіакомпанія</th>
+          <th>Літак</th>
+          <th style="width: 400px;">Нотатки</th>
         </tr>
       </thead>
       <tbody>
         {% assign flightsByYear = site.data.flights | group_by_exp: "flight", "flight.date | date: '%Y'" %}
-          
+
         {% for year in flightsByYear %}
           <tr class="table__title-row">
             <td colspan="6">
@@ -41,7 +41,7 @@ class: 'page-flights'
             <tr>
               <td class="nowrap">
                 {{ flight.date | date: "%e" }}
-                {{ flight.date | date: "%m" | replace: "01", " января" | replace: "02", " февраля" | replace: "03", " марта" | replace: "04", " апреля" | replace: "05", " мая" | replace: "06", " июня" | replace: "07", " июля" | replace: "08", " августа" | replace: "09", " сентября" | replace: "10", " октября" | replace: "11", " ноября" | replace: "12", " декабря" }}
+                {{ flight.date | date: "%m" | replace: "01", " січня" | replace: "02", " лютого" | replace: "03", " березня" | replace: "04", " квітня" | replace: "05", " травня" | replace: "06", " червня" | replace: "07", " липня" | replace: "08", " серпня" | replace: "09", " вересня" | replace: "10", " жовтня" | replace: "11", " листопада" | replace: "12", " грудня" }}
               </td>
               <td class="nowrap">
                 <span class="page-flights__flag">{{ flight.from.country }}</span> {{ flight.from.city }}
@@ -59,253 +59,6 @@ class: 'page-flights'
             </tr>
           {% endfor %}
         {% endfor %}
-      </tbody>
-    </table>
-    
-    <table class="table table--compact table--flights" style="display: none;">
-      <thead>
-        <tr>
-          <th>Дата</th>
-          <th>Откуда</th>
-          <th>Куда</th>
-          <th>Авиакомпания</th>
-          <th>Самолет</th>
-          <th>Заметки</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="table__title-row">
-          <td colspan="6">
-            <h2>2017</h2>
-          </td>
-        </tr>
-        <tr>
-          <td>3 июня</td>
-          <td><span class="page-flights__flag">🇵🇱</span> Вроцлав</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr class="table__row--noborder">
-          <td>30 мая</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td><span class="page-flights__flag">🇵🇱</span> Вроцлав</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr class="table__title-row">
-          <td colspan="6">
-            <h2>2016</h2>
-          </td>
-        </tr>
-        <tr>
-          <td>28 декабря</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>21 декабря</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td>У Авроры впервые было отдельное место в самолете.</td>
-        </tr>
-        <tr>
-          <td>8 декабря</td>
-          <td><span class="page-flights__flag">🇧🇾</span> Минск</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>Белавиа</td>
-          <td>Boeing 737</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>6 декабря</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td><span class="page-flights__flag">🇧🇾</span> Минск</td>
-          <td>Белавиа</td>
-          <td>Boeing 737</td>
-          <td>Первый полет из Борисполя. Летели на самолете с ливреей «World of Tanks».</td>
-        </tr>
-        <tr>
-          <td>15 февраля</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr class="table__row--noborder">
-          <td>8 февраля</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr class="table__title-row">
-          <td colspan="6">
-            <h2>2015</h2>
-          </td>
-        </tr>
-        <tr>
-          <td>22 августа</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>15 июля</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Одесса</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>YanAir</td>
-          <td>SAAB 340</td>
-          <td>Повторный рейс спустя несколько часов после возвращения в Одессу.</td>
-        </tr>
-        <tr>
-          <td>15 июля</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Одесса</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>YanAir</td>
-          <td>SAAB 340</td>
-          <td>Первый полет на самолете с <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B1%D0%BE%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C">турбовинтовым двигателем</a>. Во время полета один двигатель отказал. Экипаж принял решение вернуться в Одессу. Было страшновато.</td>
-        </tr>
-        <tr>
-          <td>27 мая</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>24 мая</td>
-          <td><span class="page-flights__flag">🇫🇷</span> Париж</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td>Air France</td>
-          <td>Airbus A319</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>20 мая</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td><span class="page-flights__flag">🇫🇷</span> Париж</td>
-          <td>Air France</td>
-          <td>Airbus A319</td>
-          <td></td>
-        </tr>
-        <tr class="table__row--noborder">
-          <td>13 мая</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td>Первый полет с дочкой (в ее 6 месяцев).</td>
-        </tr>
-        <tr class="table__title-row">
-          <td colspan="6">
-            <h2>2013</h2>
-          </td>
-        </tr>
-        <tr>
-          <td>15 октября</td>
-          <td><span class="page-flights__flag">🇷🇺</span> Москва</td>
-          <td><span class="page-flights__flag">🇧🇾</span> Минск</td>
-          <td>Белавиа</td>
-          <td>Boeing 737</td>
-          <td>Первый Боинг.</td>
-        </tr>
-        <tr>
-          <td>15 октября</td>
-          <td><span class="page-flights__flag">🇷🇺</span> Самара</td>
-          <td><span class="page-flights__flag">🇷🇺</span> Москва</td>
-          <td>S7</td>
-          <td>Airbus A319</td>
-          <td>Транзит в Минск.</td>
-        </tr>
-        <tr>
-          <td>18 мая</td>
-          <td><span class="page-flights__flag">🇷🇺</span> Москва</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Днепропетровск</td>
-          <td>Днеправиа</td>
-          <td>Embraer ERJ 145</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>16 мая</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Днепропетровск</td>
-          <td><span class="page-flights__flag">🇷🇺</span> Москва</td>
-          <td>Днеправиа</td>
-          <td>Embraer ERJ 145</td>
-          <td>Первый полет из Днепропетровска. Первый полет не на Аэробусе.</td>
-        </tr>
-        <tr>
-          <td>15 февраля</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr class="table__row--noborder">
-          <td>11 февраля</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td><span class="page-flights__flag">🇭🇺</span> Будапешт</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td>Полет в день свадьбы. Марина летела в свадебном платье!</td>
-        </tr>
-        <tr class="table__title-row">
-          <td colspan="6">
-            <h2>2012</h2>
-          </td>
-        </tr>
-        <tr>
-          <td>8 августа</td>
-          <td><span class="page-flights__flag">🇩🇪</span> Кельн</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>21 июля</td>
-          <td><span class="page-flights__flag">🇵🇱</span> Катовице</td>
-          <td><span class="page-flights__flag">🇩🇪</span> Франкфурт-Хан</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td></td>
-        </tr>
-        <tr class="table__row--noborder">
-          <td>21 июля</td>
-          <td><span class="page-flights__flag">🇺🇦</span> Киев</td>
-          <td><span class="page-flights__flag">🇵🇱</span> Катовице</td>
-          <td>Wizz Air</td>
-          <td>Airbus A320</td>
-          <td>Первый полет в светлое время суток. За окном — красота!</td>
-        </tr>
-        <tr class="table__title-row">
-          <td colspan="6">
-            <h2>2010</h2>
-          </td>
-        </tr>
-        <tr>
-          <td>9 января</td>
-          <td><span class="page-flights__flag">🇷🇺</span> Екатеринбург</td>
-          <td><span class="page-flights__flag">🇷🇺</span> Москва</td>
-          <td style="padding-right: 0;">Уральские авиалинии</td>
-          <!--   ↑ this is perfectionism, baby    -->
-          <!-- (because company name is too long) -->
-          <td>Airbus A320</td>
-          <td>Самый первый полет. Зарегистрировался первым и ухватил себе место в первом ряду у окна.</td>
-        </tr>
       </tbody>
     </table>
   </div>
