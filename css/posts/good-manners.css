@@ -38,7 +38,7 @@ article blockquote p {
 }
 
 article blockquote em {
-  font-family: 'OldStandardItalic', 'Georgia', serif;;
+  font-family: 'OldStandardItalic', 'Georgia', serif;
 }
 
 article blockquote p + p {
@@ -46,8 +46,10 @@ article blockquote p + p {
 }
 
 article blockquote figcaption {
-  font-family: 'PT Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 13px !important;
+  font-family: "FixelText", system-ui, -apple-system, "Segoe UI", Roboto,
+               "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px !important;
   word-spacing: normal;
 }
 
