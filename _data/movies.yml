@@ -1,5 +1,5 @@
 2023:
-- name: "Кот в сапогах 2: Последнее желание"
+- name: "Кіт у чоботях 2: Останнє бажання"
   original_name: "Puss in Boots: The Last Wish"
   released: 2022
   rating: 7
@@ -19,7 +19,7 @@
   released: 2015
   rating: 7
 
-- name: "Того"
+- name: "Тоґо"
   original_name: "Togo"
   released: 2019
   rating: 8
@@ -29,13 +29,13 @@
   released: 2021
   rating: 7
 
-- name: "Зверопой 2"
+- name: "Співай 2"
   original_name: "Sing 2"
   released: 2021
   rating: 9
   favorite: true
 
-- name: "Зверопой"
+- name: "Співай"
   original_name: "Sing"
   released: 2016
   rating: 10
@@ -46,17 +46,17 @@
   released: 2021
   rating: 7
 
-- name: "Небесный замок Лапута"
+- name: "Небесний замок Лапута"
   original_name: "天空の城ラピュタ"
   released: 1986
   rating: 8
 
-- name: "Рыбка Поньо на утёсе"
+- name: "Рибка Поньо на кручі"
   original_name: "崖の上のポニョ"
   released: 2008
   rating: 7
 
-- name: "Дети небес"
+- name: "Діти небес"
   original_name: "بچه‌های آسمان"
   released: 1997
   rating: 8
@@ -72,12 +72,12 @@
   released: 2021
   rating: 8
 
-- name: "Сноволки"
+- name: "Вовча варта"
   original_name: "Wolfwalkers"
   released: 2020
   rating: 7
 
-- name: "Ровно в полдень"
+- name: "Рівно опівдні"
   original_name: "High Noon"
   released: 1952
   rating: 8
@@ -89,12 +89,12 @@
   rating: 9
   favorite: true
 
-- name: "Тролли"
+- name: "Тролі"
   original_name: "Trolls"
   released: 2016
   rating: 8
 
-- name: "Достать ножи"
+- name: "Ножі наголо"
   original_name: "Knives out"
   released: 2019
   rating: 8
@@ -103,20 +103,20 @@
   released: 2018
   rating: 8
 
-- name: "Просто помиловать"
+- name: "Судити по совісті"
   original_name: "Just Mercy"
   released: 2019
   rating: 9
   favorite: true
 
 2019:
-- name: "Ford против Ferrari"
+- name: "Аутсайдери (Форд проти Феррарі)"
   original_name: "Ford v Ferrari"
   released: 2019
   rating: 10
   favorite: true
 
-- name: "Красота по-американски"
+- name: "Краса по-американськи"
   original_name: "American Beauty"
   released: 1999
   rating: 8
@@ -126,44 +126,44 @@
   rating: 9
   favorite: true
 
-- name: "Зеленая книга"
+- name: "Зелена книга"
   original_name: "Green Book"
   released: 2018
   rating: 8
 
-- name: "Остров собак"
+- name: "Острів собак"
   original_name: "Isle of Dogs"
   released: 2018
   rating: 7
 
-- name: "Человек-паук: Через вселенные"
+- name: "Людина-павук: Навколо всесвіту"
   original_name: "Spider-Man: Into the Spider-Verse"
   released: 2018
   rating: 6
 
 2018:
-  - name: "Мэри Поппинс"
+  - name: "Мері Поппінс"
     original_name: "Mary Poppins"
     released: 1964
     rating: 8
 
-  - name: "Богемская рапсодия"
+  - name: "Богемна рапсодія"
     original_name: "Bohemian Rhapsody"
     released: 2018
     rating: 7
 
-  - name: "Спасти мистера Бэнкса"
+  - name: "Порятунок містера Бенкса"
     original_name: "Saving Mr. Banks"
     released: 2013
     rating: 7
 
-  - name: "В поисках Сахарного Человека"
+  - name: "У пошуках Цукрової Людини"
     original_name: "Searching for Sugar Man"
     released: 2012
     favorite: true
     rating: 9
 
-  - name: "Жизнь других"
+  - name: "Життя інших"
     original_name: "Das Leben der Anderen"
     released: 2006
     favorite: true
@@ -173,7 +173,7 @@
     released: "2010–2012"
     rating: 7
 
-  - name: "Кристофер Робин"
+  - name: "Крістофер Робін"
     original_name: "Christopher Robin"
     released: 2018
     rating: 7
@@ -181,20 +181,20 @@
   - name: "The Big Sick"
     released: 2017
 
-  - name: "Приключения Паддингтона 2"
+  - name: "Пригоди Паддінгтона 2"
     original_name: "Paddington 2"
     released: 2017
 
-  - name: "Пока не сыграл в ящик"
+  - name: "Список останніх бажань"
     original_name: "The Bucket List"
     released: 2007
 
 2017:
-  - name: "В лучах солнца"
+  - name: "У променях сонця"
     original_name: "Under the Sun"
     released: 2015
 
-  - name: "Идеальные незнакомцы"
+  - name: "Ідеальні незнайомці"
     original_name: "Perfetti sconosciuti"
     released: 2016
 
@@ -202,7 +202,7 @@
     original_name: "Dunkirk"
     released: 2017
 
-  - name: "Вулкан страстей"
+  - name: "Вулкан пристрастей"
     original_name: "Eyjafjallajökull"
     released: 2013
 
@@ -210,84 +210,84 @@
     original_name: "La La Land"
     released: 2016
 
-  - name: "2 + 1"
+  - name: "2 + 1"
     original_name: "Demain tout commence"
     released: 2016
 
-  - name: "Мечты Дзиро о суши"
+  - name: "Мрії Дзіро про суші"
     original_name: "Jiro Dreams of Sushi"
     released: 2011
     favorite: true
 
 2016:
-  - name: "Прибытие"
+  - name: "Прибуття"
     original_name: "Arrival"
     released: 2016
     favorite: true
 
-  - name: "Чудо на Гудзоне"
+  - name: "Саллі"
     original_name: "Sully"
     released: 2016
     favorite: true
 
-  - name: "Бобро поржаловать"
+  - name: "Лашкаво прошимо"
     original_name: "Bienvenue chez les Ch’tis"
     released: 2008
 
-  - name: "Королевство полной луны"
+  - name: "Королівство повного місяця"
     original_name: "Moonrise Kingdom"
     released: 2012
 
-  - name: "Зверополис"
+  - name: "Зоотрополіс"
     original_name: "Zootopia"
     released: 2016
 
-  - name: "Игра в имитацию"
+  - name: "Гра в імітацію"
     original_name: "The Imitation Game"
     released: 2014
     favorite: true
 
-  - name: "Головоломка"
+  - name: "Думками навиворіт"
     original_name: "Inside Out"
     released: 2015
     favorite: true
 
-  - name: "И грянул шторм"
+  - name: "Зоряний годинник"
     original_name: "The Finest Hours"
-    released: 2015
+    released: 2016
 
-  - name: "Звездные войны: Пробуждение силы"
+  - name: "Зоряні війни: Пробудження сили"
     original_name: "Star Wars: The Force Awakens"
     released: 2015
 
 "2015 и ранее":
-  - name: "Цвет нации"
+  - name: "Цвіт нації"
     released: 2013
     favorite: true
 
-  - name: "Интерстеллар"
+  - name: "Інтерстеллар"
     original_name: "Interstellar"
     released: 2014
     favorite: true
 
-  - name: "Отель «Гранд Будапешт»"
+  - name: "Готель «Гранд Будапешт»"
     original_name: "The Grand Budapest Hotel"
     released: 2014
     favorite: true
 
-  - name: "Лего. Фильм"
+  - name: "Lego Фільм"
     original_name: "The Lego Movie"
     released: 2014
 
-  - name: "Невероятная жизнь Уолтера Митти"
+  - name: "Таємне життя Волтера Мітті"
     original_name: "The Secret Life of Walter Mitty"
     released: 2013
 
-  - name: "Жизнь Пи"
+  - name: "Життя Пі"
     original_name: "Life of Pi"
     released: 2012
 
-  - name: Эта замечательная жизнь
+  - name: "Це дивовижне життя"
     original_name: "It’s a Wonderful Life"
     released: 1946
     favorite: true
@@ -296,18 +296,18 @@
     original_name: "Intouchables"
     released: 2011
 
-  - name: "Король говорит!"
+  - name: "Король говорить!"
     original_name: "The King’s Speech"
     released: 2010
 
-  - name: "Курьер"
+  - name: "Кур’єр"
     released: 1986
 
-  - name: "В диких условиях"
+  - name: "Тепер я йду у дику далечінь"
     original_name: "Into the Wild"
     released: 2007
 
-  - name: "Социальная сеть"
+  - name: "Соціальна мережа"
     original_name: "The Social Network"
     released: 2010
 
@@ -315,32 +315,32 @@
     original_name: "Avatar"
     released: 2009
 
-  - name: "ВАЛЛ·И"
+  - name: "ВОЛЛ·І"
     original_name: "WALL·E"
     released: 2008
 
-  - name: "Трасса 60"
+  - name: "Траса 60"
     original_name: "Interstate 60"
     released: 2001
 
-  - name: "Назад в будущее 3"
+  - name: "Назад у майбутнє 3"
     original_name: "Back to the Future 3"
     released: 1990
 
-  - name: "Назад в будущее 2"
+  - name: "Назад у майбутнє 2"
     original_name: "Back to the Future 2"
     released: 1989
 
-  - name: "Назад в будущее"
+  - name: "Назад у майбутнє"
     original_name: "Back to the Future"
     released: 1985
     favorite: true
 
-  - name: "Антенна"
+  - name: "Антена"
     original_name: "La Antena"
     released: 2007
 
-  - name: "Амели"
+  - name: "Амелі"
     original_name: "Le Fabuleux Destin d’Amélie Poulain"
     released: 2001
     favorite: true
