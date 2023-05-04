@@ -18,6 +18,14 @@
   @media (--medium-screen) {
     border-bottom: none;
   }
+
+  &--has-banner {
+    top: 65px;
+
+    @media (--medium-screen) {
+      top: 50px;
+    }
+  }
 }
 
 .header--dark {
@@ -161,4 +169,26 @@
 .header__separator {
   color: #ddd;
   padding: 0 0.2em;
+}
+
+.header-warning {
+  background-color: var(--warning-bgcolor);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 65px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 0.7em;
+  line-height: 1.25;
+  font-weight: 500;
+
+  .container {
+    max-width: var(--container-full-width) !important;
+  }
+
+  @media (--medium-screen) {
+    height: 50px;
+    font-size: 0.8em;
+  }
 }

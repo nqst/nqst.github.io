@@ -193,7 +193,7 @@ figure.highlight {
 }
 
 .language-note {
-  background-color: #ffeb7b;
+  background-color: var(--warning-bgcolor);
   color: #342810;
   margin: 4em 0;
   padding: 1em 0;

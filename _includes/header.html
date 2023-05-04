@@ -47,7 +47,18 @@
 
 <body>
 
-<header class="header{% if page.class contains 'page-dark' or page.class contains 'has-dark-header' %} header--dark{% endif %}" role="banner">
+{% assign has_banner = false %}
+
+{% if page.permalink contains "/projects/" %}
+{% assign has_banner = true %}
+  <div class="header-warning">
+    <div class="container container--wide">
+      ⚠️ Розділ «Проєкти» трошки застарів. Не оновлював його з 2017 року і поки що не переклав українською мовою.
+    </div>
+  </div>
+{% endif %}
+
+<header class="header{% if page.class contains 'page-dark' or page.class contains 'has-dark-header' %} header--dark{% endif %}{% if has_banner == true %} header--has-banner{% endif %}" role="banner">
   <div class="header__container container container--wide">
     {% if page.url == '/' %}
     <h1 class="header__title">Олександр Зайцев</h1>
