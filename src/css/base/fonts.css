@@ -1,0 +1,40 @@
+/*
+ * Fonts
+ * =====
+ *
+ */
+
+@font-face {
+  font-family: 'FixelText';
+  font-weight: 400;
+  src: url('/fonts/FixelText-Regular.woff2') format('woff2'),
+       url('/fonts/FixelText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FixelText';
+  font-weight: 500;
+  src: url('/fonts/FixelText-Medium.woff2') format('woff2'),
+       url('/fonts/FixelText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FixelText';
+  font-weight: 600;
+  src: url('/fonts/FixelText-SemiBold.woff2') format('woff2'),
+       url('/fonts/FixelText-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FixelText';
+  font-weight: 700;
+  src: url('/fonts/FixelText-Bold.woff2') format('woff2'),
+       url('/fonts/FixelText-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FixelText';
+  font-weight: 800;
+  src: url('/fonts/FixelText-ExtraBold.woff2') format('woff2'),
+       url('/fonts/FixelText-ExtraBold.ttf') format('truetype');
+}

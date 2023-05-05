@@ -8,7 +8,7 @@
   margin-top: 30px;
   margin-bottom: 0;
   text-align: center;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
 
   @media (--medium-screen) {
     margin-top: 50px;
@@ -34,6 +34,10 @@
   &:hover,
   &:focus {
     transition: border-color 0.025s ease-in-out;
+  }
+
+  &:focus {
+    outline: none;
   }
 }
 

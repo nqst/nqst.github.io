@@ -21,31 +21,17 @@
   }
 }
 
-.post__header {
-  max-width: 1000px;
-
-  @media (--medium-screen) {
-    margin: 0 auto 1.25rem;
-    text-align: center;
-
-    .posts-list & {
-      max-width: none;
-      text-align: left;
-      margin: 0;
-    }
-  }
-}
-
 .post__header--wide {
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .post__date {
   margin: 0;
   color: #838e96;
   font-size: 0.8rem;
-  font-family: var(--font-secondary);
-  margin-bottom: 0.5em;
+  /* font-family: var(--font-secondary); */
+  margin-bottom: 0.25em;
 }
 
 
@@ -131,7 +117,7 @@ article figcaption {
   display: block;
   margin-top: 0.2em;
   margin-bottom: var(--baseline);
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
   line-height: 1.5;
   font-size: 0.7rem;
   color: #606264;
@@ -300,7 +286,7 @@ figure.figure--wide,
   &__link {
     font-size: 0.7rem;
     font-weight: 500;
-    font-family: var(--font-secondary);
+    /* font-family: var(--font-secondary); */
     display: inline-block;
     /* border: 1px solid color(var(--link-color) l(+30%) s(-30%)); */
     border: 1px solid #e3e5e7;

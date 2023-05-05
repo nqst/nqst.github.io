@@ -90,7 +90,7 @@ medium_width: true
     ];
 
     $('.js-range-comment').text(comments[0]);
-    
+
 
     $('.js-slide').load(function(){
 

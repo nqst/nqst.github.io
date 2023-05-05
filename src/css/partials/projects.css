@@ -31,7 +31,7 @@
 
 .hero__description {
   margin-top: 0.6rem;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
   color: var(--text-muted);
   font-size: 0.8rem;
   line-height: 1.5;
@@ -48,7 +48,7 @@
 }
 
 .hero__link {
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
   font-size: 0.8rem;
   font-weight: 500;
 
@@ -288,7 +288,7 @@
   margin-top: 20px;
   /* left: 0; */
   padding: 0 30px;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
   color: #fff;
 
   max-width: 460px;

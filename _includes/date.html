@@ -7,7 +7,7 @@
 {% endcapture %}
 
 {% capture month_and_year %}
-  {{ include.post-date | date: "%B %Y" | replace:"January","января" | replace:"February","февраля" | replace:"March","марта" | replace:"April","апреля" | replace:"May","мая" | replace:"June","июня" | replace:"July","июля" | replace:"August","августа" | replace:"September","сентября" | replace:"October","октября" | replace:"November", "ноября" | replace:"December","декабря" }}
+  {{ include.post-date | date: "%B %Y" | replace:"January","січня" | replace:"February","лютого" | replace:"March","березня" | replace:"April","квітня" | replace:"May","травня" | replace:"June","червня" | replace:"July","липня" | replace:"August","серпня" | replace:"September","вересня" | replace:"October","жовтня" | replace:"November", "листопада" | replace:"December","грудня" }}
 {% endcapture %}
 
 <p class="post__date">

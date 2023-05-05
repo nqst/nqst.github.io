@@ -11,10 +11,10 @@
   overflow: hidden;
   background-color: #fff;
   font-size: 0.9rem;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
 
   @media (--medium-screen) {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 

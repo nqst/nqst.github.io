@@ -35,19 +35,19 @@ body {
   padding-left: 18px;
   margin: 0 auto;
   max-width: 800px;
-  
+
   @media (--medium-screen) {
     padding: 0 30px;
   }
 
   @media (--large-screen) {
     max-width: 800px;
-    padding-right: 75px;
-    padding-left: 75px;
+    padding-right: 70px;
+    padding-left: 70px;
   }
 
   @media (--x-large-screen) {
-    max-width: 900px;
+    max-width: 860px;
     padding-right: 100px;
     padding-left: 100px;
   }
@@ -73,7 +73,7 @@ body {
 
   &--medium {
     max-width: var(--container-medium-width) !important;
-    
+
     @media (--medium-screen) {
       line-height: calc(var(--baseline) * 1.03125);
       padding: 0 var(--container-medium-side-padding) !important;

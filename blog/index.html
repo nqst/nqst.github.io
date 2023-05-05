@@ -1,63 +1,40 @@
 ---
 layout: default
-title: Александр Зайцев — Блог
+title: Олександр Зайцев — Блог
 ogtype: website
 ---
 
 <main class="main posts-list">
-  <div class="container container--medium">
+  <div class="container">
+    {% assign language_note = false %}
+
     {% for post in paginator.posts %}
+      {% assign post_date = post.date | date: "%Y-%m-%d" %}
 
-      <article class="post">
+      {% if post_date >= "2023-04-30" %}
+        {% include post-layout.html %}
 
-        {% if post.layout != 'quote' %}
-          <header class="post__header">
-            {% include date.html post-date=post.date %}
-            <h2 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          </header>
+      {% else %}
+        {% if language_note == false %}
+          {% comment %}Close .container so .language-note can take the full screen width{% endcomment %}
+          </div>
+
+          <section class="language-note">
+            <div class="container">
+              <p>Починаючи з травня 2023 року веду блог українською мовою. Нижче — старі пости, на російській мові.</p>
+            </div>
+          </section>
+
+          {% comment %}Open .language-note again{% endcomment %}
+          <div class="container">
+
+          {% assign language_note = true %}
         {% endif %}
 
-        <section class="post__content">
-        {% if post.layout == 'post' or post.layout == 'interview' %}
-
-            {% if post.introimg and post.layout != 'interview' %}
-              <figure class="intro-image">
-                <a href="{{ post.url }}"><img src="/i/blog{{ post.url | remove_first:'/blog' }}{{ post.introimg }}" alt="{% if post.alt %}{{ post.alt }}{% else %}{{ post.title }}{% endif %}"></a>
-              </figure>
-            {% endif %}
-
-            {% if post.content contains '<!-- more -->' %}
-              {{ post.content | split:'<!-- more -->' | first | markdownify }}
-              <div class="read-more">
-                <a class="read-more__link" href="{{ post.url }}">Читать дальше ›</a>
-              </div>
-            {% elsif post.content contains '<!-- more-enlarge -->' %}
-              {{ post.content | split:'<!-- more-enlarge -->' | first | markdownify }}
-              <div class="read-more">
-                <a class="read-more__link" href="{{ post.url }}">Посмотреть поближе ›</a>
-              </div>
-            {% else %}
-              {{ post.content | markdownify }}
-            {% endif %}
-
-          {% elsif post.layout == 'quote' %}
-            <blockquote class="post-quote"><a class="post-quote__link" href="{{ post.url }}">{{ post.content }}</a></blockquote>
-
-            {% if post.author and post.author-link == null %}
-              <p class="post-quote__author"><cite>— {{ post.author }}</cite></p>
-            {% elsif post.author and post.author-link %}
-              <p class="post-quote__author"><cite>— <a href="{{ post.author-link }}">{{ post.author }}</a></cite></p>
-            {% endif %}
-
-          {% endif %}
-
-        </section>
-
-      </article>
+        {% include post-layout.html %}
+      {% endif %}
     {% endfor %}
-
   </div>
-
 </main>
 
 {% comment %}
@@ -66,12 +43,12 @@ ogtype: website
 
 <div class="paginator clearfix">
   {% if paginator.next_page %}
-    <a class="paginator__link paginator__prev{% if paginator.page == 1 %} paginator__link--wide{% endif %}" href="/blog/page{{ paginator.next_page }}">Ранее</a>
+    <a class="paginator__link paginator__prev{% if paginator.page == 1 %} paginator__link--wide{% endif %}" href="/blog/page{{ paginator.next_page }}">Раніше</a>
   {% endif %}
 
   {% if paginator.page == 2 %}
-    <a class="paginator__link paginator__next" href="/">Позднее</a>
+    <a class="paginator__link paginator__next" href="/">Пізніше</a>
   {% elsif paginator.page > 2 %}
-    <a class="paginator__link paginator__next{% unless paginator.next_page %} paginator__link--wide{% endunless %}" href="/blog/page{{ paginator.previous_page }}">Позднее</a>
+    <a class="paginator__link paginator__next{% unless paginator.next_page %} paginator__link--wide{% endunless %}" href="/blog/page{{ paginator.previous_page }}">Пізніше</a>
   {% endif %}
 </div>
