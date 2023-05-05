@@ -41,7 +41,8 @@
     color: var(--text-muted);
     font-size: 0.6rem;
     text-transform: uppercase;
-    letter-spacing: 0.005em;
+    letter-spacing: 0.025em;
+    font-weight: 500;
     border-top: none;
     border-bottom: 1px solid #eee;
   }
