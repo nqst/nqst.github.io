@@ -103,7 +103,6 @@
   font-size: 1em;
   font-weight: bold;
   line-height: inherit;
-  letter-spacing: -0.004em;
   white-space: nowrap;
   color: var(--text-darker);
 }
