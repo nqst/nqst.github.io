@@ -11,11 +11,13 @@
   favorite: true
 
 2022:
-- name: "Bad Boys"
+- name: "Погані хлопці"
+  original_name: "Bad Boys"
   released: 1995
   rating: 8
 
-- name: "Hamilton"
+- name: "Гамільтон"
+  original_name: "Hamilton"
   released: 2015
   rating: 7
 
@@ -25,7 +27,8 @@
   rating: 8
   favorite: true
 
-- name: "Don’t Look Up"
+- name: "Не дивіться вгору"
+  original_name: "Don’t Look Up"
   released: 2021
   rating: 7
 
@@ -42,7 +45,8 @@
   favorite: true
 
 2021:
-- name: "The French Dispatch"
+- name: "Французький вісник"
+  original_name: "The French Dispatch"
   released: 2021
   rating: 7
 
@@ -121,7 +125,8 @@
   released: 1999
   rating: 8
 
-- name: "About Time"
+- name: "Коханий з майбутнього"
+  original_name: "About Time"
   released: 2013
   rating: 9
   favorite: true
