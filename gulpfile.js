@@ -1,19 +1,19 @@
-var gulp            = require('gulp');
-var postcss         = require('gulp-postcss');
-var touch           = require('gulp-touch-cmd');
-var atImport        = require('postcss-import');
-var cssnext         = require('postcss-cssnext');
-var nano            = require('cssnano');
-var mqpacker        = require('css-mqpacker');
-var nested          = require('postcss-nested');
-var colorAlpha      = require('postcss-color-alpha');
-var reporter        = require('postcss-reporter');
-var stylelint       = require('stylelint');
-var typograf        = require('gulp-typograf');
-var browserSync     = require('browser-sync').create();
-var child           = require('child_process');
-var beeper          = require('beeper');
-var log             = require('fancy-log');
+var gulp               = require('gulp');
+var postcss            = require('gulp-postcss');
+var touch              = require('gulp-touch-cmd');
+var atImport           = require('postcss-import');
+var postcssPresetEnv   = require('postcss-preset-env');
+var nano               = require('cssnano');
+var cssVariables       = require('postcss-css-variables');
+// var mqpacker           = require('node-css-mqpacker');
+var nested             = require('postcss-nested');
+var reporter           = require('postcss-reporter');
+var stylelint          = require('stylelint');
+var typograf           = require('gulp-typograf');
+var browserSync        = require('browser-sync').create();
+var child              = require('child_process');
+var beeper             = require('beeper');
+var log                = require('fancy-log');
 
 var siteRoot = '_site';
 var cssFiles = 'src/css/**/*.css';
@@ -28,15 +28,16 @@ function handleError(err) {
 
 var processors = [
   atImport,
-  cssnext({
-    browsers: ['last 2 versions'],
+  postcssPresetEnv({
+    browsers: ['last 2 versions', '> 1%'],
     features: {
-      nesting: false
-    }
+      'nesting-rules': false
+    },
+    stage: 2,
   }),
+  cssVariables,
   nested,
-  colorAlpha,
-  mqpacker,
+  // mqpacker,
   stylelint,
   nano({
     safe: true,

@@ -74,7 +74,7 @@
 .countries__details {
   display: block;
   line-height: 1.4;
-  /* color: var(--text-muted); */
+  color: var(--text-muted);
   font-size: 0.9em;
   max-width: 39em;
 }
@@ -88,16 +88,6 @@
   font-size: 0.9em;
   line-height: 1.5625;
 }
-
-/* .movies__details > a {
-  color: var(--text-muted);
-  border-bottom: 1px solid color(var(--text-muted) a(20%));
-
-  &:hover {
-    color: var(--link-hover-color);
-    border-bottom-color: color(var(--link-hover-color) a(20%));
-  }
-} */
 
 .movies__rating {
   font-size: 0.9em;
