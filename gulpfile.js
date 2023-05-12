@@ -8,6 +8,7 @@ var postcssCustomMedia = require('postcss-custom-media');
 var nano               = require('cssnano');
 var cssVariables       = require('postcss-css-variables');
 // var mqpacker           = require('node-css-mqpacker');
+var sortMediaQueries   = require('postcss-sort-media-queries');
 var nested             = require('postcss-nested');
 var reporter           = require('postcss-reporter');
 var stylelint          = require('stylelint');
@@ -41,6 +42,7 @@ var processors = [
   //   },
   // }),
   // mqpacker,
+  sortMediaQueries,
   autoprefixer,
   stylelint,
   // nano({
