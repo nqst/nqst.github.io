@@ -45,14 +45,14 @@ var processors = [
   sortMediaQueries,
   autoprefixer,
   stylelint,
-  // nano({
-  //   safe: true,
-  //   autoprefixer: false,
-  //   normalizeUrl: false,
-  //   discardComments: {
-  //     removeAll: true
-  //   }
-  // }),
+  nano({
+    safe: true,
+    autoprefixer: false,
+    normalizeUrl: false,
+    discardComments: {
+      removeAll: true
+    }
+  }),
   reporter({
     clearReportedMessages: true
   })
