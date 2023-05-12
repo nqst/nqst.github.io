@@ -123,42 +123,10 @@ article figcaption {
   color: #606264;
 }
 
-figure.figure--wide,
-.two-columns--wide,
-.three-columns--wide {
-  @media (--large-screen) {
-    width: 980px;
-    margin-bottom: calc(var(--baseline) * 1.5);
-    margin-left: calc((980px - 800px + 150px) / -2); /* 740 is container max-width in --large-screen. @todo - put into variable */
-    text-align: center;
-
-    .container--medium & {
-      margin-left: calc((980px - var(--container-medium-width) + var(--container-medium-side-padding) * 2) / -2);
-    }
-  }
-
-  @media (--x-large-screen) {
-    width: 1100px;
-    margin-left: calc((1100px - 900px + 200px) / -2); /* 840 is container max-width in --x-large-screen. @todo - put into variable */
-
-    .container--medium & {
-      margin-left: calc((1100px - var(--container-medium-width) + var(--container-medium-side-padding) * 2) / -2);
-    }
-  }
-
-  .posts-list & {
-    margin-left: 0 !important;
-    width: auto !important;
-  }
-
-  figcaption {
-    max-width: none;
-  }
-}
-
 .two-columns,
 .three-columns {
-  margin: var(--baseline) 0;
+  margin-top: var(--baseline);
+  margin-bottom: var(--baseline);
 
   @media (--medium-screen) {
     display: flex;
@@ -197,7 +165,38 @@ figure.figure--wide,
   }
 }
 
+figure.figure--wide,
+.two-columns--wide,
+.three-columns--wide {
+  @media (--large-screen) {
+    width: 980px;
+    margin-bottom: calc(var(--baseline) * 1.5);
+    margin-left: calc((980px - 800px + 150px) / -2); /* 740 is container max-width in --large-screen. @todo - put into variable */
+    text-align: center;
 
+    .container--medium & {
+      margin-left: calc((980px - var(--container-medium-width) + var(--container-medium-side-padding) * 2) / -2);
+    }
+  }
+
+  @media (--x-large-screen) {
+    width: 1100px;
+    margin-left: calc((1100px - 900px + 200px) / -2); /* 840 is container max-width in --x-large-screen. @todo - put into variable */
+
+    .container--medium & {
+      margin-left: calc((1100px - var(--container-medium-width) + var(--container-medium-side-padding) * 2) / -2);
+    }
+  }
+
+  .posts-list & {
+    margin-left: 0 !important;
+    width: auto !important;
+  }
+
+  figcaption {
+    max-width: none;
+  }
+}
 
 .post__credits {
   font-size: 0.888rem;

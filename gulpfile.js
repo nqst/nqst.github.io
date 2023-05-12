@@ -28,15 +28,15 @@ function handleError(err) {
 
 var processors = [
   atImport,
+  cssVariables,
+  nested,
   postcssPresetEnv({
     browsers: ['last 2 versions', '> 1%'],
     features: {
       'nesting-rules': false
     },
-    stage: 2,
+    // stage: 2,
   }),
-  cssVariables,
-  nested,
   // mqpacker,
   stylelint,
   nano({
