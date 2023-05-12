@@ -1,6 +1,7 @@
 var gulp               = require('gulp');
 var postcss            = require('gulp-postcss');
 var touch              = require('gulp-touch-cmd');
+var autoprefixer       = require('autoprefixer');
 var atImport           = require('postcss-import');
 var postcssPresetEnv   = require('postcss-preset-env');
 var postcssCustomMedia = require('postcss-custom-media');
@@ -40,6 +41,7 @@ var processors = [
   //   },
   // }),
   // mqpacker,
+  autoprefixer,
   stylelint,
   // nano({
   //   safe: true,
