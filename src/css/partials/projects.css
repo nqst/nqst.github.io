@@ -605,7 +605,7 @@
   border-radius: 3px;
 }
 
-@media (width >= 500px) {
+@media screen and (min-width: 500px) {
   .plyr {
     border-radius: 6px;
   }

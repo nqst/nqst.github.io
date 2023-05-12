@@ -4,9 +4,9 @@
  *
  */
 
-@custom-media --x-large-screen (width >= 1200px);
-@custom-media --large-screen   (width >= 1000px);
-@custom-media --medium-screen  (width >=  600px);
+@custom-media --x-large-screen (min-width: 1200px);
+@custom-media --large-screen   (min-width: 1000px);
+@custom-media --medium-screen  (min-width: 600px);
 
 :root {
   --baseline:                        1.45rem;

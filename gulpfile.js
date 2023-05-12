@@ -3,6 +3,7 @@ var postcss            = require('gulp-postcss');
 var touch              = require('gulp-touch-cmd');
 var atImport           = require('postcss-import');
 var postcssPresetEnv   = require('postcss-preset-env');
+var postcssCustomMedia = require('postcss-custom-media');
 var nano               = require('cssnano');
 var cssVariables       = require('postcss-css-variables');
 // var mqpacker           = require('node-css-mqpacker');
@@ -29,14 +30,15 @@ function handleError(err) {
 var processors = [
   atImport,
   cssVariables,
+  postcssCustomMedia,
   nested,
-  postcssPresetEnv({
-    browsers: ['last 2 versions', '> 1%'],
-    features: {
-      'nesting-rules': false
-    },
-    // stage: 2,
-  }),
+  // postcssPresetEnv({
+  //   browsers: ['last 2 versions', '> 1%'],
+  //   minimumVendorImplementations: 2,
+  //   features: {
+  //     'nesting-rules': false
+  //   },
+  // }),
   // mqpacker,
   stylelint,
   // nano({
