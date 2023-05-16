@@ -41,7 +41,7 @@
   }
 
   &:hover {
-    background-color: rgba(var(--link-color), 0.03));
+    background-color: var(--highlight-color);
     color: var(--link-color);
   }
 }

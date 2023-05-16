@@ -218,12 +218,12 @@ figure.highlight {
   }
 
   li code, p code {
-    background-color: rgba(#fff, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
   }
 
   ul>li::before {
-    color: rgba(#fff, 0.5);
+    color: rgba(255, 255, 255, 0.5);
   }
 
   h2,

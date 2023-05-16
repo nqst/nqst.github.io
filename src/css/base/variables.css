@@ -4,9 +4,9 @@
  *
  */
 
-@custom-media --x-large-screen (width >= 1200px);
-@custom-media --large-screen   (width >= 1000px);
-@custom-media --medium-screen  (width >=  600px);
+@custom-media --x-large-screen (min-width: 1200px);
+@custom-media --large-screen   (min-width: 1000px);
+@custom-media --medium-screen  (min-width: 600px);
 
 :root {
   --baseline:                        1.45rem;
@@ -25,12 +25,12 @@
   --font-monospace:                  "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
 
   --text-color:                      #242629;
-  --text-darker:                     color(var(--text-color) l(-10%));
-  --text-muted:                      color(var(--text-color) a(60%));
+  --text-darker:                     #1D1E21;
+  --text-muted:                      #6E7073;
   --link-color:                      #077bd1;
   --link-hover-color:                #c33134;
 
-  --highlight-color:                 #f5f7f9;
+  --highlight-color:                 #f5f9fc;
   --warning-bgcolor:                 #ffeb7b;
 
   --facebook-color:                  #3b5998;
