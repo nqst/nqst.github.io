@@ -15,20 +15,20 @@ class: 'page-bucket-list'
       {% assign done = data.done %}
       {% assign todo = data.todo %}
 
-      <h2>✅ Вже зробив</h2>
-      <ul class="bucket-list bulleted-list">
-        {% for item in done %}
+      <h2>Хочу зробити</h2>
+      <ul class="bucket-list">
+        {% for item in todo %}
           <li class="bucket-list__item">
-            {{ item | markdownify | remove: "<p>" | remove: "</p>" }}
+            <span>{{ item | liquify | markdownify | remove: "<p>" | remove: "</p>" }}</span>
           </li>
         {% endfor %}
       </ul>
 
-      <h2>🗒️ Хочу зробити</h2>
-      <ul class="bucket-list bulleted-list">
-        {% for item in todo %}
-          <li class="bucket-list__item">
-            {{ item | markdownify | remove: "<p>" | remove: "</p>" }}
+      <h2>Вже зробив</h2>
+      <ul class="bucket-list">
+        {% for item in done %}
+          <li class="bucket-list__item bucket-list__item--done">
+            <span>{{ item | liquify | markdownify | remove: "<p>" | remove: "</p>" }}</span>
           </li>
         {% endfor %}
       </ul>

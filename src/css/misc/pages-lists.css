@@ -113,16 +113,42 @@
   }
 }
 
-
-.table--flights {
-  th,
-  td {
-    /* max-width: 300px; */
-  }
-}
-
 .page-flights__flag {
   position: relative;
   top: 0.08em;
   margin-right: -0.1em;
+}
+
+.bucket-list__item {
+  font-weight: 400;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 3px;
+    margin-right: 0.5em;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    margin-top: 0.15em;
+  }
+
+  span {
+    display: inline-block;
+    flex: 1;
+  }
+}
+
+.bucket-list__item--done {
+  color: #198120;
+
+  &::before {
+    background: #f2fff7 url('../i/checkmark.svg') no-repeat 50% 50%;
+    background-size: 65%;
+    border-color: #1d8424;
+  }
 }
