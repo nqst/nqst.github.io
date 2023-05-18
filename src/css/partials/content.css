@@ -37,12 +37,17 @@
 
 article img,
 article iframe {
-  border-radius: 4px;
+  border-radius: 7px;
 }
 
 figure,
 .embed {
   margin: var(--baseline) 0;
+}
+
+.figure--compact,
+.embed--compact {
+  margin: 1rem 0;
 }
 
 .intro-image {
@@ -62,7 +67,7 @@ figure,
     max-width: 100%;
     margin: 0 auto;
     height: auto;
-    border-radius: 4px;
+    border-radius: 7px;
   }
 
   &--full img {
@@ -109,7 +114,8 @@ figure,
 
 }
 
-article img {
+article img,
+article video {
   max-width: 100%;
 }
 
