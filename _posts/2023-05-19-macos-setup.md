@@ -22,7 +22,7 @@ plyr: true
 Далі йду у System Settings:
 
 ### Desktop & Dock
-- **Вмикнув автоматичне приховування доку:** Automatically show and hide dock.
+- **Увімкнув автоматичне приховування доку:** Automatically show and hide dock.
 - **Вимкнув автоматичне відображення зайвих програм:** Show recent applications in Dock.
 - **Налаштував активні кути** (вікно Hot corners):
 	<figure class="figure--compact">
