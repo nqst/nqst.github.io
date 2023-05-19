@@ -177,16 +177,16 @@ div.highlight {
   margin: calc(var(--baseline) * 1.25) 0;
   padding: 20px 18px;
   color: #373e51;
-  border-radius: 7px;
+  border-radius: 8px;
 
   @media (--medium-screen) {
-    padding: 15px 25px;
+    padding: 18px 25px 15px;
   }
 
   @media (--large-screen) {
     margin-right: -35px;
     margin-left: -35px;
-    padding: 20px 35px;
+    padding: 24px 35px 20px;
   }
 }
 
@@ -201,7 +201,8 @@ div.highlight {
   }
 
   h2:first-child,
-  h3:first-child {
+  h3:first-child,
+  h4:first-child {
     margin-top: 0;
   }
 }
