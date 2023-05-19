@@ -114,7 +114,7 @@ brew install raycast google-chrome firefox github iterm2 visual-studio-code sket
 Одна команда встановлює всі програми, і вони готові до використання. Магія ✨
 
 Хочеться відзначити декілька програм з цього списку:
-- **[Raycast](https://www.raycast.com)** — найкраща заміна Spotlight. Красивий, швидкий, гнучкий інструмент, який має дуже багато корисних фіч. Ось, наприклад, словник:
+- **[Raycast](https://www.raycast.com)** — найкраща заміна Spotlight. Красивий, швидкий і гнучкий інструмент, який має дуже багато корисних фіч. Ось, наприклад, словник:
 	<figure>
 		<video class="js-player" data-plyr-config= '{"controls": ["play-large", "play", "progress", "current-time"]}' autoplay controls loop>
 		  <source src="/i/blog/macos-setup/dictionary.mp4" type="video/mp4" />
