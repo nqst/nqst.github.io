@@ -154,7 +154,7 @@ brew install raycast google-chrome firefox github iterm2 visual-studio-code sket
 
 Далі встановлюю ще дві програми з офіціальних сайтів:
 
-- **[CleanShot X](https://cleanshot.com)** — найкращий на мою думку інструмент для знімків екрану. Платний ($29), але вартий того.
+- **[CleanShot X](https://cleanshot.com)** — найкращий на мою думку інструмент для знімків екрану. Платний ($29), але вартий своїх грошей.
 - **[HandMirror](https://handmirror.app)** — безкоштовна утіліта для того, щоб у один клік подивитись на себе у дзеркало перед дзвінком. Це зручніше, ніж відкривати Photo Booth.
 
 <figure class="figure--compact">
