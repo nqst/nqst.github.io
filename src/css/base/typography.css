@@ -194,7 +194,9 @@ div.highlight {
   background-color: #fcf9f5;
 
   figure.highlight,
-  div.highlight {
+  div.highlight,
+  p > code,
+  li > code {
     background-color: #f0e9e3;
   }
 
