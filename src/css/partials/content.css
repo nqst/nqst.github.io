@@ -121,7 +121,7 @@ article video {
 
 article figcaption {
   display: block;
-  margin-top: 0.2em;
+  margin-top: 0.5em;
   margin-bottom: var(--baseline);
   /* font-family: var(--font-secondary); */
   line-height: 1.5;
