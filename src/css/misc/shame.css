@@ -1,0 +1,15 @@
+/*
+ * Shame.css™
+ * ==========
+ *
+ */
+
+
+/* for macos-setup post */
+.globe-icon {
+  position: relative;
+  width: auto;
+  height: 1em;
+  vertical-align: text-bottom;
+  top: -0.1em;
+}
