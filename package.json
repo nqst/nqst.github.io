@@ -32,7 +32,7 @@
     "postcss-import": "^15.1.0",
     "postcss-nested": "^6.0.1",
     "postcss-preset-env": "^8.3.2",
-    "postcss-reporter": "^6.0.1",
+    "postcss-reporter": "^7.0.5",
     "postcss-simple-vars": "^7.0.1",
     "postcss-sort-media-queries": "^5.1.0",
     "stylelint": "^14"
