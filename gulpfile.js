@@ -3,7 +3,6 @@ var postcss            = require('gulp-postcss');
 var touch              = require('gulp-touch-cmd');
 var autoprefixer       = require('autoprefixer');
 var atImport           = require('postcss-import');
-var postcssPresetEnv   = require('postcss-preset-env');
 var postcssCustomMedia = require('postcss-custom-media');
 var nano               = require('cssnano');
 var cssVariables       = require('postcss-css-variables');
