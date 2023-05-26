@@ -28,17 +28,28 @@ plyr: true
 	<figure class="figure--compact">
 	  <img src="/i/blog/macos-setup/corners@2x.png" alt="Налаштування">
 	</figure>
-	
+
   Активні кути — одна з моїх найулюбленіших можливостей macOS ще з часів знайомства з цією системою. Постійно користуюся і дуже ціную зручність, яку надає ця фіча.
-  
+
 ### Lock Screen
 - **Налаштував блокування екрану після старту заставки:** Require password after screen saver begins or display is turned off › After 5 seconds.
-  
+
   Коли я збираюся відійти від компʼютера, завжди тягну курсор у лівий верхній кут екрану, щоб увімкнути заставку. Через 5 секунд після цього ноутбук буде заблоковано, і сторонні люди не зможуть його розблокувати. Вважаю цю опцію дуже важливою.
 
 ### Keyboard
 - Ставлю максимальні значення **Key repeat rate** і **Delay until repeat** (Fast і Short відповідно). Це корисні опції для того, щоб видаляти фрагменти тексту клавіатурою та рухатися по ньому клавішами-стрілочками без неприємної затримки.
-- **Налаштовую швидкий доступ до емодзі:** Press <img src="/i/blog/macos-setup/globe.png" class="globe-icon"> key to › Show Emoji & Symbols. Експериментую, поки норм. До цього використовував стандартний шорткат `⌘⌃Пробіл`. 
+- **Налаштовую швидкий доступ до емодзі:** Press <img src="/i/blog/macos-setup/globe.png" class="globe-icon"> key to › Show Emoji & Symbols. Експериментую, поки норм. До цього використовував стандартний шорткат `⌘⌃Пробіл`.
+
+<div class="serious-thing" markdown="1">
+  **UPD:** Ще одне важливе налаштування: **Keyboard Navigation.** Увімкнене, воно зробить користування диалоговими вікнами набагато зручнішим.
+
+  Без цього налаштування не вийде «натиснути» **Donʼt Save** з клавіатури. А з ним — достатньо натиснути `Пробіл`. Також, <code>Tab</code> зможе переміщувати фокус на інші елементи діалогового вікна:
+
+  <figure style="margin-bottom: 0;">
+    <img src="/i/blog/macos-setup/dialogs.png" alt="Різні ділогові вікна">
+    <figcaption hidden>Зручно, що на всі три кнопки є своя клавіша. `Enter` збереже документ, `Пробіл` не буде зберігати, а `Esc` закриє діалогове вікно.</figcaption>
+  </figure>
+</div>
 
 #### Input sources
 - **Налаштовую перемикання розкладки по Caps Lock:** Use the Caps Lock key to switch to and from ABC. Зручна фіча, щоб перемикати мову однією клавішею. На жаль, іноді не спрацьовує і трохи глючить.
@@ -52,10 +63,10 @@ plyr: true
 <!-- ### Sharing: - Set Local hostname -->
 
 ## Dock
-- **Видалив із доку більшість стандартних застосунків.** Залишив Finder, Safari і Календар.
+- **Видалив із доку більшість стандартних застосунків.** Залишив Finder, Safari і Календар.
 - **Переніс у док папку Desktop** і помістив її поруч із Downloads. Задав налаштування у контекстному меню: Sort by › Date added та View content as › Fan. Це такі ж самі налаштування, які система використовує для папки Downloads — для того, щоб при розкритті папки свіжі файли були поруч з курсором.
-- Відкриваю термінал і роблю так, щоб док приховувався і зʼявлявся швидше та без затримки:
-  
+- Відкриваю термінал і роблю так, щоб док приховувався і зʼявлявся швидше та без затримки:
+
   ```bash
   defaults write com.apple.dock autohide-delay -int 0
   defaults write com.apple.dock autohide-time-modifier -float 0.4
@@ -84,7 +95,7 @@ plyr: true
 ### App Store
 
 Встановлюю всього 4 програми:
-- **[Things](https://culturedcode.com/things/)** — для ведення справ. 
+- **[Things](https://culturedcode.com/things/)** — для ведення справ.
 - **[iA Writer](https://ia.net/writer)** — улюблений текстовий редактор.
 - **[Reeder 5](https://reederapp.com)** — для читання RSS.
 - **[Tomato 2](https://tomato2.app)** — таймер для усвідомленої роботи.
@@ -115,7 +126,7 @@ brew install raycast google-chrome firefox github iterm2 visual-studio-code sket
 Одна команда встановлює всі програми, і вони готові до використання. Магія ✨
 
 Хочеться відзначити декілька програм з цього списку:
-- **[Raycast](https://www.raycast.com)** — найкраща заміна Spotlight. Красивий, швидкий і гнучкий інструмент, який має дуже багато корисних фіч. Ось, наприклад, словник:
+- **[Raycast](https://www.raycast.com)** — найкраща заміна Spotlight. Красивий, швидкий і гнучкий інструмент, який має дуже багато корисних фіч. Ось, наприклад, словник:
 	<figure>
 		<video class="js-player" data-plyr-config= '{"controls": ["play-large", "play", "progress", "current-time"]}' autoplay controls loop>
 		  <source src="/i/blog/macos-setup/dictionary.mp4" type="video/mp4" />
@@ -146,7 +157,7 @@ brew install raycast google-chrome firefox github iterm2 visual-studio-code sket
       <figure class="figure--screenshot figure--compact">
 	      <img src="/i/blog/macos-setup/full-width-console.jpg" alt="">
       </figure>
-    
+
 	- **Обираю більш зрозумілий курсор:** Profiles › Text › Cursor › Vertical bar + Blinking cursor.
 	- **Прибираю iTerm із Доку:** Appearance › General › Exclude from Dock and ⌘-Tab Application Switcher.
 	- **Ремонтую [непрацюючу навігацію ⌥/⌘ + стрілками](https://apple.stackexchange.com/q/136928):** Profiles › Keys › Key Mappings › Presets... › Natural Text Editing
@@ -162,5 +173,5 @@ brew install raycast google-chrome firefox github iterm2 visual-studio-code sket
 </figure>
 
 * * *
-    
+
 Здається, це усі основні налаштування. Залишилось зробити альтернативну клавіатурну розкладку: у стандартній українській розкладці мені не вистачає більш зручного доступу до лапок `«»`, тире `—`, слешу `/` та деяких інших символів. Але це вже окрема історія.
