@@ -128,8 +128,9 @@ p {
   }
 }
 
-article {
-  letter-spacing: -0.0075em;
+article,
+.post__header {
+  letter-spacing: -0.0075rem;
 }
 
 .container--full {

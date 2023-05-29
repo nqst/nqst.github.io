@@ -276,7 +276,6 @@ figure.figure--wide,
   border-top: 1px solid #eaecf0;
   padding: calc(var(--baseline) * 2) 0;
   margin-top: 0;
-  letter-spacing: -0.0075em;
 
   &:first-child {
     border-top: none;
