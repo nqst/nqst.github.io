@@ -1,0 +1,39 @@
+/*
+ * Buttons
+ * =======
+ *
+ */
+
+.button {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: var(--link-color);
+  border: 0;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.4rem;
+}
+
+.button:not(.button--link):hover {
+  background-color: #056cb9;
+  color: #fff;
+}
+
+.button--link {
+  background-color: transparent;
+  color: var(--link-color);
+  font-weight: 500;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,51 @@
+/*
+ * Med Help Dnipro section
+ * =======================
+ *
+ */
+
+
+.medhelpdnipro {
+  margin-top: 60px;
+  background-color: #faf7f3;
+  border-radius: 12px;
+  padding: 20px 20px 25px;
+
+  @media (--medium-screen) {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__logo-wrapper {
+    margin-bottom: 20px;
+    order: 1;
+
+    @media (--medium-screen) {
+      margin-left: 30px;
+    }
+  }
+
+  &__logo {
+    display: block;
+    border-radius: 5px;
+  }
+
+  &__title {
+    margin: 0 0 0.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  &__content {
+    font-size: 0.8rem;
+    line-height: 1.45;
+
+    p {
+      margin-bottom: 0.75em;
+    }
+  }
+
+  &__action {
+    margin-top: 1em;
+  }
+}
