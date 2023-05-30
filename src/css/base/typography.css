@@ -192,13 +192,13 @@ div.highlight {
 }
 
 .serious-thing {
-  background-color: #fcf9f5;
+  background-color: #faf7f3;
 
   figure.highlight,
   div.highlight,
   p > code,
   li > code {
-    background-color: #f0e9e3;
+    background-color: #f0e8e3;
   }
 
   h2:first-child,
