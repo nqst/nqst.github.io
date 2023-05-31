@@ -86,8 +86,9 @@ plyr: true
 - View › As Columns: `⌘3`.
 - View › Show Status bar: `⌘/`.
 - Settings › General › New Finder windows show: 🏠 Home folder.
-- Settings › Tags — вимкнув усе.
-- Sidebar: увімкнув 🏠 Home folder, щоб відображалася у списку.
+- Settings › Tags: вимкнув усе.
+- Settings › Sidebar: відмітив 🏠 Home folder, щоб відображалася у списку.
+- Settings › Advanced › Keep folders on top: відмітив обидва чекбокси.
 
 ## Safari
 - View › Show Status bar: `⌘/`.
