@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "English Grammar in Use"
-ogimage: "ogimage.jpg"
+ogimage: "ogimage.jpg?v1"
 ---
 
 У [попередньому пості](/blog/everyday-things-table/) згадував підручник English Grammar in Use. Цей підручник відомий в усьому світі, і не дарма — це справді дуже хороша книга.
