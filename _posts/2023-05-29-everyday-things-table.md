@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Таблиця щоденних справ"
 ogimage: "ogimage.png"
 ---
