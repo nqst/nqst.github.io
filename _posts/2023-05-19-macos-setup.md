@@ -1,6 +1,5 @@
 ---
 layout: post
-archived: true
 title: "Підготовка macOS до роботи"
 introimg: "new-macbook-alt.jpg"
 ogimage: "ogimage.jpg"
