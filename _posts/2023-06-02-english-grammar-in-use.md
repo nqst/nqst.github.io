@@ -17,7 +17,7 @@ ogimage: "ogimage.jpg"
 
 <figure class="figure--wide">
   <img src="/i/blog/english-grammar-in-use/english-grammar-in-use.jpg" alt="English Grammar in Use, Unit 145">
-	<figcaption>Це четверте видання; зараз вже є пʼяте, з новим оформленням. Fun fact: перше видання English Grammar in Use вийшло у 1985 році — майже 40 років тому.</figcaption>
+  <figcaption>Це четверте видання; зараз вже є пʼяте, з новим оформленням. Fun fact: перше видання English Grammar in Use вийшло у 1985 році — майже 40 років тому.</figcaption>
 </figure>
 
 Підручник орієнтований на середній рівень знань англійської (B1/B2), але може бути корисним для тих, хто вже на рівні C. Особисто мені майже кожен юніт допомагав заповнити прогалини у знаннях. Наприклад, у юніті на фотографії мені майже все було знайоме, але раніше я б сказав «look back *at* something», а тепер знаю, що при рефлексії вживається *on*, а не *at.*
