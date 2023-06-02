@@ -10,7 +10,7 @@ ogimage: "ogimage.png"
 
 <figure>
   <img src="/i/blog/everyday-things-table/table.jpeg" alt="Табличка з щоденними справами">
-  <figcaption>Поточні задачі: зробити юніт в <a href="https://en.wikipedia.org/wiki/English_Grammar_in_Use">English Grammar in Use</a>, почитати книгу не менше 10 хв. та хвилину постояти у планці.</figcaption>
+  <figcaption>Поточні задачі: зробити юніт в <a href="/blog/english-grammar-in-use/">English Grammar in Use</a>, почитати книгу не менше 10 хв. та хвилину постояти у планці.</figcaption>
 </figure>
 
 <!-- more -->
