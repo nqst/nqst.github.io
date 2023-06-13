@@ -1,3 +1,10 @@
+2023:
+- name: "What’s Our Problem"
+  author: "Tim Urban"
+  favorite: true
+  rating: 9
+  notes: "Must read"
+
 2022:
 - name: "The Courage to Be Disliked"
   author: "Ichiro Kishimi, Fumitake Koga"
