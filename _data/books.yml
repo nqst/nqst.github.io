@@ -1,4 +1,9 @@
 2023:
+- name: "Spark Joy"
+  author: "Marie Kondo"
+  favorite: true
+  rating: 8
+
 - name: "What’s Our Problem"
   author: "Tim Urban"
   favorite: true
