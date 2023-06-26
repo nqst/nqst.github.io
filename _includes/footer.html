@@ -29,6 +29,23 @@
   <script>Plyr.setup('.js-player');</script>
 {% endif %}
 
+{% if page.littlefoot %}
+  <script src="/js/littlefoot.min.js"></script>
+  <script>
+    littlefoot.littlefoot({
+      buttonTemplate: `
+      <button
+        aria-label="Примітка <% number %>"
+        class="littlefoot__button"
+        id="<% reference %>"
+        title="Див. примітку <% number %>"
+      >
+        <% number %>
+      </button>`
+    })
+  </script>
+{% endif %}
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40251727-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
