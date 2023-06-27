@@ -9,7 +9,7 @@ ogimage: ogimage.jpg
 Коли я зібрався вперше приготувати каву в аеропресі та переглядав рецепт, мене здивувало те, як суміш кави і води перестає виливатися:
 
 <figure>
-  <video class="js-player" data-plyr-config= '{"controls": ["play-large", "play", "progress", "current-time"]}' loop autoplay controls>
+  <video class="js-player" data-plyr-config= '{"controls": ["play-large", "play", "progress", "current-time"]}' loop autoplay controls playsinline>
     <source src="/i/blog/aeropress-physics/demo.mp4" type="video/mp4" />
   </video>
   <figcaption>Джерело: <a href="https://www.youtube.com/watch?v=wGZ3VdCJvu0">Рецепт Тіма Вендельбо на AeroPrecipe</a></figcaption>
