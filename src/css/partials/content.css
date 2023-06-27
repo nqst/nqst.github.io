@@ -86,6 +86,11 @@ figure,
 
 .figure--center {
   text-align: center;
+
+  figcaption {
+    margin: 0 auto;
+    max-width: 540px;
+  }
 }
 
 .figure--shadow img {
