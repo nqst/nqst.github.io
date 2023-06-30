@@ -48,7 +48,7 @@ plyr: true
   {% endif %}
 
   {% if paginator.page == 2 %}
-    <a class="paginator__link paginator__next" href="/">Пізніше</a>
+    <a class="paginator__link paginator__next" href="/blog/">Пізніше</a>
   {% elsif paginator.page > 2 %}
     <a class="paginator__link paginator__next{% unless paginator.next_page %} paginator__link--wide{% endunless %}" href="/blog/page{{ paginator.previous_page }}">Пізніше</a>
   {% endif %}
