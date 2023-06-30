@@ -12,7 +12,7 @@ plyr: true
     {% for post in paginator.posts %}
       {% assign post_date = post.date | date: "%Y-%m-%d" %}
 
-      {% if post_date >= "2023-04-30" %}
+      {% if post_date >= "2023-04-30" or page.url contains "blog/page" %}
         {% include post-layout.html %}
 
       {% else %}
