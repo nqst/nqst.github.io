@@ -28,6 +28,7 @@
   }
 }
 
+.has-dark-background .header,
 .header--dark {
   border-bottom: none;
   background-color: rgba(0, 0, 0, 0.08);

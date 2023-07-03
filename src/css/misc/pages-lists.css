@@ -152,3 +152,68 @@
     border-color: #1d8424;
   }
 }
+
+.album-list {
+  line-height: 1.25;
+
+  @media screen and (min-width: 480px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 40px;
+  }
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &__item {
+    margin-bottom: 50px;
+
+    @media screen and (min-width: 480px) {
+      max-width: 300px;
+    }
+  }
+
+  &__cover {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 6px;
+  }
+
+  &__title {
+    margin-bottom: 0.15em;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+
+  &__author {
+    margin-bottom: 0.15em;
+  }
+
+  &__year {
+    display: inline-block;
+    /* margin-bottom: 0.25em; */
+    font-size: 0.75em;
+    opacity: 0.8;
+    margin-right: 0.3em;
+  }
+
+  &__streaming {
+    display: inline-block;
+    font-size: 0.75em;
+    opacity: 0.5;
+  }
+
+  &__streaming a,
+  &__streaming a:hover {
+    color: inherit;
+  }
+
+  &__streaming a:hover {
+    text-decoration: underline;
+  }
+}
