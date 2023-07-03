@@ -92,3 +92,45 @@ body {
     max-width: 800px;
   }
 }
+
+.has-dark-background {
+  body {
+    background-color: #0b161d;
+    color: #fff;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #fff;
+  }
+
+  .page-header__description {
+    color: #7d8a93;
+  }
+
+  a {
+    color: #8eb5d7;
+
+    &:hover {
+      color: #d9e7f3;
+    }
+  }
+
+  .footer {
+    border-color: #11212b;
+
+    a {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    a:hover {
+      color: #fff;
+    }
+  }
+
+  .footer__email-link {
+    background-image: url('../i/envelope--dark.svg');
+  }
+}

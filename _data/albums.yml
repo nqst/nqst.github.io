@@ -1,0 +1,50 @@
+perfect:
+- title: "Viva la Vida or Death and All His Friends"
+  author: "Coldplay"
+  year: 2008
+  cover: "viva-la-vida.jpg"
+  spotify: "https://open.spotify.com/album/1CEODgTmTwLyabvwd7HBty"
+  apple_music: "https://music.apple.com/us/album/viva-la-vida-or-death-and-all-his-friends/1122773394"
+
+- title: "Interloper"
+  author: "Carbon Based Lifeforms"
+  year: 2010
+  cover: "interloper.jpg"
+  spotify: "https://open.spotify.com/album/3g1Bz7vXLd0GgxHId19oqc"
+  apple_music: "https://music.apple.com/us/album/interloper/1490804887"
+
+- title: "Coils"
+  author: "Ramona Falls"
+  year: 2017
+  cover: "coils.jpg"
+  spotify: "https://open.spotify.com/album/58wOe2PgagdTw6vtN1w0Wz"
+  apple_music: "https://music.apple.com/us/album/coils/1286134162"
+
+- title: "Mutter"
+  author: "Rammstein"
+  year: 2001
+  cover: "mutter.jpg"
+  spotify: "https://open.spotify.com/album/1CtTTpKbHU8KbHRB4LmBbv"
+  apple_music: "https://music.apple.com/us/album/mutter/1440770702"
+
+- title: "Vicious Delicious"
+  author: "Infected Mushroom"
+  year: 2007
+  cover: "vicious-delicious.jpg"
+  spotify: "https://open.spotify.com/album/3W2rs8vCNzvB5BmAoCjART"
+  apple_music: "https://music.apple.com/us/album/vicious-delicious/1486187039"
+
+- title: "Dire Straits"
+  author: "Dire Straits"
+  year: 1978
+  cover: "dire-straits.jpg"
+  spotify: "https://open.spotify.com/album/2rCS6Xwx32V27pvgFzLzlT"
+  apple_music: "https://music.apple.com/us/album/dire-straits-remastered/1440801714"
+
+# Check: The Cosmic Game; Cake — B-sides; Travis?
+
+almost_there:
+- title: "Random Access Memories"
+  author: "Daft Punk"
+  year: 2013
+  but: "Contact"
