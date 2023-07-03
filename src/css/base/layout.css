@@ -95,7 +95,7 @@ body {
 
 .has-dark-background {
   body {
-    background-color: #111;
+    background-color: #0b161d;
     color: #fff;
   }
 
@@ -107,7 +107,7 @@ body {
   }
 
   .page-header__description {
-    color: #888;
+    color: #7d8a93;
   }
 
   a {
@@ -119,7 +119,7 @@ body {
   }
 
   .footer {
-    border-color: #222;
+    border-color: #11212b;
 
     a {
       color: rgba(255, 255, 255, 0.5);
