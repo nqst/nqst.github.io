@@ -48,17 +48,17 @@ perfect:
   spotify: "https://open.spotify.com/album/69MkRYEzxiZ84QmgmPJqdY"
   apple_music: "https://music.apple.com/us/album/cake-b-sides-and-rarities/267846803"
 
-- title: "The Boy with No Name"
-  author: "Travis"
-  year: 2007
-  cover: "the-boy-with-no-name.jpg"
-  spotify: "https://open.spotify.com/album/0uR1cnrej7aGnRIptQxVaR"
-  apple_music: "https://music.apple.com/us/album/the-boy-with-no-name/1458138748"
-
-# Check: The Cosmic Game; Prodigy IMD?
+# Check: The Cosmic Game
 
 almost_there:
 - title: "Random Access Memories"
   author: "Daft Punk"
   year: 2013
   but: "Contact"
+
+- title: "The Boy with No Name"
+  author: "Travis"
+  year: 2007
+  cover: "the-boy-with-no-name.jpg"
+  spotify: "https://open.spotify.com/album/0uR1cnrej7aGnRIptQxVaR"
+  apple_music: "https://music.apple.com/us/album/the-boy-with-no-name/1458138748"
