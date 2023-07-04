@@ -41,7 +41,21 @@ perfect:
   spotify: "https://open.spotify.com/album/2rCS6Xwx32V27pvgFzLzlT"
   apple_music: "https://music.apple.com/us/album/dire-straits-remastered/1440801714"
 
-# Check: The Cosmic Game; Cake — B-sides; Travis?
+- title: "B-Sides and Rarities"
+  author: "CAKE"
+  year: 2007
+  cover: "b-sides-and-rarities.jpg"
+  spotify: "https://open.spotify.com/album/69MkRYEzxiZ84QmgmPJqdY"
+  apple_music: "https://music.apple.com/us/album/cake-b-sides-and-rarities/267846803"
+
+- title: "The Boy with No Name"
+  author: "Travis"
+  year: 2007
+  cover: "the-boy-with-no-name.jpg"
+  spotify: "https://open.spotify.com/album/0uR1cnrej7aGnRIptQxVaR"
+  apple_music: "https://music.apple.com/us/album/the-boy-with-no-name/1458138748"
+
+# Check: The Cosmic Game; Prodigy IMD?
 
 almost_there:
 - title: "Random Access Memories"
