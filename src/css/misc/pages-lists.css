@@ -34,6 +34,10 @@
   }
 }
 
+.til__item {
+  max-width: 36em;
+}
+
 
 .books__mark {
   text-align: center;
@@ -220,4 +224,9 @@
   &__streaming a:hover {
     text-decoration: underline;
   }
+}
+
+.page-til img {
+  max-width: 100%;
+  height: auto;
 }

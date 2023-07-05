@@ -1,0 +1,39 @@
+---
+layout: default
+title: Одного разу я дізнався
+permalink: /lists/til/
+class: 'page-til'
+---
+
+<main class="main">
+  <div class="container container--full">
+    <header class="page-header">
+      <h1 class="page-header__title">{{ page.title }}</h1>
+      <!-- <p class="page-header__description"></p> -->
+    </header>
+
+    {%- for data in site.data.til %}
+      {%- assign year = data[0] %}
+      {%- assign facts = data[1] %}
+
+      <h2>{{ year }}</h2>
+
+      <ul class="til bulleted-list">
+        {%- for fact in facts %}
+          <li class="til__item">
+            {{ fact.what | strip | markdownify }}
+
+            {%- if fact.image %}
+              <figure class="til">
+                <img
+                  src="/i/til/{{ fact.image }}"
+                  {% if fact.image_width %}width="{{ fact.image_width }}"{% endif %}
+                  alt="{{ fact.image_alt }}">
+              </figure>
+            {%- endif %}
+          </li>
+        {%- endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</main>
