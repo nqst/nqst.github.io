@@ -3,6 +3,7 @@ layout: default
 title: Одного разу я дізнався
 permalink: /lists/til/
 class: 'page-til'
+plyr: true
 ---
 
 <main class="main">
@@ -23,8 +24,12 @@ class: 'page-til'
           <li class="til__item">
             {{ fact.what | strip | markdownify }}
 
+            {%- if fact.extras %}
+              <div class="til__item-extras">{{ fact.extras }}</div>
+            {%- endif %}
+
             {%- if fact.image %}
-              <figure class="til">
+              <figure>
                 <img
                   src="/i/til/{{ fact.image }}"
                   {% if fact.image_width %}width="{{ fact.image_width }}"{% endif %}
