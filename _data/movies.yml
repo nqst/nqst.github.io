@@ -1,4 +1,9 @@
 2023:
+- name: "Стихії"
+  original_name: "Elemental"
+  released: 2023
+  rating: 8
+
 - name: "Брати Супер Маріо в кіно"
   original_name: "The Super Mario Bros. Movie"
   released: 2023
@@ -270,7 +275,7 @@
     original_name: "Star Wars: The Force Awakens"
     released: 2015
 
-"2015 и ранее":
+"2015 і раніше":
   - name: "Цвіт нації"
     released: 2013
     favorite: true
