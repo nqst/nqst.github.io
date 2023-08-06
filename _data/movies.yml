@@ -1,4 +1,9 @@
 2023:
+- name: "Air Jordan"
+  original_name: "Air"
+  released: 2023
+  rating: 8
+
 - name: "Стихії"
   original_name: "Elemental"
   released: 2023
