@@ -62,10 +62,6 @@
   translation: "банка"
   false_translation: "пушка"
 
-- word: "Syrena"
-  translation: "русалка"
-  false_translation: "сирена"
-
 - word: "Surowy"
   not_only: "суворий"
   but_also: "сирий"
