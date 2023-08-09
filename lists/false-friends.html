@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Польська мова: хибні друзі перекладача"
+permalink: /lists/polish-false-friends/
+class: 'page-false-friends'
+---
+
+<main class="main">
+  <div class="container container--full">
+    <header class="page-header">
+      <h1 class="page-header__title page-header__title--longer">{{ page.title }}</h1>
+      <div class="page-header__description">
+        Список польських слів, які не співпадають зі схожими словами в українській або російській мові. Це не кінцевий список: поступово додаю сюди те, що знаходжу.
+      </div>
+    </header>
+
+    {%- assign data = site.data.false-friends-in-polish %}
+
+    <ul class="list-false-friends">
+      {%- for item in data %}
+        {%- if item.translation %}
+
+          <li class="list-false-friends__item">
+            <div class="list-false-friends__word">{{ item.word }}</div>
+            <div class="list-false-friends__details">
+              <span class="list-false-friends__false-translation">✘&nbsp;{{ item.false_translation }}</span>
+              <span class="list-false-friends__true-translation">✔︎&thinsp;{{ item.translation }}</span>
+            </div>
+          </li>
+        {%- endif %}
+      {%- endfor %}
+    </ul>
+
+  </div>
+</main>

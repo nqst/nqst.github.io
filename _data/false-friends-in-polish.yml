@@ -1,0 +1,127 @@
+- word: "Pieczywo"
+  translation: "випічка"
+  false_translation: "печиво"
+
+- word: "Sklep"
+  translation: "магазин"
+  false_translation: "склеп"
+
+- word: "Owoce"
+  translation: "фрукти"
+  false_translation: "овочі"
+
+- word: "Dywan"
+  translation: "килим"
+  false_translation: "диван"
+
+- word: "Dynia"
+  translation: "гарбуз"
+  false_translation: "диня"
+
+- word: "Rosół"
+  translation: "бульйон"
+  false_translation: "розсіл"
+
+- word: "Dowolny"
+  translation: "довільний"
+  false_translation: "задоволений"
+
+- word: "Pilot"
+  translation: "пульт"
+  false_translation: "пілот"
+
+- word: "Wygoda"
+  translation: "зручність, виго́да"
+  false_translation: "ви́года"
+
+- word: "Ciecierzyca"
+  translation: "нут"
+  false_translation: "сочевиця"
+
+- word: "Zakaz"
+  translation: "заборона"
+  false_translation: "замовлення"
+
+- word: "Po"
+  translation: "після"
+  false_translation: "по"
+
+# - word: "Artykul"
+#   translation: "Стаття або товар"
+#   false_translation: "артикул"
+
+- word: "Plecy"
+  translation: "спина"
+  false_translation: "плечі"
+
+- word: "Portfel"
+  translation: "гаманець"
+  false_translation: "портфель"
+
+- word: "Puszka"
+  translation: "банка"
+  false_translation: "пушка"
+
+- word: "Syrena"
+  translation: "русалка"
+  false_translation: "сирена"
+
+- word: "Surowy"
+  not_only: "суворий"
+  but_also: "сирий"
+
+- word: "Sztuka"
+  not_only: "мистецтво"
+  but_also: "штука"
+
+- word: "Niewidomy"
+  translation: "незрячий"
+  false_translation: "невідомий"
+
+- word: "Samodzielny"
+  translation: "самостійний"
+  false_translation: "саморобний"
+
+- word: "Trasa"
+  translation: "маршрут"
+  false_translation: "траса"
+
+- word: "Szyny"
+  translation: "рейки"
+  false_translation: "шини"
+
+- word: "Ważny"
+  not_only: "важливий"
+  but_also: "дійсний"
+
+- word: "Dlaczego"
+  not_only: "навіщо"
+  but_also: "чому"
+
+- word: "Jajecznica"
+  translation: "скрембл"
+  false_translation: "яєчня (глазунья)"
+
+- word: "Nauka"
+  not_only: "наука"
+  but_also: "навчання"
+
+- word: "Oddychanie"
+  translation: "дихання"
+  false_translation: "відпочинок"
+
+- word: "Laskowy"
+  translation: "лісовий"
+  false_translation: "лагідний"
+
+- word: "Rogatka"
+  translation: "шлагбаум"
+  false_translation: "рогатка"
+
+- word: "Sprzątać"
+  translation: "прибирати (наводити порядок)"
+  false_translation: "заховати"
+
+- word: "Zapomnieć"
+  translation: "забути"
+  false_translation: "запамʼятати"

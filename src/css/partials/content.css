@@ -321,6 +321,10 @@ figure.figure--wide,
   &__title,
   &__description {
     max-width: 32rem;
+
+    &--longer {
+      max-width: 35rem;
+    }
   }
 
   &__title {
