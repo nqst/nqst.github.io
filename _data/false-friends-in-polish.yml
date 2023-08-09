@@ -43,8 +43,8 @@
   false_translation: "замовлення"
 
 - word: "Po"
-  translation: "після"
-  false_translation: "по"
+  not_only: "по"
+  but_also: "після"
 
 # - word: "Artykul"
 #   translation: "Стаття або товар"
