@@ -71,8 +71,9 @@
   but_also: "сирий"
 
 - word: "Sztuka"
-  not_only: "мистецтво"
-  but_also: "штука"
+  not_only: "штука"
+  but_also: "мистецтво"
+  and_also: "пʼєса"
 
 - word: "Niewidomy"
   translation: "незрячий"

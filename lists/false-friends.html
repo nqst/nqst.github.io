@@ -31,5 +31,30 @@ class: 'page-false-friends'
       {%- endfor %}
     </ul>
 
+    <hr class="hr--full">
+
+    <h2>Бонус</h2>
+
+    <ul class="list-false-friends">
+      {%- for item in data %}
+        {%- if item.not_only %}
+
+          <li class="list-false-friends__item">
+            <div class="list-false-friends__word">{{ item.word }}</div>
+            <div class="list-false-friends__details">
+              Не тільки
+              <span class="list-false-friends__not-only">{{ item.not_only }}</span>, а й
+              <span class="list-false-friends__but-also">{{ item.but_also }}</span>
+
+              {%- if item.and_also -%}
+                . А також
+                <span class="list-false-friends__but-also">{{ item.and_also }}</span>
+              {%- endif %}
+            </div>
+          </li>
+        {%- endif %}
+      {%- endfor %}
+    </ul>
+
   </div>
 </main>
