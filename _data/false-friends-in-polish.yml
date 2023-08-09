@@ -27,8 +27,9 @@
   false_translation: "задоволений"
 
 - word: "Pilot"
-  translation: "пульт"
-  false_translation: "пілот"
+  not_only: "пілот"
+  but_also: "пульт"
+  and_also: "екскурсовод"
 
 - word: "Wygoda"
   translation: "зручність, виго́да"
