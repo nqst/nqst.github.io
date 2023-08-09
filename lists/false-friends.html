@@ -14,7 +14,7 @@ class: 'page-false-friends'
       </div>
     </header>
 
-    {%- assign data = site.data.false-friends-in-polish %}
+    {%- assign data = site.data.false-friends-in-polish | sort: "word" %}
 
     <ul class="list-false-friends">
       {%- for item in data %}
