@@ -132,3 +132,7 @@
 - word: "Koło"
   not_only: "коло"
   but_also: "колесо"
+
+- word: "Bakalie"
+  translation: "сухофрукти і горіхи"
+  false_translation: "бакалія"
