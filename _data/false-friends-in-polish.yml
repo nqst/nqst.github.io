@@ -136,3 +136,11 @@
 - word: "Bakalie"
   translation: "сухофрукти і горіхи"
   false_translation: "бакалія"
+
+- word: "Prosto"
+  not_only: "просто"
+  but_also: "прямо"
+
+- word: "Wrzucać"
+  translation: "вкидати"
+  false_translation: "вручати"

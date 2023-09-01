@@ -1,3 +1,33 @@
+- date: "2023-08-28"
+  from:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WMI
+  company: Ryanair
+  aircraft: Boeing 737 MAX 8
+  comment: "Другий Ryanair у житті. Від Wizz Air враження значно більш приємні."
+  withAurora: true
+  withPeter: true
+
+- date: "2023-08-23"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  company: Wizz Air
+  aircraft: Airbus A321neo
+  comment: "Перший політ з сином."
+  withAurora: true
+  withPeter: true
+
 - date: "2021-10-29"
   from:
     country: 🇩🇪
