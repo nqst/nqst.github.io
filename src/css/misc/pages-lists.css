@@ -127,6 +127,10 @@
   margin-right: -0.1em;
 }
 
+.table--flights p:last-child {
+  margin-bottom: 0;
+}
+
 .bucket-list__item {
   font-weight: 400;
   display: flex;
