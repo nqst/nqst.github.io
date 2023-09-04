@@ -144,3 +144,7 @@
 - word: "Wrzucać"
   translation: "вкидати"
   false_translation: "вручати"
+
+- word: "Akademik"
+  not_only: "академік"
+  but_also: "гуртожиток"
