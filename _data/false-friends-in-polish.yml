@@ -80,10 +80,6 @@
   translation: "самостійний"
   false_translation: "саморобний"
 
-- word: "Trasa"
-  translation: "маршрут"
-  false_translation: "траса"
-
 - word: "Szyny"
   translation: "рейки"
   false_translation: "шини"
