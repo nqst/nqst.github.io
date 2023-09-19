@@ -5,6 +5,20 @@ ogtype: article
 
 <main class="main main--post">
 
+  {%- if page.epigraph %}
+  <div class="container epigraph-container">
+    <div class="epigraph">
+      <div class="epigraph__text">
+        {{ page.epigraph_text }}
+      </div>
+
+      <div class="epigraph__author">
+        {{ page.epigraph_author }}
+      </div>
+    </div>
+  </div>
+  {%- endif %}
+
   <header class="post__header{% if page.introimg %} post__header--wide{% endif %}">
     <div class="container">
       {% include date.html post-date=page.date %}
