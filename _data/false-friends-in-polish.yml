@@ -148,3 +148,7 @@
 - word: "Pyszny"
   translation: "дуже смачний"
   false_translation: "пишний"
+
+- word: "Żyletka"
+  translation: "лезо"
+  false_translation: "жилетка"
