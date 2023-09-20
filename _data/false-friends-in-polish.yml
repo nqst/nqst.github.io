@@ -144,3 +144,7 @@
 - word: "Akademik"
   not_only: "академік"
   but_also: "гуртожиток"
+
+- word: "Pyszny"
+  translation: "дуже смачний"
+  false_translation: "пишний"
