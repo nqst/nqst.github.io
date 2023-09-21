@@ -1,0 +1,29 @@
+---
+layout: default
+title: Відвідані обласні центри України
+permalink: /lists/ukrainian-cities/
+---
+
+<main class="main">
+  <div class="container container--full">
+    <header class="page-header">
+      <h1 class="page-header__title">
+        {{ page.title }}
+        <span class="title-counter">{{ site.data.ukraine.visited | size }}</span>
+      </h1>
+      <p class="page-header__description">Був в усіх головних містах країни. Всюди було цікаво, всюди зустрічав чудових людей. Подорожі до цих міст зміцнили мою любов до України.</p>
+    </header>
+
+    {% assign data = site.data.ukraine %}
+    {% assign visited = data.visited %}
+
+    <ul class="checklist checklist--has-columns">
+      {% for city in visited %}
+        <li class="checklist__item checklist__item--done">
+          <span>{{ city | liquify | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</main>

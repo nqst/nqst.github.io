@@ -7,31 +7,24 @@ class: 'page-bucket-list'
 
 <main class="main">
   <div class="container container--full">
+    {% assign data = site.data.bucket-list %}
+    {% assign all_items = data.done | concat: data.todo %}
+    {% assign all_items_sorted = all_items | sort %}
+
     <header class="page-header">
-      <h1 class="page-header__title">{{ page.title }}</h1>
+      <h1 class="page-header__title">
+        {{ page.title }}
+        <span class="title-counter">{{ data.done | size }}/{{ all_items | size }}</span>
+      </h1>
     </header>
 
-      {% assign data = site.data.bucket-list %}
-      {% assign done = data.done %}
-      {% assign todo = data.todo %}
-
-      <h2>Хочу зробити</h2>
-      <ul class="bucket-list">
-        {% for item in todo %}
-          <li class="bucket-list__item">
-            <span>{{ item | liquify | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-          </li>
-        {% endfor %}
-      </ul>
-
-      <h2>Вже зробив</h2>
-      <ul class="bucket-list">
-        {% for item in done %}
-          <li class="bucket-list__item bucket-list__item--done">
-            <span>{{ item | liquify | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-          </li>
-        {% endfor %}
-      </ul>
+    <ul class="checklist">
+      {% for item in all_items_sorted %}
+        <li class="checklist__item{% if data.done contains item %} checklist__item--done{% endif %}">
+          <span>{{ item | liquify | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
 
   </div>
 </main>

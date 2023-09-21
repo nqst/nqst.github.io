@@ -131,7 +131,27 @@
   margin-bottom: 0;
 }
 
-.bucket-list__item {
+.checklist--has-columns {
+  @media screen and (min-width: 640px) {
+    column-count: 3;
+    column-gap: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    column-count: 4;
+    column-gap: 40px;
+  }
+
+  .checklist__item {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    break-inside: avoid-column;
+  }
+}
+
+.checklist__item {
+  margin-bottom: 1rem;
+  line-height: 1.33;
   font-weight: 400;
   display: flex;
   align-items: flex-start;
@@ -155,7 +175,7 @@
   }
 }
 
-.bucket-list__item--done {
+.checklist__item--done {
   color: #198120;
 
   &::before {
