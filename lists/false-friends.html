@@ -25,6 +25,9 @@ class: 'page-false-friends'
             <div class="list-false-friends__details">
               <span class="list-false-friends__false-translation">✘&thinsp;{{ item.false_translation }}</span>
               <span class="list-false-friends__true-translation">✔︎&thinsp;{{ item.translation }}</span>
+              {%- if item.another_translation %}
+                або <span class="list-false-friends__true-translation">{{ item.another_translation }}</span>
+              {%- endif %}
             </div>
           </li>
         {%- endif %}

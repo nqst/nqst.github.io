@@ -152,3 +152,12 @@
 - word: "Żyletka"
   translation: "лезо"
   false_translation: "жилетка"
+
+- word: "Urok"
+  translation: "очарування"
+  false_translation: "урок"
+
+- word: "Wniosek"
+  translation: "висновок"
+  another_translation: "заява, пропозиція"
+  false_translation: "внесок"
