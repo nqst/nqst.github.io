@@ -161,3 +161,7 @@
   translation: "висновок"
   another_translation: "заява, пропозиція"
   false_translation: "внесок"
+
+- word: "Zabieg"
+  translation: "процедура"
+  false_translation: "забіг"
