@@ -165,3 +165,11 @@
 - word: "Zabieg"
   translation: "процедура"
   false_translation: "забіг"
+
+- word: "Pojazd"
+  translation: "транспортний засіб"
+  false_translation: "поїзд"
+
+- word: "Kurka"
+  not_only: "курка"
+  but_also: "лисичка (гриб)"
