@@ -173,3 +173,11 @@
 - word: "Kurka"
   not_only: "курка"
   but_also: "лисичка (гриб)"
+
+- word: "Prawo"
+  not_only: "право"
+  but_also: "закон"
+
+- word: "Krzesło"
+  translation: "стілець"
+  false_translation: "крісло"
