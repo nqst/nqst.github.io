@@ -34,7 +34,7 @@
     "postcss-reporter": "^6.0.1",
     "postcss-simple-vars": "^7.0.1",
     "postcss-sort-media-queries": "^5.1.0",
-    "stylelint": "^14"
+    "stylelint": "^15"
   },
   "dependencies": {
     "gulp-touch-cmd": "^0.0.1"
