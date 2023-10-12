@@ -181,3 +181,8 @@
 - word: "Krzesło"
   translation: "стілець"
   false_translation: "крісло"
+
+- word: "Gospodarka"
+  translation: "економіка"
+  another_translation: "господарство"
+  false_translation: "господарка"

@@ -1,3 +1,28 @@
+- date: "2023-10-05"
+  from:
+    country: 🇨🇿
+    city: Прага
+    airport: PRG
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: LOT
+  aircraft: Embraer 190-100
+
+- date: "2023-10-03"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇨🇿
+    city: Прага
+    airport: PRG
+  company: LOT
+  aircraft: Embraer 190-100
+  comment: "Перший LOT. Красунчики."
+
 - date: "2023-08-28"
   from:
     country: 🇭🇺
