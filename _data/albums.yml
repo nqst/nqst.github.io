@@ -55,10 +55,22 @@ almost_there:
   author: "Daft Punk"
   year: 2013
   but: "Contact"
+  cover: "random-access-memories.jpg"
+  spotify: "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa"
+  apple_music: "https://music.apple.com/ua/album/random-access-memories/617154241"
 
 - title: "The Boy with No Name"
   author: "Travis"
   year: 2007
+  but: "(TBD)"
   cover: "the-boy-with-no-name.jpg"
   spotify: "https://open.spotify.com/album/0uR1cnrej7aGnRIptQxVaR"
   apple_music: "https://music.apple.com/us/album/the-boy-with-no-name/1458138748"
+
+- title: "Blade Runner (Music from the Original Soundtrack)"
+  author: "Vangelis"
+  year: 1994
+  but: "Tales of the Future"
+  cover: "blade-runner.jpg"
+  spotify: "https://open.spotify.com/album/6NkuCdMz5tGmHbOXAWbtCW"
+  apple_music: "https://music.apple.com/us/album/blade-runner-original-score-from-the-motion-picture/73327394"

@@ -14,7 +14,7 @@ class: 'page-albums has-dark-background'
 
     {% assign data = site.data.albums %}
     {% assign albums = data.perfect %}
-    {% assign almost = data.almost_there %}
+    {% assign almost_there = data.almost_there %}
 
     <ul class="album-list">
       {% for album in albums %}
@@ -55,15 +55,44 @@ class: 'page-albums has-dark-background'
       {% endfor %}
     </ul>
 
-    {%- if false %}
-      <h2>Майже там</h2>
-      <ul>
-        {% for album in almost %}
-          <li>
-            {{- album.title | liquify | markdownify | strip_html -}}
-          </li>
-        {% endfor %}
-      </ul>
-    {%- endif %}
+    <h2>Майже там</h2>
+    <ul class="album-list">
+      {% for album in almost_there %}
+        <li class="album-list__item">
+          <div>
+            <img
+              class="album-list__cover"
+              src="/i/favorite-albums/{{ album.cover }}"
+              width="300"
+              height="300"
+              alt="Обкладинка альбому {{ album.title }}">
+          </div>
+
+          <div class="album-list__title">
+            <strong>{{- album.title | liquify | markdownify | strip_html -}}</strong>
+          </div>
+
+          <div class="album-list__author">
+            {{- album.author | liquify | markdownify | strip_html -}}
+          </div>
+
+          <div class="album-list__year">
+            {{- album.year | liquify | markdownify | strip_html -}}
+          </div>
+
+          {%- if album.spotify or album.apple_music %}
+            <div class="album-list__streaming">
+              {%- if album.spotify %}
+                <a href="{{ album.spotify }}">Spotify</a>
+              {%- endif %}
+              {%- if album.apple_music %}
+                ·
+                <a href="{{ album.apple_music }}">Apple Music</a>
+              {%- endif %}
+            </div>
+          {%- endif %}
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </main>
