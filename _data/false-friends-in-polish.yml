@@ -186,3 +186,20 @@
   translation: "економіка"
   another_translation: "господарство"
   false_translation: "господарка"
+
+- word: "Kolega"
+  not_only: "колега"
+  but_also: "друг, приятель"
+
+- word: "Magazyn"
+  not_only: "магазин"
+  but_also: "склад"
+  and_also: "журнал"
+
+- word: "Broń"
+  translation: "зброя"
+  false_translation: "бронь"
+
+# - word: "Pukać"
+#   translation: "стукати"
+#   false_translation: "пукати"
