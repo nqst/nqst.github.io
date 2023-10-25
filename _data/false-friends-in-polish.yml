@@ -203,3 +203,7 @@
 # - word: "Pukać"
 #   translation: "стукати"
 #   false_translation: "пукати"
+
+- word: "Zgadzać"
+  translation: "погоджуватись"
+  false_translation: "згадати"
