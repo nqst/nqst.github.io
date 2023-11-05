@@ -51,13 +51,29 @@ perfect:
 # Check: The Cosmic Game
 
 almost_there:
+- title: "Blade Runner (Music from the Original Soundtrack)"
+  author: "Vangelis"
+  year: 1994
+  but: "Tales of the Future"
+  cover: "blade-runner.jpg"
+  spotify: "https://open.spotify.com/album/6NkuCdMz5tGmHbOXAWbtCW"
+  apple_music: "https://music.apple.com/us/album/blade-runner-original-score-from-the-motion-picture/73327394"
+
+- title: "Soundtrack to a Vacant Life"
+  author: "The Flashbulb"
+  year: 2008
+  but: "Vicious Circle"
+  cover: "soundtrack-to-a-vacant-life.jpg"
+  spotify: "https://open.spotify.com/album/0zpiUfWUmJWdGA3V7n7cDn"
+  apple_music: "https://music.apple.com/us/album/soundtrack-to-a-vacant-life/292169383"
+
 - title: "Random Access Memories"
   author: "Daft Punk"
   year: 2013
   but: "Contact"
   cover: "random-access-memories.jpg"
   spotify: "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa"
-  apple_music: "https://music.apple.com/ua/album/random-access-memories/617154241"
+  apple_music: "https://music.apple.com/us/album/random-access-memories/617154241"
 
 - title: "The Boy with No Name"
   author: "Travis"
@@ -66,11 +82,3 @@ almost_there:
   cover: "the-boy-with-no-name.jpg"
   spotify: "https://open.spotify.com/album/0uR1cnrej7aGnRIptQxVaR"
   apple_music: "https://music.apple.com/us/album/the-boy-with-no-name/1458138748"
-
-- title: "Blade Runner (Music from the Original Soundtrack)"
-  author: "Vangelis"
-  year: 1994
-  but: "Tales of the Future"
-  cover: "blade-runner.jpg"
-  spotify: "https://open.spotify.com/album/6NkuCdMz5tGmHbOXAWbtCW"
-  apple_music: "https://music.apple.com/us/album/blade-runner-original-score-from-the-motion-picture/73327394"
