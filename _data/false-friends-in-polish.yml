@@ -192,9 +192,10 @@
   but_also: "друг, приятель"
 
 - word: "Magazyn"
-  not_only: "магазин"
-  but_also: "склад"
-  and_also: "журнал"
+  translation: "склад"
+  false_translation: "магазин"
+  another_translation: "журнал"
+  footnote: "В українській мові у слова «магазин» також є значення «склад», «комора». Також magazyn — магазин як частина зброї."
 
 - word: "Broń"
   translation: "зброя"

@@ -3,6 +3,7 @@ layout: default
 title: "Польська мова: хибні друзі перекладача"
 permalink: /lists/polish-false-friends/
 class: 'page-false-friends'
+littlefoot: true
 ---
 
 <main class="main">
@@ -21,12 +22,25 @@ class: 'page-false-friends'
         {%- if item.translation %}
 
           <li class="list-false-friends__item">
-            <div class="list-false-friends__word">{{ item.word }}</div>
+            <div class="list-false-friends__word">
+              {{ item.word }}
+              {%- if item.footnote %}<sup id="fnref:1"><a href="#fn:1" class="footnote">[1]</a></sup>{% endif %}
+            </div>
             <div class="list-false-friends__details">
               <span class="list-false-friends__false-translation">✘&thinsp;{{ item.false_translation }}</span>
               <span class="list-false-friends__true-translation">✔︎&thinsp;{{ item.translation }}</span>
               {%- if item.another_translation %}
                 або <span class="list-false-friends__true-translation">{{ item.another_translation }}</span>
+              {%- endif %}
+
+              {%- if item.footnote %}
+                <div class="footnotes">
+                  <ol>
+                    <li id="fn:1">
+                      {{ item.footnote }}
+                    </li>
+                  </ol>
+                </div>
               {%- endif %}
             </div>
           </li>
