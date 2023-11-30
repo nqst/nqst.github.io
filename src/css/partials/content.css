@@ -125,11 +125,10 @@ article video {
   max-width: 100%;
 }
 
-article figcaption {
+figcaption {
   display: block;
   margin-top: 0.5em;
   margin-bottom: var(--baseline);
-  /* font-family: var(--font-secondary); */
   line-height: 1.5;
   font-size: 0.7rem;
   color: #606264;
