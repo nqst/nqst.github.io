@@ -208,3 +208,11 @@
 - word: "Zgadzać"
   translation: "погоджуватись"
   false_translation: "згадати"
+
+- word: "Tlen"
+  translation: "кисень"
+  false_translation: "тлін"
+
+- word: "Umowa"
+  translation: "угода, договір"
+  false_translation: "умова"
