@@ -216,3 +216,8 @@
 - word: "Umowa"
   translation: "угода, договір"
   false_translation: "умова"
+
+- word: "Rano"
+  translation: "ранок"
+  another_translation: "вранці"
+  false_translation: "рано"
