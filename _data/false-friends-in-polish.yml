@@ -221,3 +221,7 @@
   translation: "ранок"
   another_translation: "вранці"
   false_translation: "рано"
+
+- word: "Nagły"
+  translation: "раптовий, неочікуваний"
+  false_translation: "нахабний"
