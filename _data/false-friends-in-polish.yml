@@ -225,3 +225,8 @@
 - word: "Nagły"
   translation: "раптовий, неочікуваний"
   false_translation: "нахабний"
+
+- word: "Zapowiedź"
+  translation: "оголошення, анонс"
+  another_translation: "передбачення"
+  false_translation: "заповідь"
