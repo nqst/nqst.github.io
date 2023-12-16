@@ -230,3 +230,8 @@
   translation: "оголошення, анонс"
   another_translation: "передбачення"
   false_translation: "заповідь"
+
+- word: "Bałwan"
+  not_only: "бовдур"
+  but_also: "сніговик"
+  and_also: "ідол"
