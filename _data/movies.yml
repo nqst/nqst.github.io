@@ -1,4 +1,10 @@
 2023:
+- name: "Гладіатор"
+  original_name: "Gladiator"
+  released: 2000
+  rating: 8
+  favorite: true
+
 - name: "Мій сусід Тоторо"
   original_name: "となりのトトロ"
   released: 1988
