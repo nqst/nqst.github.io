@@ -235,3 +235,19 @@
   not_only: "бовдур"
   but_also: "сніговик"
   and_also: "ідол"
+
+- word: "Czaszka"
+  translation: "череп"
+  false_translation: "чашка"
+
+- word: "Awans"
+  translation: "підвищення, просування"
+  false_translation: "аванс"
+
+- word: "Zawód"
+  translation: "професія"
+  false_translation: "завод"
+
+- word: "Pensja"
+  translation: "зарплата"
+  false_translation: "пенсія"

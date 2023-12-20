@@ -5,6 +5,11 @@
   rating: 8
   favorite: true
 
+- name: "Грейхаунд"
+  original_name: "Greyhound"
+  released: 2020
+  rating: 6
+
 - name: "Мій сусід Тоторо"
   original_name: "となりのトトロ"
   released: 1988
