@@ -251,3 +251,11 @@
 - word: "Pensja"
   translation: "зарплата"
   false_translation: "пенсія"
+
+- word: "Bohater"
+  translation: "герой"
+  false_translation: "богатир"
+
+- word: "Wiatrak"
+  not_only: "вітряк"
+  but_also: "вентилятор"
