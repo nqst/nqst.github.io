@@ -259,3 +259,8 @@
 - word: "Wiatrak"
   not_only: "вітряк"
   but_also: "вентилятор"
+
+- word: "Pieczeń"
+  translation: "печеня"
+  translation_hint: "рос. жаркóе"
+  false_translation: "печінка"
