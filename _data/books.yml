@@ -1,4 +1,8 @@
 2023:
+- name: "Легенды о Христе"
+  author: "Сельма Лагерлёф"
+  rating: 7
+
 - name: "Spark Joy"
   author: "Marie Kondo"
   favorite: true
