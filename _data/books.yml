@@ -3,6 +3,10 @@
   author: "Сельма Лагерлёф"
   rating: 7
 
+- name: "Чудесный доктор"
+  author: "Александр Куприн"
+  rating: 6
+
 - name: "Spark Joy"
   author: "Marie Kondo"
   favorite: true
