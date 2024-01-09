@@ -1,3 +1,29 @@
+- date: "2024-01-07"
+  from:
+    country: 🇳🇱
+    city: Амстердам
+    airport: AMS
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: KLM
+  aircraft: Embraer 190-100
+  comment: "Нарешті, томатний сік!"
+
+- date: "2024-01-05"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇳🇱
+    city: Амстердам
+    airport: AMS
+  company: KLM
+  aircraft: Boeing 737-8K2
+  comment: "Перший KLM. Пригощали смачним банановим кексом."
+
 - date: "2023-11-16"
   from:
     country: 🇬🇷
