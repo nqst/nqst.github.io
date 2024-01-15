@@ -264,3 +264,7 @@
   translation: "печеня"
   translation_hint: "рос. жаркóе"
   false_translation: "печінка"
+
+- word: "Konieczność"
+  translation: "необхідність"
+  false_translation: "кінцівка"
