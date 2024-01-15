@@ -268,3 +268,7 @@
 - word: "Konieczność"
   translation: "необхідність"
   false_translation: "кінцівка"
+
+- word: "Płyn"
+  translation: "рідина"
+  false_translation: "плин"
