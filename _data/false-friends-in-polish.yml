@@ -272,3 +272,11 @@
 - word: "Płyn"
   translation: "рідина"
   false_translation: "плин"
+
+- word: "Ser"
+  translation: "сир"
+  false_translation: "сер"
+
+- word: "Obywatel"
+  translation: "громадянин"
+  false_translation: "обиватель"
