@@ -280,3 +280,8 @@
 - word: "Obywatel"
   translation: "громадянин"
   false_translation: "обиватель"
+
+- word: "Zachowywać"
+  translation: "зберігати"
+  another_translation: "поводитись"
+  false_translation: "заховувати"
