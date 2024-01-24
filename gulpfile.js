@@ -116,7 +116,7 @@ gulp.task('serve', function() {
     },
     open: false,
     notify: false,
-    logLevel: 'silent'
+    logLevel: 'info'
   });
 
   gulp.watch(cssFiles, gulp.series('css'));
