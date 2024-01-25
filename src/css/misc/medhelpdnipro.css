@@ -16,7 +16,8 @@
     align-items: flex-start;
   }
 
-  &__logo-wrapper {
+  &__logo-wrapper,
+  &__image-wrapper {
     margin-bottom: 20px;
     order: 1;
 
@@ -39,6 +40,7 @@
   &__content {
     font-size: 0.8rem;
     line-height: 1.45;
+    flex: 1;
 
     p {
       margin-bottom: 0.75em;
@@ -48,4 +50,26 @@
   &__action {
     margin-top: 1em;
   }
+}
+
+.medhelpdnipro__image-wrapper {
+  position: relative;
+  width: 220px;
+  margin-inline: auto;
+  margin-bottom: 60px;
+
+  @media (--medium-screen) {
+    width: 220px;
+    margin-bottom: 0;
+  }
+}
+
+.medhelpdnipro__image-reb-1 {
+  border-radius: 6px;
+}
+
+.medhelpdnipro__image-reb-2 {
+  position: absolute;
+  top: 140px;
+  right: -36px;
 }
