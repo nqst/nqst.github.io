@@ -61,22 +61,30 @@
 
 <header class="header{% if page.class contains 'page-dark' or page.class contains 'has-dark-header' %} header--dark{% endif %}{% if has_banner == true %} header--has-banner{% endif %}" role="banner">
   <div class="header__container container container--wide">
-    {% if page.url == '/' %}
-    <h1 class="header__title">Олександр Зайцев</h1>
-    {% else %}
-    <div class="header__title">
-      <a class="header__title-link" href="/">Олександр Зайцев</a>
+    {% unless page.url == '/' %}<a href="/">{% endunless %}
+      <img class="header__userpic" src="/i/upic.png" srcset="/i/upic@2x.png 2x" alt="Фотографія Олександра Зайцева">
+    {% unless page.url == '/' %}</a>{% endunless %}
+
+    <div class="header__inner">
+      {% if page.url == '/' %}
+        <h1 class="header__title">
+          Олександр Зайцев
+        </h1>
+      {% else %}
+        <div class="header__title">
+          <a class="header__title-link" href="/">Олександр Зайцев</a>
+        </div>
+      {% endif %}
+
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/projects/' %} header__menu-link--active{% endif %}" href="/projects/">Проєкти</a></li><!--
+       --><li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/lists/' %} header__menu-link--active{% endif %}" href="/lists/">Списки</a></li><!--
+       --><li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/blog/' %} header__menu-link--active{% endif %}" href="/blog/">Блог</a></li>
+
+          <!-- <li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/about/' %} header__menu-link--active{% endif %}" href="/about/">Про мене</a></li> -->
+        </ul>
+      </nav>
     </div>
-    {% endif %}
-
-    <nav class="header__nav">
-      <ul class="header__menu">
-        <li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/projects/' %} header__menu-link--active{% endif %}" href="/projects/">Проєкти</a></li><!--
-     --><li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/lists/' %} header__menu-link--active{% endif %}" href="/lists/">Списки</a></li><!--
-     --><li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/blog/' %} header__menu-link--active{% endif %}" href="/blog/">Блог</a></li>
-
-        <!-- <li class="header__menu-item"><a class="header__menu-link{% if page.url contains '/about/' %} header__menu-link--active{% endif %}" href="/about/">О себе</a></li> -->
-      </ul>
-    </nav>
   </div>
 </header>
