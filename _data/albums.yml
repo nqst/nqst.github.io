@@ -20,6 +20,13 @@ perfect:
   spotify: "https://open.spotify.com/album/58wOe2PgagdTw6vtN1w0Wz"
   apple_music: "https://music.apple.com/us/album/coils/1286134162"
 
+- title: "Prophet"
+  author: "Ramona Falls"
+  year: 2012
+  cover: "prophet.jpg"
+  spotify: "https://open.spotify.com/album/29ClLhc1dMANbz1Hru7DOR"
+  apple_music: "https://music.apple.com/us/album/prophet/718654078"
+
 - title: "Mutter"
   author: "Rammstein"
   year: 2001
