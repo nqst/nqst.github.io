@@ -6,6 +6,19 @@
   background-color: #f9efdc;
 }
 
+.layout-letters .header {
+  border-bottom-color: #eae1cd;
+}
+
+.layout-letters .header__menu-link {
+  color: var(--text-darker);
+  opacity: 0.85;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 .main--letter {
   @media (--medium-screen) {
     margin-bottom: 120px;
