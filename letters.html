@@ -10,8 +10,10 @@ permalink: /letters/
       <h1 class="page-header__title">Листи дітям</h1>
     </header>
 
-    <ul>
-      <li><a href="./1/">Люди-скарбниці</a></li>
-    </ul>
+    <ol>
+      {%- for letter in site.letters %}
+      <li><a href="{{ letter.permalink }}">{{ letter.title }}</a></li>
+      {%- endfor %}
+    </ol>
   </div>
 </main>
