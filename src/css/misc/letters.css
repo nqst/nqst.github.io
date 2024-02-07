@@ -1,0 +1,60 @@
+/*
+ * Letters to my children
+ */
+
+.layout-letters body {
+  background-color: #f9efdc;
+}
+
+.main--letter {
+  @media (--medium-screen) {
+    margin-bottom: 120px;
+  }
+}
+
+.container--letter {
+  @media screen and (max-width: 599px) {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+.letter-paper {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 0.5px 0.6px hsl(var(--letter-shadow-color) / 0.36),
+              0px 1.6px 1.8px -0.8px hsl(var(--letter-shadow-color) / 0.36),
+              -0.1px 3.9px 4.4px -1.7px hsl(var(--letter-shadow-color) / 0.36);
+
+  @media (--medium-screen) {
+    padding: 50px 80px 80px;
+  }
+}
+
+.letter-paper .post__title {
+  font-family: NyghtSerif;
+  font-weight: 800;
+  font-style: italic;
+  font-feature-settings: "ss01";
+
+  @media (--medium-screen) {
+    font-size: 2.75rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.layout-letters hr {
+  border: none;
+  margin: 2rem 0 1.5rem;
+  width: auto;
+  height: auto;
+
+  &::after {
+    content: "*  *  *";
+    color: #2a2a2a;
+    font-family: NyghtSerif;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+}

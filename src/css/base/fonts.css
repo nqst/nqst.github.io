@@ -38,3 +38,16 @@
   src: url('/fonts/FixelText-ExtraBold.woff2') format('woff2'),
        url('/fonts/FixelText-ExtraBold.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'NyghtSerif';
+  font-weight: 500;
+  src: url('/fonts/NyghtSerif-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NyghtSerif';
+  font-weight: 800;
+  font-style: italic;
+  src: url('/fonts/NyghtSerif-DarkItalic.woff2') format('woff2');
+}
