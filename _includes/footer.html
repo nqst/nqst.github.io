@@ -1,3 +1,4 @@
+{%- unless layout.noFooter or page.noFooter %}
 <footer class="footer{% if page.class contains 'page-dark' or page.class contains 'has-dark-footer' %} footer--dark{% endif %}" role="contentinfo">
   <div class="footer__container container container--full">
 
@@ -12,6 +13,7 @@
     </div>
   </div>
 </footer>
+{%- endunless %}
 
 <script src="/js/jquery.fitvids.js"></script>
 <script>

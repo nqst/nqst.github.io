@@ -7,3 +7,7 @@ highlighter: rouge
 url: "https://zaytsev.io"
 
 exclude: ["node_modules", "src", "gulpfile.js", "package.json", "nqstnet.sublime-project", "nqstnet.sublime-workspace"]
+
+collections:
+  letters:
+    output: true
