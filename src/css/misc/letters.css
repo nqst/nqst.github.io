@@ -8,6 +8,11 @@
 
 .layout-letters .header {
   border-bottom-color: #eae1cd;
+  display: none;
+
+  @media (--medium-screen) {
+    display: block;
+  }
 }
 
 .layout-letters .header__menu-link {
@@ -20,8 +25,15 @@
 }
 
 .main--letter {
+  margin-top: 0;
+
   @media (--medium-screen) {
+    margin-top: 110px;
     margin-bottom: 120px;
+  }
+
+  @media (--large-screen) {
+    margin-top: 150px;
   }
 }
 
@@ -34,7 +46,35 @@
   }
 }
 
+.letters-navigation {
+  @media (--medium-screen) {
+    display: none;
+  }
+}
+
+.letters-navigation__link {
+  display: inline-flex;
+  color: #817c72;
+  padding: 16px 0;
+  gap: 0.45em;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1;
+
+  &:hover {
+    color: #69655d;
+  }
+}
+
+.letters-navigation__arrow {
+  position: relative;
+  top: -0.08em;
+  font-size: 1.7em;
+  font-weight: 400;
+}
+
 .letter-paper {
+  margin-top: 10px;
   padding: 20px 20px 30px;
   border-radius: 6px;
   background-color: #fff;
@@ -43,6 +83,7 @@
               -0.1px 3.9px 4.4px -1.7px hsl(var(--letter-shadow-color) / 0.36);
 
   @media (--medium-screen) {
+    margin-top: 0;
     padding: 45px 80px 100px;
     border-radius: 3px;
   }
@@ -56,7 +97,7 @@
 
   @media (--medium-screen) {
     font-size: 3rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.2rem;
   }
 }
 
@@ -110,7 +151,7 @@
 }
 
 .letter-paper__img-treasure-chest {
-  margin-top: -60px;
+  margin-top: -52px;
   max-width: 160px;
   left: -12px;
 
