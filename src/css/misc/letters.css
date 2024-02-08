@@ -33,7 +33,7 @@
 }
 
 .letter-paper {
-  padding: 20px;
+  padding: 20px 20px 40px;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0px 0.5px 0.6px hsl(var(--letter-shadow-color) / 0.36),
@@ -41,7 +41,7 @@
               -0.1px 3.9px 4.4px -1.7px hsl(var(--letter-shadow-color) / 0.36);
 
   @media (--medium-screen) {
-    padding: 50px 80px 80px;
+    padding: 45px 80px 120px;
   }
 }
 
@@ -52,8 +52,8 @@
   font-feature-settings: "ss01";
 
   @media (--medium-screen) {
-    font-size: 2.75rem;
-    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    margin-bottom: 1.25rem;
   }
 }
 
@@ -69,5 +69,43 @@
     font-family: NyghtSerif;
     font-weight: 500;
     font-size: 1.25rem;
+  }
+}
+
+.letter-paper__illustration {
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+  img {
+    position: relative;
+    display: block;
+  }
+}
+
+.letter-paper__footer {
+  margin-top: calc(var(--baseline) * 1.5);
+  color: var(--text-muted);
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.letter-paper__signature {
+  padding-right: 20px;
+}
+
+.letter-paper__img-treasure-chest {
+  margin-top: -60px;
+  max-width: 160px;
+  left: -12px;
+
+  @media (--medium-screen) {
+    margin-top: -80px;
+    max-width: none;
+    left: -18px;
+  }
+
+  @media (--large-screen) {
+    margin-top: -90px;
   }
 }
