@@ -26,6 +26,7 @@
 
 .main--letter {
   margin-top: 0;
+  margin-bottom: 15px;
 
   @media (--medium-screen) {
     margin-top: 110px;
