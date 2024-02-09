@@ -9,19 +9,6 @@
 .layout-letters .header {
   border-bottom-color: #eae1cd;
   display: none;
-
-  @media (--medium-screen) {
-    display: block;
-  }
-}
-
-.layout-letters .header__menu-link {
-  color: var(--text-darker);
-  opacity: 0.85;
-
-  &:hover {
-    opacity: 1;
-  }
 }
 
 .main--letter {
@@ -29,12 +16,8 @@
   margin-bottom: 15px;
 
   @media (--medium-screen) {
-    margin-top: 110px;
+    margin-top: 5px;
     margin-bottom: 120px;
-  }
-
-  @media (--large-screen) {
-    margin-top: 150px;
   }
 }
 
@@ -48,19 +31,22 @@
 }
 
 .letters-navigation {
+  margin-bottom: 5px;
+
   @media (--medium-screen) {
-    display: none;
+    max-width: 1400px !important;
+    margin-bottom: 0;
   }
 }
 
 .letters-navigation__link {
   display: inline-flex;
   color: #817c72;
-  padding: 16px 0;
+  padding: 15px 0;
   gap: 0.45em;
-  font-weight: 500;
   align-items: center;
   line-height: 1;
+  font-size: 16px;
 
   &:hover {
     color: #69655d;
@@ -69,13 +55,13 @@
 
 .letters-navigation__arrow {
   position: relative;
-  top: -0.08em;
-  font-size: 1.7em;
-  font-weight: 400;
+  top: -0.1em;
+  font-size: 2.4em;
+  opacity: 0.85;
 }
 
 .letter-paper {
-  margin-top: 10px;
+  margin-top: 0;
   padding: 20px 24px 30px 20px;
   border-radius: 6px;
   background-color: #fff;
@@ -84,9 +70,13 @@
               -0.1px 3.9px 4.4px -1.7px hsl(var(--letter-shadow-color) / 0.36);
 
   @media (--medium-screen) {
-    margin-top: 0;
+    margin-top: 30px;
     padding: 45px 80px 100px;
     border-radius: 3px;
+  }
+
+  @media (--large-screen) {
+    margin-top: 50px;
   }
 }
 
