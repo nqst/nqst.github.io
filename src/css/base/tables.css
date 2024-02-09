@@ -24,7 +24,7 @@
     vertical-align: top;
     line-height: 1.5;
     padding: 8px 10px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #eceef0;
 
     @media (--medium-screen) {
       padding: 12px 15px;
@@ -44,7 +44,7 @@
     letter-spacing: 0.025em;
     font-weight: 500;
     border-top: none;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eceef0;
   }
 
   tr:first-child td {

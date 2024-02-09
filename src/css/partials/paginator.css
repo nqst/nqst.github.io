@@ -7,7 +7,7 @@
  */
 
 .paginator {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #eceef0;
   overflow: hidden;
   background-color: #fff;
   font-size: 0.9rem;
@@ -64,13 +64,13 @@
 }
 
 .paginator__next {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #eceef0;
 
   @media (--large-screen) {
     float: right;
     text-align: right;
     border-top: none;
-    border-left: 1px solid #eee;
+    border-left: 1px solid #eceef0;
   }
 
   &:after {

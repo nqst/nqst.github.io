@@ -1,4 +1,9 @@
 2024:
+- name: "The Manual: A Philosopherʼs Guide to Life"
+  author: "Epictetus"
+  favorite: true
+  rating: 9
+
 - name: "Двадцать тысяч лье под водой"
   author: "Жюль Верн"
   rating: 7

@@ -6,15 +6,72 @@
  *
  */
 
+.list-of-lists {
+  line-height: 1.4rem;
+}
 
 .list-of-lists__item {
   position: relative;
+  margin: 0 0 0.6em;
   padding: 0;
-  /* font-family: var(--font-secondary); */
 
   &::before {
     display: none;
   }
+}
+
+.list-of-lists__link {
+  display: inline-flex;
+  justify-content: flex-start;
+  gap: 0.55em;
+  align-items: center;
+}
+
+.list-of-lists__emoji {
+  font-size: 0.8em;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.list-of-lists__item-name {
+  flex: 1;
+}
+
+.list-of-lists__item:nth-child(1) {
+  .list-of-lists__emoji { background-color: #eddcd299; }
+}
+
+.list-of-lists__item:nth-child(2) {
+  .list-of-lists__emoji { background-color: #fff1e699; }
+}
+
+.list-of-lists__item:nth-child(3) {
+  .list-of-lists__emoji { background-color: #fde2e499; }
+}
+
+.list-of-lists__item:nth-child(4) {
+  .list-of-lists__emoji { background-color: #c5dedd99; }
+}
+
+.list-of-lists__item:nth-child(5) {
+  .list-of-lists__emoji { background-color: #ecf3cf; }
+}
+
+.list-of-lists__item:nth-child(6) {
+  .list-of-lists__emoji { background-color: #ece9d4; }
+}
+
+.list-of-lists__item:nth-child(7) {
+  .list-of-lists__emoji { background-color: #99c1de99; }
+}
+
+.list-of-lists__item:nth-child(8) {
+  .list-of-lists__emoji { background-color: #c2bbca55; }
 }
 
 .books__item,

@@ -314,8 +314,6 @@ figure.figure--wide,
 
 .page-header {
   margin-bottom: var(--baseline);
-  /* padding-bottom: calc(var(--baseline-half)); */
-  /* border-bottom: 1px solid #eee; */
 
   &__title,
   &__description {
