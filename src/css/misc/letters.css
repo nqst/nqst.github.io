@@ -2,8 +2,13 @@
  * Letters to my children
  */
 
-.layout-letters body {
+.layout-letters body,
+.page-letters body {
   background-color: #fbf3e5;
+}
+
+.page-letters .footer {
+  border-top-color: #ede6d8;
 }
 
 .layout-letters .header {

@@ -344,26 +344,27 @@
   }
 
   &__details {
+    margin-top: 0.15em;
     line-height: 1.4;
     color: var(--text-muted);
     font-size: 0.9em;
   }
 
-  &__false-translation,
+  /* &__false-translation,
   &__true-translation,
   &__not-only,
   &__but-also {
     font-weight: 500;
-  }
+  } */
 
   &__false-translation {
-    margin-right: 0.4em;
-    color: #c65853;
+    margin-right: 0.5em;
+    color: #c2514b;
   }
 
   &__true-translation,
   &__but-also {
-    color: #409843;
+    color: #3b973e;
   }
 
   &__not-only {
