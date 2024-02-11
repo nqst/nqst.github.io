@@ -8,6 +8,9 @@
   --popover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   --popover-vertical-padding: 0.75rem;
   --popover-horizontal-padding: 1rem;
+  --popover-font-family: "FixelText", system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* --popover-transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out; */
 }
 
