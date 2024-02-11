@@ -365,9 +365,10 @@
   &__true-translation,
   &__but-also {
     color: #3b973e;
+    color: #168619;
   }
 
   &__not-only {
-    color: #f70;
+    color: #cf4700;
   }
 }
