@@ -236,7 +236,7 @@
   color: #198120;
 
   &::before {
-    background: #f2fff7 url('../i/checkmark.svg') no-repeat 50% 50%;
+    background: #f5f9f1 url('../i/checkmark.svg') no-repeat 50% 50%;
     background-size: 65%;
     border-color: #1d8424;
   }
@@ -337,6 +337,12 @@
     break-inside: avoid-column;
   }
 
+  &__icon {
+    position: relative;
+    top: 1px;
+    margin-right: 0.2em;
+  }
+
   &__word {
     font-size: 1.1rem;
     line-height: 1.4;
@@ -350,15 +356,8 @@
     font-size: 0.9em;
   }
 
-  /* &__false-translation,
-  &__true-translation,
-  &__not-only,
-  &__but-also {
-    font-weight: 500;
-  } */
-
   &__false-translation {
-    margin-right: 0.5em;
+    margin-right: 0.6em;
     color: #c2514b;
   }
 

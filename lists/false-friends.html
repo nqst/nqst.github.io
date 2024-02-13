@@ -27,8 +27,16 @@ littlefoot: true
               {%- if item.footnote %}<sup id="fnref:1"><a href="#fn:1" class="footnote">[1]</a></sup>{% endif %}
             </div>
             <div class="list-false-friends__details">
-              <span class="list-false-friends__false-translation">✘&thinsp;{{ item.false_translation }}</span>
-              <span class="list-false-friends__true-translation">✔︎&thinsp;{{ item.translation }}</span>
+              <span class="list-false-friends__false-translation">
+                <img class="list-false-friends__icon" src="/i/false-friends/cross.svg" alt="×"><!--
+                -->{{ item.false_translation }}
+              </span>
+
+              <span class="list-false-friends__true-translation">
+                <img class="list-false-friends__icon" src="/i/false-friends/checkmark.svg" alt="✔︎"><!--
+                -->{{ item.translation }}
+              </span>
+
               {%- if item.translation_hint %}
                 ({{ item.translation_hint }})
               {%- endif %}

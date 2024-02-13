@@ -329,8 +329,9 @@ figure.figure--wide,
   }
 
   &__description {
-    margin: 0.5em 0 3em;
+    margin: 0.75em 0 3em;
     color: var(--text-muted);
+    line-height: 1.45;
   }
 }
 

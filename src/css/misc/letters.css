@@ -7,14 +7,40 @@
   background-color: #fbf3e5;
 }
 
-.page-letters .footer {
-  border-top-color: #ede6d8;
-}
-
 .layout-letters .header {
-  border-bottom-color: #eae1cd;
   display: none;
 }
+
+.page-letters .header {
+  border-bottom-color: #eae1cd;
+}
+
+.page-letters .header__menu-link:not(.header__menu-link--active),
+.page-letters .page-header__description,
+.page-letters ol li::marker {
+  color: #736f6a;
+}
+.page-letters .footer {
+  border-top-color: #ede6d8;
+
+  a {
+    color: #736f6a;
+  }
+}
+
+.page-letters .footer__email-link {
+  background-image: url('../i/envelope--letters.svg');
+}
+
+.page-letters ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.page-letters ol li::marker {
+  font-size: 0.7em;
+}
+
 
 .main--letter {
   margin-top: 0;

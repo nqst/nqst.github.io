@@ -39,7 +39,10 @@ noFooter: true
           <div class="letter-paper__signature">
             <img src="/i/letters/signature.png" width="160" height="32" alt="Твій тато">
           </div>
-          <div class="letter-paper__date">{{ page.date_published }}</div>
+
+          {%- if page.date_published %}
+            <div class="letter-paper__date">{{ page.date_published }}</div>
+          {%- endif %}
         </div>
       </section>
     </article>

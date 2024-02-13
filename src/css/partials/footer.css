@@ -16,7 +16,7 @@
   }
 
   a {
-    color: #6e8395;
+    color: #64798b;
     &:hover {
       color: var(--text-color);
     }
