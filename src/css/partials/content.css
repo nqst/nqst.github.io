@@ -326,6 +326,7 @@ figure.figure--wide,
 
   &__title {
     margin: 0;
+    text-wrap: balance;
   }
 
   &__description {
