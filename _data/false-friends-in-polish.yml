@@ -285,3 +285,11 @@
   translation: "зберігати"
   another_translation: "поводитись"
   false_translation: "заховувати"
+
+- word: "Śliwki"
+  translation: "сливи"
+  false_translation: "вершки"
+
+- word: "Sprawiedliwość"
+  not_only: "справедливість"
+  but_also: "правосуддя"
