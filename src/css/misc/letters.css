@@ -135,6 +135,7 @@
   font-weight: 800;
   font-style: italic;
   font-feature-settings: "ss01";
+  font-size: 2rem;
 
   @media (--medium-screen) {
     font-size: 3rem;
