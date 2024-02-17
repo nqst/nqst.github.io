@@ -333,6 +333,7 @@ figure.figure--wide,
     margin: 0.75em 0 3em;
     color: var(--text-muted);
     line-height: 1.45;
+    text-wrap: balance;
   }
 }
 

@@ -9,6 +9,9 @@ class: page-letters
   <div class="container container--full">
     <header class="page-header">
       <h1 class="page-header__title">Листи дітям</h1>
+      <div class="page-header__description">
+        Це листи, адресовані моїм дітям — Аврорі та Петрику. Але читати їх можна усім, хто побажає.
+      </div>
     </header>
 
     <ol>
@@ -16,5 +19,9 @@ class: page-letters
       <li><a href="{{ letter.permalink }}">{{ letter.title }}</a></li>
       {%- endfor %}
     </ol>
+
+    <div class="letters-placeholder">
+      Вітання від прямокутника. Коли там угорі мало посилань, прямокутник допомагає зробити цю сторінку не такою пустою.
+    </div>
   </div>
 </main>
