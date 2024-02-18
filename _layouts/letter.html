@@ -40,15 +40,18 @@ noFooter: true
         {{ content }}
 
         <div class="letter-paper__footer">
-          {%- if page.date_published %}
+
+          {%- unless page.first_letter %}
             <div class="letter-paper__date">{{ page.date_published }}</div>
+            <div class="letter-paper__signature">
+              <img src="/i/letters/signature.png" width="160" height="33" alt="Твій тато">
+            </div>
           {%- else %}
             <div class="letter-paper__with-love">З любовʼю,</div>
-          {%- endif %}
-
-          <div class="letter-paper__signature">
-            <img src="/i/letters/signature.png" width="160" height="32" alt="Твій тато">
-          </div>
+            <div class="letter-paper__signature">
+              <img src="/i/letters/signature-alt.png" width="160" height="32" alt="Ваш тато">
+            </div>
+          {%- endunless %}
         </div>
       </section>
     </article>
