@@ -188,6 +188,13 @@
   margin-top: calc(var(--baseline) * 1.5);
 }
 
+.letter-paper__signature img {
+  @media screen and (max-width: 599px) {
+    max-width: 130px;
+    height: auto;
+  }
+}
+
 .letter-paper__date {
   color: var(--text-muted);
 
