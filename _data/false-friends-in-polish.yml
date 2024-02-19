@@ -293,3 +293,7 @@
 - word: "Sprawiedliwość"
   not_only: "справедливість"
   but_also: "правосуддя"
+
+- word: "Objawy"
+  translation: "симптоми"
+  false_translation: "обʼяви"
