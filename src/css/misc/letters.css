@@ -179,13 +179,16 @@
 }
 
 .letter-paper__footer {
-  margin-top: 2em;
   display: flex;
   gap: 15px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: calc(var(--baseline) * 1.5);
+  margin-top: calc(var(--baseline) * 2);
+
+  @media (--medium-screen) {
+    margin-top: calc(var(--baseline) * 2.5);
+  }
 }
 
 .letter-paper__signature img {
