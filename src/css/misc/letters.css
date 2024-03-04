@@ -76,7 +76,7 @@
   }
 
   @media (--medium-screen) {
-    line-height: 1.45;
+    line-height: 1.5;
   }
 }
 
@@ -111,6 +111,7 @@
 }
 
 .letter-paper {
+  position: relative;
   margin-top: 0;
   padding: 20px 24px 40px 20px;
   border-radius: 6px;
@@ -120,13 +121,13 @@
               -0.1px 3px 5px -1.7px hsl(var(--letter-shadow-color) / 0.3);
 
   @media (--medium-screen) {
-    margin-top: 30px;
-    padding: 45px 80px 100px;
+    margin-top: 40px;
+    padding: 40px 80px 100px;
     border-radius: 3px;
   }
 
   @media (--large-screen) {
-    margin-top: 50px;
+    margin-top: 70px;
   }
 }
 
@@ -136,20 +137,32 @@
   font-style: italic;
   font-feature-settings: "ss01";
   font-size: 2rem;
+  margin-bottom: 1rem;
 
   @media (--medium-screen) {
+    font-size: 2.4rem;
+    margin-bottom: 1.3rem;
+  }
+
+  @media (--large-screen) {
     font-size: 3rem;
-    margin-bottom: 1.2rem;
+  }
+}
+
+.post__title + .letter-paper__dedication {
+  margin-top: -0.5rem;
+
+  @media (--medium-screen) {
+    margin-top: -0.7rem;
   }
 }
 
 .letter-paper__dedication {
-  margin-top: -0.4rem;
   margin-bottom: 4em;
   font-style: italic;
 
   @media (--medium-screen) {
-    margin-bottom: 6em;
+    margin-bottom: 5em;
   }
 }
 
@@ -168,14 +181,11 @@
   }
 }
 
-.letter-paper__illustration {
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  img {
-    position: relative;
-    display: block;
-  }
+.letter-paper__img {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 0;
 }
 
 .letter-paper__footer {
@@ -206,18 +216,47 @@
   }
 }
 
-.letter-paper__img-treasure-chest {
-  margin-top: -52px;
+.letter-paper__img--treasure-chest {
+  margin-top: -32px;
   max-width: 160px;
   left: -12px;
 
   @media (--medium-screen) {
-    margin-top: -80px;
+    margin-top: -90px;
     max-width: none;
     left: -18px;
   }
+}
+
+.letter-paper__img--bus {
+  margin-top: -35px;
+
+  @media (--medium-screen) {
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+  }
 
   @media (--large-screen) {
-    margin-top: -90px;
+    margin-top: 20px;
+    margin-bottom: 65px;
+  }
+}
+
+.letter-paper--bus .letter-paper__illustration {
+  @media (--medium-screen) {
+    padding-bottom: 50px;
+  }
+}
+
+.letter-paper--bus .letter-paper__illustration::after {
+  @media (--medium-screen) {
+    position: absolute;
+    content: '';
+    display: block;
+    border-bottom: 1px dashed #ddd;
+    left: 0;
+    right: 0;
   }
 }

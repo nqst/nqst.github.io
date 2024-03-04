@@ -15,28 +15,27 @@ noFooter: true
 
   <div class="container container--medium container--letter">
 
-    <article class="post letter-paper">
+    <article class="post letter-paper{% if page.class %} letter-paper--{{ page.class }}{% endif %}">
       <header class="post__header">
 
         {%- if page.illustration %}
         <div class="letter-paper__illustration">
           <img src="/i/letters/{{ page.illustration }}"
                width="{{ page.illustration_width | default: 300 }}"
-               {%- if page.illustration_class %}
-                 class="letter-paper__img-{{ page.illustration_class }}"
+               {%- if page.class %}
+                 class="letter-paper__img letter-paper__img--{{ page.class }}"
                {% endif %}
                alt="">
         </div>
         {%- endif %}
 
         <h1 class="post__title">{{ page.title }}</h1>
-      </header>
-
-      <section class="post__content">
         {%- if page.dedication %}
           <div class="letter-paper__dedication">{{ page.dedication }}</div>
         {%- endif %}
+      </header>
 
+      <section class="post__content">
         {{ content }}
 
         <div class="letter-paper__footer">
