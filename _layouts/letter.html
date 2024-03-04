@@ -22,9 +22,10 @@ noFooter: true
         <div class="letter-paper__illustration">
           <img src="/i/letters/{{ page.illustration }}"
                width="{{ page.illustration_width | default: 300 }}"
+               {%- if page.illustration_height %}height="{{ page.illustration_height }}"{% endif %}
                {%- if page.class %}
                  class="letter-paper__img letter-paper__img--{{ page.class }}"
-               {% endif %}
+               {%- endif %}
                alt="">
         </div>
         {%- endif %}
