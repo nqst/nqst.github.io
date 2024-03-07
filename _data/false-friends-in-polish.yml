@@ -297,3 +297,7 @@
 - word: "Objawy"
   translation: "симптоми"
   false_translation: "обʼяви"
+
+- word: "Rodzice"
+  translation: "батьки"
+  false_translation: "родичі"
