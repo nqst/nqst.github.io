@@ -1,17 +1,19 @@
 ---
-layout: post
+layout: book-summary
 title: "How to Fail at Almost Everything and Still Win Big"
-author: Scott Adams
+author: "Scott Adams"
+rating: 8
 permalink: /lists/books/how-to-fail/
+bookCover: "/i/books/how-to-fail-at-almost-anything.jpg"
+finished: "2024-03-15"
+amazon: "https://www.amazon.com/gp/product/B0CFD2YLB7/"
 ---
 
-> The best loan customer is one who has no passion whatsoever, just a desire to work hard at something that looks good on a spreadsheet.
-
-> While [doing something I like] takes me away from my friends and family for a bit, it makes me a better person when I’m with them.
+> <mark>While [doing something I like] takes me away from my friends and family for a bit, it makes me a better person when I’m with them.</mark>
 
 > As I write this paragraph, my family and a few good friends are wondering why I’m selfishly lagging behind and not meeting them for an afternoon of sitting in the sun. I’ll get there soon. And when I do, I’ll feel energized, satisfied, and far more fun to be around. No one will think worse of me in the long run for being thirty minutes behind for a full day of fun that they have already started. But everyone will appreciate that I’m in a better mood when I show up. That’s the tradeoff.
 
-> (On waking up early) You can accomplish more by the time other people wake up than most people accomplish all day.
+> _(On waking up early)_ You can accomplish more by the time other people wake up than most people accomplish all day.
 
 > Startups often do better by slapping together something that is 80 percent good and seeing how the public responds. There’s time to improve things later if the market cares about the product.
 
@@ -23,7 +25,7 @@ permalink: /lists/books/how-to-fail/
 
 > Pay attention to the attitudes of people who have recently exercised. You’ll discover they are almost always happy and upbeat.
 
-> Exercise, food, and sleep should be your first buttons to push if you’re trying to elevate your attitude and raise your energy.
+> <mark>Exercise, food, and sleep should be your first buttons to push if you’re trying to elevate your attitude and raise your energy.</mark>
 
 > It’s smarter to see your big idea projects as part of a system to improve your energy, contacts, and skills. From that viewpoint, if you have a big, interesting project in the works, you’re a winner every time you wake up.
 
@@ -43,29 +45,35 @@ permalink: /lists/books/how-to-fail/
 
 > Adults are starved for a kind word.
 
-> If you see something that impresses you, a decent respect for humanity insists you voice your praise.
+> <mark>If you see something that impresses you, a decent respect for humanity insists you voice your praise.</mark>
 
 > Salespeople know they can manipulate buyers by controlling what they compare.
 
 > Few things are as destructive and limiting as a worldview that assumes people are mostly rational.
 
-> (On how to start a conversation with a stranger) It goes something like this: What’s your name? Where do you live? Do you have a family? What do you do for a living? Do you have any hobbies/sports? Do you have any travel plans?
+> _(How to start a conversation)_ It goes something like this:
+> - What’s your name?
+> - Where do you live?
+> - Do you have a family?
+> - What do you do for a living?
+> - Do you have any hobbies/sports?
+> - Do you have any travel plans?
 
-> (Invite people to talk about themselves) That person wants to talk about something interesting and sound knowledgeable. Your job is to make that easy. Nothing is easier than talking about oneself.
+> _(Invite people to talk about themselves)_ That person wants to talk about something interesting and sound knowledgeable. Your job is to make that easy. Nothing is easier than talking about oneself.
 
 > If something story-worthy happens to you, spend some time developing the story structure in your head.
 
-> "There’s only one important rule for a story setup: Keep it BRIEF."
+> There’s only one important rule for a story setup: Keep it BRIEF.
 
 > I’ve found that the most effective way to stop people from trying to persuade me is to say, “I’m not interested.”
 
-> *No one likes to be proven wrong, but most people will be happy to “clarify,” even if the clarification is a complete reversal of an earlier position. It just feels different when you call something a clarification.*
+> <mark>No one likes to be proven wrong, but most people will be happy to “clarify,” even if the clarification is a complete reversal of an earlier position. It just feels different when you call something a clarification.</mark>
 
 > Another common speaking trick is to hum the first part of the “Happy Birthday” song and then speak in your normal voice right after.
 
-> *For starters, the single biggest trick for manipulating your happiness chemistry is being able to do what you want when you want. Contrast that with the more common situation in which you might be able to do all the things you want, but you can’t often do them when you want.*
+> For starters, the single biggest trick for manipulating your happiness chemistry is being able to do what you want when you want. Contrast that with the more common situation in which you might be able to do all the things you want, but you can’t often do them when you want.
 
-> *Happiness has more to do with where you’re heading than where you are.*
+> <mark>Happiness has more to do with where you’re heading than where you are.</mark>
 
 > The directional nature of happiness is one reason it’s a good idea to have a sport or hobby that leaves you plenty of room to improve every year.
 
@@ -73,11 +81,11 @@ permalink: /lists/books/how-to-fail/
 
 > Simply imagining a better future hacks your brain chemistry and provides you with the sensation of happiness
 
-> *Don’t let reality control your imagination. Let your imagination be the user interface to choose your own reality.*
+> <mark>Don’t let reality control your imagination. Let your imagination be the user interface to choose your own reality.</mark>
 
 > Imagine an incredible future (even if you don’t believe it).
 
-> *Reduce daily decisions to routine.*
+> <mark>Reduce daily decisions to routine.</mark>
 
 > You can often get good results from inaccurate worldviews.
 
@@ -87,7 +95,7 @@ permalink: /lists/books/how-to-fail/
 
 > Stock up on convenient healthy food (e.g., apples, nuts, bananas, etc.) and let laziness be your copilot in eating right.
 
-> *Learn how to season healthy-yet-bland foods.*
+> <mark>Learn how to season healthy-yet-bland foods.</mark>
 
 > The method that never succeeds is exercising whenever you have some spare time. If you’re like most adults, you haven’t seen spare time in years.
 

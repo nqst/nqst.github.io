@@ -1,0 +1,49 @@
+---
+layout: default
+ogtype: article
+---
+
+<main class="main main--post book-summary">
+
+  <header class="book-summary__header">
+    <div class="container container--medium">
+      <div class="book-summary__media">
+        {%- if page.bookCover %}
+          <img class="book-summary__cover" src="{{ page.bookCover }}" alt="{{ page.title }}" width="160">
+        {%- endif %}
+
+        <div class="book-summary__media-body">
+          <div class="book-summary__topnav">
+            <a href="/lists/books/">Книги</a>
+          </div>
+          <h1 class="book-summary__title">{{ page.title }}</h1>
+
+          <div class="book-summary__book-author">
+            {{ page.author }}
+          </div>
+
+          <div class="book-summary__book-details">
+            {%- if page.rating %}
+              <span class="book-summary__rating">Моя оцінка: {{ page.rating }}/10</span>
+            {%- endif %}
+
+            {%- if page.amazon %}
+              &nbsp;&middot;&nbsp;
+              <a href="{{ page.amazon }}" class="book-summary__link link-underlined">Amazon</a>
+            {%- endif %}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <div class="container container--medium">
+    <article class="book-summary__article">
+      <section class="book-summary__content">
+        <h2>Нотатки:</h2>
+        {{ content }}
+      </section>
+    </article>
+  </div>
+</main>

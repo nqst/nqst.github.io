@@ -13,23 +13,6 @@ permalink: /lists/books/
       </div>
     </header>
 
-    {% comment %}
-    <h2>Just favs</h2>
-    <ul class="books">
-      {% for data in site.data.books %}
-        {% assign books = data[1] | where: "favorite", "true" %}
-        {% for book in books %}
-          <li class="books__item{% if book.favorite %} books__item--favorite{% endif %}">
-            <strong class="books__name">{{ book.name }}</strong>
-            <span class="books__author">
-              {{ book.author }}
-            </span>
-          </li>
-        {% endfor %}
-      {% endfor %}
-    </ul>
-    {% endcomment %}
-
     {% for data in site.data.books %}
       {% assign year = data[0] %}
       {% assign books = data[1] %}
@@ -48,6 +31,10 @@ permalink: /lists/books/
               {%- if book.rating %}
                 &nbsp;&middot;&nbsp;
                 <span class="books__rating">{{ book.rating }}/10</span>
+              {%- endif %}
+              {%- if book.notes %}
+                &nbsp;&middot;&nbsp;
+                <a class="books__notes-link link-underlined" href="{{ book.notes }}">Нотатки</a>
               {%- endif %}
             </span>
           </li>
