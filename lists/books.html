@@ -41,8 +41,14 @@ permalink: /lists/books/
         {% for book in books %}
           <li class="books__item{% if book.favorite %} books__item--favorite{% endif %}">
             <strong class="books__name">{{ book.name }}</strong>
-            <span class="books__author">
-              {{ book.author }}
+            <span class="books__details">
+              <span class="books__author">
+                {{ book.author }}
+              </span>
+              {%- if book.rating %}
+                &nbsp;&middot;&nbsp;
+                <span class="books__rating">{{ book.rating }}/10</span>
+              {%- endif %}
             </span>
           </li>
         {% endfor %}
