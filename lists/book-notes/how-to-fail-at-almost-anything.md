@@ -2,7 +2,7 @@
 layout: book-summary
 title: "How to Fail at Almost Everything and Still Win Big"
 author: "Scott Adams"
-rating: 8
+rating: 7
 permalink: /lists/books/how-to-fail/
 bookCover: "/i/books/how-to-fail-at-almost-anything.jpg"
 finished: "2024-03-15"
