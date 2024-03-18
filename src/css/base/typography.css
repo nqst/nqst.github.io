@@ -77,7 +77,8 @@ h4 {
   font-weight: normal;
 }
 
-.post__title {
+.post__title,
+.book-summary__title {
   margin-top: 0.1rem;
   margin-bottom: 1rem;
   font-size: 1.8rem;
@@ -111,6 +112,13 @@ a {
   &:hover {
     color: var(--link-hover-color);
   }
+}
+
+.link-underlined {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
 }
 
 p {

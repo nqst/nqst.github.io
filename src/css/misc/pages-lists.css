@@ -133,7 +133,7 @@
   }
 }
 
-.books__author,
+.books__details,
 .movies__details,
 .countries__details {
   display: block;
@@ -151,6 +151,10 @@
   margin-top: 0.5rem;
   font-size: 0.9em;
   line-height: 1.5625;
+}
+
+.books__rating {
+  font-size: 0.9em;
 }
 
 .movies__rating {
