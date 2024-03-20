@@ -10,7 +10,7 @@ amazon: "https://amzn.to/3IJ1RVB"
 favorite: true
 ---
 
-> It’s not necessarily the most accurate takes that rise to the top but those that are most likely to make people click the retweet or share button—those that have the catchiest wording and hit the right emotional buttons.
+> It’s not necessarily the most accurate takes that rise to the top, but those that are most likely to make people click the retweet or share button—those that have the catchiest wording and hit the right emotional buttons.
 
 > On social media, these voices disproportionately drive the conversation, making people feel like things are even more nasty and polarized than they actually are.
 
