@@ -6,7 +6,7 @@ rating: 7
 permalink: /lists/books/how-to-fail/
 bookCover: "/i/books/how-to-fail-at-almost-anything.jpg"
 finished: "2024-03-15"
-amazon: "https://www.amazon.com/gp/product/B0CFD2YLB7/"
+amazon: "https://amzn.to/43obaEa"
 ---
 
 > <mark>While [doing something I like] takes me away from my friends and family for a bit, it makes me a better person when I’m with them.</mark>
