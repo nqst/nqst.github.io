@@ -25,6 +25,7 @@ ogtype: article
           <div class="book-summary__book-details">
             {%- if page.rating %}
               <span class="book-summary__rating">Моя оцінка: {{ page.rating }}/10</span>
+              {%- if page.favorite %}<span class="book-summary__star" title="Ця книга — одна з кращих, що я читав. Рекомендую">★</span>{% endif %}
             {%- endif %}
 
             {%- if page.amazon %}

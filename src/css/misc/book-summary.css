@@ -39,6 +39,11 @@
     font-size: 0.9em;
     color: var(--text-muted);
   }
+
+  &__star {
+    margin-left: 0.5em;
+    color: #f90;
+  }
 }
 
 .book-summary blockquote {
