@@ -48,7 +48,7 @@ favorite: true
 
 > No political group in a liberal society should have the power to destroy a person’s livelihood or reputation at will.
 
-> In a podcast episode about the infamous brutal executions carried out by the Catholic Church in the 1600s, Dan Carlin made a point that stuck with me: “The most horrible procedures were done on devout Christians by even more devout Christians.”
+> In a podcast episode about the infamous brutal executions carried out by the Catholic Church in the 1600s, Dan Carlin made a [point](https://www.dancarlin.com/product/hardcore-history-61-blitz-painfotainment/) that stuck with me: “The most horrible procedures were done on devout Christians by even more devout Christians.”
 
 > When any movement—no matter how noble—falls into the hands of a low-rung tribe, it ends up in a backward place, usually hurting the people the original movement wants to help.
 
