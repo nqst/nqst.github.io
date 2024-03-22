@@ -301,3 +301,7 @@
 - word: "Rodzice"
   translation: "батьки"
   false_translation: "родичі"
+
+- word: "Restauracja"
+  not_only: "реставрація"
+  but_also: "ресторан"
