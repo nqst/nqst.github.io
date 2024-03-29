@@ -305,3 +305,7 @@
 - word: "Restauracja"
   not_only: "реставрація"
   but_also: "ресторан"
+
+- word: "Naprawić"
+  translation: "виправити, налагодити"
+  false_translation: "направити"
