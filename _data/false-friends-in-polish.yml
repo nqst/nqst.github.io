@@ -313,3 +313,7 @@
 - word: "Grzywna"
   translation: "штраф"
   false_translation: "гривня"
+
+- word: "Kontakt"
+  not_only: "контакт"
+  but_also: "розетка"
