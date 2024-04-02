@@ -309,3 +309,7 @@
 - word: "Naprawić"
   translation: "виправити, налагодити"
   false_translation: "направити"
+
+- word: "Grzywna"
+  translation: "штраф"
+  false_translation: "гривня"
