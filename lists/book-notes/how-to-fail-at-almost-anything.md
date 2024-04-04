@@ -37,7 +37,7 @@ amazon: "https://amzn.to/43obaEa"
 
 > The pattern I noticed was this: Things that will someday work out well start out well. Things that will never work start out bad and stay that way.
 
-> Looking at the familiar in new ways can change your behavior
+> Looking at the familiar in new ways can change your behavior.
 
 > Everything you learn becomes a shortcut for understanding something else.
 
@@ -79,7 +79,7 @@ amazon: "https://amzn.to/43obaEa"
 
 > If you can’t even imagine an improved future, you won’t be happy—no matter how well your life is going right now.
 
-> Simply imagining a better future hacks your brain chemistry and provides you with the sensation of happiness
+> Simply imagining a better future hacks your brain chemistry and provides you with the sensation of happiness.
 
 > <mark>Don’t let reality control your imagination. Let your imagination be the user interface to choose your own reality.</mark>
 
