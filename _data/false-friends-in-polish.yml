@@ -317,3 +317,8 @@
 - word: "Kontakt"
   not_only: "контакт"
   but_also: "розетка"
+
+- word: "Grubość"
+  translation: "товщина"
+  false_translation: "грубість"
+  # maybe add a footnote later that "грубість" can also mean "товщина" in ukrainian
