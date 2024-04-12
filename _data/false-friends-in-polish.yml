@@ -322,3 +322,7 @@
   translation: "товщина"
   false_translation: "грубість"
   # maybe add a footnote later that "грубість" can also mean "товщина" in ukrainian
+
+- word: "Kubek"
+  translation: "кухоль"
+  false_translation: "кубок"
