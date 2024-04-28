@@ -326,3 +326,7 @@
 - word: "Kubek"
   translation: "кухоль"
   false_translation: "кубок"
+
+- word: "Kwota"
+  not_only: "квота"
+  but_also: "сума (грошей)"

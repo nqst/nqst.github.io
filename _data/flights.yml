@@ -1,3 +1,32 @@
+- date: "2024-04-25"
+  from:
+    country: 🇨🇿
+    city: Прага
+    airport: PRG
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: LOT
+  aircraft: Embraer 170-200
+  withAurora: true
+  withPeter: true
+
+- date: "2024-04-19"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇨🇿
+    city: Прага
+    airport: PRG
+  company: LOT
+  aircraft: Embraer 170-200
+  withAurora: true
+  withPeter: true
+  comment: "Вперше в житті летів з мамою."
+
 - date: "2024-01-07"
   from:
     country: 🇳🇱
