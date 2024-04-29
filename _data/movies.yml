@@ -1,4 +1,16 @@
 2024:
+- name: "Perfect Days"
+  released: 2023
+  rating: 9
+  favorite: true
+  comment: "Beautiful."
+
+- name: "Дятел Вуді вирушає у табір"
+  original_name: "Woody Woodpecker Goes to Camp"
+  released: 2024
+  rating: 6
+  comment: "Приємний флешбек в дитинство."
+
 - name: "Людина, яка винайшла Різдво"
   original_name: "The Man Who Invented Christmas"
   released: 2017
