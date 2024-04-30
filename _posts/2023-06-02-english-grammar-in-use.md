@@ -13,7 +13,7 @@ ogimage: "ogimage.jpg?v1"
 
 <!-- more -->
 
-На мою думку, така структура ідеально підходить для одного заняття на день:
+Така структура ідеально підходить для одного заняття на день:
 
 <figure class="figure--wide">
   <img src="/i/blog/english-grammar-in-use/english-grammar-in-use.jpg" alt="English Grammar in Use, Unit 145">
