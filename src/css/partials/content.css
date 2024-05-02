@@ -341,12 +341,13 @@ figure.figure--wide,
   }
 
   &__figure {
-    margin: 0 0 2em;
+    margin: 0 0 1.5rem;
     width: 100%;
     max-width: 640px;
   }
 
   &__video {
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 5px;
