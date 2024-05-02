@@ -339,6 +339,18 @@ figure.figure--wide,
     line-height: 1.45;
     text-wrap: balance;
   }
+
+  &__figure {
+    margin: 0 0 2em;
+    width: 100%;
+    max-width: 640px;
+  }
+
+  &__video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
 }
 
 .item-locked {
