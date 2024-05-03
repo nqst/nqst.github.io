@@ -330,3 +330,7 @@
 - word: "Kwota"
   not_only: "квота"
   but_also: "сума (грошей)"
+
+- word: "Rozwaga"
+  translation: "розсудливість"
+  false_translation: "розвага"
