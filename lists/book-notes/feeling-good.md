@@ -8,7 +8,7 @@ bookCover: "/i/books/feeling-good.jpg"
 finished: "2024-05-12"
 amazon: "https://amzn.to/3WCImGq"
 favorite: true
-introComment: "Beautiful and eye-opening. Це одна з найкорисніших книжок, що я читав. Дізнався багато нового і цікавого, незважаючи на те, що давно цікавлюся темою. Якщо ви схильні до депресії, то ця книга може стати в нагоді."
+introComment: "Beautiful and eye-opening. Одна з найкорисніших книжок, що я читав. Дізнався багато нового і важливого, незважаючи на те, що давно цікавлюся темою. Якщо ви схильні до депресії, то ця книга може стати в нагоді."
 ---
 
 > Our research has documented that the negative thoughts which cause your emotional turmoil nearly always contain gross distortions. Although these thoughts appear valid, you will learn that they are irrational or just plain wrong, and that twisted thinking is a major cause of your suffering.
@@ -20,6 +20,8 @@ introComment: "Beautiful and eye-opening. Це одна з найкорисні�
 > When you are depressed, you wear a pair of eyeglasses with special lenses that filter out anything positive.
 
 > You arbitrarily jump to a negative conclusion that is not justified by the facts of the situation. Two examples of this are “mind reading” and “the fortune teller error.”
+
+> Cognitive distortions: All-or-nothing thinking, Overgeneralization, Mental filter, Disqualifying the positive, Jumping to conclusions (Mind reading and The fortune teller error), Magnification/Minimization, Emotional reasoning, Should statements, Labeling, Personalization (Blame).
 
 > MENTAL FILTER: You pick out a single negative detail and dwell on it exclusively so that your vision of all reality becomes darkened, like the drop of ink that colors the entire beaker of water.
 
