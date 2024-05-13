@@ -9,9 +9,9 @@ finished: "2024-05-12"
 amazon: "https://amzn.to/3WCImGq"
 favorite: true
 introComment: |
- Beautiful and eye-opening. Дізнався багато нового і важливого, незважаючи на те, що давно цікавлюся темою. Якщо ви схильні до депресії, ця книга може стати в нагоді і допомогти.
+ Beautiful and eye-opening. Дізнався багато нового і важливого, незважаючи на те, що давно цікавлюся темою. Якщо ви схильні до депресії, ця книга може стати в нагоді і допомогти.
 
- Завдяки безлічі табличок і прикладів, запамʼятаю цю книгу, як стрілочку вправо. Зліва — автоматичні думки, миттєві реакції і нерозумні висновки. А книга допомагає створити праворуч другу колонку, і дати цьому всьому розумну відповідь. Виходить таке корисне було → стало.
+ Завдяки безлічі табличок і прикладів, запамʼятаю цю книгу, як стрілочку вправо. Зліва — автоматичні думки, миттєві реакції і нерозумні висновки. А книга допомагає створити праворуч другу колонку, і дати цьому всьому розумну відповідь. Виходить таке корисне було → стало.
 ---
 
 > Our research has documented that the negative thoughts which cause your emotional turmoil nearly always contain gross distortions. Although these thoughts appear valid, you will learn that they are irrational or just plain wrong, and that twisted thinking is a major cause of your suffering.
@@ -102,7 +102,7 @@ introComment: |
   <tbody>
     <tr>
       <td>There was no point in washing these dishes. Theyʼll just get dirty again.</td>
-      <td>&rarr;</td>
+      <td>→</td>
       <td>Thatʼs just the point. Theyʼll be clean when we need them.</td>
     </tr>
   </tbody>
