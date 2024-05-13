@@ -46,6 +46,14 @@
   }
 }
 
+.book-summary__intro-comment {
+  margin: 2rem 0 3rem;
+
+  & + h2 {
+    margin-top: 0;
+  }
+}
+
 .book-summary blockquote {
   font-size: 1rem;
   border: 0;
@@ -75,4 +83,13 @@
   );
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+}
+
+.book-summary .table td {
+  font-size: 1rem;
+}
+
+.book-summary .table + blockquote {
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
 }

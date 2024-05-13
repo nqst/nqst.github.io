@@ -5,7 +5,6 @@
  */
 
 .table {
-
   width: 100%;
   max-width: 100%;
   margin-bottom: var(--baseline);
@@ -62,6 +61,20 @@
 
     thead th {
       font-size: 0.6rem;
+    }
+  }
+
+  &--no-heading-border {
+    thead th {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+
+  &--noborder {
+    td {
+      border-top: none;
+      padding-top: 0 !important;
     }
   }
 }
