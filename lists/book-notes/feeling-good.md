@@ -35,16 +35,42 @@ introComment: "Одна з найкорисніших книжок, що я чи
 
 > <mark>One of the cardinal features of cognitive therapy is that it stubbornly refuses to buy into your sense of worthlessness.</mark>
 
-> The simple exercise of answering your negative thoughts with rational responses on a daily basis is at the heart of the cognitive method.
+> <mark>The simple exercise of answering your negative thoughts with rational responses on a daily basis is at the heart of the cognitive method.</mark>
 
-> DAVID: So you are willing to take the blame for [your sonʼs] mistakes?\
-> NANCY: Yes, it’s my fault. So I’m a bad mother.\
-> DAVID: And you also take the credit for his achievements? And for his happiness?\
-> NANCY: No — he should get the credit for that, not me.\
-> DAVID: Does that make sense? That you’re responsible for his faults but not his strengths?\
-> NANCY: No.\
-> DAVID: Do you understand the point I’m trying to make?\
-> NANCY: Yep.
+<table class="table table--compact table--noborder">
+  <tr>
+    <td>DAVID:</td>
+    <td>So you are willing to take the blame for [your son’s] mistakes?</td>
+  </tr>
+  <tr>
+    <td>NANCY:</td>
+    <td>Yes, it’s my fault. So I’m a bad mother.</td>
+  </tr>
+  <tr>
+    <td>DAVID:</td>
+    <td>And you also take the credit for his achievements? And for his happiness?</td>
+  </tr>
+  <tr>
+    <td>NANCY:</td>
+    <td>No — he should get the credit for that, not me.</td>
+  </tr>
+  <tr>
+    <td>DAVID:</td>
+    <td>Does that make sense? That you’re responsible for his faults but not his strengths?</td>
+  </tr>
+  <tr>
+    <td>NANCY:</td>
+    <td>No.</td>
+  </tr>
+  <tr>
+    <td>DAVID:</td>
+    <td>Do you understand the point I’m trying to make?</td>
+  </tr>
+  <tr>
+    <td>NANCY:</td>
+    <td>Yep.</td>
+  </tr>
+</table>
 
 > This type of criticism incapacitated her because it created the impression that she had a personal problem so big and bad that no one could do anything about it. The emotional upset this labeling caused prevented her from defining the real problem, breaking it down into its specific parts, and applying appropriate solutions
 
@@ -56,11 +82,26 @@ introComment: "Одна з найкорисніших книжок, що я чи
 
 > His lack of satisfaction results from the fact that he always finds a way to discredit his efforts. His bad habit of saying “It doesn’t count” successfully torpedoes any sense of fulfillment.
 
-> <mark>If I evaluated my work exclusively on the outcome or product, I would experience a sense of exhilaration whenever a patient did well, and feel defeated and defective whenever a patient reacted negatively. This would make my emotional life a roller coaster, and my self-esteem would go up and down in an exhausting and unpredictable manner all day long. But if I admit to myself that all I can control is the input I provide in the therapeutic process, I can pride myself on good consistent work regardless of the outcome of any particular session. It was a great personal victory when I learned to evaluate my work based on the process rather than on the product.
+> If I evaluated my work exclusively on the outcome or product, I would experience a sense of exhilaration whenever a patient did well, and feel defeated and defective whenever a patient reacted negatively. <mark>This would make my emotional life a roller coaster, and my self-esteem would go up and down in an exhausting and unpredictable manner all day long. But if I admit to myself that all I can control is the input I provide in the therapeutic process, I can pride myself on good consistent work regardless of the outcome of any particular session.</mark> It was a great personal victory when I learned to evaluate my work based on the process rather than on the product.
 
-> Do you know why virtually _any_ meaningful activity has a decent chance of brightening your mood?
+> When you try to talk back to [your upsetting thoughts], they’ll come at you even harder from all angles with such speed that you won’t even know what hit you. But when you write them down, they become exposed to the light of reason.
 
-> When you try to talk back to [your upsetting thoughts], they’ll come at you even harder from all angles with such speed that you won’t even know what hit you. <mark>But when you write them down, they become exposed to the light of reason.</mark>
+<table class="table table--larger table--no-heading-border">
+  <thead>
+    <tr>
+      <th style="width: 47%;">Self-Downing Statement</th>
+      <th style="width: 6%;"></th>
+      <th style="width: 47%;">Self-Endorsing Statement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>There was no point in washing these dishes. Theyʼll just get dirty again.</td>
+      <td>&rarr;</td>
+      <td>Thatʼs just the point. Theyʼll be clean when we need them.</td>
+    </tr>
+  </tbody>
+</table>
 
 > Dare to put modest time limits on what you do! Have the courage to walk away from an unfinished task!
 
@@ -84,11 +125,9 @@ introComment: "Одна з найкорисніших книжок, що я чи
 
 > Your assumption that they are “being unfair” implies that your way of looking at things is universally accepted. For this to be the case, everyone would have to be the same. But we aren’t. We all think differently. When you overlook this and blame the other person for being “unfair” you are unnecessarily polarizing the interaction because the other person will feel insulted and defensive. Then the two of you will argue fruitlessly about who is “right.” The whole dispute is based on the illusion of “absolute fairness.”
 
-> Suppose you are enraged about some senseless violence you read about in the paper. Here the act seems clearly hurtful and immoral. Nevertheless, your anger may not be adaptive if — as is usually the case — there is nothing you plan to do about it. If, in contrast, you choose to help the victims or begin a campaign to fight crime in some way, your anger might again be adaptive.
+> Suppose you are enraged about some senseless violence you read about in the paper. Here the act seems clearly hurtful and immoral. Nevertheless, your anger may not be [useful] if — as is usually the case — there is nothing you plan to do about it. If, in contrast, you choose to help the victims or begin a campaign to fight crime in some way, your anger might again be [useful].
 
 > He asked himself: What have we learned in the laboratory about the most effective scientific methods for influencing all living organisms, including bacteria, plants, and rats? Can we apply these principles to wayward and sometimes brutal husbands? The answer to these questions was straightforward — <mark>reward the desired behavior instead of punishing the undesired behavior.</mark>
-
-> Ultimately your anger is caused by your belief that someone is acting unfairly or some event is unjust. The intensity of the anger will increase in proportion to the severity of the maliciousness perceived and if the act is seen as intentional.
 
 > If you learn to see the world through other people’s eyes, you will often be surprised to realize their actions are not unfair from their point of view.
 
@@ -120,7 +159,7 @@ introComment: "Одна з найкорисніших книжок, що я чи
 
 > It’s a fact that approval feels good. There’s nothing wrong with that; it’s natural and healthy. It is also a fact that disapproval and rejection usually taste bitter and unpleasant. This is human and understandable. But you are swimming in deep, turbulent waters if you continue to believe that approval and disapproval are the proper and ultimate yardsticks with which to measure your worth.
 
-> “[...] Disapproval can be uncomfortable, but it doesn’t mean I’m less of a person.
+> “[...] Disapproval can be uncomfortable, but it doesn’t mean I’m less of a person.”
 
 > Criticism and disapproval can upset you only to the extent that you “buy into” the accusations being brought against you.
 
@@ -140,8 +179,6 @@ introComment: "Одна з найкорисніших книжок, що я чи
 
 > You don’t have to earn love or respect on the treadmill, and you don’t have to be number one before you can feel fulfilled.
 
-> He proposed I could facilitate this new way of looking at things by refusing to try to do an excellent job with any patient. Instead, I could aim for a good, consistent **effort** at each session regardless of how the patient responded, and in this way I could guarantee 100 percent success forever.
-
 > How could you set up process goals if you were applying for a job? You could (1) dress in a confident, appealing manner; (2) have your résumé edited by a knowledgeable friend and typed professionally; (3) give the prospective employer one or more compliments during the interview; (4) express an interest in the company and encourage the interviewer to talk about himself; (5) when the prospective employer tells you about his work, say something positive, using an upbeat approach; (6) if the interviewer makes a critical or negative comment about you, immediately _agree,_ using the disarming technique introduced in Chapter 6.
 
 > Suppose on the average it takes about ten to fifteen interviews for each acceptable job offer you receive in your profession (a typical batting average for people I know who have been recently looking for work). This means you’ve got to go out and get those nine to fourteen rejections over with in order to get the job you want! So each morning say, “I’ll try to get as many rejections as possible today.” And each time you do get rejected you can say, “I was successfully rejected. This brings me one important step closer to my goal.”
@@ -158,4 +195,4 @@ introComment: "Одна з найкорисніших книжок, що я чи
 
 > Patients who feel hopeless usually cannot see that they are deceiving themselves. They are nearly always convinced these feelings are entirely valid. [...] One of the most important tasks of any therapist is to help depressed patients find the courage and determination to resist and fight these hopeless feelings. This battle is often fierce and rarely easy, but nearly always rewarding in the long run.
 
-> Patients can be so incredibly persuasive about their hopelessness that even their doctors and families may start believing them after a while. Early in my career I grappled with this and often felt tempted to give up on particularly difficult patients. But a trusted colleague urged me never to give in to the belief that any patient was hopeless. Throughout my career, this policy has paid off. No matter what type of treatment you receive, faith and persistence can be the keys to success. I cannot emphasize this enough.
+> Patients can be so incredibly persuasive about their hopelessness that even their doctors and families may start believing them after a while. Early in my career I grappled with this and often felt tempted to give up on particularly difficult patients. But a trusted colleague urged me never to give in to the belief that any patient was hopeless. Throughout my career, this policy has paid off. No matter what type of treatment you receive, <mark>faith and persistence</mark> can be the keys to success. I cannot emphasize this enough.

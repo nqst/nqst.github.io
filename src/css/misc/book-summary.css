@@ -76,3 +76,12 @@
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+
+.book-summary .table td {
+  font-size: 1rem;
+}
+
+.book-summary .table + blockquote {
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
