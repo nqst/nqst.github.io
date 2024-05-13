@@ -42,6 +42,12 @@ ogtype: article
   <div class="container container--medium">
     <article class="book-summary__article">
       <section class="book-summary__content">
+        {%- if page.introComment %}
+          <div class="book-summary__intro-comment">
+            {{ page.introComment | strip | liquify | markdownify }}
+          </div>
+        {%- endif %}
+
         <h2>Нотатки:</h2>
         {{ content }}
       </section>
