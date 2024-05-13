@@ -24,7 +24,7 @@ introComment: |
 
 > You arbitrarily jump to a negative conclusion that is not justified by the facts of the situation. Two examples of this are “mind reading” and “the fortune teller error.”
 
-> Cognitive distortions: All-or-nothing thinking, Overgeneralization, Mental filter, Disqualifying the positive, Jumping to conclusions (Mind reading and The fortune teller error), Magnification/Minimization, Emotional reasoning, Should statements, Labeling, Personalization (Blame).
+> [Cognitive distortions](https://feelinggood.com/wp-content/uploads/2017/04/41656-distortions-v-18.pdf): All-or-nothing thinking, Overgeneralization, Mental filter, Disqualifying the positive, Jumping to conclusions (Mind reading and The fortune teller error), Magnification/Minimization, Emotional reasoning, Should statements, Labeling, Personalization (Blame).
 
 > MENTAL FILTER: You pick out a single negative detail and dwell on it exclusively so that your vision of all reality becomes darkened, like the drop of ink that colors the entire beaker of water.
 
