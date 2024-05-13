@@ -1,4 +1,10 @@
 2024:
+- name: "Feeling Good: The New Mood Therapy"
+  author: "David D. Burns"
+  favorite: true
+  rating: 9
+  notes: "/lists/books/feeling-good/"
+
 - name: "How to Fail at Almost Everything and Still Win Big"
   author: "Scott Adams"
   rating: 7
