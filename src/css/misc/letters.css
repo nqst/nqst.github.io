@@ -233,7 +233,7 @@
   margin-top: -35px;
 
   @media (--medium-screen) {
-    margin-top: 0 auto 40px;
+    margin: 0 auto 40px;
   }
 
   @media (--large-screen) {
