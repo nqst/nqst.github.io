@@ -334,3 +334,7 @@
 - word: "Rozwaga"
   translation: "розсудливість"
   false_translation: "розвага"
+
+- word: "Błędny"
+  translation: "помилковий, хибний"
+  false_translation: "блідий"
