@@ -1,9 +1,15 @@
 2024:
+- name: "1984"
+  author: "Джордж Оруэлл"
+  rating: 6
+  finished: "2024-05"
+
 - name: "Feeling Good: The New Mood Therapy"
   author: "David D. Burns"
   favorite: true
   rating: 10
   notes: "/lists/books/feeling-good/"
+  finished: "2024-05"
 
 - name: "How to Fail at Almost Everything and Still Win Big"
   author: "Scott Adams"
