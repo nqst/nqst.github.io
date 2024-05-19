@@ -338,3 +338,11 @@
 - word: "Błędny"
   translation: "помилковий, хибний"
   false_translation: "блідий"
+
+- word: "Mecz"
+  translation: "матч"
+  false_translation: "меч"
+
+- word: "Arka"
+  translation: "ковчег"
+  false_translation: "арка"
