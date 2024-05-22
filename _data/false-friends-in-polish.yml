@@ -346,3 +346,8 @@
 - word: "Arka"
   translation: "ковчег"
   false_translation: "арка"
+
+- word: "Zdanie"
+  translation: "речення"
+  another_translation: "думка, погляд"
+  false_translation: "будівля"
