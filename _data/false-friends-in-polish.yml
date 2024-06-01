@@ -351,3 +351,7 @@
   translation: "речення"
   another_translation: "думка, погляд"
   false_translation: "будівля"
+
+- word: "Rozkaz"
+  translation: "наказ, команда"
+  false_translation: "розповідь"
