@@ -355,3 +355,7 @@
 - word: "Rozkaz"
   translation: "наказ, команда"
   false_translation: "розповідь"
+
+- word: "Kierownica"
+  translation: "кермо"
+  false_translation: "керівниця"
