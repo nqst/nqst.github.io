@@ -359,3 +359,7 @@
 - word: "Kierownica"
   translation: "кермо"
   false_translation: "керівниця"
+
+- word: "Nocnik"
+  translation: "горщик (туалет)"
+  false_translation: "нічник"
