@@ -8,9 +8,11 @@ bookCover: "/i/books/four-thousand-weeks.jpg"
 amazon: "https://amzn.to/3RtrVZC"
 finished: "2024-06-15"
 introComment: |
-  Книга з корисними непопулярними думками. Радий, що прочитав, але іноді було трохи нудно — через затягнуті речення і, як на мене, трохи складну мову. «Ще», — пише блогер Олександр Зайцев, — «по всій книзі дуже багато ось таких розірваних цитат, які можна було б написати значно простіше». Згідно з ним, можна було б так не ускладнювати. Він додає: «Цю цитату можна було б написати за раз».
+  Книга з корисними непопулярними думками. Радий, що прочитав, але іноді було трохи нудно через затягнуті речення і, як на мене, трохи складну мову.
 
-  Погоджуюсь з автором, що нема сенсу безперервно оптимізовувати життя, аби втиснути в нього якомога більше задач — так їх кількість буде тільки збільшуватись. Не варто й чекати, що колись ми зробимо усі справи, і завдяки цьому настане момент щастя і безтурботності.
+  «Ще», — пише блогер Олександр Зайцев, — «по всій книзі дуже багато таких розірваних цитат, які можна було б написати значно простіше». Згідно з Зайцевим, можна було б так не ускладнювати. Він додає: «Цю цитату можна було б написати за один раз».
+
+  Погоджуюсь з автором, що нема сенсу безперервно оптимізовувати життя, аби втиснути в нього якомога більше задач — так їх кількість буде тільки збільшуватись. Не варто також чекати, що колись ми успішно завершимо усі справи, і завдяки цьому настане момент щастя і безтурботності.
 ---
 
 > Denying reality never works [...]. It may provide some immediate relief, because it allows you to go on thinking that at some point in the future you might, at last, feel totally in control. But it canʼt ever bring the sense that youʼre doing enough — that you are enough — because it defines ‘enough’ as a kind of limitless control that no human can attain. Instead, the endless struggle leads to more anxiety and a less fulfilling life. For example, the more you believe you might succeed in ‘fitting everything in’, the more commitments you naturally take on, and the less you feel the need to ask whether each new commitment is truly worth a portion of your time — and so your days inevitably fill with more activities you donʼt especially value. The more you hurry, the more frustrating it is to encounter tasks [...] that wonʼt be hurried; the more compulsively you plan for the future, the more anxious you feel about any remaining uncertainties [...]. And the more individual sovereignty you achieve over your time, the lonelier you get.
