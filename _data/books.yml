@@ -1,4 +1,10 @@
 2024:
+- name: "Four Thousand Weeks"
+  author: "Oliver Burkeman"
+  rating: 6
+  notes: "/lists/books/four-thousand-weeks/"
+  finished: "2024-06-15"
+
 - name: "1984"
   author: "Джордж Оруэлл"
   rating: 6.5
