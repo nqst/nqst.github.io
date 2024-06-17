@@ -21,9 +21,11 @@ introComment: |
 
 > I know there are people whoʼd prefer to be relaxing on a Caribbean beach, instead of getting drenched while trudging through gorse bushes under a glowering sky; but Iʼm not going to pretend I understand them.
 
-> Things just are the way they are [...], no matter how vigorously you might wish they werenʼt — and your only hope of exercising any real influence over the world is to work with that fact, instead of against it.
+> Things just are the way they are [...], no matter how vigorously you might wish they werenʼt — and your only hope of exercising any real influence over the world is <mark>to work with that fact, instead of against it.</mark>
 
-> Until the age of thirty-seven [...] he considered himself a ‘mechanical idiot’, almost entirely inept when it came to fixing household appliances, cars, bicycles and suchlike. Then one day he came upon a neighbour who was midway through fixing his lawnmower, and paid him a self-deprecating compliment: ‘Boy, I sure admire you. <mark>Iʼve never been able to fix those kinds of things!’ — ‘Thatʼs because you donʼt take the time’, the neighbour replied.</mark>
+> Until the age of thirty-seven [...] he considered himself a ‘mechanical idiot’, almost entirely inept when it came to fixing household appliances, cars, bicycles and suchlike. Then one day he came upon a neighbour who was midway through fixing his lawnmower, and paid him a self-deprecating compliment: ‘Boy, I sure admire you. Iʼve never been able to fix those kinds of things!’
+>
+> <mark>‘Thatʼs because you donʼt take the time’, the neighbour replied.</mark>
 
 > If youʼre willing to endure the discomfort of not knowing, a solution will often present itself.
 
