@@ -335,6 +335,10 @@
   translation: "розсудливість"
   false_translation: "розвага"
 
+- word: "Kwas"
+  not_only: "квас"
+  but_also: "кислота"
+
 - word: "Błędny"
   translation: "помилковий, хибний"
   false_translation: "блідий"

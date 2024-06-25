@@ -341,7 +341,7 @@ figure.figure--wide,
   }
 
   &__figure {
-    margin: 0 0 1.5rem;
+    margin: 0 0 3rem;
     width: 100%;
     max-width: 640px;
   }
