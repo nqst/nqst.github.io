@@ -367,3 +367,8 @@
 - word: "Nocnik"
   translation: "горщик (туалет)"
   false_translation: "нічник"
+
+- word: "Palacz"
+  translation: "курець"
+  another_translation: "кочегар"
+  false_translation: "кат"
