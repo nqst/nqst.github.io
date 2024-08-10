@@ -1,4 +1,9 @@
 2024:
+- name: "Useful Not True"
+  author: "Derek Sivers"
+  rating: 7
+  finished: "2024-08-01"
+
 - name: "Four Thousand Weeks"
   author: "Oliver Burkeman"
   rating: 6
