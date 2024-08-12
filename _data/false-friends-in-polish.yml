@@ -372,3 +372,11 @@
   translation: "курець"
   another_translation: "кочегар"
   false_translation: "кат"
+
+- word: "Kit"
+  translation: "мастика"
+  false_translation: "кіт"
+
+- word: "Brązowy"
+  not_only: "бронзовий"
+  but_also: "коричневий"
