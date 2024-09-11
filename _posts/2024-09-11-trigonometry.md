@@ -2,11 +2,12 @@
 layout: post
 title: "SVG, тригонометрія і стрілки крутого повороту"
 medium_width: true
+ogimage: og.png
 ---
 
 Вперше в житті мені стала в пригоді тригонометрія. Чекав цього ще з часів школи :)
 
-Зараз працюю над новими дорожніми знаками ([деталі тут](https://roadsigns.in.ua/posts/idea-and-motivation/)), і коли йшла робота над знаками напрямку повороту, хотілося подивитись, як вони будуть виглядати з різним кутом шевронної стрілки.
+Зараз працюю над новими дорожніми знаками ([деталі тут](https://roadsigns.in.ua/posts/idea-and-motivation/)), і коли йшла робота над знаками напрямку повороту, хотілося наочно побачити, як вони будуть виглядати з різним кутом шевронної стрілки.
 
 <!-- more -->
 
@@ -118,7 +119,7 @@ medium_width: true
   angleSlider.dispatchEvent(new Event('input'));
 </script>
 
-На вході у нас зображення знаку у форматі SVG:
+Розкажу, як це зробити. Спочатку треба підготувати зображення знаку у форматі SVG:
 
 <div style="max-width: 500px; margin-inline: auto; padding: 2em 0 3em;">
   <svg width="1115" height="230" viewBox="0 0 1115 230" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,7 +138,7 @@ medium_width: true
   </svg>
 </div>
 
-За цим зображенням стоїть такий код:
+Це зображення — лише відтворення такого коду:
 
 ```xml
 <svg width="1115" height="230" viewBox="0 0 1115 230" fill="none" xmlns="http://www.w3.org/2000/svg">
