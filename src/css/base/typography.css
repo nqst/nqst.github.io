@@ -227,6 +227,11 @@ div.highlight {
   line-height: 1.5;
 }
 
+.serious-thing--nomargin {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
 .language-note {
   background-color: var(--warning-bgcolor);
   color: #342810;
