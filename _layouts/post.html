@@ -20,7 +20,7 @@ ogtype: article
   {%- endif %}
 
   <header class="post__header{% if page.introimg %} post__header--wide{% endif %}">
-    <div class="container">
+    <div class="container{% if page.medium_width %} container--medium{% endif %}">
       {% include date.html post-date=page.date %}
       <h1 class="post__title">{{ page.title }}</h1>
     </div>
