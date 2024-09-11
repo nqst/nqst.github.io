@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SVG, тригонометрія і стрілки крутого повороту"
+title: "SVG, тригонометрія та стрілки крутого повороту"
 medium_width: true
 ogimage: og.png
 ---
