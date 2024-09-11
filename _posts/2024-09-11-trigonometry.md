@@ -20,22 +20,38 @@ ogimage: og.png
   .chevrons-fun {
     max-width: 340px;
     margin: 0 auto;
-    padding: 3em 0 4em;
+    padding: 3em 0;
+  }
+
+  .slider-container {
+    margin-top: 1em;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+
+  .slider-container-inner {
+    display: flex;
+    gap: 10px;
+  }
+
+  .slider-container label {
+    /* font-size: 0.85em; */
+    opacity: 0.8;
+  }
+
+  .slider-container span {
+    min-width: 40px;
+    text-align: right;
+    font-weight: bold;
   }
 
   .slider-container input {
-    width: 100%;
-    margin-bottom: 14px;
-  }
-
-  .slider-label {
-    margin-right: 10px;
-    font-weight: 500;
-    font-size: 0.85rem;
+    flex: 1;
   }
 
   .svg-container {
     padding-top: 10px;
+    padding-bottom: 0.75em;
     text-align: center;
   }
 
@@ -54,10 +70,6 @@ ogimage: og.png
 
 <div class="serious-thing serious-thing--nomargin">
   <div class="chevrons-fun">
-    <div class="slider-container">
-      <label for="angle-slider" id="angle-value" class="slider-label">90°</label>
-      <input type="range" id="angle-slider" min="85" max="130" value="90" />
-    </div>
     <div class="svg-container">
       <svg width="1115" height="230" viewBox="0 0 1115 230" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#mask)">
@@ -73,7 +85,13 @@ ogimage: og.png
           </clipPath>
         </defs>
       </svg>
+    </div>
 
+    <div class="slider-container">
+      <div class="slider-container-inner">
+        <input type="range" id="angle-slider" min="85" max="130" value="90" />
+        <label for="angle-slider" id="angle-value" class="slider-label" style="opacity: 1;"><span>90°</span></label>
+      </div>
     </div>
   </div>
 </div>
@@ -228,20 +246,6 @@ angleSlider.addEventListener('input', function () {
 
 <div class="serious-thing serious-thing--nomargin">
   <div class="chevrons-fun">
-    <div class="slider-container">
-      <label for="stroke-width-slider-1" class="slider-label">
-        Товщина стрілки:
-        <span id="stroke-width-value-1" class="value-label">77</span>
-      </label>
-      <input type="range" id="stroke-width-slider-1" min="10" max="115" value="77" />
-    </div>
-    <div class="slider-container">
-      <label for="angle-slider-1" class="slider-label">
-        Кут:
-        <span id="angle-value-1" class="value-label">90°</span>
-      </label>
-      <input type="range" id="angle-slider-1" min="70" max="140" value="90" />
-    </div>
     <div class="svg-container">
       <svg width="1115" height="230" viewBox="0 0 1115 230" fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -257,6 +261,24 @@ angleSlider.addEventListener('input', function () {
           <path id="chevron-path-4" d="M892 -50L1057 115L892 280" stroke="#F8F8F8" stroke-width="77" />
         </g>
       </svg>
+    </div>
+    <div class="slider-container">
+      <label for="stroke-width-slider-1" class="slider-label">
+        Товщина стрілки
+      </label>
+      <div class="slider-container-inner">
+        <input type="range" id="stroke-width-slider-1" min="10" max="115" value="77" />
+        <span id="stroke-width-value-1" class="value-label">77</span>
+      </div>
+    </div>
+    <div class="slider-container">
+      <label for="angle-slider-1" class="slider-label">
+        Кут
+      </label>
+      <div class="slider-container-inner">
+        <input type="range" id="angle-slider-1" min="70" max="140" value="90" />
+        <span id="angle-value-1" class="value-label">90°</span>
+      </div>
     </div>
   </div>
 </div>
