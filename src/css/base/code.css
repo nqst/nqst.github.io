@@ -13,8 +13,8 @@ li > code {
   display: inline-block;
   padding: 0 4px;
   background-color: var(--highlight-color);
-  color: #3e414a;
-  border-radius: 3px;
+  border: 1px solid var(--highlight-border-color);
+  border-radius: 4px;
   white-space: nowrap;
   margin: -1px 0.1em;
   font-size: 0.8em;

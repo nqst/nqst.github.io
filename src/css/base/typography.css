@@ -232,6 +232,11 @@ div.highlight {
   margin-left: 0 !important;
 }
 
+.serious-thing--alt {
+  background: var(--highlight-color);
+  color: #373e51;
+}
+
 .language-note {
   background-color: var(--warning-bgcolor);
   color: #342810;

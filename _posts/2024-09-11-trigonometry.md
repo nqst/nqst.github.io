@@ -68,7 +68,7 @@ ogimage: og.png
   }
 </style>
 
-<div class="serious-thing serious-thing--nomargin">
+<div class="serious-thing serious-thing--alt serious-thing--nomargin">
   <div class="chevrons-fun">
     <div class="svg-container">
       <svg width="1115" height="230" viewBox="0 0 1115 230" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,7 +244,7 @@ angleSlider.addEventListener('input', function () {
 
 Ви можете подивитись на те, що у нас вийшло з шевронними знаками [у блозі «Попереду нові дорожні знаки»](https://roadsigns.in.ua/posts/chevrons/).
 
-<div class="serious-thing serious-thing--nomargin">
+<div class="serious-thing serious-thing--alt serious-thing--nomargin">
   <div class="chevrons-fun">
     <div class="svg-container">
       <svg width="1115" height="230" viewBox="0 0 1115 230" fill="none"
