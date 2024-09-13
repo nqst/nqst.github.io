@@ -380,3 +380,24 @@
 - word: "Brązowy"
   not_only: "бронзовий"
   but_also: "коричневий"
+
+- word: "Polny"
+  translation: "польовий"
+  false_translation: "повний"
+
+- word: "Gadać"
+  translation: "базікати, теревенити"
+  false_translation: "гадати"
+
+- word: "Wizerunek"
+  translation: "зображення"
+  another_translation: "імідж, репутація"
+  false_translation: "візерунок"
+
+- word: "Cierpieć"
+  not_only: "терпіти"
+  but_also: "страждати"
+
+- word: "Zasób"
+  translation: "запас, ресурс"
+  false_translation: "засіб"
