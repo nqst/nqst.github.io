@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f3;
+  color: #111;
+  font-family: Departure Mono, monospace;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 13.75px;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: #aaa;
+}
+
+a:hover {
+  color: #000;
+  text-decoration-color: #777;
+}
+
+h1 {
+  font-size: 33px;
+  line-height: 35px;
+  margin: 2em 0 1.5em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    text-indent: -2ch;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1::before {
+    content: "# ";
+    color: #bbb;
+  }
+}
+
+h2 {
+  font-size: 13.75px;
+  margin: 5em 0 1em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    text-indent: -3ch;
+  }
+}
+
+h2::before {
+  content: "## ";
+  color: #aaa;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+ul {
+  margin: 0 0 2em;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 1em 3ch;
+  padding: 0;
+  list-style-type: "→  ";
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-sm {
+  font-size: 11px;
+}
+
+.text-md {
+  font-size: 22px;
+}
+
+.text-lg {
+  font-size: 27.5px;
+}
+
+.text-xl {
+  font-size: 33px;
+}
+
+.main {
+  padding: 40px 0 80px;
+}
+
+.container {
+  max-width: 700px;
+  /* background-color: #fff; */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 20px 80px 20px 40px;
+  }
+}
+
+/* hr {
+  margin: 3em 0;
+  border: 0;
+  border-bottom: 1px dashed #000;
+  width: 1.35em;
+} */
+
+code {
+  font-family: inherit;
+  background-color: #fff;
+}
+
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.timetable {
+  margin: 40px 0 0;
+  background-color: oklch(17.06% 0.0434 118.04);
+  background-color: #0e1200;
+  padding: 70px 5px;
+  color: #90a500;
+  color: oklch(68.1% 0.1674 118.04);
+  font-size: 13.75px;
+  text-transform: uppercase;
+  /* letter-spacing: 11px; */
+  text-align: center;
+  line-height: 1.25;
+}
+
+@media screen and (min-width: 600px) {
+  .timetable {
+    padding: 100px 10px;
+    font-size: 33px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .timetable {
+    padding: 100px 10px;
+    font-size: 44px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .timetable {
+    font-size: 55px;
+  }
+}
+
+.timetable .char {
+  display: inline-block;
+  background-color: oklch(22.4% 0.0434 118.04);
+  background-color: #1a1e05;
+  margin: 3px;
+  padding: 0 4px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .timetable .char {
+    padding: 0 10px;
+  }
+}
