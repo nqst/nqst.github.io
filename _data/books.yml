@@ -1,4 +1,10 @@
 2024:
+- name: "The Creative Act: A Way of Being"
+  author: "Rick Rubin"
+  rating: 9
+  finished: "2024-09-29"
+  favorite: true
+
 - name: "Useful Not True"
   author: "Derek Sivers"
   rating: 7
