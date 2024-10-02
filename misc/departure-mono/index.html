@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+
+    <title>Departure Mono Cyrillic</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+    <section class="main">
+      <div class="container">
+        <h1>Departure Mono<br>Cyrillic</h1>
+
+        <p class="text">Hi Helena,</p>
+        <p>I’d like to share some of my testing results with you. Please note that I’m not a font designer and don’t have the proper expertise to evaluate everything. I might have missed some important details, but I’ll do my best to be helpful.</p>
+      </div>
+
+      <div class="timetable">
+        <span>
+          <span class="char">0</span><span class="char">8</span><span class="char">0</span>
+
+          <span class="nowrap"><span class="char">К</span><span class="char">и</span><span class="char">ї</span><span class="char">в</span><span class="char">&nbsp;</span><span class="char">—</span></span><span class="char">&nbsp;</span><span class="nowrap"><span class="char">Д</span><span class="char">н</span><span class="char">і</span><span class="char">п</span><span class="char">р</span><span class="char">о</span></span>
+
+          <span class="nowrap"><span class="char">2</span><span class="char">2</span><span class="char">:</span><span class="char">2</span><span class="char">0</span></span>
+        </span>
+        <!-- <span>22:20</span> -->
+      </div>
+
+      <div class="container">
+        <h2>How I tested:</h2>
+        <ul>
+          <li>I used only Ukrainian and Russian texts.</li>
+          <li>The text sources included a couple of poems, pangrams, and short excerpts from my own blog posts.</li>
+          <li>I tested everything in regular casing and ALL CAPS.</li>
+        </ul>
+
+        <p>Iʼll try to answer your questions below.</p>
+
+        <h2>Let me know if anything feels unnatural / Do any of the letters look off?</h2>
+
+        <p>Hereʼs what I have found:</p>
+
+        <ul>
+          <li>Letters <code>Ы ы</code>: The right vertical bar has a tiny “hook” at the top, which feels unnatural to me.</li>
+
+          <li>
+            <p>Lowercase letters <code>г/ґ</code>: The horizontal bars seem too wide. However, it works well in <code>Г/Ґ</code> due to the taller vertical bar.</p>
+            <p>In other monospace fonts, they often add serifs to address this issue, similar to what you have in <code>r</code> but with a shorter leg:</p>
+            <p><img src="i/g.png" alt="Different г/ґ" width="439" height="143"></p>
+          </li>
+
+          <li>Letters <code>Й й</code>: The breve feels unusually wide. Iʼm not sure what to suggest here. A version with a macron (<code>«Раӣон»</code>) appears cleaner to me, but itʼs not so authentic.</li>
+
+          <li>
+            <p>Letter <code>к</code>: It looks more natural to my eye if flipped vertically:</p>
+            <p><img src="i/k.png" alt="Different к" width="239" height="127"></p>
+            <p><span style="font-feature-settings: 'ss02';">*Note*:</span> The capital <code>К</code> doesnʼt have this issue. However, I think you might want to consider using the same shape as the Latin <code>K</code>&nbsp;— it doesnʼt look unnatural in Cyrillic text, but it appears slightly more legible.</p>
+          </li>
+
+          <li>
+            <p>Letters <code>Д д</code> look more usual with a wider base. This might occasionally make words appear a bit tight, but it didnʼt look bad to me. <a href="i/zhdu.png" target="_blank">See an example</a>.</p>
+            <p><img src="i/d.png" alt="Different Д д" width="263" height="327"></p>
+          </li>
+
+          <li>Letters <code>Ш ш</code> felt a bit too narrow at first, but when I tried widening them, I saw the kerning would suffer. So it might make sense to keep them as they are.</li>
+          <!-- <li>Another version of Чч?</li> -->
+        </ul>
+
+        <!-- <p><br>---</p> -->
+
+        <h2>Are these too narrow? <code>Ы ы</code></h2>
+
+        <p>They are a little bit narrow, yeah. I didnʼt find it as critical as the “hook” I mentioned earlier, but a wider version might work better. I tried it — here, <code>Ы</code> is tighter on the left, yet it looks more natural to me:</p>
+
+        <p><img src="i/comparison.png" alt="Narrow and wide Ы" width="538" height="338"></p>
+
+        <!-- <p><br>---</p> -->
+
+        <h2>Any legibility or readability issues?</h2>
+
+        <p>No, I donʼt think I have anything to add to the issues I mentioned above :)</p>
+
+        <!-- <p><br>---</p> -->
+
+        <h2>Any missing characters?</h2>
+
+        <p>I havenʼt found any.</p>
+
+        <!-- <p><br>---</p> -->
+
+        <h2>Do you have a favorite Cyrillic font I can use for reference?</h2>
+
+        <p>I think SF Mono has a decent Cyrillic version — itʼs my font of choice for the code editor and terminal. As for other, non-monospace fonts, SF Pro is quite good as well, and <a href="https://rsms.me/inter/">Inter</a> has a solid (updated) Cyrillic version.</p>
+
+        <p>I also just noticed one of my favorite Ukrainian font designers, <a href="http://www.rastvor.com.ua">Dmytro Rastvortsev</a>, has his own pixel font family called Krapka. You might be interested to check it out <a href="https://www.myfonts.com/collections/dr-krapka-square-font-dmitry-rastvortsev">here</a>.</p>
+
+        <p><br>---</p>
+
+        <br>
+        <p>That’s it! Please feel free to contact me if you have any further questions. Thanks for the amazing and inspiring work, Helena!</p>
+
+        <p style="text-transform: uppercase;">
+          Дякую за чудовий шрифт
+          –
+          Спасибо за замечательный шрифт!
+        </p>
+
+        <p>
+          <br><br>Alexander Zaytsev ◊ <a href="https://zaytsev.io" style="font-feature-settings: 'smcp' on;">zaytsev.io</a>
+          <br>OCT 2, 2024
+        </p>
+
+        <!-- • Do any of the letters look off?
+        • Any legibility or readability issues?
+        • Any missing characters?
+        • Do you have a favorite Cyrillic font I can use for reference? -->
+
+        <!-- Here are the known areas that could be problematic:
+        • These are tight on the left and right: Ж ж Җ җ Ӂ ӂ Ӝ ӝ Љ Њ љ њ
+        • These are tight on the right side: Ю ю Д д Щ щ Қ қ Ҳ ҳ Ң ң Ӊ ӊ Ԥ ԥ Ҵ ҵ Ҷ ҷ Ԧ ԧ Ӆ ӆ Ҋ ҋ Ӎ ӎ
+        • Are these too narrow? Ы ы -->
+
+      </div>
+    </section>
+
+    <div style="margin-bottom: 0.75em; color: #aaa; font-size: 11px;">
+      <marquee scrollamount="3">
+        ###
+        В ЧАЩАХ ЮГА ЖИЛ БЫ ЦИТРУС? ДА, НО ФАЛЬШИВЫЙ ЭКЗЕМПЛЯР!
+        ###
+        Чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!
+        ###
+        В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!
+        ###
+        ЧУЄШ ЇХ, ДОЦЮ, ГА? КУМЕДНА Ж ТИ, ПРОЩАЙСЯ БЕЗ ҐОЛЬФІВ!
+        ###
+      </marquee>
+    </div>
+  </body>
+</html>
