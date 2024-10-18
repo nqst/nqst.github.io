@@ -1,3 +1,27 @@
+- date: "2024-10-17"
+  from:
+    country: 🇪🇸
+    city: Барселона
+    airport: BCN
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: Wizz Air
+  aircraft: Airbus A321
+
+- date: "2024-10-13"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇪🇸
+    city: Барселона
+    airport: BCN
+  company: Wizz Air
+  aircraft: Airbus A321
+
 - date: "2024-04-25"
   from:
     country: 🇨🇿
