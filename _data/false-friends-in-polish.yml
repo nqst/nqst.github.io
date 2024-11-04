@@ -401,3 +401,7 @@
 - word: "Zasób"
   translation: "запас, ресурс"
   false_translation: "засіб"
+
+- word: "Trampolina"
+  not_only: "трамплін"
+  but_also: "батут"
