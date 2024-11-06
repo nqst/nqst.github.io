@@ -405,3 +405,11 @@
 - word: "Trampolina"
   not_only: "трамплін"
   but_also: "батут"
+
+- word: "Góra"
+  not_only: "гора"
+  but_also: "верх"
+
+- word: "Woń"
+  translation: "аромат"
+  false_translation: "сморід"
