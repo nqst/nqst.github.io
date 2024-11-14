@@ -413,3 +413,7 @@
 - word: "Woń"
   translation: "аромат"
   false_translation: "сморід"
+
+- word: "Rozbierać się"
+  translation: "роздягатися"
+  false_translation: "розбиратися"
