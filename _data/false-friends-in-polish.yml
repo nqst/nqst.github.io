@@ -417,3 +417,7 @@
 - word: "Rozbierać się"
   translation: "роздягатися"
   false_translation: "розбиратися"
+
+- word: "Żywot"
+  translation: "життя"
+  false_translation: "живіт"
