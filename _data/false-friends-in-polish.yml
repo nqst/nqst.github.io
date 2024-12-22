@@ -421,3 +421,12 @@
 - word: "Żywot"
   translation: "життя"
   false_translation: "живіт"
+
+- word: "Sople"
+  translation: "бурульки"
+  false_translation: "соплі"
+
+- word: "Pamiętnik"
+  translation: "щоденник"
+  another_translation: "мемуари"
+  false_translation: "пам’ятник"
