@@ -342,8 +342,8 @@
 
   &__icon {
     position: relative;
-    top: 1px;
-    margin-right: 0.2em;
+    top: 0.5px;
+    margin-right: 0.25em;
   }
 
   &__word {
@@ -360,13 +360,13 @@
   }
 
   &__false-translation {
-    margin-right: 0.6em;
-    color: #c2514b;
+    margin-right: 0.7em;
+    color: #ce332c;
   }
 
   &__true-translation,
   &__but-also {
-    color: #3b973e;
+    /* color: #3b973e; */
     color: #168619;
   }
 
