@@ -55,6 +55,13 @@ perfect:
   spotify: "https://open.spotify.com/album/69MkRYEzxiZ84QmgmPJqdY"
   apple_music: "https://music.apple.com/us/album/cake-b-sides-and-rarities/267846803"
 
+- title: "Takk..."
+  author: "Sigur Rós"
+  year: 2005
+  cover: "takk.jpg"
+  spotify: "https://open.spotify.com/album/3sE83l3A58DipFp3EzNLiE"
+  apple_music: "https://music.apple.com/ua/album/takk/697318976"
+
 # Check: The Cosmic Game
 
 almost_there:
@@ -89,11 +96,3 @@ almost_there:
   cover: "the-boy-with-no-name.jpg"
   spotify: "https://open.spotify.com/album/0uR1cnrej7aGnRIptQxVaR"
   apple_music: "https://music.apple.com/us/album/the-boy-with-no-name/1458138748"
-
-- title: "Takk..."
-  author: "Sigur Rós"
-  year: 2005
-  but: "Milano (double check)"
-  cover: "takk.jpg"
-  spotify: "https://open.spotify.com/album/3sE83l3A58DipFp3EzNLiE"
-  apple_music: "https://music.apple.com/ua/album/takk/697318976"
