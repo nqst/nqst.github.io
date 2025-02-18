@@ -435,6 +435,18 @@
   not_only: "яма"
   but_also: "порожнина"
 
+- word: "Zapasy"
+  not_only: "запаси"
+  but_also: "боротьба (спорт)"
+
+- word: "Umysł"
+  translation: "розум"
+  false_translation: "умисел"
+
+- word: "Wymazać"
+  not_only: "вимазати"
+  but_also: "стерти, усунути"
+
 # «нежирний» також є в укр. словниках
 # - word: "Chudy"
 #   not_only: "худий"
