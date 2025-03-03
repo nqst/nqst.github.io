@@ -451,3 +451,7 @@
 # - word: "Chudy"
 #   not_only: "худий"
 #   but_also: "нежирний"
+
+- word: "Twierdzenie"
+  not_only: "твердження"
+  but_also: "теорема"
