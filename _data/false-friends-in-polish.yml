@@ -455,3 +455,8 @@
 - word: "Twierdzenie"
   not_only: "твердження"
   but_also: "теорема"
+
+- word: "Ułamek"
+  translation: "дріб"
+  another_translation: "доля, частина"
+  false_translation: "уламок"
