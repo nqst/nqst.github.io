@@ -1,4 +1,10 @@
 2025:
+- name: "The Righteous Mind: Why Good People are Divided by Politics and Religion"
+  author: "Jonathan Haidt"
+  rating: 7
+  notes: "/lists/books/the-righteous-mind/"
+  finished: "2025-03-16"
+
 - name: "Вокруг света в восемьдесят дней"
   author: "Жюль Верн"
   rating: 9
