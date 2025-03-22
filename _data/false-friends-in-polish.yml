@@ -460,3 +460,7 @@
   translation: "дріб"
   another_translation: "доля, частина"
   false_translation: "уламок"
+
+- word: "Belka"
+  translation: "балка"
+  false_translation: "білка"
