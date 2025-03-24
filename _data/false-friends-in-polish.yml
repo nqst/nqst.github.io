@@ -464,3 +464,7 @@
 - word: "Belka"
   translation: "балка"
   false_translation: "білка"
+
+- word: "Śpiączka"
+  translation: "кома (втрата свідомості)"
+  false_translation: "сплячка"
