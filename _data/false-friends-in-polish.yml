@@ -468,3 +468,7 @@
 - word: "Śpiączka"
   translation: "кома (втрата свідомості)"
   false_translation: "сплячка"
+
+- word: "Upadek"
+  not_only: "упадок"
+  but_also: "падіння"
