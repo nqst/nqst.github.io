@@ -14,7 +14,7 @@ finished: "2025-03-16"
 > 2. There's more to morality than harm and fairness.
 > 3. Morality binds and blinds.
 
-> **Moral foundations:** Care/harm, Liberty/oppression, Fairness/cheating, Authority/subversion, Loyalty/betreyal, Sanctity/degradation.
+> **Moral foundations:** Care/harm, Liberty/oppression, Fairness/cheating, Authority/subversion, Loyalty/betrayal, Sanctity/degradation.
 
 > Human nature is not just intrinsically moral, it’s also intrinsically <mark>moralistic, critical, and judgmental</mark>.
 
