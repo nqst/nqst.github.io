@@ -472,3 +472,8 @@
 - word: "Upadek"
   not_only: "упадок"
   but_also: "падіння"
+
+- word: "Błysk"
+  translation: "спалах, проблиск"
+  another_translation: "блесна"
+  false_translation: "блиск"
