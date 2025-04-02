@@ -70,7 +70,7 @@ introComment: |
 
 > <mark>Knowing when to embrace Good Enough is what gives you the opportunity to be truly excellent when you need to be.</mark>
 
-> You can always go back later, but only if you actually finish.
+> <mark>You can always go back later, but only if you actually finish.</mark>
 
 > Doing nothing can be the hardest choice but the strongest, too.
 
