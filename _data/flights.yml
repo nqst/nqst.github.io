@@ -1,3 +1,28 @@
+- date: "2025-04-09"
+  from:
+    country: 🇮🇸
+    city: Кеплавік
+    airport: KEF
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: Wizz Air
+  aircraft: Airbus A321
+
+- date: "2025-04-05"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇮🇸
+    city: Кеплавік
+    airport: KEF
+  company: Wizz Air
+  aircraft: Airbus A321
+  comment: "Перший політ, де командиром екіпажу була жінка. А ще мені дуже пощастило з місцем: «Those sitting on the right can see the northern lights — the sky is active»."
+
 - date: "2024-10-17"
   from:
     country: 🇪🇸
