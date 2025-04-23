@@ -2,7 +2,7 @@
 layout: book-summary
 title: "It Doesn’t Have to Be Crazy at Work"
 author: "Jason Fried, David Heinemeier Hansson"
-rating: 7
+rating: 8
 permalink: /lists/books/it-doesnt-have-to-be-crazy-at-work/
 bookCover: "/i/books/it-doesnt-have-to-be-crazy-at-work.png"
 finished: "2025-03-27"
