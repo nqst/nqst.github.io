@@ -477,3 +477,8 @@
   translation: "спалах, проблиск"
   another_translation: "блесна"
   false_translation: "блиск"
+
+- word: "Szczyt"
+  translation: "вершина, верх"
+  another_translation: "саміт"
+  false_translation: "щит"
