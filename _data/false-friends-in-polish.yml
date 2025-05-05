@@ -482,3 +482,7 @@
   translation: "вершина, верх"
   another_translation: "саміт"
   false_translation: "щит"
+
+- word: "Uznać"
+  translation: "визнати"
+  false_translation: "дізнатися"
