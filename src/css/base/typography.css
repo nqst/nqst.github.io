@@ -122,20 +122,13 @@ a {
 }
 
 p {
-  margin: 0 0 1em;
+  margin: 0 0 var(--baseline);
 }
 
 .lead {
   font-size: 1.3333rem;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 1rem 0 1.5rem;
-
-  @media (--medium-screen) {
-
-    .container--medium & {
-      /* line-height: 1.5; */
-    }
-  }
 }
 
 .post__header {
