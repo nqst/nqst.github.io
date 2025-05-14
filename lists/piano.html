@@ -1,0 +1,24 @@
+---
+layout: default
+title: Композиції, що надихають навчитися грати на фортепіано
+permalink: /lists/piano/
+---
+
+<main class="main">
+  <div class="container container--full">
+    <header class="page-header">
+      <h1 class="page-header__title">{{ page.title }}</h1>
+    </header>
+
+    {%- assign piano = site.data.piano %}
+
+    <ul class="bulleted-list">
+      {%- for item in piano %}
+        <li>
+          <span>{{ item.artist }}</span> — <strong>{{ item.song }}</strong>
+        </li>
+      {%- endfor %}
+    </ul>
+
+  </div>
+</main>
