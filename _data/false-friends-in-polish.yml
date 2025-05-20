@@ -486,3 +486,11 @@
 - word: "Uznać"
   translation: "визнати"
   false_translation: "дізнатися"
+
+- word: "Zamierzać"
+  translation: "мати намір, збиратися"
+  false_translation: "замерзати"
+
+- word: "Szlak"
+  translation: "шлях, маршрут"
+  false_translation: "шлак"
