@@ -121,7 +121,8 @@
 2020:
 - name: "Your Music and People"
   author: "Derek Sivers"
-  rating: 7
+  rating: 8
+  favorite: true
 
 - name: "Hell Yeah or No"
   author: "Derek Sivers"
