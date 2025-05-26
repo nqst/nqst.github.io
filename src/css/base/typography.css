@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
 
 h1, h2, h3, h4 {
   margin-top: var(--baseline);
-  margin-bottom: var(--baseline-half);
+  margin-bottom: 0.75rem;
   line-height: 1.1;
 }
 
@@ -48,13 +48,13 @@ h1 {
 
 h2 {
   font-weight: normal;
-  margin-top: 3rem;
+  margin-top: 4rem;
   margin-bottom: 1.25rem;
   font-size: 1.5rem;
 }
 
 h3, h4 {
-  margin-top: calc(var(--baseline) * 1.25);
+  margin-top: calc(var(--baseline) * 2);
   max-width: 32rem;
   line-height: 1.25;
 }

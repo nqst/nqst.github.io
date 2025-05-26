@@ -225,11 +225,11 @@
     display: block;
     width: 0.9em;
     height: 0.9em;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-right: 0.5em;
     background-color: #fff;
     border: 2px solid #ddd;
-    margin-top: 0.15em;
+    margin-top: 0.125em;
   }
 
   span {
@@ -239,12 +239,13 @@
 }
 
 .checklist__item--done {
-  color: #198120;
+  color: #1b8823;
+  font-weight: 500;
 
   &::before {
-    background: #f5f9f1 url('../i/checkmark.svg') no-repeat 50% 50%;
+    background: #f5f7f2 url('../i/checkmark.svg') no-repeat 55% 50%;
     background-size: 65%;
-    border-color: #1d8424;
+    border-color: #1b8823;
   }
 }
 
