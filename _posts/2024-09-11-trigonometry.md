@@ -2,7 +2,8 @@
 layout: post
 title: "SVG, тригонометрія та стрілки крутого повороту"
 medium_width: true
-ogimage: og.png
+ogimage: "og.png"
+introimg: "cover.png"
 ---
 
 Вперше в житті мені стала в пригоді тригонометрія. Чекав цього ще з часів школи :)
