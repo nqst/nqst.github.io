@@ -76,6 +76,9 @@
 .books__item,
 .movies__item,
 .countries__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.33em;
   list-style-type: none;
   margin: 1.5em 0;
   padding: 0;
@@ -111,7 +114,6 @@
 .movies__name,
 .countries__name {
   display: block;
-  position: relative;
   margin-bottom: 0.1em;
   font-size: 1.1rem;
   line-height: 1.4;
@@ -121,19 +123,9 @@
   text-wrap: balance;
 }
 
-.books__item--favorite .books__name:after,
-.movies__item--favorite .movies__name:after {
-  display: inline-block;
-  content: '★';
-  margin-left: 0.5em;
+.books__star,
+.movies__star {
   color: #f90;
-
-  @media (--x-large-screen) {
-    position: absolute;
-    top: 0;
-    left: -1.5em;
-    margin-left: 0;
-  }
 }
 
 .books__details,
@@ -163,25 +155,6 @@
 .movies__rating {
   font-size: 0.9em;
   padding-left: 0.2em;
-}
-
-.countries__item {
-  @media (--large-screen) {
-    margin-left: 1.7em;
-  }
-}
-
-.countries__flag {
-  display: inline-block;
-  position: relative;
-  top: 0.05em;
-  margin-right: 0.05em;
-
-  @media (--large-screen) {
-    position: absolute;
-    left: -1.45em;
-    margin-right: 0;
-  }
 }
 
 .page-flights__flag {

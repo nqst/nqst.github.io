@@ -19,11 +19,19 @@ class: 'page-movies'
       <h2>{{ year }}</h2>
       <ul class="movies">
         {% for movie in movies %}
-          <li class="movies__item{% if movie.favorite %} movies__item--favorite{% endif %}">
-            <strong class="movies__name">{{ movie.name }}</strong>
-            <span class="movies__details">
-              {% if movie.original_name %}{{ movie.original_name }} · {% endif %}
-              {{ movie.released }}
+          <li class="movies__item">
+            <span>
+              <strong class="movies__name">
+                {{- movie.name -}}
+                &nbsp;
+                {%- if movie.favorite -%}
+                  <span class="movies__star">★</span>
+                {%- endif -%}
+              </strong>
+              <span class="movies__details">
+                {% if movie.original_name %}{{ movie.original_name }} · {% endif %}
+                {{ movie.released }}
+              </span>
             </span>
           </li>
         {% endfor %}

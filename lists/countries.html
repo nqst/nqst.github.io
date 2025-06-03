@@ -19,11 +19,13 @@ permalink: /lists/countries/
     <ul class="countries">
       {% for country in site.data.countries %}
         <li class="countries__item">
-          <strong class="countries__name">
-            <span class="countries__flag">{{ country.flag }}</span>
-            {{ country.country }}
-          </strong>
-          <span class="countries__details">{{ country.cities }}</span>
+          <span class="countries__flag">{{ country.flag }}</span>
+          <span>
+            <strong class="countries__name">
+              {{ country.country }}
+            </strong>
+            <span class="countries__details">{{ country.cities }}</span>
+          </span>
         </li>
       {% endfor %}
     </ul>
