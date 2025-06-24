@@ -1,3 +1,31 @@
+- date: "2025-06-23"
+  from:
+    country: 🇳🇱
+    city: Ейндховен
+    airport: EIN
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: Wizz Air
+  aircraft: Airbus A321
+  withAurora: true
+  withPeter: true
+
+- date: "2025-06-19"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇳🇱
+    city: Ейндховен
+    airport: EIN
+  company: Wizz Air
+  aircraft: Airbus A321
+  withAurora: true
+  withPeter: true
+
 - date: "2025-04-09"
   from:
     country: 🇮🇸
