@@ -1,4 +1,8 @@
 2025:
+- name: "F1"
+  released: 2025
+  rating: 8
+
 - name: "A Minecraft Movie"
   released: 2025
   rating: 6.5
