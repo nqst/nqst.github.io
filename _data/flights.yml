@@ -1,3 +1,32 @@
+- date: "2025-07-15"
+  from:
+    country: 🇧🇪
+    city: Брюссель
+    airport: BRU
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: LOT
+  aircraft: Embraer 190
+  withAurora: true
+  withPeter: true
+
+- date: "2025-07-10"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇧🇪
+    city: Брюссель
+    airport: BRU
+  company: LOT
+  aircraft: Embraer 170
+  withAurora: true
+  withPeter: true
+  comment: "Приємний політ, відчувається контраст з Wizz Air."
+
 - date: "2025-06-23"
   from:
     country: 🇳🇱
