@@ -1,4 +1,9 @@
 2025:
+- name: "Feeling Great"
+  author: "David D. Burns"
+  rating: 8
+  finished: "2025-07-19"
+
 - name: "It Doesn’t Have to Be Crazy at Work"
   author: "Jason Fried, David Heinemeier Hansson"
   rating: 8
