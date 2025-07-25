@@ -1,6 +1,6 @@
 ---
 layout: book-summary
-title: "Whatʼs Our Problem"
+title: "Whatʼs Our Problem?"
 author: "Tim Urban"
 rating: 9
 permalink: /lists/books/whats-our-problem/
