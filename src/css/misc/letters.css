@@ -242,6 +242,18 @@
   }
 }
 
+.letter-paper__img--clock {
+  margin-top: -10px;
+  left: -10px;
+  max-width: 150px;
+
+  @media (--medium-screen) {
+    margin-top: -100px;
+    max-width: none;
+    left: -16px;
+  }
+}
+
 .letter-paper--bus .letter-paper__illustration {
   @media (--medium-screen) {
     padding-bottom: 50px;
