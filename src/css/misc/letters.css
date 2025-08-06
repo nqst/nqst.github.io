@@ -243,8 +243,9 @@
 }
 
 .letter-paper__img--clock {
-  margin-top: -10px;
-  left: -10px;
+  margin-top: -44px;
+  margin-bottom: 24px;
+  left: -11px;
   max-width: 150px;
 
   @media (--medium-screen) {
