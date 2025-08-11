@@ -494,3 +494,11 @@
 - word: "Szlak"
   translation: "шлях, маршрут"
   false_translation: "шлак"
+
+- word: "Dogadać się"
+  translation: "порозумітися"
+  false_translation: "здогадатися"
+
+- word: "Dawka"
+  translation: "доза"
+  false_translation: "давка"
