@@ -1,3 +1,31 @@
+- date: "2025-08-16"
+  from:
+    country: 🇪🇸
+    city: Пальма
+    airport: PMI
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: Wizz Air
+  aircraft: Airbus A321
+  withAurora: true
+  withPeter: true
+
+- date: "2025-08-12"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇪🇸
+    city: Пальма
+    airport: PMI
+  company: Wizz Air
+  aircraft: Airbus A321
+  withAurora: true
+  withPeter: true
+
 - date: "2025-07-15"
   from:
     country: 🇧🇪
