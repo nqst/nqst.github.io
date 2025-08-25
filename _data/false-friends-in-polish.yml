@@ -502,3 +502,8 @@
 - word: "Dawka"
   translation: "доза"
   false_translation: "давка"
+
+- word: "Wyzywać"
+  translation: "обзивати"
+  false_translation: "визивати"
+  # note: можна визивати/wyzywać на поєдинок
