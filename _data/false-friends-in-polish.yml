@@ -507,3 +507,7 @@
   translation: "обзивати"
   false_translation: "визивати"
   # note: можна визивати/wyzywać на поєдинок
+
+- word: "Przystawka"
+  not_only: "приставка"
+  but_also: "закуска"
