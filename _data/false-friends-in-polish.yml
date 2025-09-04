@@ -511,3 +511,7 @@
 - word: "Przystawka"
   not_only: "приставка"
   but_also: "закуска"
+
+- word: "Wypadek"
+  not_only: "випадок (ситуація)"
+  but_also: "аварія, нещасний випадок"
