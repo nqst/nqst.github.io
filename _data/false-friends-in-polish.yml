@@ -515,3 +515,11 @@
 - word: "Wypadek"
   not_only: "випадок (ситуація)"
   but_also: "аварія, нещасний випадок"
+
+- word: "Baśn"
+  translation: "казка"
+  false_translation: "байка"
+
+- word: "Opuścić"
+  not_only: "опустити"
+  but_also: "покинути"
