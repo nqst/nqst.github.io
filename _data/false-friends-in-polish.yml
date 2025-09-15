@@ -523,3 +523,8 @@
 - word: "Opuścić"
   not_only: "опустити"
   but_also: "покинути"
+
+- word: "Parkiet"
+  not_only: "паркет"
+  but_also: "танцпол"
+  and_also: "біржа"
