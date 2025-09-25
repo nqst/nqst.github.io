@@ -541,3 +541,7 @@
 - word: "Jagoda"
   not_only: "ягода"
   but_also: "чорниця"
+
+- word: "Mylny"
+  translation: "помилковий"
+  false_translation: "мильний"
