@@ -528,3 +528,7 @@
   not_only: "паркет"
   but_also: "танцпол"
   and_also: "біржа"
+
+- word: "Skoro"
+  translation: "оскільки"
+  false_translation: "скоро"
