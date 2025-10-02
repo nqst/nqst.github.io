@@ -545,3 +545,8 @@
 - word: "Mylny"
   translation: "помилковий"
   false_translation: "мильний"
+
+- word: "Kij"
+  not_only: "кий"
+  but_also: "ключка"
+  and_also: "кран для наливання пива"
