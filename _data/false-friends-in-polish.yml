@@ -550,3 +550,11 @@
   not_only: "кий"
   but_also: "ключка"
   and_also: "кран для наливання пива"
+
+- word: "Statek"
+  translation: "судно, корабель"
+  false_translation: "статок"
+
+- word: "Słodki"
+  not_only: "солодкий"
+  but_also: "прісний"
