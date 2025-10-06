@@ -1,4 +1,9 @@
 2025:
+- name: "Антарктида"
+  released: 2025
+  rating: 9
+  favorite: true
+
 - name: "F1"
   released: 2025
   rating: 8
