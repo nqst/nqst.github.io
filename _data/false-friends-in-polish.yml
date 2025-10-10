@@ -558,3 +558,7 @@
 - word: "Słodki"
   not_only: "солодкий"
   but_also: "прісний"
+
+- word: "Gniazdo"
+  not_only: "гніздо"
+  but_also: "розетка"
