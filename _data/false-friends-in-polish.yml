@@ -562,3 +562,7 @@
 - word: "Gniazdo"
   not_only: "гніздо"
   but_also: "розетка"
+
+- word: "Dzieło"
+  translation: "витвір"
+  false_translation: "діло"
