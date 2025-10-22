@@ -566,3 +566,9 @@
 - word: "Dzieło"
   translation: "витвір"
   false_translation: "діло"
+
+- word: "Przypadek"
+  translation: "випадок"
+  another_translation: "відмінок"
+  false_translation: "припадок"
+  # note: в українській є діалектичне припадок = випадок
