@@ -19,7 +19,11 @@ finished: "2025-10-08"
 > 1. To be self-reliant
 > 2. To live in harmony with society
 
-> Not trying to change or manipulate the other person who is right there in front of you.
+> Not trying to change or manipulate the other person who is right there in front of you. Accepting that person as they are without setting any conditions.
+
+> Place value on the person "being that person" without pushing your own value system on them. And further, assist in their growth or unfolding. That is precisely what respect is.
+
+> <mark>Start from respect.</mark>
 
 > Place value on the person "being that person" without pushing your own value system on them. And further, assist in their growth or unfolding.
 
