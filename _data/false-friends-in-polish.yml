@@ -576,3 +576,8 @@
 - word: "Terminowy"
   not_only: "терміновий"
   but_also: "вчасний, пунктуальний"
+
+- word: "Imiennik"
+  translation: "тезко"
+  another_translation: "однофамілець"
+  false_translation: "іменник"
