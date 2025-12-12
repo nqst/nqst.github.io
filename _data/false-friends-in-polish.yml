@@ -581,3 +581,7 @@
   translation: "тезко"
   another_translation: "однофамілець"
   false_translation: "іменник"
+
+- word: "Kuchnia"
+  not_only: "кухня"
+  but_also: "кухонна плита"
