@@ -1,3 +1,28 @@
+- date: "2026-01-04"
+  from:
+    country: 🇨🇿
+    city: Прага
+    airport: PRG
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: LOT
+  aircraft: Embraer 175
+  comment: "Вперше в житті побував у кабіні літака, в якому летів. Потиснув руки пілотам і подякував."
+
+- date: "2026-01-02"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇨🇿
+    city: Прага
+    airport: PRG
+  company: LOT
+  aircraft: Embraer 190
+
 - date: "2025-08-16"
   from:
     country: 🇪🇸
