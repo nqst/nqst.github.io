@@ -1,4 +1,9 @@
 2026:
+- name: "Розгадка"
+  original_name: "Clue"
+  released: 1985
+  rating: 6.5
+
 - name: "Великий"
   original_name: "Big"
   released: 1988
