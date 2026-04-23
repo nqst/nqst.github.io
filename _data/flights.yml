@@ -1,3 +1,27 @@
+- date: "2026-04-22"
+  from:
+    country: 🇳🇱
+    city: Амстердам
+    airport: AMS
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: LOT
+  aircraft: Boeing 737 MAX 8
+
+- date: "2026-04-19"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇳🇱
+    city: Амстердам
+    airport: AMS
+  company: LOT
+  aircraft: Boeing 737 MAX 8
+
 - date: "2026-02-03"
   from:
     country: 🇩🇪
