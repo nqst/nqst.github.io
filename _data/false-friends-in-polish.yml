@@ -585,3 +585,8 @@
 - word: "Kuchnia"
   not_only: "кухня"
   but_also: "кухонна плита"
+
+- word: "Pluton"
+  not_only: "Плутон"
+  but_also: "плутоній"
+  and_also: "взвод"
