@@ -10,7 +10,7 @@ finished: "2026-06-03"
 
 > I find a clear relationship between social media use and emotional problems. As a general rule, the more time you spend looking at your phone, the more depressed, lonely, and anxious you will become.
 
-> Their lives look enviable from the outside, but they feel empty on the inside. They are waiting for their purpose to find them, but it never does. As they wait, they <mark>distract themselves with work and soothe themselves with tech</mark>.
+> Their lives look enviable from the outside, but they feel empty on the inside. They are waiting for their purpose to find them, but it never does. As they wait, they distract themselves with work and soothe themselves with tech.
 
 > “What do you want?” I ask him. He pauses, struggling to find the words. “I want to go hiking,” he says at last, “for a long time.”
 
