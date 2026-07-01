@@ -1,4 +1,9 @@
 2026:
+- name: "Meditations"
+  author: "Marcus Aurelius"
+  rating: 8
+  finished: "2026-06-28"
+
 - name: "The Meaning of Your Life"
   author: "Arthur C. Brooks"
   rating: 6.5
