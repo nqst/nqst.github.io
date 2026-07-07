@@ -34,12 +34,12 @@ perfect:
   spotify: "https://open.spotify.com/album/1CtTTpKbHU8KbHRB4LmBbv"
   apple_music: "https://music.apple.com/us/album/mutter/1440770702"
 
-- title: "Vicious Delicious"
-  author: "Infected Mushroom"
-  year: 2007
-  cover: "vicious-delicious.jpg"
-  spotify: "https://open.spotify.com/album/3W2rs8vCNzvB5BmAoCjART"
-  apple_music: "https://music.apple.com/us/album/vicious-delicious/1486187039"
+- title: "Takk..."
+  author: "Sigur Rós"
+  year: 2005
+  cover: "takk.jpg"
+  spotify: "https://open.spotify.com/album/3sE83l3A58DipFp3EzNLiE"
+  apple_music: "https://music.apple.com/ua/album/takk/697318976"
 
 - title: "Dire Straits"
   author: "Dire Straits"
@@ -48,19 +48,26 @@ perfect:
   spotify: "https://open.spotify.com/album/2rCS6Xwx32V27pvgFzLzlT"
   apple_music: "https://music.apple.com/us/album/dire-straits-remastered/1440801714"
 
+- title: "Time"
+  author: "Electric Light Orchestra"
+  year: 1981
+  cover: "time.jpg"
+  spotify: "https://open.spotify.com/album/4k1GJg2poyo6hwWLqJn9C2"
+  apple_music: "https://music.apple.com/us/album/time/271435938"
+
+- title: "Vicious Delicious"
+  author: "Infected Mushroom"
+  year: 2007
+  cover: "vicious-delicious.jpg"
+  spotify: "https://open.spotify.com/album/3W2rs8vCNzvB5BmAoCjART"
+  apple_music: "https://music.apple.com/us/album/vicious-delicious/1486187039"
+
 - title: "B-Sides and Rarities"
   author: "CAKE"
   year: 2007
   cover: "b-sides-and-rarities.jpg"
   spotify: "https://open.spotify.com/album/69MkRYEzxiZ84QmgmPJqdY"
   apple_music: "https://music.apple.com/us/album/cake-b-sides-and-rarities/267846803"
-
-- title: "Takk..."
-  author: "Sigur Rós"
-  year: 2005
-  cover: "takk.jpg"
-  spotify: "https://open.spotify.com/album/3sE83l3A58DipFp3EzNLiE"
-  apple_music: "https://music.apple.com/ua/album/takk/697318976"
 
 # Check: The Cosmic Game
 
