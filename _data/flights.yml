@@ -1,3 +1,31 @@
+- date: "2026-07-17"
+  from:
+    country: 🇩🇪
+    city: Гамбург
+    airport: HAM
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: LOT
+  aircraft: Boeing 737 MAX 8
+  withAurora: true
+  withPeter: true
+
+- date: "2026-07-09"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇳🇱
+    city: Ейндховен
+    airport: EIN
+  company: Wizz Air
+  aircraft: Airbus A321neo
+  withAurora: true
+  withPeter: true
+
 - date: "2026-04-22"
   from:
     country: 🇳🇱
