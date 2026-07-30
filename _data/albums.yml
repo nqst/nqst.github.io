@@ -69,6 +69,13 @@ perfect:
   spotify: "https://open.spotify.com/album/69MkRYEzxiZ84QmgmPJqdY"
   apple_music: "https://music.apple.com/us/album/cake-b-sides-and-rarities/267846803"
 
+- title: "Moon Safari"
+  author: "Air"
+  year: 1998
+  cover: "moon-safari.jpg"
+  spotify: "https://open.spotify.com/album/5dmYtZVJ1bG9RyrZBRrkOA"
+  apple_music: "https://music.apple.com/ua/album/moon-safari/697240234"
+
 # Check: The Cosmic Game
 
 almost_there:
