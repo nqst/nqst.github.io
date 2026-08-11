@@ -1,3 +1,33 @@
+- date: "2026-08-10"
+  from:
+    country: 🇭🇺
+    city: Будапешт
+    airport: BUD
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: Wizz Air
+  aircraft: Airbus A321neo
+  withAurora: true
+  withPeter: true
+  comment: "Дуже красивий захід сонця."
+
+- date: "2026-08-05"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇸🇰
+    city: Братислава
+    airport: BTS
+  company: Wizz Air
+  aircraft: Airbus A321neo
+  withAurora: true
+  withPeter: true
+  comment: "Не з першого разу зайшли на посадку. Було трошки страшно."
+
 - date: "2026-07-17"
   from:
     country: 🇩🇪
