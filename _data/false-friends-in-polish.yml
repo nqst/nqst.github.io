@@ -590,3 +590,7 @@
   not_only: "Плутон"
   but_also: "плутоній"
   and_also: "взвод"
+
+- word: "Fistaszki"
+  translation: "Арахіс"
+  false_translation: "Фісташки"
