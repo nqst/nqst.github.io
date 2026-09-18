@@ -1,4 +1,9 @@
 2026:
+- name: "Хороший рік"
+  original_name: "A Good Year"
+  released: 2006
+  rating: 6
+
 - name: "Кузьма: Страшно веселий"
   released: 2026
   rating: 7.5
