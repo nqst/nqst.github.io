@@ -1,4 +1,10 @@
 2026:
+- name: "Writing That Works"
+  author: "Kenneth Roman, Joel Raphaelson"
+  rating: 8
+  finished: "2026-09-20"
+  favorite: true
+
 - name: "Meditations"
   author: "Marcus Aurelius"
   rating: 8
