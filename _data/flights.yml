@@ -1,3 +1,28 @@
+- date: "2026-10-04"
+  from:
+    country: 🇬🇧
+    city: Глазго
+    airport: GLA
+  to:
+    country: 🇵🇱
+    city: Варшава (Модлін)
+    airport: WMI
+  company: Ryanair
+  aircraft: Boeing 737-800
+  comment: Ледве встиг в аеропорт! Бачив красиве Північне море з наче завмерлими хвилями, а також величезний міст Великий Бельт над Данією.
+
+- date: "2026-10-02"
+  from:
+    country: 🇵🇱
+    city: Варшава (Модлін)
+    airport: WMI
+  to:
+    country: 🇬🇧
+    city: Глазго
+    airport: GLA
+  company: Ryanair
+  aircraft: Boeing 737-800
+
 - date: "2026-09-06"
   from:
     country: 🇳🇱
@@ -404,7 +429,7 @@
   to:
     country: 🇵🇱
     city: Варшава
-    airport: WMI
+    airport: WMI (Модлін)
   company: Ryanair
   aircraft: Boeing 737 MAX 8
   comment: "Другий Ryanair у житті. Від Wizz Air враження значно більш приємні."
