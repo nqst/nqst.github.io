@@ -1,3 +1,31 @@
+- date: "2026-11-05"
+  from:
+    country: 🇬🇧
+    city: Лондон (Лутон)
+    airport: LTN
+  to:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  company: Wizz Air
+  aircraft: Airbus A321neo
+  withAurora: true
+  withPeter: true
+
+- date: "2026-10-31"
+  from:
+    country: 🇵🇱
+    city: Варшава
+    airport: WAW
+  to:
+    country: 🇬🇧
+    city: Лондон (Лутон)
+    airport: LTN
+  company: Wizz Air
+  aircraft: Airbus A321neo
+  withAurora: true
+  withPeter: true
+
 - date: "2026-10-04"
   from:
     country: 🇬🇧
