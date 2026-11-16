@@ -594,3 +594,7 @@
 - word: "Fistaszki"
   translation: "арахіс"
   false_translation: "фісташки"
+
+- word: "Fiszka"
+  translation: "картка"
+  false_translation: "фішка"
