@@ -28,7 +28,7 @@ introComment: "Завдяки цій книзі побачив за легенд
 
 > A friend of mine who knows about these things tells me he thinks I might have autism. The way I play the game. He means it as a compliment, and I think he might be right. It definitely helps in snooker. <mark>You want to bring order to the chaos. You want every ball in a pleasing place.</mark>
 
-> I love all this. Stuff that only a very few of us on the planet can underestand.
+> I love all this. Stuff that only a very few of us on the planet can understand.
 
 > Being the best in sport is about that combination of the scientific and the instinctive. It’s about taking the advice of others but putting your own stamp on it too. Not copying someone just because it works for them. <mark>And it’s about caring, more than anyone else. There will be things in your life that you love. Do them your way, and let that love shine through.</mark>
 
