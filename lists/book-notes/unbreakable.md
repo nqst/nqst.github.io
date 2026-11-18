@@ -7,7 +7,12 @@ permalink: /lists/books/unbreakable/
 bookCover: "/i/books/unbreakable.jpg"
 finished: "2026-11-10"
 amazon: "https://www.amazon.com/Unbreakable-Ronnie-OSullivan-ebook/dp/B0BSBSQWX4"
-introComment: "Завдяки цій книзі побачив за легендою снукеру живу та вразливу людину. Дуже багато чого відгукнулося."
+introComment: |
+  Завдяки цій книзі побачив за легендою снукеру живу та вразливу людину. Дуже багато чого відгукнулося.
+
+  Познайомився з новими британськими словами як-от _bloke_ (чувак) або _fag_ (сигарета). А ще було цікаво читати описи снукерних фреймів і потім знаходити та дивитися їх на YouTube.
+
+  Хочеться тепер скуштувати ті скони з чаєм в Marks & Spencer.
 ---
 
 > [...] Plan a period, after a big emotional and physical commitment, in which you can decompress. Work out what you need to be able to go again. Maybe it’s sleep, maybe it’s a change of scene. Maybe it’s limiting your screen time or building in a week where you’re going to get ten hours’ sleep a night. Know what you need to do.
